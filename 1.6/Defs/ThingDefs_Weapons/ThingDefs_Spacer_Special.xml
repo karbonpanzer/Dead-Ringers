@@ -113,7 +113,7 @@
 		<label>salvo launcher grenade</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Projectile/MicroRocket</texPath>
+			<texPath>Things/Projectile/LauncherShot</texPath>
 			<drawSize>1.0</drawSize>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
@@ -217,7 +217,7 @@
 		<label>autoloader cannon shell</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Projectile/Autoloader_16MM</texPath>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<projectile>
@@ -321,7 +321,7 @@
 		<label>hydra anti-material round</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<projectile>

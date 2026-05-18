@@ -86,7 +86,7 @@
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -204,7 +204,7 @@ This variant is marked for usage by Medical staff.</description>
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -322,7 +322,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -429,7 +429,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.17)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -528,7 +528,7 @@ This variant is marked for usage by Medical staff.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.13)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -627,7 +627,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.13)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -724,7 +724,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.13)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -821,7 +821,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.17)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -923,7 +923,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.17)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>
@@ -1022,7 +1022,7 @@ This variant is marked for usage by Engineers.</description>
             <defaultData>
               <layer>75</layer>
               <offset>(0,0,0.17)</offset>
-              <flip>true</flip>
+              
             </defaultData>
           </drawData>
         </li>

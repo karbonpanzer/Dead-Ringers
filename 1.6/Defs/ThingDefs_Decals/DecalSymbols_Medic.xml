@@ -5,60 +5,70 @@
     <defName>BNF_Decal_Medic</defName>
     <label>Cross</label>
     <Path>Things/Decals/Medical/Medic</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Staff</defName>
     <label>Healer's Staff</label>
     <Path>Things/Decals/Medical/StaffofAsclepius</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Caduceus</defName>
     <label>Caduceus</label>
     <Path>Things/Decals/Medical/Caduceus</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_LifeStar</defName>
     <label>Star of Life</label>
     <Path>Things/Decals/Medical/StarofLife</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Chalice</defName>
     <label>Chalice</label>
     <Path>Things/Decals/Medical/Chalice</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Blooddrop</defName>
     <label>Blooddrop</label>
     <Path>Things/Decals/Medical/Blooddrop</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_CrossCircle</defName>
     <label>Cross in Circle</label>
     <Path>Things/Decals/Medical/CrossCircle</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Pill</defName>
     <label>Pill</label>
     <Path>Things/Decals/Medical/Pill</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_2Med</defName>
     <label>2Med</label>
     <Path>Things/Decals/Medical/2Med</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
   <EOTF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_18Med</defName>
     <label>18Med</label>
     <Path>Things/Decals/Medical/18Med</Path>
+    <role>Medic</role>
   </EOTF.Core.DecalSystem.DecalSymbolDef>
 
 </Defs>

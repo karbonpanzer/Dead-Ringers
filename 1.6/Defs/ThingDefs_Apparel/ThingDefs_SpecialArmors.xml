@@ -87,7 +87,7 @@
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -202,7 +202,7 @@
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -316,7 +316,7 @@
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
@@ -432,7 +432,7 @@
             <defaultData>
               <layer>92</layer>
               <offset>(0,0,-0.155)</offset>
-              <flip>true</flip>
+              
             </defaultData>
             <dataNorth>
               <layer>92</layer>
