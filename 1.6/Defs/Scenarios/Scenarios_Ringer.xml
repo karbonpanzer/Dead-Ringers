@@ -116,7 +116,7 @@ The mission sponsor is a long way away and the contract was always vague about w
 				<!-- Needed for Scenario Start to get Early Research-->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>TRG_Codex</thingDef>
+					<thingDef>TRG_Decoder</thingDef>
 					<count>1</count>
 				</li>
 

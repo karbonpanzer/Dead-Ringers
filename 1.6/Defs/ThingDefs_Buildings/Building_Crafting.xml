@@ -8,7 +8,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <!-- TEMP: Using simple research bench texture until custom art -->
-      <texPath>Things/Building/Production/ResearchBenchSimple</texPath>
+      <texPath>Things/Building/Production/RFabricator</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,4)</drawSize>

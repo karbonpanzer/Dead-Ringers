@@ -314,7 +314,7 @@
         <countRange>2~8</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>TRG_Codex</thingDef>
+        <thingDef>TRG_Decoder</thingDef>
         <countRange>1~1</countRange>
       </li>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="ResourceBase">
-    <defName>TRG_Codex</defName>
-    <label>Ringer Codex</label>
-    <description>A digital codex which provides a means to decode Ringer schematics. Available only via trade or scenario start, it must be analyzed to unlock the Ringer research tree.</description>
+    <defName>TRG_Decoder</defName>
+    <label>Decoder</label>
+    <description>A digital decoder which provides a means to decode Ringer schematics. Available only via trade or scenario start, it must be analyzed to unlock the Ringer research tree.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Codex/Codex</texPath>
+      <texPath>Things/Item/Resource/Decoder/Decoder</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -29,17 +29,17 @@
     </tradeTags>
     <comps>
       <li Class="CompProperties_CompAnalyzableUnlockResearch">
-        <analysisID>332846384</analysisID>
+        <analysisID>268675309</analysisID>
         <requiresMechanitor>false</requiresMechanitor>
         <analysisDurationHours>0.5</analysisDurationHours>
         <destroyedOnAnalyzed>false</destroyedOnAnalyzed>
-        <completedLetterLabel>Blackbox studied: {RESEARCH} unlocked</completedLetterLabel>
-        <completedLetter>By studying the blackbox, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+        <completedLetterLabel>Decoder studied: {RESEARCH} unlocked</completedLetterLabel>
+        <completedLetter>By studying the decoder, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
         <completedLetterDef>PositiveEvent</completedLetterDef>
         <activateTexPath>UI/Icons/Study</activateTexPath>
         <activateLabelString>Analyze...</activateLabelString>
-        <activateDescString>Analyze the blockbox.</activateDescString>
-        <jobString>Analyze blackbox</jobString>
+        <activateDescString>Analyze the decoder.</activateDescString>
+        <jobString>Analyze decoder</jobString>
         <guiLabelString>Choose who should analyze this</guiLabelString>
         <inspectString>Can be analyzed by a colonist.</inspectString>
         <targetingParameters>

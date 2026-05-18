@@ -67,7 +67,7 @@
 		<tab>TRG_ResearchTab</tab>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>TRG_Decoder</li>
+			<li>TRG_FabricationBench</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>2.8</researchViewY>
@@ -113,7 +113,7 @@
 		<tab>TRG_ResearchTab</tab>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>TRG_Decoder</li>
+			<li>TRG_FabricationBench</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>4.2</researchViewY>

@@ -2,23 +2,6 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>TRG_Decoder</defName>
-		<label>Ringer Decoder</label>
-		<description>Build a decoder to unlock Ringer technology.</description>
-		<baseCost>1000</baseCost>
-		<tab>TRG_ResearchTab</tab>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>Fabrication</li>
-		</prerequisites>
-		<requiredAnalyzed>
-			<li>TRG_Codex</li>
-		</requiredAnalyzed>
-		<researchViewX>0</researchViewX>
-		<researchViewY>2.1</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
 		<defName>TRG_FabricationBench</defName>
 		<label>Ringer Fabricator</label>
 		<description>Build the Ringer Fabricator workbench needed to produce Ringer equipment.</description>
@@ -26,8 +9,11 @@
 		<tab>TRG_ResearchTab</tab>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>TRG_Decoder</li>
+			<li>Fabrication</li>
 		</prerequisites>
+		<requiredAnalyzed>
+			<li>TRG_Decoder</li>
+		</requiredAnalyzed>
 		<researchViewX>1</researchViewX>
 		<researchViewY>2.1</researchViewY>
 	</ResearchProjectDef>		

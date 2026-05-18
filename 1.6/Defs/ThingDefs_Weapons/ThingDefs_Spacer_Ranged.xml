@@ -125,8 +125,8 @@
 		<description>A semi-automatic pistol chambered in a large caliber. Its heavy weight makes it cumbersome, but the weight provides easier handling and control, allowing more accurate shots to be made.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Item/Equipment/WeaponRanged/frontierpistol</texPath>
-			<drawSize>1.0</drawSize>
+			<texPath>Things/Item/Equipment/WeaponRanged/servicepistol</texPath>
+			<drawSize>1.15</drawSize>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<soundInteract>Interact_Autopistol</soundInteract>
