@@ -56,6 +56,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -177,6 +178,7 @@ This variant is marked for usage by Medical staff.</description>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -298,6 +300,7 @@ This variant is marked for usage by Engineers.</description>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>

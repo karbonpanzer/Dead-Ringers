@@ -57,6 +57,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
                 <li>Middle</li>
@@ -85,7 +86,7 @@
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
@@ -172,6 +173,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
                 <li>Middle</li>
@@ -200,7 +202,7 @@
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
@@ -285,6 +287,7 @@
         <li>Torso</li>
         <li>Neck</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
                 <li>Middle</li>
@@ -314,7 +317,7 @@
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
@@ -398,6 +401,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <wornGraphicPath>Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</wornGraphicPath>
       <layers>
                 <li>Middle</li>
@@ -430,7 +434,7 @@
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>

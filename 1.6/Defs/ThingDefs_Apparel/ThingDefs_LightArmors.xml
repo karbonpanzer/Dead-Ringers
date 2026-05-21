@@ -55,6 +55,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -73,7 +74,7 @@
           <nodeClass>EOTF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
           <workerClass>EOTF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
-          <baseLayer>92</baseLayer>
+          <baseLayer>72</baseLayer>
           <texPaths>
             <li>Things/Decals/Infantry/Ringer</li>
           </texPaths>
@@ -84,7 +85,7 @@
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
@@ -173,6 +174,7 @@ This variant is marked for usage by Medical staff.</description>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -202,7 +204,7 @@ This variant is marked for usage by Medical staff.</description>
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
@@ -291,6 +293,7 @@ This variant is marked for usage by Engineers.</description>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -320,7 +323,7 @@ This variant is marked for usage by Engineers.</description>
           <drawData>
             <scale>0.120</scale>
             <defaultData>
-              <layer>82</layer>
+              <layer>72</layer>
               <offset>(0,0,-0.155)</offset>
               
             </defaultData>
