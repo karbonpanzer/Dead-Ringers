@@ -757,6 +757,12 @@
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/Ringer</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/Ringer</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_RecruitMeleeTier">
@@ -775,6 +781,12 @@
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/Ringer</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/Ringer</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_InfantryRangedTier1">
@@ -790,6 +802,12 @@
             <li>TRG_MarauderHelmet</li>
         			<li>TRG_Webbing_Infantry</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starburst</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starburst</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_InfantryMeleeTier1">
@@ -805,6 +823,12 @@
             <li>TRG_MarauderHelmet</li>
         			<li>TRG_Webbing_Infantry</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/strike</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/strike</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_HeavyInfantryTier">
@@ -824,6 +848,12 @@
         </apparelRequired>
         <initialWillRange>5~7</initialWillRange>
         <initialResistanceRange>35~45</initialResistanceRange>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/Skull</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/Skull</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_NCOTier">
@@ -839,6 +869,12 @@
             <li>TRG_MarauderHelmet</li>
         			<li>TRG_Webbing_Infantry</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/armipotent</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/armipotent</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_VeteranRangedTier">
@@ -859,6 +895,12 @@
             <li>TRG_HeavyMarauderHelmet</li>
         			<li>TRG_Webbing_Infantry</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starstruck</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starstruck</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_VeteranMeleeTier">
@@ -879,6 +921,12 @@
             <li>TRG_HeavyMarauderHelmet</li>
         			<li>TRG_Webbing_Infantry</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/strike</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/strike</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_InfantryRangedTier2">
@@ -909,6 +957,12 @@
                 <range>3~10</range>
             </li>
         </skills>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/Ringer</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/Ringer</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_SupportTier">
@@ -918,11 +972,11 @@
         <combatPower>120</combatPower>
         <apparelTags>
             <li>TRG_MeridiaUniform</li>
-            <li>TRG_MarauderArmor_Medic</li>
+            <li>TRG_MarauderArmor</li>
         </apparelTags>
         <apparelRequired>
-            <li>TRG_MarauderArmor_Medic</li>
-            <li>TRG_MarauderHelmet_Medic</li>
+            <li>TRG_MarauderArmor</li>
+            <li>TRG_MarauderHelmet</li>
         			<li>TRG_Webbing_Medic</li>
 		</apparelRequired>
         <inventoryOptions>
@@ -948,6 +1002,12 @@
                 <range>3~8</range>
             </li>
         </skills>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Medic/cross</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Medic/cross</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_SupportTier">
@@ -957,11 +1017,11 @@
         <combatPower>120</combatPower>
         <apparelTags>
             <li>TRG_MeridiaUniform</li>
-            <li>TRG_MarauderArmor_Engineer</li>
+            <li>TRG_MarauderArmor</li>
         </apparelTags>
         <apparelRequired>
-            <li>TRG_MarauderArmor_Engineer</li>
-            <li>TRG_MarauderHelmet_Engineer</li>
+            <li>TRG_MarauderArmor</li>
+            <li>TRG_MarauderHelmet</li>
         			<li>TRG_Webbing_Engineer</li>
 		</apparelRequired>
         <skills>
@@ -978,6 +1038,12 @@
                 <range>3~8</range>
             </li>
         </skills>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Engineer/cog</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Engineer/cog</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_SpecialWeaponsTier">
@@ -997,6 +1063,12 @@
             <li>TRG_MarauderHelmet</li>   
             <li>TRG_Webbing_GrenadierFrag</li>        
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starburst</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starburst</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_SpecialWeaponsTier">
@@ -1016,6 +1088,12 @@
             <li>TRG_MarauderHelmet</li>
             <li>TRG_Webbing_GrenadierIncendiary</li>           
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starburst</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starburst</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="TRG_Rough_SpecialWeaponsTier">
@@ -1035,6 +1113,12 @@
             <li>TRG_MarauderHelmet</li>
             <li>TRG_Webbing_GrenadierEMP</li>         
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starburst</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starburst</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>   
 
     <PawnKindDef ParentName="TRG_Rough_SpecialWeaponsTier" MayRequire="Ludeon.RimWorld.Biotech">
@@ -1054,6 +1138,12 @@
             <li>TRG_MarauderHelmet</li>
             <li>TRG_Webbing_GrenadierTox</li>         
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/starburst</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/starburst</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef> 
 
     <PawnKindDef ParentName="TRG_Rough_ShocktrooperTier">
@@ -1074,6 +1164,12 @@
             <li>TRG_HeavyMarauderHelmet</li>
         			<li>TRG_Webbing_Shocktrooper</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Infantry/8umbrella</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Infantry/8umbrella</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_WardenTier">
@@ -1082,13 +1178,17 @@
         <labelPlural>wardens</labelPlural>
         <combatPower>160</combatPower>
         <apparelTags>
-            <li>TRG_OfficerUniform</li>
+            <li>TRG_RingerUniform</li>
         </apparelTags>
         <apparelRequired>
-            <li>TRG_OfficerMarauderArmor</li>
-            <li>TRG_MarauderHelmet_Officer</li>
-        			<li>TRG_Webbing_Riot</li>
+            <li>TRG_RiotMarauderArmor</li>
 		</apparelRequired>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Police/Police</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Police/Police</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="TRG_Rough_OfficerTier">
@@ -1104,7 +1204,6 @@
         </apparelTags>
         <apparelRequired>
             <li>TRG_OfficerMarauderArmor</li>
-            <li>TRG_MarauderHelmet_Officer</li>
         </apparelRequired>
         <techHediffsChance>0.20</techHediffsChance>
         <techHediffsMoney>1800~2500</techHediffsMoney>
@@ -1128,6 +1227,12 @@
                 <range>5~12</range>
             </li>
         </skills>
+        <modExtensions>
+            <li Class="EOTF.Core.DecalSystem.DecalKindExtension">
+                <armorDecalPath>Things/Decals/Officer/scroll</armorDecalPath>
+                <helmetDecalPath>Things/Decals/Officer/scroll</helmetDecalPath>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
 </Defs>

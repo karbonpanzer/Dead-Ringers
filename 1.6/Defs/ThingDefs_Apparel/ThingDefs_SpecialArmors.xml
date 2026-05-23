@@ -77,7 +77,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>92</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/scroll</li>
+            <li>Things/Decals/scroll</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -193,7 +193,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>92</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/scroll</li>
+            <li>Things/Decals/scroll</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -308,7 +308,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>92</baseLayer>
           <texPaths>
-            <li>Things/Decals/Infantry/Ringer</li>
+            <li>Things/Decals/ringer</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -425,7 +425,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>92</baseLayer>
           <texPaths>
-            <li>Things/Decals/Police/tinStar</li>
+            <li>Things/Decals/tinstar</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>

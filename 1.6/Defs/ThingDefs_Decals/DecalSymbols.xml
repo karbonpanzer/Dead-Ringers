@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_10star</defName>
+    <label>10 Star</label>
+    <Path>Things/Decals/10star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_1star</defName>
+    <label>1 Star</label>
+    <Path>Things/Decals/1star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_2star</defName>
+    <label>2 Star</label>
+    <Path>Things/Decals/2star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_3star</defName>
+    <label>3 Star</label>
+    <Path>Things/Decals/3star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_4star</defName>
+    <label>4 Star</label>
+    <Path>Things/Decals/4star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_5star</defName>
+    <label>5 Star</label>
+    <Path>Things/Decals/5star</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_air</defName>
+    <label>Air</label>
+    <Path>Things/Decals/air</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_arrowhead</defName>
+    <label>Arrowhead</label>
+    <Path>Things/Decals/arrowhead</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_axe</defName>
+    <label>Axe</label>
+    <Path>Things/Decals/axe</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_battleaxe</defName>
+    <label>Battleaxe</label>
+    <Path>Things/Decals/battleaxe</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_chain</defName>
+    <label>Chain</label>
+    <Path>Things/Decals/chain</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_clockwork</defName>
+    <label>Clockwork</label>
+    <Path>Things/Decals/clockwork</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_club</defName>
+    <label>Club</label>
+    <Path>Things/Decals/club</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_cog</defName>
+    <label>Cog</label>
+    <Path>Things/Decals/cog</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_coggish</defName>
+    <label>Coggish</label>
+    <Path>Things/Decals/coggish</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_column</defName>
+    <label>Column</label>
+    <Path>Things/Decals/column</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_commander</defName>
+    <label>Commander</label>
+    <Path>Things/Decals/commander</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_containment</defName>
+    <label>Containment</label>
+    <Path>Things/Decals/containment</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_corepng</defName>
+    <label>Core</label>
+    <Path>Things/Decals/corepng</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_corporal</defName>
+    <label>Corporal</label>
+    <Path>Things/Decals/corporal</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_cpt</defName>
+    <label>Captain</label>
+    <Path>Things/Decals/cpt</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_cross</defName>
+    <label>Cross</label>
+    <Path>Things/Decals/cross</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_cube</defName>
+    <label>Cube</label>
+    <Path>Things/Decals/cube</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_diamond</defName>
+    <label>Diamond</label>
+    <Path>Things/Decals/diamond</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_dynasty</defName>
+    <label>Dynasty</label>
+    <Path>Things/Decals/dynasty</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_earth</defName>
+    <label>Earth</label>
+    <Path>Things/Decals/earth</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_eye</defName>
+    <label>Eye</label>
+    <Path>Things/Decals/eye</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Fallout</defName>
+    <label>Fallout</label>
+    <Path>Things/Decals/Fallout</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_fire</defName>
+    <label>Fire</label>
+    <Path>Things/Decals/fire</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_french</defName>
+    <label>French</label>
+    <Path>Things/Decals/french</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_greekcross</defName>
+    <label>Greek Cross</label>
+    <Path>Things/Decals/greekcross</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_guilt</defName>
+    <label>Guilt</label>
+    <Path>Things/Decals/guilt</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_hazard</defName>
+    <label>Hazard</label>
+    <Path>Things/Decals/hazard</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_heart</defName>
+    <label>Heart</label>
+    <Path>Things/Decals/heart</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_hexinator</defName>
+    <label>Hexinator</label>
+    <Path>Things/Decals/hexinator</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_hollow</defName>
+    <label>Hollow</label>
+    <Path>Things/Decals/hollow</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_horuxalt</defName>
+    <label>Horuxalt</label>
+    <Path>Things/Decals/horuxalt</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_inquisitor</defName>
+    <label>Inquisitor</label>
+    <Path>Things/Decals/inquisitor</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_linedworld</defName>
+    <label>Lined World</label>
+    <Path>Things/Decals/linedworld</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_lt</defName>
+    <label>Lieutenant</label>
+    <Path>Things/Decals/lt</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_maintainancejack</defName>
+    <label>Maintenance Jack</label>
+    <Path>Things/Decals/maintainancejack</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_marathon</defName>
+    <label>Marathon</label>
+    <Path>Things/Decals/marathon</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_medcom</defName>
+    <label>Med Com</label>
+    <Path>Things/Decals/medcom</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_mercy</defName>
+    <label>Mercy</label>
+    <Path>Things/Decals/mercy</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_None</defName>
+    <label>None</label>
+    <Path>Things/Decals/None</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_obelisk</defName>
+    <label>Obelisk</label>
+    <Path>Things/Decals/obelisk</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_pentoptimum</defName>
+    <label>Pentoptimum</label>
+    <Path>Things/Decals/pentoptimum</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Phor</defName>
+    <label>Phor</label>
+    <Path>Things/Decals/Phor</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_police</defName>
+    <label>Police</label>
+    <Path>Things/Decals/police</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_private</defName>
+    <label>Private</label>
+    <Path>Things/Decals/private</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_psi</defName>
+    <label>Psi</label>
+    <Path>Things/Decals/psi</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_ringer</defName>
+    <label>Ringer</label>
+    <Path>Things/Decals/ringer</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Rook</defName>
+    <label>Rook</label>
+    <Path>Things/Decals/Rook</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_scalpel</defName>
+    <label>Scalpel</label>
+    <Path>Things/Decals/scalpel</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_sentinel</defName>
+    <label>Sentinel</label>
+    <Path>Things/Decals/sentinel</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_sgt</defName>
+    <label>Sergeant</label>
+    <Path>Things/Decals/sgt</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_shield</defName>
+    <label>Shield</label>
+    <Path>Things/Decals/shield</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_shootingstar</defName>
+    <label>Shooting Star</label>
+    <Path>Things/Decals/shootingstar</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_skull</defName>
+    <label>Skull</label>
+    <Path>Things/Decals/skull</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_skullrifle</defName>
+    <label>Skull Rifle</label>
+    <Path>Things/Decals/skullrifle</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_skullspear</defName>
+    <label>Skull Spear</label>
+    <Path>Things/Decals/skullspear</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_skullsword</defName>
+    <label>Skull Sword</label>
+    <Path>Things/Decals/skullsword</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_spade</defName>
+    <label>Spade</label>
+    <Path>Things/Decals/spade</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_spearhead</defName>
+    <label>Spearhead</label>
+    <Path>Things/Decals/spearhead</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_staroflife</defName>
+    <label>Star of Life</label>
+    <Path>Things/Decals/staroflife</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_tinstar</defName>
+    <label>Tin Star</label>
+    <Path>Things/Decals/tinstar</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_utility</defName>
+    <label>Utility</label>
+    <Path>Things/Decals/utility</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_vesperia</defName>
+    <label>Vesperia</label>
+    <Path>Things/Decals/vesperia</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_water</defName>
+    <label>Water</label>
+    <Path>Things/Decals/water</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_wrench</defName>
+    <label>Wrench</label>
+    <Path>Things/Decals/wrench</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalbadger</defName>
+    <label>Badger</label>
+    <Path>Things/Decals/Animal/badger</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalbuck</defName>
+    <label>Buck</label>
+    <Path>Things/Decals/Animal/buck</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalbuffalo</defName>
+    <label>Buffalo</label>
+    <Path>Things/Decals/Animal/buffalo</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalbull</defName>
+    <label>Bull</label>
+    <Path>Things/Decals/Animal/bull</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalcobra</defName>
+    <label>Cobra</label>
+    <Path>Things/Decals/Animal/cobra</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animaleagle</defName>
+    <label>Eagle</label>
+    <Path>Things/Decals/Animal/eagle</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalfirebird</defName>
+    <label>Firebird</label>
+    <Path>Things/Decals/Animal/firebird</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalfish</defName>
+    <label>Fish</label>
+    <Path>Things/Decals/Animal/fish</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalgator</defName>
+    <label>Gator</label>
+    <Path>Things/Decals/Animal/gator</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalgriffin</defName>
+    <label>Griffin</label>
+    <Path>Things/Decals/Animal/griffin</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalhawk</defName>
+    <label>Hawk</label>
+    <Path>Things/Decals/Animal/hawk</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalhorse</defName>
+    <label>Horse</label>
+    <Path>Things/Decals/Animal/horse</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalkodiak</defName>
+    <label>Kodiak</label>
+    <Path>Things/Decals/Animal/kodiak</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalmustang</defName>
+    <label>Mustang</label>
+    <Path>Things/Decals/Animal/mustang</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalpanther</defName>
+    <label>Panther</label>
+    <Path>Things/Decals/Animal/panther</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalphoenix</defName>
+    <label>Phoenix</label>
+    <Path>Things/Decals/Animal/phoenix</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalrhino</defName>
+    <label>Rhino</label>
+    <Path>Things/Decals/Animal/rhino</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalscorpion</defName>
+    <label>Scorpion</label>
+    <Path>Things/Decals/Animal/scorpion</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalsnake</defName>
+    <label>Snake</label>
+    <Path>Things/Decals/Animal/snake</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalsnek</defName>
+    <label>Snek</label>
+    <Path>Things/Decals/Animal/snek</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animaltalon</defName>
+    <label>Talon</label>
+    <Path>Things/Decals/Animal/talon</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalunicorn</defName>
+    <label>Unicorn</label>
+    <Path>Things/Decals/Animal/unicorn</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalviper</defName>
+    <label>Viper</label>
+    <Path>Things/Decals/Animal/viper</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalwild</defName>
+    <label>Wild</label>
+    <Path>Things/Decals/Animal/wild</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+  <EOTF.Core.DecalSystem.DecalSymbolDef>
+    <defName>TRG_Decal_Animalwolf</defName>
+    <label>Wolf</label>
+    <Path>Things/Decals/Animal/wolf</Path>
+  </EOTF.Core.DecalSystem.DecalSymbolDef>
+
+</Defs>

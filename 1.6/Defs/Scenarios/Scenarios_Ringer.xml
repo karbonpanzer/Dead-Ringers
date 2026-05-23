@@ -3,10 +3,10 @@
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>TRG_Prospectors</defName>
 		<label>Ringer Settlers</label>
-		<description>A settler mission from a ring city, dropped on the rimworld with basic equipment and a mandate nobody intends to enforce. Make of it what you can.</description>
+		<description>You arrived, following the dream of many, you are the first of your ship to set foot on this world. The fresh air is the first you have breathed in years, you are here now. Many of your family and friends could not make it but you did.. What will you do with your freedom?</description>
 
 		<scenario>
-			<summary>A group of settlers from a barren ring city seeking opportunity.</summary>
+			<summary>A group of settlers from a dead orbital ring seeking opportunity.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>TRG_Player</factionDef>
@@ -15,15 +15,13 @@
 			<parts>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>"The pod opened. New air, new ground, no oversight.
-
-The mission sponsor is a long way away and the contract was always vague about what comes back. Whatever you build here is yours."</text>
+					<text>You arrived, following the dream of many, you are the first of your ship to set foot on this world.\n\nThe fresh air is the first you have breathed in years, you are here now. Many of your family and friends could not make it but you did.\n\nWhat will you do with your freedom?</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
-					<pawnCount>4</pawnCount>
+					<pawnCount>5</pawnCount>
 					<pawnChoiceCount>8</pawnChoiceCount>
 				</li>
 

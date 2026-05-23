@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <packageId>KP.Vesperia</packageId>
+  <packageId>KP.deadringer</packageId>
   <author>karbonpanzer</author>
   <name>Dead Ringers</name>
-  <description>Adds the Ringers, settlers and outcasts from a ring city on a distant world.
-
-Includes new weapons, armor, a research tree, traders, and a starting scenario. Spacer-tech outlanders built for enclosed environments who brought everything they needed with them.</description>
+  <description>Adds the Ringers, settlers and outcasts from a ring city on a distant world. Includes new weapons, armor, a research tree, traders, and a starting scenario. Spacer-tech outlanders built for enclosed environments who brought everything they needed with them.</description>
   <supportedVersions>
 	  <li>1.6</li>	  
   </supportedVersions>

@@ -6,7 +6,7 @@
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>TRG_Player</defName>
 		<label>Ringer settlers</label>
-		<description>A group of Ringers who left their ring city for the rimworld. They came prepared.</description>
+		<description>A colony of citizens from a dead orbital ring station.</description>
 		<colorSpectrum>
             <li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
@@ -47,7 +47,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>TRG_Civil</defName>
 		<label>Ringer settlers</label>
-		<description>Settlers from a ring city who have established themselves on this world. They carry spacer-level equipment and the habits of people raised in an enclosed habitat. They trade, patrol their borders, and defend their settlements without hesitation.</description>
+		<description>Refugees of a dead orbital ring from a nearby system. After their home fell many found themselves as refugees settling on the Rimworlds around them.\n\nThough they lack many pieces of technology from their former home. They still retain their technology, composite armor, advanced weaponry, and secretive technology not availiable  to outsiders. A strong spacer faction using technology which favors collective over the individual, they are not powerful but have numbers on their side.\n\nStrong, resilient, and charitable, they make for great allies and worse enemies.</description>
 		<pawnSingular>ringer</pawnSingular>
 		<pawnsPlural>ringers</pawnsPlural>
 		<listOrderPriority>13</listOrderPriority>
@@ -253,7 +253,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>TRG_Rough</defName>
 		<label>Ringer outcasts</label>
-		<description>Exiles and deserters from a ring city who found the rim more agreeable than what they left behind. They kept their training and their weapons. Everything else was negotiable.</description>
+		<description>After the collapse of their home, many of the predatorory factions of the orbital station banded together as pirates.\n\nServing no one but themselves, they raided worlds, selling their services to the highest bidders. Their technology despite their riches, has not advanced, still using their technology they arrived with.\n\nWithout honor or consciousness, they prey on all those they are near.</description>
 		<pawnSingular>outcast</pawnSingular>
 		<pawnsPlural>outcasts</pawnsPlural>
 		<listOrderPriority>13</listOrderPriority>
