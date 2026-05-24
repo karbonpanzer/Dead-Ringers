@@ -8,10 +8,10 @@ namespace EOTF.Core.DecalSystem
     public class DecalKindExtension : DefModExtension
     {
         public string armorDecalPath = "";
-        public Color armorDecalColor = Color.white;
+        public Color armorDecalColor = new Color(0.2f, 0.2f, 0.2f);
 
         public string helmetDecalPath = "";
-        public Color helmetDecalColor = Color.white;
+        public Color helmetDecalColor = new Color(0.2f, 0.2f, 0.2f);
 
         //Force these even if the pawn already has a saved profile
         public bool overrideSaved = false;

@@ -86,7 +86,7 @@
             <li>North</li>
           </visibleFacing>
           <drawData>
-            <scale>0.120</scale>
+            <scale>0.110</scale>
             <defaultData>
               <layer>82</layer>
               <offset>(0,0,-0.155)</offset>
