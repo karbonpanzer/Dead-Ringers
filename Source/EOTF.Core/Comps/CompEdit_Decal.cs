@@ -44,7 +44,7 @@ namespace EOTF.Core.DecalSystem
             WorldComponentDecalPawns.Instance?.Unregister(pawn);
         }
 
-        //Checks PawnKindDef for DecalKindExtension, validates textures exist, applies defaults
+        //Applies PawnKindDef decal defaults, render node validates textures on main thread
         private void TryApplyKindDefaults(Pawn pawn)
         {
             if (pawn.kindDef == null) return;
@@ -57,8 +57,6 @@ namespace EOTF.Core.DecalSystem
 
             if (!ext.armorDecalPath.NullOrEmpty() && (armorEmpty || ext.overrideSaved))
             {
-                if (!ValidateTexturePath(ext.armorDecalPath, pawn.kindDef.defName, "armor"))
-                    return;
                 ProfileSet.Armor.Active = true;
                 ProfileSet.Armor.SymbolPath = ext.armorDecalPath;
                 ProfileSet.Armor.SymbolColor = ext.armorDecalColor;
@@ -66,23 +64,10 @@ namespace EOTF.Core.DecalSystem
 
             if (!ext.helmetDecalPath.NullOrEmpty() && (helmetEmpty || ext.overrideSaved))
             {
-                if (!ValidateTexturePath(ext.helmetDecalPath, pawn.kindDef.defName, "helmet"))
-                    return;
                 ProfileSet.Helmet.Active = true;
                 ProfileSet.Helmet.SymbolPath = ext.helmetDecalPath;
                 ProfileSet.Helmet.SymbolColor = ext.helmetDecalColor;
             }
-        }
-
-        //Logs an error if the texture path from a PawnKindDef extension doesn't resolve
-        private static bool ValidateTexturePath(string path, string kindDefName, string slot)
-        {
-            if (ContentFinder<Texture2D>.Get(path + "_south", false) != null) return true;
-            if (ContentFinder<Texture2D>.Get(path, false) != null) return true;
-
-            Log.ErrorOnce("[EOTF] DecalKindExtension on " + kindDefName + " has missing " + slot
-                + " texture: " + path, path.GetHashCode() ^ kindDefName.GetHashCode());
-            return false;
         }
     }
 
