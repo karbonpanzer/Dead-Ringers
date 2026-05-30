@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--  Neuro-Stabilizer  -->
+  <!-- ############## Neuro-Stabilizer ############## -->
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>DRG_hediff_NeuroStabilizer</defName>
@@ -84,7 +84,7 @@
     <removesHediff>DRG_hediff_NeuroStabilizer</removesHediff>
   </RecipeDef>
 
-  <!--  Combat Reflex Cortex  -->
+  <!-- ############## Combat Reflex Cortex ############## -->
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>DRG_hediff_CombatReflexCortex</defName>
@@ -164,7 +164,7 @@
     <removesHediff>DRG_hediff_CombatReflexCortex</removesHediff>
   </RecipeDef>
 
-  <!--  Thermal Regulator  -->
+  <!-- ############## Thermal Regulator ############## -->
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>DRG_hediff_ThermalRegulator</defName>
@@ -243,7 +243,7 @@
     <removesHediff>DRG_hediff_ThermalRegulator</removesHediff>
   </RecipeDef>
 
-  <!--  Mnemonic Amplifier  -->
+  <!-- ############## Mnemonic Amplifier ############## -->
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>DRG_hediff_MnemonicAmplifier</defName>
@@ -321,7 +321,7 @@
     <removesHediff>DRG_hediff_MnemonicAmplifier</removesHediff>
   </RecipeDef>
 
-  <!--  Dermal Lattice  -->
+  <!-- ############## Dermal Lattice ############## -->
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>DRG_hediff_DermalLattice</defName>
@@ -405,7 +405,7 @@
     <removesHediff>DRG_hediff_DermalLattice</removesHediff>
   </RecipeDef>
 
-  <!--  Retractable Blade Arm  -->
+  <!-- ############## Retractable Blade Arm ############## -->
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>DRG_hediff_RetractableBladeArm</defName>
@@ -496,7 +496,7 @@
     <addsHediff>DRG_hediff_RetractableBladeArm</addsHediff>
   </RecipeDef>
 
-  <!--  Piston Leg  -->
+  <!-- ############## Piston Leg ############## -->
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>DRG_hediff_PistonLeg</defName>
@@ -586,7 +586,7 @@
     <addsHediff>DRG_hediff_PistonLeg</addsHediff>
   </RecipeDef>
 
-  <!--  Overclocked Heart  -->
+  <!-- ############## Overclocked Heart ############## -->
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>DRG_hediff_OverclockedHeart</defName>
@@ -664,7 +664,7 @@
     <addsHediff>DRG_hediff_OverclockedHeart</addsHediff>
   </RecipeDef>
 
-  <!--  Tracker's Nose  -->
+  <!-- ############## Tracker's Nose ############## -->
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>DRG_hediff_TrackersNose</defName>
@@ -735,6 +735,104 @@
       <li>Nose</li>
     </appliedOnFixedBodyParts>
     <addsHediff>DRG_hediff_TrackersNose</addsHediff>
+  </RecipeDef>
+
+  <!-- ############## Service Stud ############## -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>DRG_hediff_ServiceStud</defName>
+    <label>service stud</label>
+    <labelNoun>a service stud</labelNoun>
+    <description>A small plasteel stud surgically implanted into the frontal bone of the skull. Among spacer military cultures, these studs denote years of service and mark the bearer as a proven veteran. The visible modification commands respect from allies and unnerves prisoners during interrogation, but most civilians find the appearance unsettling.</description>
+    <defaultLabelColor>(135,206,235)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <NegotiationAbility>0.10</NegotiationAbility>
+          <SuppressionPower>0.15</SuppressionPower>
+          <ArrestSuccessChance>0.10</ArrestSuccessChance>
+          <PawnBeauty>-0.5</PawnBeauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>DRG_ServiceStud</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>DRG_ServiceStud</ThingDef>
+    </descriptionHyperlinks>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_Hediff</workerClass>
+        <texPath>Things/Pawn/Wounds/DRG_ServiceStud</texPath>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.10</drawSize>
+        <drawData>
+          <defaultData>
+            <layer>56</layer>
+            <offset>(0, 0, 0)</offset>
+          </defaultData>
+          <dataWest>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>DRG_ServiceStud</defName>
+    <label>service stud</label>
+    <description>A small plasteel stud designed for implantation into the frontal bone. Among spacer military cultures, these mark the bearer as a proven veteran. The visible modification commands respect and authority, though most find the appearance unsettling. (Implant)</description>
+    <descriptionHyperlinks><RecipeDef>DRG_InstallServiceStud</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Plasteel>5</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>DRG_InstallServiceStud</defName>
+    <label>install service stud</label>
+    <description>Install a service stud.</description>
+    <descriptionHyperlinks>
+      <ThingDef>DRG_ServiceStud</ThingDef>
+      <HediffDef>DRG_hediff_ServiceStud</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing service stud.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DRG_ServiceStud</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DRG_ServiceStud</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Skull</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>DRG_hediff_ServiceStud</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>DRG_RemoveServiceStud</defName>
+    <label>remove service stud</label>
+    <description>Remove service stud.</description>
+    <descriptionHyperlinks>
+      <ThingDef>DRG_ServiceStud</ThingDef>
+      <HediffDef>DRG_hediff_ServiceStud</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing service stud.</jobString>
+    <removesHediff>DRG_hediff_ServiceStud</removesHediff>
   </RecipeDef>
 
 </Defs>
