@@ -77,6 +77,13 @@
         <categoryDef>Drugs</categoryDef>
       </li>
 
+      <!-- Decoders-->
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DRG_Decoder</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
       <!-- Techprints -->
       <!-- none -->
 
@@ -313,9 +320,16 @@
         <thingDef>MedicineUltratech</thingDef>
         <countRange>2~8</countRange>
       </li>
+
+      <!-- Decoders-->
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>DRG_Decoder</thingDef>
         <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DRG_DecoderFoodSynthesizer</thingDef>
+        <countRange>0~1</countRange>
       </li>
 
       <!-- Drugs -->

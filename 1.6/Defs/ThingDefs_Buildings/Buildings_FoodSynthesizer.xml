@@ -9,18 +9,19 @@
     <graphicData>
       <texPath>Things/Building/Special/FoodSynthesizer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3.5,3.5)</drawSize>
-			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
-			</shadowData>
+      <drawSize>(3.5,3.5)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
     </graphicData>
+    <costList>
+      <Steel>150</Steel>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>30</ComponentSpacer>
+    </costList>
     <thingCategories>
       <li>BuildingsSpecial</li>
     </thingCategories>
-    <costList>
-      <Steel>250</Steel>
-      <ComponentSpacer>6</ComponentSpacer>
-    </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
@@ -51,7 +52,7 @@
       <Flammability>0.5</Flammability>
       <Beauty>-5</Beauty>
       <Mass>40</Mass>
-      <WorkToBuild>10000</WorkToBuild>
+      <WorkToBuild>15000</WorkToBuild>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
@@ -69,6 +70,12 @@
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>
+    <designationCategory>Production</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>DRG_FoodSynthesizer</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>
