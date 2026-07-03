@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--Ion-Plasma Pistol>
+  <!-- Ion-Plasma Pistol -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaPistol</defName>
     <label>ion-plasma pistol slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_small</texPath>
+      <texPath>Things/Projectile/plasmabolt</texPath>
       <drawSize>0.85</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -103,15 +103,15 @@
       <li>WeaponRanged</li>
     </tradeTags>
     <uiIconScale>1.05</uiIconScale>
-  </ThingDef -->
+  </ThingDef>
 
-  <!-- Ion-Plasma Rifle>
+  <!-- Ion-Plasma Rifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaRifle</defName>
     <label>ion-plasma rifle slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_medium</texPath>
+      <texPath>Things/Projectile/plasmabolt</texPath>
       <drawSize>0.85</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -209,16 +209,15 @@
       <li>WeaponRanged</li>
     </tradeTags>
     <uiIconScale>1.05</uiIconScale>
-  </ThingDef-->
+  </ThingDef>
 
-  <!--Ion-Plasma Lance>  
+  <!-- Ion-Plasma Caster -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_IonPlasmaLance</defName>
-    <label>ion-plasma lance slug</label>
+    <defName>UFR_Slug_IonPlasmaCaster</defName>
+    <label>ion-plasma caster slug</label>
     <graphicData>
-      <color>(0.35, 1.0, 0.45, 1)</color>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_heavy</texPath>
+      <texPath>Things/Projectile/plasmacannon</texPath>
       <drawSize>1.0</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -237,13 +236,13 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaLance">
-    <defName>UFR_IonPlasmaLance</defName>
-    <label>Ion-Plasma Lance</label>
-    <description>A long-barrelled precision weapon descended from the tricoil rifle, redesigned to wrap each uranium slug in a stabilized plasma sleeve. At range the plasma sheath maintains slug integrity through atmospheric drag while shredding the target's armor at impact. The signature weapon of UFR designated marksmen.</description>
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaCaster">
+    <defName>UFR_IonPlasmaCaster</defName>
+    <label>Ion-Plasma Caster</label>
+    <description>A long-barrelled precision weapon descended from the tricoil rifle, redesigned to wrap each uranium slug in a stabilized plasma sleeve. At range the plasma sheath maintains slug integrity through atmospheric drag while shredding the target's armor at impact.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/ionplasmalance</texPath>
+      <texPath>Things/Item/Equipment/ionplasmacaster</texPath>
       <drawSize>1.1</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
@@ -277,7 +276,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_IonPlasmaLance</defaultProjectile>
+        <defaultProjectile>UFR_Slug_IonPlasmaCaster</defaultProjectile>
         <warmupTime>3.3</warmupTime>
         <range>81.9</range>
         <soundCast>Shot_ChargeLance</soundCast>
@@ -314,9 +313,9 @@
       <li>WeaponRanged</li>
     </tradeTags>
     <uiIconScale>1.05</uiIconScale>
-  </ThingDef -->
+  </ThingDef>
 
-  <!--Ion-Plasma Sword>
+  <!-- Ion-Plasma Sword -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="UFR_IonPlasmaSword">
     <defName>UFR_IonPlasmaSword</defName>
     <label>Ion-Plasma Sword</label>
@@ -403,6 +402,6 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
-  </ThingDef -->
+  </ThingDef>
 
 </Defs>
