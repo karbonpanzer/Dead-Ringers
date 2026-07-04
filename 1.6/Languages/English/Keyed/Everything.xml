@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Decal UI Menu -->
   <UnitedFront_StyleDecalsGizmo>Customize decals: {0}</UnitedFront_StyleDecalsGizmo>
   <UnitedFront_StyleDecalsDesc>Choose symbols and colors for this pawn's armor and helmet decals.</UnitedFront_StyleDecalsDesc>
   <UnitedFront_StyleDecalsTitle>Decals — {0}</UnitedFront_StyleDecalsTitle>
-
   <UnitedFront_Decals_Armor>Armor</UnitedFront_Decals_Armor>
   <UnitedFront_Decals_Helmet>Helmet</UnitedFront_Decals_Helmet>
-
   <UnitedFront_Decals_Enabled>Show decal</UnitedFront_Decals_Enabled>
   <UnitedFront_Decals_RandomSymbol>Random symbol</UnitedFront_Decals_RandomSymbol>
-
   <UnitedFront_Decals_IdeoColor>Ideology color</UnitedFront_Decals_IdeoColor>
   <UnitedFront_Decals_RandomColor>Random color</UnitedFront_Decals_RandomColor>
   <UnitedFront_Decals_FavColor>Favorite color</UnitedFront_Decals_FavColor>
-
   <UnitedFront_Decals_Cancel>Cancel</UnitedFront_Decals_Cancel>
   <UnitedFront_Decals_Reset>Reset</UnitedFront_Decals_Reset>
   <UnitedFront_Decals_Accept>Accept</UnitedFront_Decals_Accept>
+
+  <!-- Netcaster -->
+  <UFR_NowBroadcasting>Now broadcasting: {0}</UFR_NowBroadcasting>
+
+  <!-- Food Synthisizer-->
+  <UFR_FoodSynth_GizmoLabel>Producing: {0}</UFR_FoodSynth_GizmoLabel>
+  <UFR_FoodSynth_GizmoDesc>Change the output of this synthesizer. Currently producing {1}x {0}. Click to select a different product.</UFR_FoodSynth_GizmoDesc>
+  <UFR_FoodSynth_CurrentMarker>{1}x {0} (current)</UFR_FoodSynth_CurrentMarker>
+  <UFR_FoodSynth_MenuOption>{1}x {0}</UFR_FoodSynth_MenuOption>
+  <UFR_FoodSynth_Producing>Producing: {1}x {0}</UFR_FoodSynth_Producing>
 
 </LanguageData>

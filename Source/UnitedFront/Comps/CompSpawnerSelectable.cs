@@ -112,9 +112,9 @@ namespace UnitedFront.Comps
 
             yield return new Command_Action
             {
-                defaultLabel = "FoodSynth_GizmoLabel".Translate(
+                defaultLabel = "UFR_FoodSynth_GizmoLabel".Translate(
                     option.thingDef.LabelCap),
-                defaultDesc = "FoodSynth_GizmoDesc".Translate(
+                defaultDesc = "UFR_FoodSynth_GizmoDesc".Translate(
                     option.thingDef.LabelCap,
                     option.count),
                 icon = GetOptionIcon(option),
@@ -128,13 +128,13 @@ namespace UnitedFront.Comps
                         string label;
                         if (i == _selectedIndex)
                         {
-                            label = "FoodSynth_CurrentMarker".Translate(
+                            label = "UFR_FoodSynth_CurrentMarker".Translate(
                                 opt.thingDef.LabelCap,
                                 opt.count);
                         }
                         else
                         {
-                            label = "FoodSynth_MenuOption".Translate(
+                            label = "UFR_FoodSynth_MenuOption".Translate(
                                 opt.thingDef.LabelCap,
                                 opt.count);
                         }
@@ -160,7 +160,7 @@ namespace UnitedFront.Comps
         public override string CompInspectStringExtra()
         {
             ThingDefCountClass option = CurrentOption;
-            string text = "FoodSynth_Producing".Translate(
+            string text = "UFR_FoodSynth_Producing".Translate(
                 option.thingDef.LabelCap,
                 option.count);
 

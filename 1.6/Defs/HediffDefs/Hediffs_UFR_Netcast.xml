@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Listening To Netcast -->
+  <HediffDef>
+    <defName>UFR_Netcast_Listening</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>listening to netcast</label>
+    <description>Currently gaining recreation from a nearby netcast broadcast.</description>
+    <defaultLabelColor>(0.6, 0.85, 0.6)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>255</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="UnitedFront.Health.HediffCompProperties_NetcastJoy" />
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Netcast: Motivated -->
+  <HediffDef>
+    <defName>UFR_Netcast_Motivated</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>motivated broadcast</label>
+    <description>Buoyed by a motivational netcast program.</description>
+    <defaultLabelColor>(0.85, 0.75, 0.5)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>255</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Netcast: Calmed -->
+  <HediffDef>
+    <defName>UFR_Netcast_Calmed</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>calming broadcast</label>
+    <description>Soothed by a calming netcast program.</description>
+    <defaultLabelColor>(0.55, 0.7, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>255</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <RestRateMultiplier>1.15</RestRateMultiplier>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

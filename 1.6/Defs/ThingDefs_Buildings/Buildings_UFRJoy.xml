@@ -190,4 +190,106 @@
     <designationHotKey>Misc2</designationHotKey>
   </ThingDef>
 
+  <!-- Netcast Radio -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>UFR_NetcastRadio</defName>
+    <label>netcast radio</label>
+    <description>A ruggedized field transmitter-receiver that pulls curated broadcasts from the local net. Personnel working within range passively pick up the signal, easing recreation need while they go about their tasks. The program cycles day to day - some broadcasts are merely pleasant background noise, others carry genuinely engaging or motivating content. Draws considerable power to run.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Joy/Netcaster/netcastreciever</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+      <shadowData>
+        <volume>(0.7, 0.4, 0.7)</volume>
+      </shadowData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.35</fillPercent>
+    <pathCost>30</pathCost>
+    <passability>PassThroughOnly</passability>
+    <minTechLevelToBuild>Industrial</minTechLevelToBuild>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>14000</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.7</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+      <li Class="CompProperties_AmbientSound">
+        <sound>UFR_Netcaster_Ambience</sound>
+        <disabledOnUnpowered>true</disabledOnUnpowered>
+      </li>
+      <li Class="UnitedFront.Comps.CompPropertiesNetcastRadio">
+        <hediffDef>UFR_Netcast_Listening</hediffDef>
+        <joyKind>HighCulture</joyKind>
+        <radius>6</radius>
+        <requiresPower>true</requiresPower>
+        <tickRate>250</tickRate>
+        <rerollInterval>60000</rerollInterval>
+        <broadcasts>
+          <li>
+            <label>faint signal</label>
+            <joyGainRate>0.6</joyGainRate>
+            <weight>2</weight>
+          </li>
+          <li>
+            <label>standard broadcast</label>
+            <joyGainRate>1.0</joyGainRate>
+            <weight>3</weight>
+          </li>
+          <li>
+            <label>music hour</label>
+            <joyGainRate>1.4</joyGainRate>
+            <weight>2</weight>
+          </li>
+          <li>
+            <label>motivational program</label>
+            <joyGainRate>1.0</joyGainRate>
+            <bonusHediff>UFR_Netcast_Motivated</bonusHediff>
+            <weight>2</weight>
+          </li>
+          <li>
+            <label>calming program</label>
+            <joyGainRate>1.1</joyGainRate>
+            <bonusHediff>UFR_Netcast_Calmed</bonusHediff>
+            <weight>2</weight>
+          </li>
+          <li>
+            <label>prime broadcast</label>
+            <joyGainRate>1.5</joyGainRate>
+            <bonusHediff>UFR_Netcast_Motivated</bonusHediff>
+            <weight>1</weight>
+          </li>
+        </broadcasts>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>UFR_NetcastingEntertainment</li>
+    </researchPrerequisites>
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc7</designationHotKey>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>UnitedFront.Comps.PlaceWorker_NetcastRadius</li>
+    </placeWorkers>
+  </ThingDef>
+ 
 </Defs>
