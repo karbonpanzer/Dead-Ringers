@@ -234,8 +234,8 @@
         <compClass>CompGatherSpot</compClass>
       </li>
       <li Class="CompProperties_AmbientSound">
-        <sound>UFR_Netcaster_Ambience</sound>
         <disabledOnUnpowered>true</disabledOnUnpowered>
+        <sound>UFR_Netcaster_Ambience</sound>
       </li>
       <li Class="UnitedFront.Comps.CompPropertiesNetcastRadio">
         <hediffDef>UFR_Netcast_Listening</hediffDef>

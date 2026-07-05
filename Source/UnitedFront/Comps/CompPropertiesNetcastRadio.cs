@@ -10,7 +10,6 @@ namespace UnitedFront.Comps
         public float joyGainRate = 1f;
         public HediffDef bonusHediff = null!;
         public float weight = 1f;
-        public SoundDef sound = null!;
     }
 
     public class CompPropertiesNetcastRadio : CompProperties

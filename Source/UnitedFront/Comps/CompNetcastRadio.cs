@@ -2,15 +2,14 @@ using System.Collections.Generic;
 using RimWorld;
 using UnitedFront.Hediff;
 using Verse;
-using Verse.Sound;
 
 namespace UnitedFront.Comps
 {
     public class CompNetcastRadio : ThingComp
     {
+        private static readonly List<IntVec3> _tmpCells = new List<IntVec3>();
+
         private int _currentIndex;
-        private Sustainer _activeSustainer = null!;
-        private SoundDef _activeSustainerSound = null!;
 
         public CompPropertiesNetcastRadio Props => (CompPropertiesNetcastRadio)props;
 
@@ -56,19 +55,21 @@ namespace UnitedFront.Comps
             base.CompTickInterval(delta);
             if (!parent.Spawned)
             {
-                StopSustainer();
                 return;
             }
             if (parent.IsHashIntervalTick(Props.rerollInterval, delta))
             {
                 Reroll();
             }
-            NetcastBroadcast? broadcast = PowerOn ? CurrentBroadcast : null;
-            MaintainSustainer(broadcast);
             if (!parent.IsHashIntervalTick(Props.tickRate, delta))
             {
                 return;
             }
+            if (!PowerOn)
+            {
+                return;
+            }
+            NetcastBroadcast broadcast = CurrentBroadcast;
             if (broadcast == null)
             {
                 return;
@@ -78,23 +79,32 @@ namespace UnitedFront.Comps
             for (int i = pawns.Count - 1; i >= 0; i--)
             {
                 Pawn pawn = pawns[i];
-                if (!ValidPawn(pawn))
+                TryApplyBroadcast(pawn, broadcast, radiusSquared);
+                if (pawn.carryTracker.CarriedThing is Pawn carried)
                 {
-                    continue;
+                    TryApplyBroadcast(carried, broadcast, radiusSquared);
                 }
-                if (pawn.Position.DistanceToSquared(parent.Position) > radiusSquared)
-                {
-                    continue;
-                }
-                if (!SameRoomAsParent(pawn))
-                {
-                    continue;
-                }
-                GiveOrRefreshJoy(pawn, broadcast);
-                if (broadcast.bonusHediff != null)
-                {
-                    GiveOrRefreshHediff(pawn, broadcast.bonusHediff);
-                }
+            }
+        }
+
+        private void TryApplyBroadcast(Pawn pawn, NetcastBroadcast broadcast, float radiusSquared)
+        {
+            if (!ValidPawn(pawn))
+            {
+                return;
+            }
+            if (pawn.Position.DistanceToSquared(parent.Position) > radiusSquared)
+            {
+                return;
+            }
+            if (!SameRoomAsParent(pawn))
+            {
+                return;
+            }
+            GiveOrRefreshJoy(pawn, broadcast);
+            if (broadcast.bonusHediff != null)
+            {
+                GiveOrRefreshHediff(pawn, broadcast.bonusHediff);
             }
         }
 
@@ -107,37 +117,6 @@ namespace UnitedFront.Comps
             }
             Room pawnRoom = pawn.GetRoom();
             return pawnRoom == parentRoom;
-        }
-
-        private void MaintainSustainer(NetcastBroadcast? broadcast)
-        {
-            SoundDef? desired = broadcast?.sound;
-            if (desired != _activeSustainerSound)
-            {
-                StopSustainer();
-                if (desired != null)
-                {
-                    _activeSustainer = desired.TrySpawnSustainer(SoundInfo.InMap(new TargetInfo(parent.Position, parent.Map)));
-                    _activeSustainerSound = desired;
-                }
-            }
-            _activeSustainer?.Maintain();
-        }
-
-        private void StopSustainer()
-        {
-            if (_activeSustainer != null)
-            {
-                _activeSustainer.End();
-                _activeSustainer = null!;
-            }
-            _activeSustainerSound = null!;
-        }
-
-        public void PostDeSpawn(Map map)
-        {
-            base.PostDeSpawn(map);
-            StopSustainer();
         }
 
         private bool ValidPawn(Pawn pawn)
@@ -173,7 +152,11 @@ namespace UnitedFront.Comps
                 joyComp.joyKind = Props.joyKind;
             }
             HediffComp_Disappears disappears = hediff.TryGetComp<HediffComp_Disappears>();
-            if (disappears != null)
+            if (disappears == null)
+            {
+                Log.ErrorOnce("CompNetcastRadio has a hediffDef without a HediffComp_Disappears: " + Props.hediffDef.defName, 74829611);
+            }
+            else
             {
                 disappears.ticksToDisappear = Props.tickRate + 5;
             }
@@ -189,7 +172,11 @@ namespace UnitedFront.Comps
                 pawn.health.AddHediff(hediff);
             }
             HediffComp_Disappears disappears = hediff.TryGetComp<HediffComp_Disappears>();
-            if (disappears != null)
+            if (disappears == null)
+            {
+                Log.ErrorOnce("CompNetcastRadio has a broadcast bonusHediff without a HediffComp_Disappears: " + def.defName, 74829612);
+            }
+            else
             {
                 disappears.ticksToDisappear = Props.tickRate + 5;
             }
@@ -221,10 +208,27 @@ namespace UnitedFront.Comps
         public override void PostDrawExtraSelectionOverlays()
         {
             base.PostDrawExtraSelectionOverlays();
-            if (Props.drawRadiusRing)
+            if (!Props.drawRadiusRing)
             {
-                GenDraw.DrawRadiusRing(parent.Position, Props.radius);
+                return;
             }
+            _tmpCells.Clear();
+            Room parentRoom = parent.GetRoom();
+            int num = GenRadial.NumCellsInRadius(Props.radius);
+            for (int i = 0; i < num; i++)
+            {
+                IntVec3 cell = parent.Position + GenRadial.RadialPattern[i];
+                if (!cell.InBounds(parent.Map))
+                {
+                    continue;
+                }
+                if (parentRoom != null && cell.GetRoom(parent.Map) != parentRoom)
+                {
+                    continue;
+                }
+                _tmpCells.Add(cell);
+            }
+            GenDraw.DrawFieldEdges(_tmpCells);
         }
     }
 }
