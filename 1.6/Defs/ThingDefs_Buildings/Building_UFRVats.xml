@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- =============================================================== -->
-  <!--  Bio-Augment Bench                                              -->
-  <!--  3x1 workstation with a culture tank at one end. The bench      -->
-  <!--  where lab-grown cultures are sculpted into vat-grown limbs     -->
-  <!--  and organs. Gated on UFR_BioAugments research.                 -->
-  <!-- =============================================================== -->
-
   <ThingDef ParentName="BenchBase">
     <defName>UFR_BioAugmentBench</defName>
     <label>bio-augment bench</label>
@@ -34,7 +27,7 @@
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <graphicData>
-      <texPath>Things/Building/Production/FabricationBench</texPath>
+      <texPath>Things/Building/Production/bioaugmentbench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <damageData>

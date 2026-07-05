@@ -10,6 +10,7 @@ namespace UnitedFront.Comps
         public float joyGainRate = 1f;
         public HediffDef bonusHediff = null!;
         public float weight = 1f;
+        public SoundDef sound = null!;
     }
 
     public class CompPropertiesNetcastRadio : CompProperties
@@ -35,14 +36,6 @@ namespace UnitedFront.Comps
             foreach (string error in base.ConfigErrors(parentDef))
             {
                 yield return error;
-            }
-            if (hediffDef == null)
-            {
-                yield return parentDef.defName + " has CompPropertiesNetcastRadio with no hediffDef defined.";
-            }
-            if (joyKind == null)
-            {
-                yield return parentDef.defName + " has CompPropertiesNetcastRadio with no joyKind defined.";
             }
             if (broadcasts.NullOrEmpty())
             {

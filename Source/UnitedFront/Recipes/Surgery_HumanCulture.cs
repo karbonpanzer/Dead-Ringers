@@ -26,7 +26,7 @@ namespace UnitedFront.Recipes
 
             if (recipe.addsHediff != null)
             {
-                Hediff hediff = HediffMaker.MakeHediff(recipe.addsHediff, pawn);
+                Verse.Hediff hediff = HediffMaker.MakeHediff(recipe.addsHediff, pawn);
                 pawn.health.AddHediff(hediff);
             }
             

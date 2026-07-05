@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="UFR_BioImplantBase" ParentName="BodyPartBionicBase" Abstract="True">
+  <ThingDef Name="UFR_BioImplantBase" ParentName="UFR_BioAugmentBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <thingSetMakerTags Inherit="False" />
     <recipeMaker>

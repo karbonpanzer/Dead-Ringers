@@ -40,4 +40,10 @@
 		<parent>WeaponsRanged</parent>
 	</ThingCategoryDef-->
 
+	<ThingCategoryDef>
+		<defName>BodyPartsVatgrown</defName>
+		<label>vatgrown</label>
+		<parent>BodyParts</parent>
+    </ThingCategoryDef>	
+
 </Defs>

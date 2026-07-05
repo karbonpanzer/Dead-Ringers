@@ -8,17 +8,14 @@
     <label>listening to netcast</label>
     <description>Currently gaining recreation from a nearby netcast broadcast.</description>
     <defaultLabelColor>(0.6, 0.85, 0.6)</defaultLabelColor>
-    <isBad>false</isBad>
-    <initialSeverity>1</initialSeverity>
     <maxSeverity>1</maxSeverity>
-    <scenarioCanAdd>false</scenarioCanAdd>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>255</disappearsAfterTicks>
         <showRemainingTime>false</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath" />
-      <li Class="UnitedFront.Health.HediffCompProperties_NetcastJoy" />
+      <li Class="UnitedFront.Hediff.HediffCompProperties_NetcastJoy" />
     </comps>
     <stages>
       <li>
@@ -34,10 +31,7 @@
     <label>motivated broadcast</label>
     <description>Buoyed by a motivational netcast program.</description>
     <defaultLabelColor>(0.85, 0.75, 0.5)</defaultLabelColor>
-    <isBad>false</isBad>
-    <initialSeverity>1</initialSeverity>
     <maxSeverity>1</maxSeverity>
-    <scenarioCanAdd>false</scenarioCanAdd>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>255</disappearsAfterTicks>
@@ -61,10 +55,7 @@
     <label>calming broadcast</label>
     <description>Soothed by a calming netcast program.</description>
     <defaultLabelColor>(0.55, 0.7, 0.9)</defaultLabelColor>
-    <isBad>false</isBad>
-    <initialSeverity>1</initialSeverity>
     <maxSeverity>1</maxSeverity>
-    <scenarioCanAdd>false</scenarioCanAdd>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>255</disappearsAfterTicks>

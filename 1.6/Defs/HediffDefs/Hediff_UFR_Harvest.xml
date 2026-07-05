@@ -6,8 +6,9 @@
     <label>lab-grown culture</label>
     <description>A flask of viable tissue culture, harvested via surgical extraction from a humanoid donor. Seeded into the culture tank of a Bio-Augment Bench, this stock can be sculpted into vat-grown replacement organs and limbs.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Medicine/MedicineIndustrial</texPath>
+      <texPath>Things/Item/DNACulture</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.65</drawSize>
     </graphicData>
     <stackLimit>25</stackLimit>
     <statBases>

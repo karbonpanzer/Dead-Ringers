@@ -2,7 +2,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace UnitedFront.Health
+namespace UnitedFront.Hediff
 {
     public class HediffCompProperties_NetcastJoy : HediffCompProperties
     {
@@ -19,7 +19,7 @@ namespace UnitedFront.Health
 
         public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
-            Need_Joy joy = Pawn.needs?.joy;
+            Need_Joy? joy = Pawn.needs?.joy;
             if (joy == null)
             {
                 return;
@@ -29,20 +29,15 @@ namespace UnitedFront.Health
             {
                 return;
             }
-            if (joyKind != null)
-            {
-                amount *= joy.tolerances.JoyFactorFromTolerance(joyKind);
-            }
+
+            amount *= joy.tolerances.JoyFactorFromTolerance(joyKind);
             amount = Mathf.Min(amount, 1f - joy.CurLevel);
             if (amount <= 0f)
             {
                 return;
             }
             joy.CurLevel += amount;
-            if (joyKind != null)
-            {
-                joy.tolerances.Notify_JoyGained(amount, joyKind);
-            }
+            joy.tolerances.Notify_JoyGained(amount, joyKind);
         }
 
         public override void CompExposeData()

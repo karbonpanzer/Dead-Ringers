@@ -239,7 +239,7 @@
       </li>
       <li Class="UnitedFront.Comps.CompPropertiesNetcastRadio">
         <hediffDef>UFR_Netcast_Listening</hediffDef>
-        <joyKind>HighCulture</joyKind>
+        <joyKind>UFR_Netcast</joyKind>
         <radius>6</radius>
         <requiresPower>true</requiresPower>
         <tickRate>250</tickRate>
@@ -288,7 +288,7 @@
     <designationHotKey>Misc7</designationHotKey>
     <constructEffect>ConstructMetal</constructEffect>
     <placeWorkers>
-      <li>UnitedFront.Comps.PlaceWorker_NetcastRadius</li>
+      <li>UnitedFront.PlaceWorker.PlaceWorker_NetcastRadius</li>
     </placeWorkers>
   </ThingDef>
  
