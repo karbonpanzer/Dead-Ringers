@@ -14,7 +14,6 @@ namespace UnitedFront.Comps
 
     public class CompPropertiesNetcastRadio : CompProperties
     {
-        public HediffDef hediffDef = null!;
         public JoyKindDef joyKind = null!;
         public List<NetcastBroadcast> broadcasts = null!;
         public float radius = 6f;

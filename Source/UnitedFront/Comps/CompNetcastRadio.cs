@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using RimWorld;
-using UnitedFront.Hediff;
 using Verse;
 
 namespace UnitedFront.Comps
@@ -28,6 +27,8 @@ namespace UnitedFront.Comps
                 return Props.broadcasts[_currentIndex];
             }
         }
+
+        private float JoyPerTick => JoyTunings.BaseJoyGainPerHour / GenDate.TicksPerHour;
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
@@ -101,7 +102,8 @@ namespace UnitedFront.Comps
             {
                 return;
             }
-            GiveOrRefreshJoy(pawn, broadcast);
+            float joyAmount = broadcast.joyGainRate * Props.tickRate * JoyPerTick;
+            pawn.needs.joy.GainJoy(joyAmount, Props.joyKind);
             if (broadcast.bonusHediff != null)
             {
                 GiveOrRefreshHediff(pawn, broadcast.bonusHediff);
@@ -136,35 +138,9 @@ namespace UnitedFront.Comps
             return false;
         }
 
-        private void GiveOrRefreshJoy(Pawn pawn, NetcastBroadcast broadcast)
-        {
-            Verse.Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(Props.hediffDef);
-            if (hediff == null)
-            {
-                hediff = HediffMaker.MakeHediff(Props.hediffDef, pawn);
-                hediff.Severity = 1f;
-                pawn.health.AddHediff(hediff);
-            }
-            HediffCompNetcastJoy joyComp = hediff.TryGetComp<HediffCompNetcastJoy>();
-            if (joyComp != null)
-            {
-                joyComp.joyGainRate = broadcast.joyGainRate;
-                joyComp.joyKind = Props.joyKind;
-            }
-            HediffComp_Disappears disappears = hediff.TryGetComp<HediffComp_Disappears>();
-            if (disappears == null)
-            {
-                Log.ErrorOnce("CompNetcastRadio has a hediffDef without a HediffComp_Disappears: " + Props.hediffDef.defName, 74829611);
-            }
-            else
-            {
-                disappears.ticksToDisappear = Props.tickRate + 5;
-            }
-        }
-
         private void GiveOrRefreshHediff(Pawn pawn, HediffDef def)
         {
-            Verse.Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(def);
+            Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(def);
             if (hediff == null)
             {
                 hediff = HediffMaker.MakeHediff(def, pawn);

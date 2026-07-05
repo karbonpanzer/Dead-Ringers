@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Listening To Netcast -->
-  <HediffDef>
-    <defName>UFR_Netcast_Listening</defName>
-    <hediffClass>HediffWithComps</hediffClass>
-    <label>listening to netcast</label>
-    <description>Currently gaining recreation from a nearby netcast broadcast.</description>
-    <defaultLabelColor>(0.6, 0.85, 0.6)</defaultLabelColor>
-    <maxSeverity>1</maxSeverity>
-    <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>255</disappearsAfterTicks>
-        <showRemainingTime>false</showRemainingTime>
-      </li>
-      <li Class="HediffCompProperties_DisappearsOnDeath" />
-      <li Class="UnitedFront.Hediff.HediffCompProperties_NetcastJoy" />
-    </comps>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-  </HediffDef>
-
   <!-- Netcast: Motivated -->
   <HediffDef>
     <defName>UFR_Netcast_Motivated</defName>
