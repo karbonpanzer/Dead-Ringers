@@ -65,10 +65,10 @@
     <designationCategory>Joy</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>UFR_HolographicEntertainment</li>
     </researchPrerequisites>
     <building>
-      <joyKind>Television</joyKind>
+      <joyKind>Gaming_Cerebral</joyKind>
       <watchBuildingStandDistanceRange>2~4</watchBuildingStandDistanceRange>
       <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
       <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
@@ -223,6 +223,12 @@
       <Steel>120</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+    <building>
+      <joyKind>UFR_Netcast</joyKind>
+      <watchBuildingStandDistanceRange>1~4</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>4</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+    </building>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
