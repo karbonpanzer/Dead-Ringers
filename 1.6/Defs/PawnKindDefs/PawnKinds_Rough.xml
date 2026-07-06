@@ -149,10 +149,6 @@
         <combatPower>70</combatPower>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
-        <weaponTags Inherit="False">
-            <li>UFR_UFSidearm</li>
-            <li>UFR_UFCarbine</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -187,9 +183,6 @@
         <weaponMoney>2000~2500</weaponMoney>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>25~35</initialResistanceRange>
-        <weaponTags Inherit="False">
-            <li>UFR_UFMelee</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Melee</skill>
@@ -217,9 +210,6 @@
         <labelPlural>mercenaries</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>105</combatPower>
-        <weaponTags Inherit="False">
-            <li>UFR_UFRifle</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -255,9 +245,6 @@
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>105</combatPower>
         <weaponMoney>2000~2800</weaponMoney>
-        <weaponTags Inherit="False">
-            <li>UFR_UFMelee</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Melee</skill>
@@ -290,12 +277,6 @@
         <combatPower>130</combatPower>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
-        <weaponTags Inherit="False">
-            <li>UFR_UFRifle</li>
-            <li>UFR_UFShotgun</li>
-            <li>UFR_UFMarksmanGun</li>
-            <li>UFR_UFDMR</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -333,9 +314,6 @@
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
         <weaponMoney>3700~5000</weaponMoney>
-        <weaponTags Inherit="False">
-            <li>UFR_UFEliteMelee</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Melee</skill>
@@ -379,10 +357,6 @@
         </techHediffsTags>
         <initialWillRange>6~8</initialWillRange>
         <initialResistanceRange>30~40</initialResistanceRange>
-        <weaponTags Inherit="False">
-            <li>UFR_UFCarbine</li>
-            <li>UFR_UFHeavyPistol</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Social</skill>
@@ -435,10 +409,6 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
-        <weaponTags Inherit="False">
-            <li>UFR_UFSidearm</li>
-            <li>UFR_UFCarbine</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Medicine</skill>
@@ -472,10 +442,6 @@
         <labelPlural>sappers</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>80</combatPower>
-        <weaponTags Inherit="False">
-            <li>UFR_UFCarbine</li>
-            <li>UFR_UFShotgun</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Construction</skill>
@@ -514,11 +480,6 @@
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>110</combatPower>
         <weaponMoney>1950~2550</weaponMoney>
-        <weaponTags Inherit="False">
-            <li>UFR_UFCarbine</li>
-            <li>UFR_UFHeavyPistol</li>
-            <li>UFR_UFDMR</li>
-        </weaponTags>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -553,9 +514,6 @@
         <combatPower>140</combatPower>
         <minGenerationAge>25</minGenerationAge>
         <maxGenerationAge>40</maxGenerationAge>
-        <weaponTags Inherit="False">
-            <li>UFR_UFHeavyPistol</li>
-        </weaponTags>
         <modExtensions>
             <li Class="UnitedFront.Decal.DecalKindExtension">
                 <armorDecalPath>Things/Decals/skullspear</armorDecalPath>

@@ -63,10 +63,10 @@
                 <armorPenetration>0.50</armorPenetration>
             </li>
         </tools>
-        <weaponTags>
-            <li>UFR_UFMelee</li>
-            <li>UFR_UFEliteMelee</li>
-        </weaponTags>
+          <weaponTags>
+    <li>UFR_UFMelee</li>
+    <li>UFR_UFEliteMelee</li>
+  </weaponTags>
         <thingSetMakerTags>
             <li>RewardHighTech</li>
         </thingSetMakerTags>
@@ -136,10 +136,10 @@
             </extraMeleeDamages>
             </li>
         </tools>
-        <weaponTags>
-            <li>UFR_UFMelee</li>
-            <li>UFR_UFEliteMelee</li>
-        </weaponTags>
+          <weaponTags>
+    <li>UFR_UFMelee</li>
+    <li>UFR_UFEliteMelee</li>
+  </weaponTags>
         <thingSetMakerTags>
             <li>RewardHighTech</li>
         </thingSetMakerTags>
@@ -212,9 +212,9 @@
                 <armorPenetration>0.40</armorPenetration>
             </li>
         </tools>
-        <weaponTags>
-            <li>UFR_UFMelee</li>
-        </weaponTags>
+          <weaponTags>
+    <li>UFR_UFMelee</li>
+  </weaponTags>
         <thingSetMakerTags>
             <li>RewardStandardHighTech</li>
         </thingSetMakerTags>

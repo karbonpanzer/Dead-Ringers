@@ -74,9 +74,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>UFR_UFPistol</li>
-    </weaponTags>
+      <weaponTags>
+    <li>UFR_UFSidearm</li>
+  </weaponTags>
     <tools>
       <li>
         <label>grip</label>
@@ -180,9 +180,10 @@
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>UFR_UFRifle</li>
-    </weaponTags>
+      <weaponTags>
+    <li>UFR_UFRifle</li>
+    <li>UFR_UFEliteRifle</li>
+  </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -284,9 +285,10 @@
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>UFR_UFSniper</li>
-    </weaponTags>
+      <weaponTags>
+    <li>UFR_UFHeavy</li>
+    <li>UFR_UFEliteHeavy</li>
+  </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -346,10 +348,10 @@
       <MeleeWeapon_AverageArmorPenetration>0.80</MeleeWeapon_AverageArmorPenetration>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
-    <weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-      <li>UFR_IonPlasmaSword</li>
-    </weaponTags>
+      <weaponTags>
+    <li>UFR_UFMelee</li>
+    <li>UFR_UFEliteMelee</li>
+  </weaponTags>
     <tools>
       <li>
         <label>handle</label>
