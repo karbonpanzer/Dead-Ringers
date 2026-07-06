@@ -127,7 +127,7 @@
         <thingDefCountRange>3~4</thingDefCountRange>
         <totalPriceRange>700~1500</totalPriceRange>
       </li>
-      <!-- Techprints & Decoders -->
+      <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
@@ -139,10 +139,6 @@
             <chance>0.5</chance>
           </li>
         </countChances>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_Decoder</thingDef>
-        <countRange>1~2</countRange>
       </li>
       <!-- Books -->
       <li Class="StockGenerator_Category">
@@ -177,7 +173,6 @@
         <thingDefs>
           <li>UFR_TricoilRifle</li>
           <li>UFR_CoilCannon</li>
-          <li>UFR_CoilMG</li>
         </thingDefs>
         <countRange>0~2</countRange>
       </li>
@@ -240,11 +235,6 @@
         <thingDef>Telescope</thingDef>
         <countRange>0~1</countRange>
       </li>
-      <!-- Faction prestige building -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_Gamesphere</thingDef>
-        <countRange>0~2</countRange>
-      </li>
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
@@ -258,7 +248,6 @@
         <excludedThingDefs>
           <li>Luciferium</li>
           <li>ComponentSpacer</li>
-          <li>UFR_Decoder</li>
         </excludedThingDefs>
         <customCountRanges>
           <MedicineUltratech>2~15</MedicineUltratech>

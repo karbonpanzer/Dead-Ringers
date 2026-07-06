@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+ 
+    <ResearchProjectDef>
+        <defName>UFR_BioAugments</defName>
+        <label>Bio-Augments</label>
+        <description>Construct vat-grown organic prosthetics that replace lost limbs and organs with genetically engineered biological replacements. Reinforced bone structure, denser musculature, and combat-grade tissue augmentations. Requires analysis of a medical decoder.</description>
+        <baseCost>2400</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>UFR_AdvancedFabricationMethods</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>5.6</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_AdvancedBioAugments</defName>
+        <label>Advanced Bio-Augments</label>
+        <description>Construct perfected vat-grown organic augments that push biological engineering to its practical ceiling. Enhanced organ function, optimized sensory replacements, and combat-grade limb augmentations engineered for elite frontline personnel.</description>
+        <baseCost>3200</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Ultra</techLevel>
+        <prerequisites>
+            <li>UFR_BioAugments</li>
+        </prerequisites>
+        <requiredAnalyzed>
+            <li>UFR_MedicalDecoder</li>
+        </requiredAnalyzed>        
+        <researchViewX>2</researchViewX>
+        <researchViewY>5.6</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="UFR_EnhancedVatGrownPartBase" ParentName="UFR_BioAugmentBase" Abstract="True">
+    <thingSetMakerTags Inherit="False" />
+    <recipeMaker>
+      <researchPrerequisite>UFR_AdvancedBioAugments</researchPrerequisite>
+      <recipeUsers>
+        <li>UFR_BioAugmentBench</li>
+      </recipeUsers>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Enhanced Vat-Grown Arm -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownArm</defName>
+    <label>enhanced vat-grown arm</label>
+    <description>A vat-grown arm refined beyond the standard model. Denser musculature, stronger tendons, and better neural integration make it both more capable and more resilient than a base vat-grown arm.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownArm</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>3200</MarketValue><Mass>2.4</Mass></statBases>
+    <costList><UFR_VatGrownArm>1</UFR_VatGrownArm><UFR_LabGrownCulture>8</UFR_LabGrownCulture><Neutroamine>8</Neutroamine><Plasteel>5</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>12000</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownArm</defName>
+    <label>enhanced vat-grown arm</label>
+    <labelNoun>an enhanced vat-grown arm</labelNoun>
+    <description>An installed enhanced vat-grown arm. Superior musculature and finer motor control over the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownArm</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.45</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownArm</defName>
+    <label>install enhanced vat-grown arm</label>
+    <description>Install an enhanced vat-grown arm.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownArm</ThingDef><HediffDef>UFR_EnhancedVatGrownArm</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown arm.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownArm</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownArm</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Shoulder</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownArm</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Leg -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownLeg</defName>
+    <label>enhanced vat-grown leg</label>
+    <description>A vat-grown leg refined beyond the standard model. Reinforced bone, engineered tendons, and improved circulation.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownLeg</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>3200</MarketValue><Mass>2.9</Mass></statBases>
+    <costList><UFR_VatGrownLeg>1</UFR_VatGrownLeg><UFR_LabGrownCulture>8</UFR_LabGrownCulture><Neutroamine>8</Neutroamine><Plasteel>5</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>12000</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownLeg</defName>
+    <label>enhanced vat-grown leg</label>
+    <labelNoun>an enhanced vat-grown leg</labelNoun>
+    <description>An installed enhanced vat-grown leg. Superior musculature and load-bearing capacity over the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownLeg</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownLeg</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.45</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownLeg</defName>
+    <label>install enhanced vat-grown leg</label>
+    <description>Install an enhanced vat-grown leg.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownLeg</ThingDef><HediffDef>UFR_EnhancedVatGrownLeg</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown leg.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownLeg</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownLeg</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Leg</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownLeg</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Hand -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownHand</defName>
+    <label>enhanced vat-grown hand</label>
+    <description>A vat-grown hand refined for finer manipulation. Sub-millimeter motor precision and improved sensory integration.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownHand</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>1600</MarketValue><Mass>1.0</Mass></statBases>
+    <costList><UFR_VatGrownHand>1</UFR_VatGrownHand><UFR_LabGrownCulture>4</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>3</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>8000</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownHand</defName>
+    <label>enhanced vat-grown hand</label>
+    <labelNoun>an enhanced vat-grown hand</labelNoun>
+    <description>An installed enhanced vat-grown hand. Finer dexterity than the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownHand</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownHand</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.4</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownHand</defName>
+    <label>install enhanced vat-grown hand</label>
+    <description>Install an enhanced vat-grown hand.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownHand</ThingDef><HediffDef>UFR_EnhancedVatGrownHand</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown hand.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownHand</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownHand</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Hand</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownHand</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Foot -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownFoot</defName>
+    <label>enhanced vat-grown foot</label>
+    <description>A vat-grown foot refined for stability and endurance. Reinforced metatarsals and improved ankle bracing.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownFoot</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>1600</MarketValue><Mass>1.0</Mass></statBases>
+    <costList><UFR_VatGrownFoot>1</UFR_VatGrownFoot><UFR_LabGrownCulture>4</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>3</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>8000</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownFoot</defName>
+    <label>enhanced vat-grown foot</label>
+    <labelNoun>an enhanced vat-grown foot</labelNoun>
+    <description>An installed enhanced vat-grown foot. Improved stability over the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownFoot</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownFoot</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.4</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownFoot</defName>
+    <label>install enhanced vat-grown foot</label>
+    <description>Install an enhanced vat-grown foot.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownFoot</ThingDef><HediffDef>UFR_EnhancedVatGrownFoot</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown foot.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownFoot</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownFoot</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Foot</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownFoot</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Eye -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownEye</defName>
+    <label>enhanced vat-grown eye</label>
+    <description>A vat-grown eye refined for sharper acuity. Higher-density photoreceptors and improved target acquisition.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownEye</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>2400</MarketValue><Mass>0.3</Mass></statBases>
+    <costList><UFR_VatGrownEye>1</UFR_VatGrownEye><UFR_LabGrownCulture>4</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>3</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>8500</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownEye</defName>
+    <label>enhanced vat-grown eye</label>
+    <labelNoun>an enhanced vat-grown eye</labelNoun>
+    <description>An installed enhanced vat-grown eye. Sharper acuity and better target acquisition than the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownEye</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownEye</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.45</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownEye</defName>
+    <label>install enhanced vat-grown eye</label>
+    <description>Install an enhanced vat-grown eye.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownEye</ThingDef><HediffDef>UFR_EnhancedVatGrownEye</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown eye.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownEye</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownEye</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Eye</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownEye</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Ear -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownEar</defName>
+    <label>enhanced vat-grown ear</label>
+    <description>A vat-grown ear refined for sharper hearing. Higher-density hair cells and improved audio processing.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownEar</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>2000</MarketValue><Mass>0.3</Mass></statBases>
+    <costList><UFR_VatGrownEar>1</UFR_VatGrownEar><UFR_LabGrownCulture>4</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>3</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>8500</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownEar</defName>
+    <label>enhanced vat-grown ear</label>
+    <labelNoun>an enhanced vat-grown ear</labelNoun>
+    <description>An installed enhanced vat-grown ear. Sharper hearing than the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownEar</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownEar</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.45</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownEar</defName>
+    <label>install enhanced vat-grown ear</label>
+    <description>Install an enhanced vat-grown ear.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownEar</ThingDef><HediffDef>UFR_EnhancedVatGrownEar</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown ear.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownEar</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownEar</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Ear</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownEar</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Nose -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownNose</defName>
+    <label>enhanced vat-grown nose</label>
+    <description>A vat-grown nose refined for finer olfactory acuity and airway filtration.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownNose</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>1300</MarketValue><Mass>0.2</Mass></statBases>
+    <costList><UFR_VatGrownNose>1</UFR_VatGrownNose><UFR_LabGrownCulture>3</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>2</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>6500</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownNose</defName>
+    <label>enhanced vat-grown nose</label>
+    <labelNoun>an enhanced vat-grown nose</labelNoun>
+    <description>An installed enhanced vat-grown nose. Improved acuity and filtration.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownNose</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownNose</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.4</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownNose</defName>
+    <label>install enhanced vat-grown nose</label>
+    <description>Install an enhanced vat-grown nose.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownNose</ThingDef><HediffDef>UFR_EnhancedVatGrownNose</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown nose.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownNose</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownNose</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Nose</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownNose</addsHediff>
+  </RecipeDef>
+
+  <!-- Enhanced Vat-Grown Jaw -->
+  <ThingDef ParentName="UFR_EnhancedVatGrownPartBase">
+    <defName>UFR_EnhancedVatGrownJaw</defName>
+    <label>enhanced vat-grown jaw</label>
+    <description>A vat-grown jaw refined for superior bite strength and articulation. Reinforced bone and rebuilt musculature.</description>
+    <descriptionHyperlinks><RecipeDef>UFR_InstallEnhancedVatGrownJaw</RecipeDef></descriptionHyperlinks>
+    <statBases><MarketValue>2000</MarketValue><Mass>0.4</Mass></statBases>
+    <costList><UFR_VatGrownJaw>1</UFR_VatGrownJaw><UFR_LabGrownCulture>4</UFR_LabGrownCulture><Neutroamine>4</Neutroamine><Plasteel>3</Plasteel><ComponentSpacer>2</ComponentSpacer></costList>
+    <recipeMaker><workAmount>7500</workAmount></recipeMaker>
+  </ThingDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>UFR_EnhancedVatGrownJaw</defName>
+    <label>enhanced vat-grown jaw</label>
+    <labelNoun>an enhanced vat-grown jaw</labelNoun>
+    <description>An installed enhanced vat-grown jaw. Superior bite and articulation over the base model.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownJaw</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>UFR_EnhancedVatGrownJaw</spawnThingOnRemoved>
+    <addedPartProps><solid>false</solid><partEfficiency>1.45</partEfficiency><betterThanNatural>true</betterThanNatural></addedPartProps>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>UFR_InstallEnhancedVatGrownJaw</defName>
+    <label>install enhanced vat-grown jaw</label>
+    <description>Install an enhanced vat-grown jaw.</description>
+    <descriptionHyperlinks><ThingDef>UFR_EnhancedVatGrownJaw</ThingDef><HediffDef>UFR_EnhancedVatGrownJaw</HediffDef></descriptionHyperlinks>
+    <jobString>Installing enhanced vat-grown jaw.</jobString>
+    <ingredients><li><filter><thingDefs><li>UFR_EnhancedVatGrownJaw</li></thingDefs></filter><count>1</count></li></ingredients>
+    <fixedIngredientFilter><thingDefs><li>UFR_EnhancedVatGrownJaw</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Jaw</li></appliedOnFixedBodyParts>
+    <addsHediff>UFR_EnhancedVatGrownJaw</addsHediff>
+  </RecipeDef>
+
+</Defs>

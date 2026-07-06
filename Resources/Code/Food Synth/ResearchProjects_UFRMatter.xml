@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>UFR_MatterRecombination</defName>
+        <label>Matter-Recombination</label>
+        <description>Construct food synthesizers that produce nutrient packs from raw biomass and chemicals via molecular recombination, eliminating the need for agriculture in hostile climates. Requires analysis of a utility decoder.</description>
+        <baseCost>1600</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Ultra</techLevel>
+        <requiredAnalyzed>
+            <li>UFR_UtilityDecoder</li>
+        </requiredAnalyzed>
+        <researchViewX>8</researchViewX>
+        <researchViewY>4.2</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

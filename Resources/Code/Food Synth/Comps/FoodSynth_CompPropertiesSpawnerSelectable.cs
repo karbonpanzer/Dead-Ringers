@@ -20,7 +20,7 @@ namespace UnitedFront.Comps
 
         public CompPropertiesSpawnerSelectable()
         {
-            compClass = typeof(CompSpawnerSelectable);
+            compClass = typeof(FoodSynth_CompSpawnerSelectable);
         }
         
         public override IEnumerable<string> ConfigErrors(ThingDef parentDef)

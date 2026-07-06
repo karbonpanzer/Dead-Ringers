@@ -96,11 +96,6 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
       </li>
-      <!-- Decoders -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_Decoder</thingDef>
-        <countRange>1~1</countRange>
-      </li>
       <!-- Books -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>TextBook</thingDef>
@@ -294,11 +289,6 @@
         <thingDef>UFR_FlufflonLeather</thingDef>
         <countRange>30~80</countRange>
       </li>
-      <!-- Decoders -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_Decoder</thingDef>
-        <countRange>1~1</countRange>
-      </li>
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
@@ -329,7 +319,6 @@
         <thingDefs>
           <li>UFR_TricoilRifle</li>
           <li>UFR_CoilCannon</li>
-          <li>UFR_CoilMG</li>
         </thingDefs>
         <countRange>0~2</countRange>
       </li>
@@ -359,11 +348,6 @@
         <thingDef>Telescope</thingDef>
         <countRange>0~1</countRange>
       </li>
-      <!-- Faction prestige building -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_Gamesphere</thingDef>
-        <countRange>0~2</countRange>
-      </li>
       <!-- Exotic misc -->
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
@@ -372,7 +356,6 @@
         <excludedThingDefs>
           <li>MedicineUltratech</li>
           <li>ComponentSpacer</li>
-          <li>UFR_Decoder</li>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
         </excludedThingDefs>
         <customCountRanges>

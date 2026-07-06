@@ -10,9 +10,6 @@
         <prerequisites>
             <li>Fabrication</li>
         </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_Decoder</li>
-        </requiredAnalyzed>
         <researchViewX>0</researchViewX>
         <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
@@ -251,35 +248,6 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_MagneticCoilTurret</defName>
-        <label>Magnetic Coil Turret</label>
-        <description>Construct stationary coil turrets for base defense. Slow-firing but accurate, capable of penetrating standard armor at range.</description>
-        <baseCost>2000</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_MagneticCoilManufacturing</li>
-        </prerequisites>
-        <researchViewX>4</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_ReinforcedMagneticCoilTurret</defName>
-        <label>Reinforced Magnetic Coil Turret</label>
-        <description>Construct heavy coil turret emplacements with anti-armor capability. Designed to engage vehicles and mechanoid threats.</description>
-        <baseCost>2800</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_MagneticCoilTurret</li>
-            <li>UFR_AdvancedCoilFabrication</li>
-        </prerequisites>
-        <researchViewX>5</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>UFR_HeavyIonPlasmaWeaponry</defName>
         <label>Heavy Ion-Plasma Weaponry</label>
         <description>Construct ultratech plasma weapons that channel ionized plasma streams capable of melting through armor and structure alike. Requires analysis of a weapons decoder.</description>
@@ -294,23 +262,6 @@
         </requiredAnalyzed>
         <researchViewX>7</researchViewX>
         <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_IonPlasmaTurrets</defName>
-        <label>Ion-Plasma Turrets</label>
-        <description>Construct ultratech plasma turret emplacements for sustained area denial. Capable of engaging multiple armored targets simultaneously.</description>
-        <baseCost>4000</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_IonizedGasRefinement</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_WeaponsDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>7</researchViewX>
-        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -330,94 +281,4 @@
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
-    <ResearchProjectDef>
-        <defName>UFR_MatterRecombination</defName>
-        <label>Matter-Recombination</label>
-        <description>Construct food synthesizers that produce nutrient packs from raw biomass and chemicals via molecular recombination, eliminating the need for agriculture in hostile climates. Requires analysis of a utility decoder.</description>
-        <baseCost>1600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <requiredAnalyzed>
-            <li>UFR_UtilityDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>8</researchViewX>
-        <researchViewY>4.2</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_BioAugments</defName>
-        <label>Bio-Augments</label>
-        <description>Construct vat-grown organic prosthetics that replace lost limbs and organs with genetically engineered biological replacements. Reinforced bone structure, denser musculature, and combat-grade tissue augmentations. Requires analysis of a medical decoder.</description>
-        <baseCost>2400</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
-        </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>5.6</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_AdvancedBioAugments</defName>
-        <label>Advanced Bio-Augments</label>
-        <description>Construct perfected vat-grown organic augments that push biological engineering to its practical ceiling. Enhanced organ function, optimized sensory replacements, and combat-grade limb augmentations engineered for elite frontline personnel.</description>
-        <baseCost>3200</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_BioAugments</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_MedicalDecoder</li>
-        </requiredAnalyzed>        
-        <researchViewX>2</researchViewX>
-        <researchViewY>5.6</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_FrontierEntertainment</defName>
-        <label>Frontier Entertainment</label>
-        <description>Construct recreation items including the euchre table and wargaming table for off-duty United Front personnel.</description>
-        <baseCost>800</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>ComplexFurniture</li>
-        </prerequisites>
-        <researchViewX>4</researchViewX>
-        <researchViewY>5.6</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_NetcastingEntertainment</defName>
-        <label>Netcasting Entertainment</label>
-        <description>Construct mid-tier recreation devices that broadcast curated content over local networks for off-duty personnel.</description>
-        <baseCost>1600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>Fabrication</li>
-            <li>UFR_FrontierEntertainment</li>
-        </prerequisites>
-        <researchViewX>6</researchViewX>
-        <researchViewY>5.6</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_HolographicEntertainment</defName>
-        <label>Holographic Entertainment</label>
-        <description>Construct ultratech holographic recreation devices including the game sphere. Requires analysis of a utility decoder.</description>
-        <baseCost>2400</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_NetcastingEntertainment</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_UtilityDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>8</researchViewX>
-        <researchViewY>5.6</researchViewY>
-    </ResearchProjectDef>
 </Defs>

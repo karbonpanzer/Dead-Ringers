@@ -5,7 +5,7 @@ using Verse;
 
 namespace UnitedFront.Comps
 {
-    public class CompSpawnerSelectable : ThingComp
+    public class FoodSynth_CompSpawnerSelectable : ThingComp
     {
         private int _ticksUntilSpawn;
         private int _selectedIndex;

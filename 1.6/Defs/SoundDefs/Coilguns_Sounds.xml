@@ -88,5 +88,41 @@
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>     
+    </SoundDef>   
+    
+    <SoundDef>
+        <defName>UFR_Bolt_Plasma</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>3</maxSimultaneous>
+        <subSounds>
+            <li>
+            <grains>
+                <li Class="AudioGrain_Folder">
+                <clipFolderPath>Bolt_plasma</clipFolderPath>
+                </li>
+            </grains>
+            <volumeRange>55.2941~55.2941</volumeRange>
+            <pitchRange>1.85513~2.17787</pitchRange>
+            <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>  
+    
+    <SoundDef>
+        <defName>UFR_Bolt_Plasmacaster</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>3</maxSimultaneous>
+        <subSounds>
+            <li>
+            <grains>
+                <li Class="AudioGrain_Folder">
+                <clipFolderPath>Bolt_plasma</clipFolderPath>
+                </li>
+            </grains>
+            <volumeRange>55.2941~55.2941</volumeRange>
+            <pitchRange>1.35513~1.57787</pitchRange>
+            <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>      
 </Defs>

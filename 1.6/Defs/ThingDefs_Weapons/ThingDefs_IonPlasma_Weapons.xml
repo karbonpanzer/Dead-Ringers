@@ -69,7 +69,7 @@
         <defaultProjectile>UFR_Slug_IonPlasmaPistol</defaultProjectile>
         <warmupTime>0.55</warmupTime>
         <range>22.9</range>
-        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCast>UFR_Bolt_Plasma</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -173,9 +173,9 @@
         <defaultProjectile>UFR_Slug_IonPlasmaRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>36.9</range>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCast>UFR_Bolt_Plasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
@@ -279,7 +279,7 @@
         <defaultProjectile>UFR_Slug_IonPlasmaCaster</defaultProjectile>
         <warmupTime>3.3</warmupTime>
         <range>81.9</range>
-        <soundCast>Shot_ChargeLance</soundCast>
+        <soundCast>UFR_Bolt_Plasmacaster</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>

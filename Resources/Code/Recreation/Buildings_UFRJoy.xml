@@ -65,10 +65,10 @@
     <designationCategory>Joy</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <li>UFR_HolographicEntertainment</li>
+      <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
     <building>
-      <joyKind>Gaming_Cerebral</joyKind>
+      <joyKind>Television</joyKind>
       <watchBuildingStandDistanceRange>2~4</watchBuildingStandDistanceRange>
       <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
       <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
@@ -243,11 +243,7 @@
         <sound>UFR_Netcaster_Ambience</sound>
         <disabledOnUnpowered>true</disabledOnUnpowered>
       </li>
-      <li Class="UnitedFront.Comps.CompPropertiesNetcastRadio">
-        <joyKind>UFR_Netcast</joyKind>
-        <radius>6</radius>
-        <requiresPower>true</requiresPower>
-        <tickRate>250</tickRate>
+      <li Class="UnitedFront.Comps.CompPropertiesBroadcastSource">
         <rerollInterval>60000</rerollInterval>
         <broadcasts>
           <li>
@@ -284,6 +280,12 @@
             <weight>1</weight>
           </li>
         </broadcasts>
+      </li>
+      <li Class="UnitedFront.Comps.CompPropertiesBroadcastReceiver">
+        <joyKind>UFR_Netcast</joyKind>
+        <radius>6</radius>
+        <requiresPower>true</requiresPower>
+        <tickRate>250</tickRate>
       </li>
     </comps>
     <researchPrerequisites>
