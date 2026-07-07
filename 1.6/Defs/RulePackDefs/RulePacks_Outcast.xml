@@ -16,8 +16,6 @@
 				<li>r_name(p=5)->[socialist_adjective] [socialist_government] of [nearnameinitial]</li>
 				<li>r_name(p=4)->[nearnameinitial] [socialist_adjective] [socialist_government]</li>
 				<li>r_name(p=4)->[nearnameinitial] [socialist_government]</li>
-				<li>r_name(p=3)->The [nearnameinitial] Soviet</li>
-				<li>r_name(p=2)->[nearnameinitial] Soviet</li>
 
 				<li>r_name(p=2)->[nearnameinitial] [political_union_outcast]</li>
 				<li>r_name(p=3)->The [political_union_outcast] of [nearnameinitial]</li>

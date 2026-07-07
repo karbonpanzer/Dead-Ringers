@@ -17,6 +17,11 @@
             <armorPenetrationBase>0.40</armorPenetrationBase>
             <speed>110</speed>
         </projectile>
+        <comps>
+            <li Class="CompProperties_ProjectileEffecter">
+                <effecterDef>UFR_EffectLaunch_CoilGun_Pistol</effecterDef>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_CoilPistol">
@@ -103,8 +108,8 @@
         <label>coil rifle slug</label>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectile/slug_medium</texPath>
-            <drawSize>0.75</drawSize>
+            <texPath>Things/Projectile/slug_small</texPath>
+            <drawSize>1.0</drawSize>
             <shaderType>MoteGlow</shaderType>
         </graphicData>
         <projectile>
@@ -114,7 +119,12 @@
             <armorPenetrationBase>0.55</armorPenetrationBase>
             <speed>130</speed>
         </projectile>
-    </ThingDef>
+        <comps>
+            <li Class="CompProperties_ProjectileEffecter">
+                <effecterDef>UFR_EffectLaunch_CoilGun</effecterDef>
+            </li>
+        </comps>
+    </ThingDef>  
 
     <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_CoilRifle">
         <defName>UFR_CoilRifle</defName>
@@ -214,6 +224,11 @@
             <stoppingPower>4</stoppingPower>
             <speed>95</speed>
         </projectile>
+        <comps>
+            <li Class="CompProperties_ProjectileEffecter">
+                <effecterDef>UFR_EffectLaunch_CoilGun</effecterDef>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_CoilScattergun">
@@ -314,6 +329,11 @@
             <stoppingPower>4</stoppingPower>
             <speed>150</speed>
         </projectile>
+        <comps>
+            <li Class="CompProperties_ProjectileEffecter">
+                <effecterDef>UFR_EffectLaunch_CoilGun</effecterDef>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_CoilCannon">
@@ -405,7 +425,7 @@
         <label>tri-coil slug</label>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectile/slug_large</texPath>
+            <texPath>Things/Projectile/slug_small</texPath>
             <drawSize>1.0</drawSize>
             <shaderType>MoteGlow</shaderType>
         </graphicData>
@@ -416,6 +436,11 @@
             <armorPenetrationBase>0.85</armorPenetrationBase>
             <speed>160</speed>
         </projectile>
+        <comps>
+            <li Class="CompProperties_ProjectileEffecter">
+                <effecterDef>UFR_EffectLaunch_CoilGun_TriCoil</effecterDef>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_TricoilHeavyRifle">

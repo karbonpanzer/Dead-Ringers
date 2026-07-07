@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <PawnKindDef Name="UFR_MilitaryBase" Abstract="True">
     <race>Human</race>
@@ -38,7 +37,6 @@
       <li>Simple</li>
     </techHediffsTags>
   </PawnKindDef>
-  
   <PawnKindDef Name="UFR_LineRecruitBase" ParentName="UFR_LineFighterBase" Abstract="True">
     <itemQuality>Poor</itemQuality>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
@@ -50,11 +48,12 @@
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFRifle</li>
+      <li>UFR_UFIndustrialSidearm</li>
+      <li>UFR_UFIndustrialRifle</li>
+      <li>UFR_UFIndustrialSMG</li>
       <li>SimpleGun</li>
-      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_LineInfantryBase" ParentName="UFR_LineFighterBase" Abstract="True">
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <weaponMoney>3000~5000</weaponMoney>
@@ -63,10 +62,10 @@
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFRifle</li>
-      <li>IndustrialGunAdvanced</li>
+      <li>UFR_UFIndustrialRifle</li>
+      <li>UFR_UFIndustrialDMR</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_LineVeteranBase" ParentName="UFR_LineFighterBase" Abstract="True">
     <itemQuality>Good</itemQuality>
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
@@ -84,7 +83,6 @@
       <li>UFR_UFEliteHeavy</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_LeaderBase" ParentName="UFR_MilitaryBase" Abstract="True">
     <itemQuality>Good</itemQuality>
     <gearHealthRange>1.0~1.0</gearHealthRange>
@@ -103,13 +101,13 @@
       <li>Brawler</li>
       <li>Nudist</li>
     </disallowedTraits>
+    <weaponMoney>500~5000</weaponMoney>
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFEliteRifle</li>
+      <li>UFR_UFIndustrialHeavyPistol</li>
     </weaponTags>
-    <weaponMoney>500~5000</weaponMoney>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_SupportBase" ParentName="UFR_MilitaryBase" Abstract="True">
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <weaponMoney>500~2200</weaponMoney>
@@ -126,10 +124,11 @@
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFShotgun</li>
-      <li>IndustrialGunAdvanced</li>
+      <li>UFR_UFIndustrialShotgun</li>
+      <li>UFR_UFIndustrialSMG</li>
+      <li>UFR_UFIndustrialHeavy</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_ScoutBase" ParentName="UFR_MilitaryBase" Abstract="True">
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
     <weaponMoney>500~8500</weaponMoney>
@@ -152,9 +151,9 @@
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFMarksman</li>
+      <li>UFR_UFIndustrialDMR</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_ShocktrooperBase" ParentName="UFR_MilitaryBase" Abstract="True">
     <itemQuality>Good</itemQuality>
     <apparelAllowHeadgearChance>0.95</apparelAllowHeadgearChance>
@@ -181,9 +180,9 @@
     <weaponTags>
       <li>UFR_UFSidearm</li>
       <li>UFR_UFEliteMelee</li>
+      <li>UFR_UFIndustrialHeavyPistol</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_CivilianBase" Abstract="True">
     <race>Human</race>
     <invNutrition>2.55</invNutrition>
@@ -215,11 +214,12 @@
     <disallowedTraits>
       <li>Brawler</li>
     </disallowedTraits>
+    <weaponMoney>300~700</weaponMoney>
     <weaponTags>
       <li>UFR_UFSidearm</li>
+      <li>UFR_UFIndustrialSidearm</li>
       <li>SimpleGun</li>
     </weaponTags>
-    <weaponMoney>300~700</weaponMoney>
   </PawnKindDef>
   <PawnKindDef Name="UFR_LaborerBase" ParentName="UFR_CivilianBase" Abstract="True">
     <combatPower>25</combatPower>
@@ -235,7 +235,6 @@
       <li>Simple</li>
     </techHediffsTags>
   </PawnKindDef>
-
   <PawnKindDef Name="UFR_LeadershipBase" Abstract="True">
     <race>Human</race>
     <invNutrition>2.55</invNutrition>
@@ -271,10 +270,11 @@
     <disallowedTraits>
       <li>Brawler</li>
     </disallowedTraits>
+    <weaponMoney>300~700</weaponMoney>
     <weaponTags>
       <li>UFR_UFSidearm</li>
-      <li>SimpleGun</li>
+      <li>UFR_UFIndustrialHeavyPistol</li>
+      <li>UFR_UFIndustrialSidearm</li>
     </weaponTags>
-    <weaponMoney>300~700</weaponMoney>
   </PawnKindDef>
 </Defs>

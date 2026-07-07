@@ -23,7 +23,13 @@
           <amount>2</amount>
         </li>
       </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaPistol">
@@ -74,9 +80,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-      <weaponTags>
-    <li>UFR_UFSidearm</li>
-  </weaponTags>
+    <weaponTags>
+      <li>UFR_UFPistol</li>
+    </weaponTags>
     <tools>
       <li>
         <label>grip</label>
@@ -127,7 +133,13 @@
           <amount>3</amount>
         </li>
       </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaRifle">
@@ -180,10 +192,9 @@
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
     </verbs>
-      <weaponTags>
-    <li>UFR_UFRifle</li>
-    <li>UFR_UFEliteRifle</li>
-  </weaponTags>
+    <weaponTags>
+      <li>UFR_UFRifle</li>
+    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -234,7 +245,13 @@
           <amount>5</amount>
         </li>
       </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasmaCaster</effecterDef>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaCaster">
@@ -285,10 +302,9 @@
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
-      <weaponTags>
-    <li>UFR_UFHeavy</li>
-    <li>UFR_UFEliteHeavy</li>
-  </weaponTags>
+    <weaponTags>
+      <li>UFR_UFSniper</li>
+    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -348,10 +364,10 @@
       <MeleeWeapon_AverageArmorPenetration>0.80</MeleeWeapon_AverageArmorPenetration>
     </statBases>
     <equippedAngleOffset>-45</equippedAngleOffset>
-      <weaponTags>
-    <li>UFR_UFMelee</li>
-    <li>UFR_UFEliteMelee</li>
-  </weaponTags>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+      <li>UFR_IonPlasmaSword</li>
+    </weaponTags>
     <tools>
       <li>
         <label>handle</label>

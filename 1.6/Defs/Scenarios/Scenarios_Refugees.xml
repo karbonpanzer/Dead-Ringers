@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ScenarioDef ParentName="ScenarioBase">
-        <defName>UFR_ExiledCitizens</defName>
-        <label>Exiled Citizens</label>
-        <description>Your government walked away from the people generations before the mechanoids came, and the homeworld fell. Five of you slept the long sublight passage in a refugee cryoship. Now you wake to a new sky, the cause of the United Front still in your hands. More sleepers wait aboard.</description>
+        <defName>UFR_Diaspora</defName>
+        <label>Wandering refugees</label>
+        <description>Your government walked away from the people as the mechanoids came, and the homeworld fell. Five of you slept the long sublight passage in a refugee cryptoship. Now you wake to a new sky, the cause of the United Front still in your hands. More sleepers wait aboard.</description>
         <scenario>
             <summary>A small group of sublight refugees from a fallen industrial world, carrying forward the cause of the United Front.</summary>
             <playerFaction>
@@ -13,7 +13,7 @@
             <parts>
                 <li Class="ScenPart_GameStartDialog">
                     <def>GameStartDialog</def>
-                    <text>Your government walked away from the people generations before the mechanoids came, and the homeworld fell.\n\nFive of you slept the long sublight passage in a refugee cryoship.\n\nNow you wake to a new sky, the cause of the United Front is still in your hands.\n\nMore sleepers wait aboard. The work begins.</text>
+                    <text>Your government walked away from the people as the mechanoids came, and the homeworld fell.\n\nFive of you slept the long sublight passage in a refugee cryptoship.\n\nNow you wake to a new sky, the cause of the United Front is still in your hands.\n\nMore sleepers wait aboard. The work begins.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
@@ -37,13 +37,13 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>UFR_CoilScattergun</thingDef>
+                    <thingDef>UFR_LawbringerShotgun</thingDef>
                     <count>1</count>
                     <quality>Normal</quality>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>UFR_CoilPistol</thingDef>
+                    <thingDef>UFR_ServicePistol</thingDef>
                     <count>1</count>
                     <quality>Normal</quality>
                 </li>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Coil Guns -->
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_CoilGun</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_CoilGun</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef> 
+
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_CoilGun_Pistol</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_CoilGunPistol</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <positionOffset>(-0.15, 0.5, 0.0)</positionOffset>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef> 
+  
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_CoilGun_TriCoil</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_CoilGunTriCoil</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <positionOffset>(0.15, 0.5, 0.0)</positionOffset>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>   
+  
+  <!-- Not Used
+  <EffecterDef>
+    <defName>UFR_EffectImpact_CoilGun</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_Coilgun_Blast</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.75</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_Coilgun_Aura</fleckDef>
+        <burstCount>1~2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1.75~2.25</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_Coilgun_Glare</fleckDef>
+        <burstCount>2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1.50~2.00</scale>
+      </li>
+    </children>
+  </EffecterDef-->  
+
+  <!-- Ion-Plasma -->
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_IonPlasma</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_IonPlasma</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_IonPlasmaCaster</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_IonPlasmaCaster</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <positionOffset>(0.15, 0.5, -0.2)</positionOffset>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>UFR_EffectImpact_IonPlasma</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_IonPlasma_Blast</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.75</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_IonPlasma_Aura</fleckDef>
+        <burstCount>1~2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1.75~2.25</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_IonPlasma_Glare</fleckDef>
+        <burstCount>2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1.50~2.00</scale>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Service Pistol -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_ServicePistol</defName>
+    <label>service pistol round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_ServicePistol</defName>
+    <label>Service Pistol</label>
+    <description>A semi-automatic pistol chambered in a large caliber. Its heavy weight makes it cumbersome, but the weight provides easier handling and control, allowing more accurate shots to be made.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/servicepistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_ServicePistol</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>22</range>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialSidearm</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Assault Pistol -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_AssaultPistol</defName>
+    <label>assault pistol round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <armorPenetrationBase>0.32</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_AssaultPistol</defName>
+    <label>Assault Pistol</label>
+    <description>A heavy caliber pistol favored by pirates and mercenaries. Powerful and weighty, it can easily pierce armor at close range. Though it lacks in the ability to hit at a distance.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/assaultpistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.48</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_AssaultPistol</defaultProjectile>
+        <warmupTime>0.45</warmupTime>
+        <range>22</range>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialSidearm</li>
+      <li>UFR_UFIndustrialHeavyPistol</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Stampede Revolver -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_StampedeRevolver</defName>
+    <label>stampede revolver round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.26</armorPenetrationBase>
+      <speed>75</speed>
+      <stoppingPower>1.5</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_StampedeRevolver</defName>
+    <label>Stampede Revolver</label>
+    <description>A large frame revolver often seen with mercenaries. Despite its size, it is light and powerful, thanks to its advanced manufacturing and specialized high power ammunition.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/stampederevolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_StampedeRevolver</defaultProjectile>
+        <warmupTime>0.45</warmupTime>
+        <range>24</range>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialSidearm</li>
+      <li>UFR_UFIndustrialHeavyPistol</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Advanced SMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_AdvancedSMG</defName>
+    <label>advanced SMG round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_AdvancedSMG</defName>
+    <label>Advanced SMG</label>
+    <description>A state of the art sub-machinegun built with lightweight polymers and advanced alloys. Light, accurate, and easy to use, it has found usage in hundreds of colonies now for security.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/advancedsmg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>28000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>1.30</RangedWeapon_Cooldown>
+      <MarketValue>1400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_AdvancedSMG</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>26</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialSMG</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Combat Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_CombatRifle</defName>
+    <label>combat rifle round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <armorPenetrationBase>0.38</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_CombatRifle</defName>
+    <label>Combat Rifle</label>
+    <description>An advanced rifle design used by ringer veterans and mercenaries. Built with state-of-the-art polymers and alloys, it fires armor-piercing duplex ammunition.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/combatrifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>3.6</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.68</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <MarketValue>1800</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_CombatRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>34</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialRifle</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Combat Carbine -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_CombatCarbine</defName>
+    <label>combat carbine round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_CombatCarbine</defName>
+    <label>Combat Carbine</label>
+    <description>An older design rifle using less complex methods, earning it favor with prospectors. Built with stamped materials, making it cheaper to produce but less accurate at range.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/combatcarbine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>2.8</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_CombatCarbine</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>28</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialSMG</li>
+      <li>UFR_UFIndustrialRifle</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Combat DMR -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_CombatDMR</defName>
+    <label>combat DMR round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.44</armorPenetrationBase>
+      <speed>92</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_CombatDMR</defName>
+    <label>Combat DMR</label>
+    <description>A precision variant of the combat rifle fitted with a longer barrel and magnified optic. Fires accurate two-round bursts at extended range, trading rate of fire for per-shot damage.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/combatdmr</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.72</AccuracyLong>
+      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+      <MarketValue>2400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_CombatDMR</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>42</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialDMR</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Combat LMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_CombatLMG</defName>
+    <label>combat LMG round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_CombatLMG</defName>
+    <label>Combat LMG</label>
+    <description>A modified form of the combat rifle used as a support weapon. Fitted with a longer barrel and a bipod, it also features a higher rate of fire, making it more effective as a light machinegun.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/combatlmg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>7.5</Mass>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+      <MarketValue>2600</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_CombatLMG</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialHeavy</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Lawbringer Shotgun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Shell_LawbringerShotgun</defName>
+    <label>lawbringer shotgun shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>65</speed>
+      <stoppingPower>2.0</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_LawbringerShotgun</defName>
+    <label>Lawbringer Shotgun</label>
+    <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/lawbringershotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.44</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>55</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Shell_LawbringerShotgun</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>22</range>
+        <soundCast>Shot_ChainShotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialShotgun</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Jackhammer Shotgun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Shell_JackhammerShotgun</defName>
+    <label>jackhammer shotgun shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_JackhammerShotgun</defName>
+    <label>Jackhammer Shotgun</label>
+    <description>An ancient design for a multi-purpose automatic shotgun favored by mercenaries. Firing high-power shells via a drum magazine, it easily shreds flesh and can even damage armor.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/jackhammershotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>34000</WorkToMake>
+      <Mass>4.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.16</AccuracyLong>
+      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <MarketValue>2100</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Shell_JackhammerShotgun</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>22</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_ChainShotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialShotgun</li>
+      <li>UFR_UFIndustrialEliteShotgun</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <!-- Hydra Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Bullet_HydraRifle</defName>
+    <label>hydra rifle round</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>0.74</armorPenetrationBase>
+      <speed>100</speed>
+      <stoppingPower>2.5</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_HydraRifle</defName>
+    <label>Hydra Rifle</label>
+    <description>An experimental hyper-burst anti-material rifle chambered in high-powered armor piercing shells. Heavy and cumbersome, effective against both armored and unarmored targets.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/hydrarifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>52000</WorkToMake>
+      <Mass>5.8</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+      <MarketValue>3400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Bullet_HydraRifle</defaultProjectile>
+        <warmupTime>3.4</warmupTime>
+        <range>48</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialMarksman</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Autoloader Cannon -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Shell_AutoloaderCannon</defName>
+    <label>autoloader cannon shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <armorPenetrationBase>0.99</armorPenetrationBase>
+      <speed>90</speed>
+      <stoppingPower>3.0</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_AutoloaderCannon</defName>
+    <label>Light Autoloader Cannon</label>
+    <description>A scaled down anti-tank cannon made for infantry use. Heavy, cumbersome, and slow, but capable of destroying armor effectively over great distances.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/autoloadercannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>11.0</Mass>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+      <MarketValue>4200</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Shell_AutoloaderCannon</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>38</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialHeavy</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>Autocannon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Salvo Grenade Launcher -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Grenade_SalvoLauncher</defName>
+    <label>salvo grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>true</flyOverhead>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>34</damageAmountBase>
+      <explosionRadius>2.1</explosionRadius>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_SalvoLauncher</defName>
+    <label>Salvo Grenade Launcher</label>
+    <description>A rotary grenade launcher, favored by mercenaries. Designed for accuracy, it can fire a variety of grenades accurately in both lethal and nonlethal scenarios.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/salvolauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>44000</WorkToMake>
+      <Mass>6.5</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <MarketValue>2800</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Grenade_SalvoLauncher</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>28</range>
+        <minRange>4</minRange>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFIndustrialHeavy</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>MortarsAdvanced</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
