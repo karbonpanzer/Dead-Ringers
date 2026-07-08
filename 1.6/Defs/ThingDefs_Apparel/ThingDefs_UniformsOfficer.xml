@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+  <!-- Temperate -->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_OfficerUniform</defName>
     <label>Outcast Officer Uniform</label>
@@ -160,6 +162,8 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
+
+  <!-- Supercold -->
 	<ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_OfficerUniform_SuperCold</defName>
     <label>Outcast Officer Uniform (Tundra)</label>
@@ -207,7 +211,7 @@
       <WorkToMake>4200</WorkToMake>
       <Mass>2.8</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -325,4 +329,172 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
+  <!-- Superhot -->
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>UFR_OfficerUniform_SuperHot</defName>
+    <label>Outcast Officer Uniform (Arid)</label>
+    <description>An officer's duty uniform insulated for extreme cold. Thermal lining and sealed cuffs allow command personnel to function in conditions that would otherwise be debilitating.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+        <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>UFR_CommissarUniforms</li>
+        <li>UFR_ExtremeWeatherUniforms</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4200</WorkToMake>
+      <Mass>2.8</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>2.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>UFR_OfficerUniform</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories Inherit="False">
+      <li>UFR_Uniforms</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
+    <uiIconScale>1.15</uiIconScale>
+  </ThingDef>
+
+	<ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_OfficerHat_SuperCold</defName>
+    <label>Outcast Officer Headwear (Arid)</label>
+    <description>An officer's cap insulated for extreme cold. Full brow and ear coverage protects against frostbite without obscuring the rank markings that identify command personnel.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+        <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>UFR_CommissarUniforms</li>
+        <li>UFR_ExtremeWeatherUniforms</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>UFR_OfficerUniform</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <useWornGraphicMask>True</useWornGraphicMask>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories Inherit="False">
+      <li>UFR_Headgear</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
+    <uiIconScale>1.15</uiIconScale>
+  </ThingDef>
+
 </Defs>
