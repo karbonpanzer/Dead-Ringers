@@ -18,11 +18,12 @@
         <factionNameMaker>Namer_UFRSettlementCivil</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <backstoryFilters>
-          <li>
-            <categories>
-                <li>UFR_FlufflonWool</li>
-            </categories>
-          </li>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                    <li>Pirate</li>
+                </categories>
+            </li>
         </backstoryFilters>
         <apparelStuffFilter>
             <thingDefs>

@@ -622,7 +622,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
