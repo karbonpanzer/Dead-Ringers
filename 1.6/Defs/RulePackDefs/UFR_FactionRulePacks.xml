@@ -2,7 +2,7 @@
 <Defs>
 
 	<RulePackDef>
-		<defName>UFR_Faction_Outcast</defName>
+		<defName>Namer_UFRFactionCivil</defName>
 		<include>
 			<li>OutlanderPlaceNameUtility</li>
 		</include>
@@ -37,7 +37,7 @@
 	</RulePackDef>
 
 	<RulePackDef>
-		<defName>UFR_Settlement_Outcast</defName>
+		<defName>Namer_UFRSettlementCivil</defName>
 		<include>
 			<li>OutlanderPlaceNameUtility</li>
 		</include>
@@ -93,7 +93,7 @@
 	</RulePackDef>
 
 	<RulePackDef>
-		<defName>UFR_Faction_Freebooters</defName>
+		<defName>Namer_UFRFactionSavage</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>r_name(p=2)->[NamePerson]'s Free Company</li>
@@ -116,7 +116,7 @@
 	</RulePackDef>
 
 	<RulePackDef>
-		<defName>UFR_Settlement_Freebooters</defName>
+		<defName>Namer_UFRSettlementSavage</defName>
 		<rulePack>
 			<rulesStrings>
 				<li>r_name(p=4)->[townname_combo]</li>

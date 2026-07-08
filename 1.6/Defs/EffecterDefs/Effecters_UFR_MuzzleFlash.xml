@@ -46,32 +46,31 @@
     </children>
   </EffecterDef>   
   
-  <!-- Not Used
   <EffecterDef>
     <defName>UFR_EffectImpact_CoilGun</defName>
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <fleckDef>UFR_FleckImpact_Coilgun_Blast</fleckDef>
+        <fleckDef>UFR_FleckImpact_CoilGun_Blast</fleckDef>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>0.75</scale>
+        <scale>0.5</scale>
       </li>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <fleckDef>UFR_FleckImpact_Coilgun_Aura</fleckDef>
+        <fleckDef>UFR_FleckImpact_CoilGun_Aura</fleckDef>
         <burstCount>1~2</burstCount>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>1.75~2.25</scale>
+        <scale>0.75~1.25</scale>
       </li>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <fleckDef>UFR_FleckImpact_Coilgun_Glare</fleckDef>
+        <fleckDef>UFR_FleckImpact_CoilGun_Glare</fleckDef>
         <burstCount>2</burstCount>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>1.50~2.00</scale>
+        <scale>0.50~1.00</scale>
       </li>
     </children>
-  </EffecterDef-->  
+  </EffecterDef>  
 
   <!-- Ion-Plasma -->
   <EffecterDef>
@@ -125,6 +124,48 @@
         <burstCount>2</burstCount>
         <spawnLocType>OnSource</spawnLocType>
         <scale>1.50~2.00</scale>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <!-- Fusion Plasma -->
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_FusionPlasma</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_FusionPlasma</fleckDef>
+        <scale>2.0~2.4</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <positionOffset>(0.0,0.0,0.5)</positionOffset>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>UFR_EffectImpact_FusionPlasma</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_FusionPlasma_Blast</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1.25</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_FusionPlasma_Aura</fleckDef>
+        <burstCount>2~3</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>2.50~3.25</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_FusionPlasma_Glare</fleckDef>
+        <burstCount>3</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>2.00~2.75</scale>
       </li>
     </children>
   </EffecterDef>

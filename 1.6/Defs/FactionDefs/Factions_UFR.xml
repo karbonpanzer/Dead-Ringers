@@ -2,21 +2,21 @@
 <Defs>
     <FactionDef ParentName="PlayerFactionBase">
         <defName>UFR_Player</defName>
-        <label>Lost citizens</label>
+        <label>Wandering refugees</label>
         <description>A small group of war refugees displaced from a fallen industrial world. Armed with whatever military gear they could salvage during the evacuation, they have arrived on this rimworld with the desperate hope of building a stable new home.</description>
         <colorSpectrum>
             <li>(0, 0.737, 0.847)</li>
         </colorSpectrum>
         <isPlayer>true</isPlayer>
         <basicMemberKind>UFR_Player</basicMemberKind>
-        <pawnSingular>citizen</pawnSingular>
-        <pawnsPlural>citizens</pawnsPlural>
+        <pawnSingular>refugee</pawnSingular>
+        <pawnsPlural>refugees</pawnsPlural>
         <techLevel>Spacer</techLevel>
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-        <factionNameMaker>UFR_Faction_Outcast</factionNameMaker>
-        <settlementNameMaker>UFR_Settlement_Outcast</settlementNameMaker>
+        <factionNameMaker>Namer_UFRSettlementCivil</factionNameMaker>
+        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <backstoryFilters>
           <li>
             <categories>
@@ -54,8 +54,8 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>governor</leaderTitle>
         <factionIconPath>UI/FactionIcons/Dominion</factionIconPath>
-        <factionNameMaker>UFR_Faction_Outcast</factionNameMaker>
-        <settlementNameMaker>UFR_Settlement_Outcast</settlementNameMaker>
+        <factionNameMaker>Namer_UFRSettlementCivil</factionNameMaker>
+        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <colorSpectrum>
             <li>(0.80, 0.80, 0.95)</li>
         </colorSpectrum>
@@ -256,8 +256,8 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>boss</leaderTitle>
         <factionIconPath>UI/FactionIcons/Freelancers</factionIconPath>
-        <factionNameMaker>UFR_Faction_Freebooters</factionNameMaker>
-        <settlementNameMaker>UFR_Settlement_Freebooters</settlementNameMaker>
+        <factionNameMaker>Namer_UFRFactionSavage</factionNameMaker>
+        <settlementNameMaker>Namer_UFRSettlementSavage</settlementNameMaker>
         <colorSpectrum>
             <li>(0.60, 0.15, 0.15)</li>
         </colorSpectrum>

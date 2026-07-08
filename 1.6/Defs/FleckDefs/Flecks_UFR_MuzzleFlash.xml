@@ -42,7 +42,49 @@
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
-  </FleckDef>    
+  </FleckDef> 
+  
+  <FleckDef ParentName="FleckBase">
+    <defName>UFR_FleckImpact_CoilGun_Blast</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>0.25</fadeOutTime>
+    <growthRate>4.00</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Blast</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>UFR_FleckImpact_CoilGun_Aura</defName>
+    <altitudeLayer>MoteOverheadLow</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.20</solidTime>
+    <fadeOutTime>0.20</fadeOutTime>
+    <growthRate>0.65</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Aura</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>UFR_FleckImpact_CoilGun_Glare</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>0.20</fadeOutTime>
+    <growthRate>3.50</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Glare</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+  </FleckDef>  
 
   <!-- Ion-Plasma -->
   <FleckDef ParentName="FleckBase_Thrown">
@@ -112,6 +154,63 @@
       <texPath>Things/Mote/UFR_FleckImpact_IonPlasma_Glare</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1,2)</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <!-- Fusion Plasma-->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>UFR_FleckMuzzle_FusionPlasma</defName>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.15</solidTime>
+    <fadeOutTime>0.25</fadeOutTime>
+    <growthRate>0.25</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckMuzzle_FusionPlasma</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1.20,2.50)</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase">
+    <defName>UFR_FleckImpact_FusionPlasma_Blast</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.05</solidTime>
+    <fadeOutTime>0.35</fadeOutTime>
+    <growthRate>4.50</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Blast</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>3</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>UFR_FleckImpact_FusionPlasma_Aura</defName>
+    <altitudeLayer>MoteOverheadLow</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.30</solidTime>
+    <fadeOutTime>0.30</fadeOutTime>
+    <growthRate>0.80</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Aura</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>2.0</drawSize>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>UFR_FleckImpact_FusionPlasma_Glare</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>0.25</fadeOutTime>
+    <growthRate>3.80</growthRate>
+    <graphicData>
+      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Glare</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1.5,2.5)</drawSize>
     </graphicData>
   </FleckDef>
 

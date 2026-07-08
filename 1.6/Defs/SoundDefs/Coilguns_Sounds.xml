@@ -12,7 +12,7 @@
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
-            <pitchRange>1.9781~3.1178</pitchRange>
+            <pitchRange>0.9781~1.1178</pitchRange>
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -30,7 +30,7 @@
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
-            <pitchRange>2.15513~2.937553</pitchRange>
+            <pitchRange>1.15513~1.337553</pitchRange>
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -48,7 +48,7 @@
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
-            <pitchRange>1.75513~2.567553</pitchRange>
+            <pitchRange>0.75513~1.567553</pitchRange>
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -66,7 +66,7 @@
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
-            <pitchRange>1.95513~2.89675</pitchRange>
+            <pitchRange>0.95513~1.39675</pitchRange>
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -84,7 +84,7 @@
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
-            <pitchRange>2.75513~4.567553</pitchRange>
+            <pitchRange>0.75513~1.367553</pitchRange>
             <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>

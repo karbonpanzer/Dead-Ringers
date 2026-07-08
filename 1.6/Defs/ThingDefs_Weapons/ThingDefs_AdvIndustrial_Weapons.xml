@@ -709,7 +709,7 @@
         <defaultProjectile>UFR_Shell_LawbringerShotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>22</range>
-        <soundCast>Shot_ChainShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -794,7 +794,7 @@
         <range>22</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>Shot_ChainShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

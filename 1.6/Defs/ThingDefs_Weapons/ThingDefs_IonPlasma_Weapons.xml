@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <!-- Ion-Plasma Pistol -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaPistol</defName>
     <label>ion-plasma pistol slug</label>
@@ -15,15 +15,15 @@
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>22</damageAmountBase>
-      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
       <speed>120</speed>
       <extraDamages>
         <li>
           <def>Burn</def>
-          <amount>2</amount>
+          <amount>3</amount>
         </li>
       </extraDamages>
-      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
+          <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
@@ -111,7 +111,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  <!-- Ion-Plasma Rifle -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaRifle</defName>
     <label>ion-plasma rifle slug</label>
@@ -125,12 +125,12 @@
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>30</damageAmountBase>
-      <armorPenetrationBase>0.85</armorPenetrationBase>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
       <speed>140</speed>
       <extraDamages>
         <li>
           <def>Burn</def>
-          <amount>3</amount>
+          <amount>6</amount>
         </li>
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
@@ -223,7 +223,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  <!-- Ion-Plasma Caster -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaCaster</defName>
     <label>ion-plasma caster slug</label>
@@ -237,19 +237,20 @@
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>48</damageAmountBase>
-      <armorPenetrationBase>1.25</armorPenetrationBase>
+      <armorPenetrationBase>0.90</armorPenetrationBase>
       <speed>170</speed>
       <extraDamages>
         <li>
           <def>Burn</def>
-          <amount>5</amount>
+          <amount>8</amount>
         </li>
       </extraDamages>
-      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
+      <explosionRadius>0.9</explosionRadius>
+          <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
-        <effecterDef>UFR_EffectLaunch_IonPlasmaCaster</effecterDef>
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
       </li>
     </comps>
   </ThingDef>
@@ -333,7 +334,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  <!-- Ion-Plasma Sword -->
+  
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="UFR_IonPlasmaSword">
     <defName>UFR_IonPlasmaSword</defName>
     <label>Ion-Plasma Sword</label>
@@ -420,6 +421,404 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
+  </ThingDef>
+
+  <!-- Ion-Plasma Shotgun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Slug_IonPlasmaShotgun</defName>
+    <label>ion-plasma pellet</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Projectile/plasmabolt</texPath>
+      <drawSize>0.65</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>90</speed>
+      <extraDamages>
+        <li>
+          <def>Burn</def>
+          <amount>2</amount>
+        </li>
+      </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_IonPlasmaShotgun</defName>
+    <label>Ion-Plasma Shotgun</label>
+    <description>A close-range plasma weapon that fires a spread of burning ion pellets. Each pellet ignites what it hits, stacking burn on any target caught in the spread. Devastating in close quarters against groups of unarmored targets.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/ionplasmashotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>36000</WorkToMake>
+      <Mass>4.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+      <MarketValue>2200</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Slug_IonPlasmaShotgun</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>22</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>UFR_Bolt_Plasmacaster</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFShotgun</li>
+      <li>UFR_UFEliteShotgun</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Ion-Plasma Repeater -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Slug_IonPlasmaRepeater</defName>
+    <label>ion-plasma repeater slug</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Projectile/plasmabolt</texPath>
+      <drawSize>0.9</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+      <speed>140</speed>
+      <extraDamages>
+        <li>
+          <def>Burn</def>
+          <amount>8</amount>
+        </li>
+      </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_IonPlasmaRepeater</defName>
+    <label>Ion-Plasma Repeater</label>
+    <description>A precision plasma rifle designed for aimed single-shot fire. Each round delivers a concentrated ion payload with heavy thermal effect. Preferred by plasma marksmen for setting priority targets ablaze at mid-range.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/ionplasmarepeater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>44000</WorkToMake>
+      <Mass>4.8</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+      <MarketValue>3200</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Slug_IonPlasmaRepeater</defaultProjectile>
+        <warmupTime>1.3</warmupTime>
+        <range>38</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>UFR_Bolt_Plasmacaster</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFMarksman</li>
+      <li>UFR_UFEliteMarksman</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Plasma Fusion Gun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Slug_PlasmaFusionGun</defName>
+    <label>plasma fusion charge</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Projectile/fusionbolt</texPath>
+      <drawSize>1.4</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <armorPenetrationBase>0.75</armorPenetrationBase>
+      <speed>60</speed>
+      <explosionRadius>1.5</explosionRadius>
+      <extraDamages>
+        <li>
+          <def>Burn</def>
+          <amount>15</amount>
+        </li>
+      </extraDamages>
+      <landedEffecter>UFR_EffectImpact_FusionPlasma</landedEffecter>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_FusionPlasma</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGun">
+    <defName>UFR_PlasmaFusionGun</defName>
+    <label>Plasma Fusion Gun</label>
+    <description>A contained plasma detonation weapon. Launches a slow-moving fusion charge that vaporizes anything within its blast radius. Extremely short range and long recovery make it a specialist close-combat weapon for breaching or ambushing at point-blank.</description>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <graphicData>
+      <texPath>Things/Item/Equipment/fusioncannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>7.5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.20</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <MarketValue>5500</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Slug_PlasmaFusionGun</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>15</range>
+        <minRange>3</minRange>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>UFR_Bolt_Plasmacaster</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+        <li>
+          <label>grip</label>
+          <capacities><li>Blunt</li></capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities><li>Poke</li></capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+    <weaponTags>
+      <li>GunSingleUse</li>
+    </weaponTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>  
+    <relicChance>0</relicChance>  
+  </ThingDef>
+
+  <!-- Ion-Plasma SMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Slug_IonPlasmaSMG</defName>
+    <label>ion-plasma SMG round</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Projectile/plasmabolt</texPath>
+      <drawSize>0.55</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>100</speed>
+      <extraDamages>
+        <li>
+          <def>Burn</def>
+          <amount>2</amount>
+        </li>
+      </extraDamages>
+      <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>UFR_IonPlasmaSMG</defName>
+    <label>Ion-Plasma SMG</label>
+    <description>A rapid-fire plasma submachine gun. Each round applies a small burn stack; a full burst can ignite a target with layered thermal damage. Favored by shocktroopers for keeping pressure on priority targets while their squad maneuvers.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/ionplasmasmg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.44</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <MarketValue>2400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Slug_IonPlasmaSMG</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>22</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_UFSpecialty</li>
+      <li>UFR_UFEliteSpecialty</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
