@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+  
   <ThingDef ParentName="UFR_DecalBodyArmor_Light">
-    <defName>UFR_BulwarkArmor</defName>
-    <label>Bulwark Armor</label>
-    <description>A hardened armor set with segmented Bulwark plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <defName>UFR_CarapaceArmor</defName>
+    <label>Carapace Armor</label>
+    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -18,7 +19,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -57,7 +58,6 @@
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -81,9 +81,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Light">
-    <defName>UFR_BulwarkHelmet</defName>
-    <label>Bulwark Helmet</label>
-    <description>A hard-shell combat helmet with a Bulwark outer layer and ballistic liner. Covers the skull and upper face. Standard head protection for uf combat personnel.</description>
+    <defName>UFR_CarapaceHelmet</defName>
+    <label>Carapace Helmet</label>
+    <description>A hard-shell combat helmet with a Carapace outer layer and ballistic liner. Covers the skull and upper face. Standard head protection for uf combat personnel.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +98,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -152,9 +152,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Light">
-    <defName>UFR_BulwarkHelmet_Insulated</defName>
-    <label>Bulwark Helmet (Insulated)</label>
-    <description>A Bulwark helmet with thermal lining added to the interior. Provides the same ballistic protection as the standard configuration in climates that would otherwise affect the wearer's effectiveness.</description>
+    <defName>UFR_CarapaceHelmet_Insulated</defName>
+    <label>Carapace Helmet (Insulated)</label>
+    <description>A Carapace helmet with thermal lining added to the interior. Provides the same ballistic protection as the standard configuration in climates that would otherwise affect the wearer's effectiveness.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -169,7 +169,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -227,9 +227,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Light">
-    <defName>UFR_BulwarkHelmet_Shield</defName>
-    <label>Bulwark Helmet (Reinforced)</label>
-    <description>A Bulwark helmet with an additional ballistic plate bonded to the front. Heavier than the standard configuration, but more resistant to direct frontal impacts.</description>
+    <defName>UFR_CarapaceHelmet_Shield</defName>
+    <label>Carapace Helmet (Reinforced)</label>
+    <description>A Carapace helmet with an additional ballistic plate bonded to the front. Heavier than the standard configuration, but more resistant to direct frontal impacts.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -244,7 +244,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -305,9 +305,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Light">
-    <defName>UFR_BulwarkHelmet_Gasmask</defName>
-    <label>Bulwark Helmet (Gasmask)</label>
-    <description>A Bulwark helmet fitted with an integrated filtration mask. Protects the skull and seals the airway against chemical agents and toxic particulates.</description>
+    <defName>UFR_CarapaceHelmet_Gasmask</defName>
+    <label>Carapace Helmet (Gasmask)</label>
+    <description>A Carapace helmet fitted with an integrated filtration mask. Protects the skull and seals the airway against chemical agents and toxic particulates.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -322,7 +322,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>

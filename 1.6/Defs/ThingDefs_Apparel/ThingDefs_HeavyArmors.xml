@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+  
   <ThingDef ParentName="UFR_DecalBodyArmor_Heavy">
-    <defName>UFR_HeavyBulwarkArmor</defName>
-    <label>Heavy Bulwark Armor</label>
-    <description>A reinforced Bulwark armor set with additional plating over the standard configuration. Heavier and slower than Bulwark armor, but substantially more resistant to incoming fire. Used by assault troops expected to absorb significant punishment.</description>
+    <defName>UFR_HeavyCarapaceArmor</defName>
+    <label>Heavy Carapace Armor</label>
+    <description>A reinforced Carapace armor set with additional plating over the standard configuration. Heavier and slower than Carapace armor, but substantially more resistant to incoming fire. Used by assault troops expected to absorb significant punishment.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
@@ -18,7 +19,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -58,7 +59,6 @@
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -84,9 +84,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Heavy">
-    <defName>UFR_HeavyBulwarkHelmet</defName>
-    <label>Heavy Bulwark Helmet</label>
-    <description>A reinforced Bulwark helmet with additional plating across the crown and rear. Substantially more protective than the standard configuration. Used by assault personnel expecting sustained fire.</description>
+    <defName>UFR_HeavyCarapaceHelmet</defName>
+    <label>Heavy Carapace Helmet</label>
+    <description>A reinforced Carapace helmet with additional plating across the crown and rear. Substantially more protective than the standard configuration. Used by assault personnel expecting sustained fire.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -101,7 +101,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -155,9 +155,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Heavy">
-    <defName>UFR_HeavyBulwarkHelmet_Insulated</defName>
-    <label>Heavy Bulwark Helmet (Insulated)</label>
-    <description>A heavy Bulwark helmet with thermal lining for extreme temperature operations. Provides the same protection as the standard heavy configuration in conditions that would otherwise impair the wearer.</description>
+    <defName>UFR_HeavyCarapaceHelmet_Insulated</defName>
+    <label>Heavy Carapace Helmet (Insulated)</label>
+    <description>A heavy Carapace helmet with thermal lining for extreme temperature operations. Provides the same protection as the standard heavy configuration in conditions that would otherwise impair the wearer.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -172,7 +172,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -230,9 +230,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Heavy">
-    <defName>UFR_HeavyBulwarkHelmet_Shielded</defName>
-    <label>Heavy Bulwark Helmet (Reinforced)</label>
-    <description>A heavy Bulwark helmet with extra armor bonded across the faceplate and brow. The most protective variant of the Bulwark helmet series.</description>
+    <defName>UFR_HeavyCarapaceHelmet_Shielded</defName>
+    <label>Heavy Carapace Helmet (Reinforced)</label>
+    <description>A heavy Carapace helmet with extra armor bonded across the faceplate and brow. The most protective variant of the Carapace helmet series.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -247,7 +247,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -308,9 +308,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalHelmet_Heavy">
-    <defName>UFR_HeavyBulwarkHelmet_Gasmask</defName>
-    <label>Heavy Bulwark Helmet (Gasmask)</label>
-    <description>A heavy Bulwark helmet with a full-face filtration system integrated into the shell. Seals completely against airborne threats while retaining the ballistic protection of the heavy platform.</description>
+    <defName>UFR_HeavyCarapaceHelmet_Gasmask</defName>
+    <label>Heavy Carapace Helmet (Gasmask)</label>
+    <description>A heavy Carapace helmet with a full-face filtration system integrated into the shell. Seals completely against airborne threats while retaining the ballistic protection of the heavy platform.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -325,7 +325,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>

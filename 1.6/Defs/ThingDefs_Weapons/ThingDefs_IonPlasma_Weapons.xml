@@ -223,7 +223,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  
+  <!-- Plasma Caster -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaCaster</defName>
     <label>ion-plasma caster slug</label>
@@ -334,7 +334,6 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="UFR_IonPlasmaSword">
     <defName>UFR_IonPlasmaSword</defName>
     <label>Ion-Plasma Sword</label>

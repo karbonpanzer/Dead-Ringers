@@ -55,14 +55,14 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>governor</leaderTitle>
         <factionIconPath>UI/FactionIcons/Dominion</factionIconPath>
-        <factionNameMaker>Namer_UFRSettlementCivil</factionNameMaker>
+        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <colorSpectrum>
             <li>(0.80, 0.80, 0.95)</li>
         </colorSpectrum>
         <apparelStuffFilter>
             <thingDefs>
-                <li>UFR_FlufflonWool</li>
+                <li>Cloth</li>
             </thingDefs>
         </apparelStuffFilter>
         <permanentEnemy>false</permanentEnemy>
@@ -264,7 +264,7 @@
         </colorSpectrum>
         <apparelStuffFilter>
             <thingDefs>
-                <li>UFR_FlufflonWool</li>
+                <li>Cloth</li>
             </thingDefs>
         </apparelStuffFilter>
         <permanentEnemy>true</permanentEnemy>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef ParentName="UFR_DecalBodyArmor_Officer">
-    <defName>UFR_OfficerBulwarkArmor</defName>
-    <label>Officer Bulwark Armor</label>
-    <description>A Bulwark armor set finished for officer-grade wear. Offers equivalent protection to standard Bulwark while maintaining the appearance expected of command personnel.</description>
+    <defName>UFR_OfficerCarapaceArmor</defName>
+    <label>Officer Carapace Armor</label>
+    <description>A Carapace armor set finished for officer-grade wear. Offers equivalent protection to standard Carapace while maintaining the appearance expected of command personnel.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -18,7 +18,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -60,7 +60,6 @@
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -82,9 +81,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalBodyArmor_Officer">
-    <defName>UFR_OfficerBulwarkArmor_Scout</defName>
-    <label>Officer Bulwark Armor (Scout)</label>
-    <description>A lighter Bulwark armor set worn by officers who operate close to or ahead of their unit. Trimmed for mobility while retaining markings that identify the wearer as command personnel.</description>
+    <defName>UFR_OfficerCarapaceArmor_Scout</defName>
+    <label>Officer Carapace Armor (Scout)</label>
+    <description>A lighter Carapace armor set worn by officers who operate close to or ahead of their unit. Trimmed for mobility while retaining markings that identify the wearer as command personnel.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Armor/OfficerScoutArmor/OfficerScoutArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -99,7 +98,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -139,7 +138,6 @@
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -161,9 +159,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalBodyArmor_Scout">
-    <defName>UFR_ScoutBulwarkArmor</defName>
-    <label>Scout Bulwark Armor</label>
-    <description>A reduced Bulwark armor set designed for reconnaissance personnel. Coverage is trimmed to allow faster movement and quieter operation well ahead of the main force.</description>
+    <defName>UFR_ScoutCarapaceArmor</defName>
+    <label>Scout Carapace Armor</label>
+    <description>A reduced Carapace armor set designed for reconnaissance personnel. Coverage is trimmed to allow faster movement and quieter operation well ahead of the main force.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -178,7 +176,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -216,7 +214,6 @@
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -239,9 +236,9 @@
   </ThingDef>
 
   <ThingDef ParentName="UFR_DecalBodyArmor_Riot">
-    <defName>UFR_RiotBulwarkArmor</defName>
-    <label>Riot Bulwark Armor</label>
-    <description>A Bulwark armor set reinforced for crowd control operations. Additional blunt-trauma protection on the front panel helps absorb impacts common in suppression engagements.</description>
+    <defName>UFR_RiotCarapaceArmor</defName>
+    <label>Riot Carapace Armor</label>
+    <description>A Carapace armor set reinforced for crowd control operations. Additional blunt-trauma protection on the front panel helps absorb impacts common in suppression engagements.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -256,7 +253,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_BulwarkRecompositionMethods</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceRecompositionMethods</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -294,7 +291,6 @@
       <wornGraphicPath>Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Accessories</li>
@@ -318,4 +314,5 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+  
 </Defs>

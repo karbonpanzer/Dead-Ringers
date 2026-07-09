@@ -72,6 +72,49 @@
     </children>
   </EffecterDef>  
 
+  <!-- Gauss Gun -->
+
+  <EffecterDef>
+    <defName>UFR_EffectLaunch_GaussGun</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckMuzzle_GaussGun</fleckDef>
+        <scale>1.5~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotation>0</rotation>
+        <positionOffset>(0.0, 0.0, 0.0)</positionOffset>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>   
+  
+  <EffecterDef>
+    <defName>UFR_EffectImpact_GaussGun</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_GaussGun_Blast</fleckDef>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.5</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_GaussGun_Aura</fleckDef>
+        <burstCount>1~2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.75~1.25</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>UFR_FleckImpact_GaussGun_Glare</fleckDef>
+        <burstCount>2</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>0.50~1.00</scale>
+      </li>
+    </children>
+  </EffecterDef>  
+
   <!-- Ion-Plasma -->
   <EffecterDef>
     <defName>UFR_EffectLaunch_IonPlasma</defName>

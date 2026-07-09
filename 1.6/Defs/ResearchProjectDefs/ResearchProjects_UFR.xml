@@ -15,8 +15,8 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_BulwarkArmor</defName>
-        <label>Bulwark Armor</label>
+        <defName>UFR_CarapaceArmor</defName>
+        <label>Carapace Armor</label>
         <description>Craft armor and helmets that provide stronger protection than flak gear and cover more of the body.</description>
         <baseCost>1600</baseCost>
         <tab>UFR_ResearchTab</tab>
@@ -29,42 +29,42 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_BulwarkMolecularPlating</defName>
-        <label>Bulwark Molecular Plating</label>
-        <description>Apply molecular-grade plating techniques to Bulwark armor, producing heavier configurations with substantially improved protection at increased material cost.</description>
+        <defName>UFR_CarapaceMolecularPlating</defName>
+        <label>Carapace Molecular Plating</label>
+        <description>Apply molecular-grade plating techniques to Carapace armor, producing heavier configurations with substantially improved protection at increased material cost.</description>
         <baseCost>2000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_BulwarkSpecializedCompositions</defName>
-        <label>Bulwark Specialized Compositions</label>
-        <description>Refine Bulwark composite formulations for specialized officer-grade armor configurations that combine protection with the appearance expected of command personnel.</description>
+        <defName>UFR_CarapaceSpecializedCompositions</defName>
+        <label>Carapace Specialized Compositions</label>
+        <description>Refine Carapace composite formulations for specialized officer-grade armor configurations that combine protection with the appearance expected of command personnel.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_BulwarkRecompositionMethods</defName>
-        <label>Bulwark Recomposition Methods</label>
-        <description>Restructure Bulwark composite matrices into alternate configurations suited for specialist combat roles.</description>
+        <defName>UFR_CarapaceRecompositionMethods</defName>
+        <label>Carapace Recomposition Methods</label>
+        <description>Restructure Carapace composite matrices into alternate configurations suited for specialist combat roles.</description>
         <baseCost>2200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
         <researchViewY>1.4</researchViewY>
@@ -78,7 +78,7 @@
         <tab>UFR_ResearchTab</tab>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>UFR_BulwarkMolecularPlating</li>
+            <li>UFR_CarapaceMolecularPlating</li>
         </prerequisites>
         <requiredAnalyzed>
             <li>UFR_ArmorDecoder</li>
@@ -95,7 +95,7 @@
         <tab>UFR_ResearchTab</tab>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>UFR_BulwarkSpecializedCompositions</li>
+            <li>UFR_CarapaceSpecializedCompositions</li>
         </prerequisites>
         <requiredAnalyzed>
             <li>UFR_ArmorDecoder</li>

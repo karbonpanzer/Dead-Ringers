@@ -228,7 +228,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -259,7 +259,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -295,7 +295,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_HeavyBulwarkArmor</li>
+            <li>UFR_HeavyCarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -328,7 +328,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_HeavyBulwarkArmor</li>
+            <li>UFR_HeavyCarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -382,7 +382,7 @@
             </li>
         </modExtensions>
         <apparelRequired>
-            <li>UFR_OfficerBulwarkArmor</li>
+            <li>UFR_OfficerCarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_OfficerUniform</li>
@@ -427,7 +427,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Medic</li>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -464,7 +464,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Engineer</li>
-            <li>UFR_BulwarkArmor</li>
+            <li>UFR_CarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -498,7 +498,7 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Scout</li>
-            <li>UFR_ScoutBulwarkArmor</li>
+            <li>UFR_ScoutCarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
@@ -522,8 +522,8 @@
         </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Shocktrooper</li>
-            <li>UFR_HeavyBulwarkArmor</li>
-            <li>UFR_HeavyBulwarkHelmet_Shielded</li>
+            <li>UFR_HeavyCarapaceArmor</li>
+            <li>UFR_HeavyCarapaceHelmet_Shielded</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>

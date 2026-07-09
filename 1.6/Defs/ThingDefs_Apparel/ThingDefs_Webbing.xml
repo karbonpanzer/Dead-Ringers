@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Infantry</defName>
     <label>Infantry Webbing</label>
@@ -54,7 +55,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Infantry</li>
@@ -75,6 +76,7 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Engineer</defName>
     <label>Engineer Webbing</label>
@@ -130,7 +132,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Engineer</li>
@@ -151,6 +153,7 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Medic</defName>
     <label>Medic Webbing</label>
@@ -206,7 +209,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Medic</li>
@@ -283,7 +286,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Riot</li>
@@ -360,7 +363,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Scout</li>
@@ -443,7 +446,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Shocktrooper</li>
@@ -526,7 +529,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Accessories</li>
@@ -632,7 +635,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Accessories</li>
@@ -738,7 +741,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Belt</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Accessories</li>
@@ -788,4 +791,5 @@
     </thingCategories>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+  
 </Defs>

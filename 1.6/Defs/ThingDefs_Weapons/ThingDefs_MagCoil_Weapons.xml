@@ -537,7 +537,7 @@
     <label>volley coilgun slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <texPath>Things/Projectile/slug_medium</texPath>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
@@ -563,6 +563,7 @@
     <graphicData>
       <texPath>Things/Item/Equipment/volleycoilgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.10</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>52000</WorkToMake>
@@ -632,7 +633,7 @@
     <label>gauss rifle slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <texPath>Things/Projectile/slug_gauss</texPath>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
@@ -641,11 +642,11 @@
       <armorPenetrationBase>1.50</armorPenetrationBase>
       <speed>220</speed>
       <stoppingPower>5.5</stoppingPower>
-          <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
+          <landedEffecter>UFR_EffectImpact_GaussGun</landedEffecter>
     </projectile>
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
-        <effecterDef>UFR_EffectLaunch_CoilGun_TriCoil</effecterDef>
+        <effecterDef>UFR_EffectLaunch_GaussGun</effecterDef>
       </li>
     </comps>
   </ThingDef>

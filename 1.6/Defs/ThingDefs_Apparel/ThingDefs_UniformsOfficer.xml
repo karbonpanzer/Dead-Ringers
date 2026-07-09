@@ -46,8 +46,8 @@
       <WorkToMake>4200</WorkToMake>
       <Mass>1.8</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -128,8 +128,8 @@
       <WorkToMake>1600</WorkToMake>
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
@@ -137,6 +137,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -149,7 +150,6 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
@@ -161,7 +161,6 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
-
 
   <!-- Supercold -->
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -212,7 +211,7 @@
       <Mass>2.8</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -297,7 +296,7 @@
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
@@ -316,7 +315,6 @@
       </defaultOutfitTags>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
@@ -378,7 +376,7 @@
       <WorkToMake>4200</WorkToMake>
       <Mass>2.8</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>2.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -404,6 +402,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
@@ -417,7 +416,7 @@
   </ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_OfficerHat_SuperCold</defName>
+    <defName>UFR_OfficerHat_SuperHot</defName>
     <label>Outcast Officer Headwear (Arid)</label>
     <description>An officer's cap insulated for extreme cold. Full brow and ear coverage protects against frostbite without obscuring the rank markings that identify command personnel.</description>
     <graphicData>
@@ -463,7 +462,7 @@
       <WorkToMake>3500</WorkToMake>
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
