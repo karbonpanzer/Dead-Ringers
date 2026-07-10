@@ -460,7 +460,7 @@
         <techLevel>Spacer</techLevel>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>UFR_AdvancedCoilFabrication</researchPrerequisite>
+            <researchPrerequisite>UFR_ReinforcedCoilSuperstructures</researchPrerequisite>
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
@@ -620,7 +620,7 @@
       <li>UFR_UFEliteHeavy</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedCoilSuperstructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
@@ -651,7 +651,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseGun">
     <defName>UFR_GaussRifle</defName>
     <label>Gauss Rifle</label>
     <description>An overclocked coilgun pushed beyond safe operating parameters. Delivers one devastating hypervelocity slug capable of destroying almost anything in a single hit. Long charge time and heavy venting cooldown leave the wielder exposed between shots.</description>
@@ -660,6 +660,7 @@
       <texPath>Things/Item/Equipment/gaussrifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <smeltable>false</smeltable>
     <statBases>
       <WorkToMake>68000</WorkToMake>
       <Mass>9.0</Mass>
@@ -670,12 +671,6 @@
       <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
       <MarketValue>9000</MarketValue>
     </statBases>
-    <costList>
-      <Steel>100</Steel>
-      <Plasteel>40</Plasteel>
-      <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>6</ComponentSpacer>
-    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -709,16 +704,13 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <weaponTags>
-      <li>UFR_UFSpecial</li>
-      <li>UFR_UFEliteSpecial</li>
-    </weaponTags>
-    <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-    </recipeMaker>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
   </ThingDef>
 
 </Defs>
