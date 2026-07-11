@@ -127,6 +127,14 @@
         <rotation>0</rotation>
         <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
       </li>
+      <!--li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <fleckDef>UFR_FleckTrail_IonPlasma</fleckDef>
+        <scale>0.50~0.65</scale>
+        <ticksBetweenMotes>5</ticksBetweenMotes>
+        <positionLerpFactor>0.45</positionLerpFactor>
+        <positionRadius>0.25</positionRadius>
+      </li-->
     </children>
   </EffecterDef>
 
@@ -142,6 +150,14 @@
         <positionOffset>(0.15, 0.5, -0.2)</positionOffset>
         <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
       </li>
+      <!--li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <fleckDef>UFR_FleckTrail_IonPlasma</fleckDef>
+        <scale>0.65~0.85</scale>
+        <ticksBetweenMotes>4</ticksBetweenMotes>
+        <positionLerpFactor>0.45</positionLerpFactor>
+        <positionRadius>0.30</positionRadius>
+      </li-->
     </children>
   </EffecterDef>
 
@@ -184,6 +200,14 @@
         <positionOffset>(0.0,0.0,0.5)</positionOffset>
         <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
       </li>
+      <!--li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <fleckDef>UFR_FleckTrail_FusionPlasma</fleckDef>
+        <scale>0.85~1.10</scale>
+        <ticksBetweenMotes>3</ticksBetweenMotes>
+        <positionLerpFactor>0.45</positionLerpFactor>
+        <positionRadius>0.35</positionRadius>
+      </li-->
     </children>
   </EffecterDef>
 

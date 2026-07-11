@@ -271,4 +271,78 @@
     </graphicData>
   </FleckDef>
 
+
+  <!-- Projectile Trails -->
+  <!--FleckDef ParentName="FleckBase_RandomGraphic_Thrown">
+    <defName>UFR_FleckTrail_IonPlasma</defName>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.15</solidTime>
+    <fadeOutTime>0.50</fadeOutTime>
+    <growthRate>0.20</growthRate>
+    <randomGraphics>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaA</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaB</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaC</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaD</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaE</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+    </randomGraphics>
+  </FleckDef-->
+
+  <!-- FleckDef ParentName="FleckBase_RandomGraphic_Thrown">
+    <defName>UFR_FleckTrail_FusionPlasma</defName>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.20</solidTime>
+    <fadeOutTime>0.60</fadeOutTime>
+    <growthRate>0.25</growthRate>
+    <randomGraphics>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_A</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_B</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_C</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_D</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+      <li>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_E</texPath>
+        <shaderType>MoteGlow</shaderType>
+      </li>
+    </randomGraphics>
+  </FleckDef-->
+
 </Defs>
