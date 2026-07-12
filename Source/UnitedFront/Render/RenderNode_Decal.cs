@@ -13,7 +13,7 @@ namespace UnitedFront.Render
 
         protected override string TexPathFor(Pawn pawn)
         {
-            DecalProfile profile = DecalUtil.ProfileOn (pawn, _slot);
+            DecalProfile profile = DecalUtil.ProfileOn(pawn, _slot);
             if (profile.Active && !profile.SymbolPath.NullOrEmpty())
                 return profile.SymbolPath;
             return base.TexPathFor(pawn);
@@ -21,7 +21,7 @@ namespace UnitedFront.Render
 
         public override Color ColorFor(Pawn pawn)
         {
-            DecalProfile profile = DecalUtil.ProfileOn (pawn, _slot);
+            DecalProfile profile = DecalUtil.ProfileOn(pawn, _slot);
             if (profile.Active)
                 return profile.SymbolColor * Props.colorRGBPostFactor;
             return base.ColorFor(pawn);
@@ -29,8 +29,8 @@ namespace UnitedFront.Render
 
         private static DecalSlot DetermineSlot(PawnRenderNodeProperties props)
         {
-            if (props is PawnRenderNodePropertiesDecal { ExplicitSlot: not null } decalProps)
-                return decalProps.ExplicitSlot.Value;
+            if (props is PawnRenderNodePropertiesDecal { explicitSlot: not null } decalProps)
+                return decalProps.explicitSlot.Value;
 
             if (props.parentTagDef == PawnRenderNodeTagDefOf.ApparelHead)
                 return DecalSlot.Helmet;

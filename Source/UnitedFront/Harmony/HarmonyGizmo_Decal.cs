@@ -6,21 +6,21 @@ using UnitedFront.UI;
 using UnityEngine;
 using Verse;
 
-namespace UnitedFront.Comps
+namespace UnitedFront.Harmony
 {
     [StaticConstructorOnStartup]
     public static class DecalBootstrap
     {
         static DecalBootstrap()
         {
-            new Harmony("UnitedFront.Decals").PatchAll();
+            new HarmonyLib.Harmony("UnitedFront.Decals").PatchAll();
             Log.Message("[UnitedFront] Decal system patched.");
         }
     }
 
     [StaticConstructorOnStartup]
     [HarmonyPatch(typeof(Pawn), nameof(Pawn.GetGizmos))]
-    public static class PawnGetGizmosDecals
+    public static class Pawn_GetGizmos_Decals
     {
         private static readonly Texture2D GizmoIcon = ContentFinder<Texture2D>.Get("UI/UFR_CustomizeDecal");
 

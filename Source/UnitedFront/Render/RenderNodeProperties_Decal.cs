@@ -1,4 +1,3 @@
-using UnitedFront.Decals;
 using UnitedFront.Defs;
 using UnityEngine;
 using Verse;
@@ -7,7 +6,7 @@ namespace UnitedFront.Render
 {
     public class PawnRenderNodePropertiesDecal : PawnRenderNodeProperties
     {
-        public DecalSlot? ExplicitSlot = null;
+        public DecalSlot? explicitSlot = null;
 
         public PawnRenderNodePropertiesDecal()
         {

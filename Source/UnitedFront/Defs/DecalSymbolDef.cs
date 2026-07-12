@@ -5,9 +5,9 @@ namespace UnitedFront.Defs
 {
     public sealed class DecalSymbol : Def
     {
-        public readonly string Path = "";
-        public readonly bool armorOnly = false;
-        public readonly bool helmetOnly = false;
+        public string path = "";
+        public bool armorOnly = false;
+        public bool helmetOnly = false;
     }
 
     public enum DecalSlot { Helmet, Armor }

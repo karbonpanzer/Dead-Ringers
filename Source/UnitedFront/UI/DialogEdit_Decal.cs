@@ -340,27 +340,27 @@ namespace UnitedFront.UI
 
         private Texture2D? GetThumb(DecalSymbol def)
         {
-            if (def.Path.NullOrEmpty()) return null;
-            if (_thumbCache.TryGetValue(def.Path, out Texture2D cached)) return cached;
-            Texture2D? tex = ContentFinder<Texture2D>.Get(def.Path + "_south", false)
-                          ?? ContentFinder<Texture2D>.Get(def.Path, false);
-            if (tex != null) _thumbCache[def.Path] = tex;
+            if (def.path.NullOrEmpty()) return null;
+            if (_thumbCache.TryGetValue(def.path, out Texture2D cached)) return cached;
+            Texture2D? tex = ContentFinder<Texture2D>.Get(def.path + "_south", false)
+                          ?? ContentFinder<Texture2D>.Get(def.path, false);
+            if (tex != null) _thumbCache[def.path] = tex;
             return tex;
         }
 
         private int FindSymbolIndex(string path)
         {
             if (path.NullOrEmpty() || _symbols.Count == 0) return 0;
-            return Mathf.Max(0, _symbols.FindIndex(d => d.Path == path));
+            return Mathf.Max(0, _symbols.FindIndex(d => d.path == path));
         }
 
         private void SyncSelection()
         {
             if (_symbols.Count == 0) return;
             _selectedHelmetIndex = Mathf.Clamp(_selectedHelmetIndex, 0, _symbols.Count - 1);
-            _profileSet.Helmet.SymbolPath = _symbols[_selectedHelmetIndex].Path;
+            _profileSet.Helmet.SymbolPath = _symbols[_selectedHelmetIndex].path;
             _selectedArmorIndex = Mathf.Clamp(_selectedArmorIndex, 0, _symbols.Count - 1);
-            _profileSet.Armor.SymbolPath = _symbols[_selectedArmorIndex].Path;
+            _profileSet.Armor.SymbolPath = _symbols[_selectedArmorIndex].path;
         }
 
         //HSV sort so it doesn't look like ass
