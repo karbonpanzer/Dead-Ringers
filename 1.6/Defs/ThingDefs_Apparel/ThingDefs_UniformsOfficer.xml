@@ -84,7 +84,7 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_OfficerHat</defName>
     <label>Outcast Officer Headwear</label>
     <description>A structured cap worn by Outcast Officers. Bears rank and unit markings, allowing the wearer to be identified quickly as command personnel during engagements.</description>
@@ -163,7 +163,7 @@
   </ThingDef>
 
   <!-- Supercold -->
-	<ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_OfficerUniform_SuperCold</defName>
     <label>Outcast Officer Uniform (Tundra)</label>
     <description>An officer's duty uniform insulated for extreme cold. Thermal lining and sealed cuffs allow command personnel to function in conditions that would otherwise be debilitating.</description>
@@ -173,7 +173,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
@@ -248,7 +248,7 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_OfficerHat_SuperCold</defName>
     <label>Outcast Officer Headwear (Tundra)</label>
     <description>An officer's cap insulated for extreme cold. Full brow and ear coverage protects against frostbite without obscuring the rank markings that identify command personnel.</description>
@@ -258,7 +258,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
@@ -329,17 +329,17 @@
   </ThingDef>
 
   <!-- Superhot -->
-	<ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_OfficerUniform_SuperHot</defName>
     <label>Outcast Officer Uniform (Arid)</label>
-    <description>An officer's duty uniform insulated for extreme cold. Thermal lining and sealed cuffs allow command personnel to function in conditions that would otherwise be debilitating.</description>
+    <description>An officer's duty uniform built for extreme heat. Minimal layering and a light, reflective weave keep command personnel functional where standard kit would be lethal.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
@@ -415,17 +415,17 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_OfficerHat_SuperHot</defName>
     <label>Outcast Officer Headwear (Arid)</label>
-    <description>An officer's cap insulated for extreme cold. Full brow and ear coverage protects against frostbite without obscuring the rank markings that identify command personnel.</description>
+    <description>An officer's sun cap with a full neck drape. Protects against extreme sun exposure while keeping rank markings visible on the crown.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
