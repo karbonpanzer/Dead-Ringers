@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using RimWorld;
-using UnitedFront.Decal;
+using UnitedFront.Decals;
+using UnitedFront.Defs;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -49,7 +50,7 @@ namespace UnitedFront.UI
             closeOnCancel = false;
             absorbInputAroundWindow = true;
 
-            _profileSet = DecalUtil.ReadProfileSetFrom(_pawn);
+            _profileSet = DecalUtil.ProfileSetOn(_pawn);
             _original = _profileSet;
 
             _symbols = new List<DecalSymbol>(DecalUtil.SymbolsForSlot(_curTab));
@@ -58,12 +59,12 @@ namespace UnitedFront.UI
             _selectedHelmetIndex = FindSymbolIndex(_profileSet.Helmet.SymbolPath);
             _selectedArmorIndex = FindSymbolIndex(_profileSet.Armor.SymbolPath);
             SyncSelection();
-            DecalUtil.SetLiveEditFull(_pawn, _profileSet);
+            DecalUtil.Preview(_pawn, _profileSet);
         }
 
         public override void Close(bool doCloseSound = true)
         {
-            DecalUtil.EndLiveEdit(_pawn, _committed, _original);
+            DecalUtil.FinishPreview(_pawn, _committed, _original);
             base.Close(doCloseSound);
         }
 
@@ -416,6 +417,6 @@ namespace UnitedFront.UI
             return true;
         }
 
-        private void PushLive() => DecalUtil.SetLiveEditFull(_pawn, _profileSet);
+        private void PushLive() => DecalUtil.Preview(_pawn, _profileSet);
     }
 }

@@ -69,8 +69,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialSidearm</li>
-      <li>UFR_UFIndustrialHeavyPistol</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -149,8 +148,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialSidearm</li>
-      <li>UFR_UFIndustrialHeavyPistol</li>
+      <li>SimpleGun</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -235,7 +233,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialSMG</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -321,7 +319,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialRifle</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -407,7 +405,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialDMR</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -491,7 +489,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialShotgun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -578,7 +576,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFIndustrialMarksman</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>

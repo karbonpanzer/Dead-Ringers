@@ -1,5 +1,6 @@
 using RimWorld;
-using UnitedFront.Decal;
+using UnitedFront.Decals;
+using UnitedFront.Defs;
 using UnityEngine;
 using Verse;
 
@@ -12,7 +13,7 @@ namespace UnitedFront.Render
 
         protected override string TexPathFor(Pawn pawn)
         {
-            DecalProfile profile = DecalUtil.ReadProfileFrom(pawn, _slot);
+            DecalProfile profile = DecalUtil.ProfileOn (pawn, _slot);
             if (profile.Active && !profile.SymbolPath.NullOrEmpty())
                 return profile.SymbolPath;
             return base.TexPathFor(pawn);
@@ -20,7 +21,7 @@ namespace UnitedFront.Render
 
         public override Color ColorFor(Pawn pawn)
         {
-            DecalProfile profile = DecalUtil.ReadProfileFrom(pawn, _slot);
+            DecalProfile profile = DecalUtil.ProfileOn (pawn, _slot);
             if (profile.Active)
                 return profile.SymbolColor * Props.colorRGBPostFactor;
             return base.ColorFor(pawn);

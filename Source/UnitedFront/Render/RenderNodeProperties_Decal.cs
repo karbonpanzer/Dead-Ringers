@@ -1,4 +1,5 @@
-using UnitedFront.Decal;
+using UnitedFront.Decals;
+using UnitedFront.Defs;
 using UnityEngine;
 using Verse;
 

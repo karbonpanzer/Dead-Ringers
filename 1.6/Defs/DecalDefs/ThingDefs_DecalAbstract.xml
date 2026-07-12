@@ -3,7 +3,7 @@
 
   <ThingDef Name="UFR_DecalBodyArmor_Heavy" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -44,7 +44,7 @@
 
   <ThingDef Name="UFR_DecalBodyArmor_Light" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -85,7 +85,7 @@
 
   <ThingDef Name="UFR_DecalBodyArmor_Officer" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -126,7 +126,7 @@
 
   <ThingDef Name="UFR_DecalBodyArmor_Scout" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -167,7 +167,7 @@
 
   <ThingDef Name="UFR_DecalBodyArmor_Riot" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -208,7 +208,7 @@
 
   <ThingDef Name="UFR_DecalHelmet_Light" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
@@ -239,7 +239,7 @@
 
   <ThingDef Name="UFR_DecalHelmet_Heavy" ParentName="ArmorMachineableBase" Abstract="True">
     <comps>
-      <li Class="UnitedFront.Decal.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
     </comps>
     <apparel>
       <renderNodeProperties>
