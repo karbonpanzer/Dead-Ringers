@@ -168,13 +168,6 @@
         <thingDefCountRange>3~4</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
-      <!-- Faction exotic weapons -->
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>UFR_GaussRifle</li>
-        </thingDefs>
-        <countRange>0~2</countRange>
-      </li>
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>BasicClothing</tradeTag>

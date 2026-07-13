@@ -44,7 +44,7 @@
 
     <ResearchProjectDef>
         <defName>UFR_CarapaceSpecializedCompositions</defName>
-        <label>Carapace Specialized Compositions</label>
+        <label>Carapace Refined Compositions</label>
         <description>Refine Carapace composite formulations for specialized officer-grade armor configurations that combine protection with the appearance expected of command personnel.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
@@ -58,7 +58,7 @@
 
     <ResearchProjectDef>
         <defName>UFR_CarapaceRecompositionMethods</defName>
-        <label>Carapace Recomposition Methods</label>
+        <label>Carapace Alloying Methods</label>
         <description>Restructure Carapace composite matrices into alternate configurations suited for specialist combat roles.</description>
         <baseCost>2200</baseCost>
         <tab>UFR_ResearchTab</tab>
@@ -115,7 +115,7 @@
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
-        <researchViewY>4.2</researchViewY>
+        <researchViewY>4.9</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -129,7 +129,7 @@
             <li>UFR_AdvancedWovenUniforms</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewY>4.2</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -143,7 +143,7 @@
             <li>UFR_AdvancedWovenUniforms</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>4.9</researchViewY>
+        <researchViewY>5.6</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -157,7 +157,7 @@
             <li>UFR_AdvancedWovenUniforms</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>4.2</researchViewY>
+        <researchViewY>4.9</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -171,12 +171,12 @@
             <li>UFR_StandardizedInfantryKits</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
-        <researchViewY>4.2</researchViewY>
+        <researchViewY>4.9</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_MagneticCoilManufacturing</defName>
-        <label>Magnetic Coil Manufacturing</label>
+        <defName>UFR_MinitureRAPManufacturing</defName>
+        <label>Rocket-Assisted Weaponry</label>
         <description>Construct basic coil weapons used by United Front settlers. Capacitor banks and rail coils require advanced components.</description>
         <baseCost>1600</baseCost>
         <tab>UFR_ResearchTab</tab>
@@ -185,7 +185,7 @@
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>2.8</researchViewY>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -199,52 +199,49 @@
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>2.1</researchViewY>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_AdvancedCoilFabrication</defName>
-        <label>Advanced Coil Fabrication</label>
+        <defName>UFR_AdvancedStormFabrication</defName>
+        <label>Advanced Storm Weaponry</label>
         <description>Construct advanced coil weaponry fielded by United Front armed forces. Multi-stage rail acceleration and precision capacitor tuning enable significantly higher velocity and penetration.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_MagneticCoilManufacturing</li>
+            <li>UFR_MinitureRAPManufacturing</li>
         </prerequisites>
-        <researchViewX>4</researchViewX>
-        <researchViewY>2.8</researchViewY>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_ReinforcedCoilSuperstructures</defName>
-        <label>Reinforced Coil Superstructures</label>
+        <defName>UFR_ReinforcedStormSuperstructures</defName>
+        <label>Reinforced Storm Weaponry</label>
         <description>Construct heavy coil weapons favored by United Front pirates and mercenaries. Industrial-scale capacitor banks deliver devastating slug impacts.</description>
         <baseCost>2000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_MagneticCoilManufacturing</li>
+            <li>UFR_MinitureRAPManufacturing</li>
         </prerequisites>
-        <researchViewX>4</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
         <defName>UFR_IonizedGasRefinement</defName>
-        <label>Ionized Gas Refinement</label>
+        <label>Ion-Plasma Weaponry</label>
         <description>Construct ultratech laser weapons that fire focused beams of coherent light through refined ionized gas. Requires analysis of a weapons decoder.</description>
         <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Ultra</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedCoilFabrication</li>
+            <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_WeaponsDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>6</researchViewX>
-        <researchViewY>2.8</researchViewY>
+        <researchViewX>2</researchViewX>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -257,27 +254,7 @@
         <prerequisites>
             <li>UFR_IonizedGasRefinement</li>
         </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_WeaponsDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>7</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_IonPlasmaBlades</defName>
-        <label>Ion-Plasma Blades</label>
-        <description>Construct ultratech plasma-edged melee weapons that channel containment-stabilized plasma along a blade edge, slicing through armor and tissue with equal ease.</description>
-        <baseCost>3600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_IonizedGasRefinement</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_WeaponsDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>7</researchViewX>
+        <researchViewX>3</researchViewX>
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 

@@ -17,10 +17,10 @@ namespace UnitedFront.Decals
             if (tracker == null) return null;
 
             List<Apparel> worn = tracker.WornApparel;
-            for (int i = 0; i < worn.Count; i++)
+            foreach (var t in worn)
             {
-                if (!worn[i].def.HasComp<CompEditDecalMarker>()) continue;
-                var comp = worn[i].TryGetComp<CompEditDecalMarker>();
+                if (!t.def.HasComp<CompEditDecalMarker>()) continue;
+                var comp = t.TryGetComp<CompEditDecalMarker>();
                 if (comp != null) return comp;
             }
             return null;
@@ -67,9 +67,9 @@ namespace UnitedFront.Decals
         {
             List<DecalSymbol> all = DefDatabase<DecalSymbol>.AllDefsListForReading;
             var result = new List<DecalSymbol>(all.Count);
-            for (int i = 0; i < all.Count; i++)
+            foreach (var t in all)
             {
-                if (keep(all[i])) result.Add(all[i]);
+                if (keep(t)) result.Add(t);
             }
             return result;
         }

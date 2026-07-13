@@ -17,21 +17,13 @@ namespace UnitedFront.Comps
         public bool blocksExplosiveDamage = true;
 
         public float lowEnergyPulseThreshold = 0.25f;
-
-        // Vanilla re-rolls the bubble's rotation every frame, which is what
-        // produces its flicker. Set false to hold the sprite still (Fray's
-        // approach) if the bubble art has detail you want to stay readable.
+        
         public bool randomizeRotation = true;
-
-        // Vanilla fires an ExplosionFlash at scale 12 when the shield pops.
-        // That is enormous. Set to 0 to suppress it entirely.
+        
         public float breakFlashScale = 2f;
-
-        // Vanilla throws 6 dust puffs on break. 0 disables.
+        
         public int breakDustPuffs = 0;
 
-        // Caps the break effecter's scale. It is otherwise sized from
-        // minDrawSize, which grows it whenever you enlarge the bubble.
         public float breakEffecterScale = 1f;
 
         public CompProperties_ShieldUFR()
