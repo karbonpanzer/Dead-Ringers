@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     
-
-
+    <!-- Coil Rifle -->
     <ThingDef ParentName="BaseBullet">
         <defName>UFR_Slug_CoilRifle</defName>
         <label>coil rifle slug</label>
@@ -108,10 +107,7 @@
         <uiIconScale>1.05</uiIconScale>
     </ThingDef>
 
-
-
-
-
+    <!-- Heavy Coil Rifle -->
     <ThingDef ParentName="BaseBullet">
         <defName>UFR_Slug_HeavyCoilRifle</defName>
         <label>tri-coil slug</label>
@@ -217,7 +213,6 @@
         </tradeTags>
         <uiIconScale>0.90</uiIconScale>
     </ThingDef>
-
 
   <!-- Volley Coilgun -->
   <ThingDef ParentName="BaseBullet">

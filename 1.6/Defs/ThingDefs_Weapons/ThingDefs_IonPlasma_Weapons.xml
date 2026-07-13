@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  
+  <!-- Plasma Pistol -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaPistol</defName>
     <label>ion-plasma pistol slug</label>
@@ -111,7 +111,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  
+  <!-- Plasma Rifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaRifle</defName>
     <label>ion-plasma rifle slug</label>
@@ -250,7 +250,7 @@
     </projectile>
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
-        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
+        <effecterDef>UFR_EffectLaunch_IonPlasmaCaster</effecterDef>
       </li>
     </comps>
   </ThingDef>
@@ -334,94 +334,6 @@
       <li>WeaponRanged</li>
     </tradeTags>
     <uiIconScale>1.05</uiIconScale>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="UFR_IonPlasmaSword">
-    <defName>UFR_IonPlasmaSword</defName>
-    <label>Ion-Plasma Sword</label>
-    <description>A near-ultratech blade that sheathes its monomolecular edge in a continuous flicker of ionized plasma. The plasma envelope superheats the cut, severing armor plate and flesh alike, while the underlying edge ensures the wound never simply cauterizes shut.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/ionplasmasword</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Spacer</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>UFR_IonPlasmaBlades</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>11</Crafting>
-      </skillRequirements>
-      <recipeUsers>
-        <li>UFR_FabricationBench</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-      <Plasteel>80</Plasteel>
-      <ComponentSpacer>5</ComponentSpacer>
-      <Uranium>12</Uranium>
-    </costList>
-    <statBases>
-      <WorkToMake>52000</WorkToMake>
-      <Mass>1.6</Mass>
-      <MarketValue>2400</MarketValue>
-      <MeleeWeapon_AverageArmorPenetration>0.80</MeleeWeapon_AverageArmorPenetration>
-    </statBases>
-    <equippedAngleOffset>-45</equippedAngleOffset>
-    <weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-      <li>UFR_UFMelee</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.4</cooldownTime>
-      </li>
-      <li>
-        <label>pommel</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>30</power>
-        <cooldownTime>1.6</cooldownTime>
-        <extraMeleeDamages>
-          <li>
-            <def>Burn</def>
-            <amount>5</amount>
-          </li>
-        </extraMeleeDamages>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>30</power>
-        <cooldownTime>1.6</cooldownTime>
-        <extraMeleeDamages>
-          <li>
-            <def>Burn</def>
-            <amount>5</amount>
-          </li>
-        </extraMeleeDamages>
-      </li>
-    </tools>
-    <thingSetMakerTags>
-      <li>RewardStandardHighTech</li>
-    </thingSetMakerTags>
-    <tradeTags>
-      <li>WeaponMelee</li>
-    </tradeTags>
   </ThingDef>
 
   <!-- Ion-Plasma Shotgun -->
@@ -525,9 +437,6 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- Ion-Plasma Repeater -->
-
-
   <!-- Plasma Fusion Gun -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_PlasmaFusionGun</defName>
@@ -615,8 +524,5 @@
     </thingSetMakerTags>  
     <relicChance>0</relicChance>  
   </ThingDef>
-
-  <!-- Ion-Plasma SMG -->
-
 
 </Defs>
