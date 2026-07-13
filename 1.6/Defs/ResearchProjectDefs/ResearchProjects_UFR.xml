@@ -258,4 +258,33 @@
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
+    <ResearchProjectDef>
+        <defName>UFR_StandardPatternArms</defName>
+        <label>Standard Pattern Arms</label>
+        <description>Reproduce the small arms the United Front brought with it. These are not local designs. They are the patterns its armorers were trained on, rebuilt from memory and salvage, and they hold tolerances no factory on this world has any reason to keep.</description>
+        <baseCost>1600</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>PrecisionRifling</li>
+            <li>GasOperation</li>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+ 
+    <ResearchProjectDef>
+        <defName>UFR_ThermalDispersion</defName>
+        <label>Thermal Dispersion Fields</label>
+        <description>Retune a shield belt to catch heat. Standard belts stop projectiles and shrapnel and do nothing whatsoever against fire, a gap the Front learned on a world that burned. The dispersion layer costs reservoir capacity and buys back only the ability to stand in flame.</description>
+        <baseCost>1000</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>ShieldBelt</li>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
 </Defs>

@@ -27,7 +27,7 @@
     </costList>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <researchPrerequisite>UFR_ThermalDispersion</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>

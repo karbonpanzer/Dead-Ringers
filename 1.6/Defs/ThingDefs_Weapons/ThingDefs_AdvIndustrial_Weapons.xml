@@ -72,7 +72,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -151,7 +151,7 @@
       <li>SimpleGun</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -236,7 +236,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -322,7 +322,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -408,7 +408,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -492,7 +492,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -579,7 +579,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
