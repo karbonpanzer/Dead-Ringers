@@ -8,7 +8,7 @@
 		  <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-		  <texPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
+		  <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		  <color>(0.40,0.34,0.22)</color>
@@ -82,7 +82,7 @@
 			<li>Shoulders</li>
 			<li>Waist</li>        
 		  </bodyPartGroups>
-		  <wornGraphicPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
+		  <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
 		  <wornGraphicData>
        		 <renderUtilityAsPack>false</renderUtilityAsPack>
     	  </wornGraphicData>

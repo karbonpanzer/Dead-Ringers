@@ -8,7 +8,7 @@
     <description>A tailored duty uniform worn by commissioned Outcast officers. Cut to be presentable in formal settings while remaining durable enough for field use.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -61,7 +61,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -89,7 +89,7 @@
     <label>Outcast Officer Headwear</label>
     <description>A structured cap worn by Outcast Officers. Bears rank and unit markings, allowing the wearer to be identified quickly as command personnel during engagements.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -136,7 +136,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -169,7 +169,7 @@
     <description>An officer's duty uniform insulated for extreme cold. Thermal lining and sealed cuffs allow command personnel to function in conditions that would otherwise be debilitating.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -225,7 +225,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -253,7 +253,7 @@
     <label>Outcast Officer Headwear (Tundra)</label>
     <description>An officer's cap insulated for extreme cold. Full brow and ear coverage protects against frostbite without obscuring the rank markings that identify command personnel.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -303,7 +303,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -335,7 +335,7 @@
     <description>An officer's duty uniform built for extreme heat. Minimal layering and a light, reflective weave keep command personnel functional where standard kit would be lethal.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -391,7 +391,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -420,7 +420,7 @@
     <label>Outcast Officer Headwear (Arid)</label>
     <description>An officer's sun cap with a full neck drape. Protects against extreme sun exposure while keeping rank markings visible on the crown.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -470,7 +470,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

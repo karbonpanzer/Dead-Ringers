@@ -12,7 +12,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -51,7 +51,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -97,7 +97,7 @@
     </recipeMaker>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -132,7 +132,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>

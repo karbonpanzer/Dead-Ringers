@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Round_StormPistol</defName>
+    <thingClass>Projectile_Explosive</thingClass>
     <label>storm pistol round</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_medium</texPath>
+      <texPath>UFR/Things/Projectile/slug_medium</texPath>
       <drawSize>0.55</drawSize>
-      <shaderType>MoteGlow</shaderType>
+      <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>26</damageAmountBase>
+      <damageDef>UFR_StormBlast</damageDef>
+      <damageAmountBase>18</damageAmountBase>
       <armorPenetrationBase>0.60</armorPenetrationBase>
+      <explosionRadius>0.6</explosionRadius>
       <speed>120</speed>
       <stoppingPower>1.5</stoppingPower>
       <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
@@ -35,8 +36,9 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/stormpistol</texPath>
+      <texPath>UFR/Things/Item/Equipment/stormpistol</texPath>
       <drawSize>1.05</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <statBases>
       <WorkToMake>32000</WorkToMake>
@@ -46,7 +48,7 @@
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.35</AccuracyMedium>
       <AccuracyLong>0.15</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>25</Plasteel>
@@ -68,11 +70,15 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>UFR_Round_StormPistol</defaultProjectile>
-        <warmupTime>0.75</warmupTime>
+        <warmupTime>0.6</warmupTime>
         <range>21</range>
-        <burstShotCount>3</burstShotCount>
+        <forcedMissRadius>0.08</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
@@ -90,6 +96,10 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <generateCommonality>1.2</generateCommonality>
     <weaponTags>
       <li>UFR_UFSidearm</li>
     </weaponTags>
@@ -102,22 +112,22 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Round_StormRifle</defName>
-    <thingClass>UnitedFront.Projectiles.Projectile_PassThrough</thingClass>
+    <thingClass>Projectile_Explosive</thingClass>
     <label>storm round</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_medium</texPath>
+      <texPath>UFR/Things/Projectile/slug_medium</texPath>
       <drawSize>0.75</drawSize>
-      <shaderType>MoteGlow</shaderType>
+      <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>38</damageAmountBase>
+      <damageDef>UFR_StormBlast</damageDef>
+      <damageAmountBase>24</damageAmountBase>
       <armorPenetrationBase>0.80</armorPenetrationBase>
+      <explosionRadius>0.9</explosionRadius>
       <speed>150</speed>
       <stoppingPower>2.0</stoppingPower>
       <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
@@ -127,13 +137,6 @@
         <effecterDef>UFR_EffectLaunch_CoilGun</effecterDef>
       </li>
     </comps>
-    <modExtensions>
-      <li Class="UnitedFront.Projectiles.PassThroughExtension">
-        <maxPasses>1</maxPasses>
-        <damageFalloff>0.60</damageFalloff>
-        <overshootDistance>4</overshootDistance>
-      </li>
-    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_StormRifle">
@@ -142,8 +145,9 @@
     <description>The Front's standard-issue rifle. It fires self-propelled uranium rounds wrapped in a charge matrix — the motor keeps burning after launch, so the round arrives far harder than its calibre suggests, and wanders on the way. Front armorers accepted the loss of precision as the price of a round that goes through what it hits.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/stormrifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/stormrifle</texPath>
       <drawSize>1.0</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -170,22 +174,29 @@
       <AccuracyShort>0.62</AccuracyShort>
       <AccuracyMedium>0.68</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>UFR_Round_StormRifle</defaultProjectile>
-        <warmupTime>1.6</warmupTime>
+        <warmupTime>1.1</warmupTime>
         <range>32</range>
-        <burstShotCount>5</burstShotCount>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <forcedMissRadius>0.06</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <generateCommonality>1.0</generateCommonality>
     <weaponTags>
       <li>UFR_UFRifle</li>
     </weaponTags>
@@ -215,20 +226,20 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Round_StormRepeater</defName>
-    <thingClass>UnitedFront.Projectiles.Projectile_PassThrough</thingClass>
+    <thingClass>Projectile_Explosive</thingClass>
     <label>storm repeater round</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_medium</texPath>
+      <texPath>UFR/Things/Projectile/slug_medium</texPath>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageDef>UFR_StormBlast</damageDef>
+      <damageAmountBase>20</damageAmountBase>
       <armorPenetrationBase>0.85</armorPenetrationBase>
+      <explosionRadius>0.8</explosionRadius>
       <speed>145</speed>
       <stoppingPower>2.5</stoppingPower>
       <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
@@ -238,13 +249,6 @@
         <effecterDef>UFR_EffectLaunch_CoilGun</effecterDef>
       </li>
     </comps>
-    <modExtensions>
-      <li Class="UnitedFront.Projectiles.PassThroughExtension">
-        <maxPasses>1</maxPasses>
-        <damageFalloff>0.50</damageFalloff>
-        <overshootDistance>3</overshootDistance>
-      </li>
-    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
@@ -253,9 +257,10 @@
     <description>A crew-served launcher that walks rounds downrange in slow, heavy salvos. Nothing about it is quick, and half of what it throws goes wide, but the rounds that land go through cover, through plate, and through whatever was standing behind.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/stormrepeater</texPath>
+      <texPath>UFR/Things/Item/Equipment/stormrepeater</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.10</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <statBases>
       <WorkToMake>52000</WorkToMake>
@@ -264,7 +269,7 @@
       <AccuracyShort>0.58</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.42</AccuracyLong>
-      <RangedWeapon_Cooldown>3.6</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
       <MarketValue>6500</MarketValue>
     </statBases>
     <costList>
@@ -278,12 +283,16 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>UFR_Round_StormRepeater</defaultProjectile>
-        <warmupTime>2.4</warmupTime>
+        <warmupTime>1.6</warmupTime>
         <range>40</range>
-        <burstShotCount>1</burstShotCount>
-        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <forcedMissRadius>0.05</forcedMissRadius>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
@@ -307,6 +316,10 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <generateCommonality>0.6</generateCommonality>
     <weaponTags>
       <li>UFR_UFHeavy</li>
     </weaponTags>
@@ -321,22 +334,22 @@
     </recipeMaker>
   </ThingDef>
 
-
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Round_StormCannon</defName>
-    <thingClass>UnitedFront.Projectiles.Projectile_PassThrough</thingClass>
+    <thingClass>Projectile_Explosive</thingClass>
     <label>storm cannon round</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/slug_medium</texPath>
+      <texPath>UFR/Things/Projectile/slug_medium</texPath>
       <drawSize>1.0</drawSize>
-      <shaderType>MoteGlow</shaderType>
+      <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>48</damageAmountBase>
+      <damageDef>UFR_StormBlast</damageDef>
+      <damageAmountBase>32</damageAmountBase>
       <armorPenetrationBase>1.05</armorPenetrationBase>
+      <explosionRadius>1.5</explosionRadius>
       <speed>190</speed>
       <stoppingPower>3.0</stoppingPower>
       <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
@@ -346,13 +359,6 @@
         <effecterDef>UFR_EffectLaunch_CoilGun_TriCoil</effecterDef>
       </li>
     </comps>
-    <modExtensions>
-      <li Class="UnitedFront.Projectiles.PassThroughExtension">
-        <maxPasses>2</maxPasses>
-        <damageFalloff>0.70</damageFalloff>
-        <overshootDistance>6</overshootDistance>
-      </li>
-    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_StormCannon">
@@ -361,8 +367,9 @@
     <description>An oversized launcher built around a firing cradle rather than a barrel. Its rounds carry enough uranium and propellant to punch through cataphract plate, but the weapon shakes itself off-line with every launch. Steady hands and long sightlines are the only way to make it pay.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/stormcannon</texPath>
+      <texPath>UFR/Things/Item/Equipment/stormcannon</texPath>
       <drawSize>1.25</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -388,8 +395,8 @@
       <AccuracyTouch>0.32</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
       <AccuracyMedium>0.66</AccuracyMedium>
-      <AccuracyLong>0.70</AccuracyLong>        
-      <RangedWeapon_Cooldown>4.6</RangedWeapon_Cooldown>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.30</MoveSpeed>
@@ -399,15 +406,22 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>UFR_Round_StormCannon</defaultProjectile>
-        <warmupTime>4.0</warmupTime>
+        <warmupTime>2.6</warmupTime>
         <range>78</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <forcedMissRadius>0.10</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
         <muzzleFlashScale>13</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <generateCommonality>0.3</generateCommonality>
     <weaponTags>
       <li>UFR_UFMarksman</li>
     </weaponTags>

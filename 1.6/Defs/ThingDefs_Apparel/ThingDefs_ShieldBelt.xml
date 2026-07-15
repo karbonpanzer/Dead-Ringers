@@ -62,7 +62,7 @@
     </apparel>
     <comps>
       <li Class="UnitedFront.Comps.CompProperties_ShieldUFR">
-        <bubbleTexPath>Things/Other/UFRShield</bubbleTexPath>
+        <bubbleTexPath>UFR/Things/Other/UFRShield</bubbleTexPath>
         <randomizeRotation>true</randomizeRotation>
         <lowEnergyPulseThreshold>0.25</lowEnergyPulseThreshold>
         <blocksRangedWeapons>false</blocksRangedWeapons>

@@ -7,7 +7,7 @@
     <label>ion-plasma pistol slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/plasmabolt</texPath>
+      <texPath>UFR/Things/Projectile/plasmabolt</texPath>
       <drawSize>0.85</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -38,7 +38,7 @@
     <description>An upgraded coil pistol that wraps its uranium slug in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the slug arrives, dramatically improving penetration without sacrificing the platform's compactness.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/ionplasmapistol</texPath>
+      <texPath>UFR/Things/Item/Equipment/ionplasmapistol</texPath>
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
@@ -117,7 +117,7 @@
     <label>ion-plasma rifle slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/plasmabolt</texPath>
+      <texPath>UFR/Things/Projectile/plasmabolt</texPath>
       <drawSize>0.85</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -148,7 +148,7 @@
     <description>An upgraded coil rifle that wraps each uranium slug in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the slug arrives, granting devastating penetration against even hardened spacer-tier plating.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/ionplasmarifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/ionplasmarifle</texPath>
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
@@ -229,7 +229,7 @@
     <label>ion-plasma caster slug</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/plasmacannon</texPath>
+      <texPath>UFR/Things/Projectile/plasmacannon</texPath>
       <drawSize>1.0</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -261,7 +261,7 @@
     <description>A long-barrelled precision weapon descended from the tricoil rifle, redesigned to wrap each uranium slug in a stabilized plasma sleeve. At range the plasma sheath maintains slug integrity through atmospheric drag while shredding the target's armor at impact.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/Equipment/ionplasmacaster</texPath>
+      <texPath>UFR/Things/Item/Equipment/ionplasmacaster</texPath>
       <drawSize>1.1</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
@@ -342,7 +342,7 @@
     <label>ion-plasma pellet</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/plasmabolt</texPath>
+      <texPath>UFR/Things/Projectile/plasmabolt</texPath>
       <drawSize>0.65</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -373,7 +373,7 @@
     <description>A close-range plasma weapon that fires a spread of burning ion pellets. Each pellet ignites what it hits, stacking burn on any target caught in the spread. Devastating in close quarters against groups of unarmored targets.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/ionplasmashotgun</texPath>
+      <texPath>UFR/Things/Item/Equipment/ionplasmashotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -443,7 +443,7 @@
     <label>plasma fusion charge</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Projectile/fusionbolt</texPath>
+      <texPath>UFR/Things/Projectile/fusionbolt</texPath>
       <drawSize>1.4</drawSize>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
@@ -475,7 +475,7 @@
     <techLevel>Spacer</techLevel>
     <smeltable>false</smeltable>
     <graphicData>
-      <texPath>Things/Item/Equipment/fusioncannon</texPath>
+      <texPath>UFR/Things/Item/Equipment/fusioncannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

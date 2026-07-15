@@ -6,7 +6,7 @@
     <label>Infantry Webbing</label>
     <description>A standard load-bearing harness worn by Outcast infantry. Distributes the weight of ammunition and field kit across the torso. Issued to most front-line personnel.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -50,7 +50,7 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -82,7 +82,7 @@
     <label>Engineer Webbing</label>
     <description>A load-bearing harness fitted with tool loops, component pouches, and cable management clips. Used by combat engineers who carry both weapons and technical equipment into the field.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -127,7 +127,7 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -159,7 +159,7 @@
     <label>Medic Webbing</label>
     <description>A load-bearing harness configured with medical pouches, tourniquet holders, and quick-access loops for field dressings. Designed to keep essential trauma supplies within immediate reach.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -204,7 +204,7 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -236,7 +236,7 @@
     <label>Riot Webbing</label>
     <description>A heavy-duty load-bearing harness used in crowd control operations. Carries restraints, less-lethal munitions, and a baton loop alongside standard kit.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -281,7 +281,7 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -313,7 +313,7 @@
     <label>Scout Webbing</label>
     <description>A minimal load-bearing harness designed to carry only essential equipment. Low profile and free of rattling hardware, suited for personnel who need to move quietly.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -358,7 +358,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -395,7 +395,7 @@
     <label>Shocktrooper Webbing</label>
     <description>A load-bearing harness configured for close-quarters assault. High-capacity magazine pouches and breach tool loops are positioned for fast access under fire.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -441,7 +441,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -479,7 +479,7 @@
     <label>Grenadier Webbing (Frag)</label>
     <description>A load-bearing chest harness fitted with dedicated loops and pouches for fragmentation grenades. Standard kit for grenadier infantry who need their munitions close at hand.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -524,7 +524,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -585,7 +585,7 @@
     <label>Grenadier Webbing (EMP)</label>
     <description>A load-bearing chest harness configured for EMP grenades. Signal-dampening lining keeps the electromagnetic pulse charges from interfering with nearby electronics between engagements.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -630,7 +630,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -691,7 +691,7 @@
     <label>Grenadier Webbing (Incendiary)</label>
     <description>A load-bearing chest harness designed to carry incendiary grenades. Glass bottles filled with flammable liquid create devastating fires on impact. Heat-resistant loops and spacing prevent sympathetic ignition.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -736,7 +736,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>

@@ -32,7 +32,7 @@ namespace UnitedFront.Comps
 
             LongEventHandler.ExecuteWhenFinished(delegate
             {
-                string path = bubbleTexPath.NullOrEmpty() ? "Other/ShieldBubble" : bubbleTexPath;
+                string path = bubbleTexPath.NullOrEmpty() ? "UFR/Other/ShieldBubble" : bubbleTexPath;
                 BubbleMat = MaterialPool.MatFrom(path, ShaderDatabase.TransparentPostLight);
             });
         }

@@ -24,7 +24,7 @@
     <description>A heavy caliber pistol favored by pirates and mercenaries. Powerful and weighty, it can easily pierce armor at close range. Though it lacks in the ability to hit at a distance.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/assaultpistol</texPath>
+      <texPath>UFR/Things/Item/Equipment/assaultpistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -103,7 +103,7 @@
     <description>A large frame revolver often seen with mercenaries. Despite its size, it is light and powerful, thanks to its advanced manufacturing and specialized high power ammunition.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/stampederevolver</texPath>
+      <texPath>UFR/Things/Item/Equipment/stampederevolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -181,7 +181,7 @@
     <description>A state of the art sub-machinegun built with lightweight polymers and advanced alloys. Light, accurate, and easy to use, it has found usage in hundreds of colonies now for security.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/advsmg</texPath>
+      <texPath>UFR/Things/Item/Equipment/advsmg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -266,7 +266,7 @@
     <description>An advanced rifle design used by ringer veterans and mercenaries. Built with state-of-the-art polymers and alloys, it fires armor-piercing duplex ammunition.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/advcombatrifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/advcombatrifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -352,7 +352,7 @@
     <description>A precision variant of the combat rifle fitted with a longer barrel and magnified optic. Fires accurate two-round bursts at extended range, trading rate of fire for per-shot damage.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/advbattlerifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/advbattlerifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -439,7 +439,7 @@
     <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/lawbringershotgun</texPath>
+      <texPath>UFR/Things/Item/Equipment/lawbringershotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -523,7 +523,7 @@
     <description>An experimental hyper-burst anti-material rifle chambered in high-powered armor piercing shells. Heavy and cumbersome, effective against both armored and unarmored targets.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/hydrarifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/hydrarifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.15</drawSize>
     </graphicData>

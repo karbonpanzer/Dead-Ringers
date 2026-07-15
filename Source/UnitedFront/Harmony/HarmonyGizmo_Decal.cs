@@ -22,7 +22,7 @@ namespace UnitedFront.Harmony
     [HarmonyPatch(typeof(Pawn), nameof(Pawn.GetGizmos))]
     public static class Pawn_GetGizmos_Decals
     {
-        private static readonly Texture2D GizmoIcon = ContentFinder<Texture2D>.Get("UI/UFR_CustomizeDecal");
+        private static readonly Texture2D GizmoIcon = ContentFinder<Texture2D>.Get("UFR/UI/UFR_CustomizeDecal");
 
         public static void Postfix(Pawn __instance, ref IEnumerable<Gizmo> __result)
         {

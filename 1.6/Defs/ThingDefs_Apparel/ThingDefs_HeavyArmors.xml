@@ -8,7 +8,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <texPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -63,7 +63,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
@@ -88,7 +88,7 @@
     <label>Heavy Carapace Helmet</label>
     <description>A reinforced Carapace helmet with additional plating across the crown and rear. Substantially more protective than the standard configuration. Used by assault personnel expecting sustained fire.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -131,7 +131,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -159,7 +159,7 @@
     <label>Heavy Carapace Helmet (Insulated)</label>
     <description>A heavy Carapace helmet with thermal lining for extreme temperature operations. Provides the same protection as the standard heavy configuration in conditions that would otherwise impair the wearer.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -203,7 +203,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -234,7 +234,7 @@
     <label>Heavy Carapace Helmet (Reinforced)</label>
     <description>A heavy Carapace helmet with extra armor bonded across the faceplate and brow. The most protective variant of the Carapace helmet series.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -281,7 +281,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -312,7 +312,7 @@
     <label>Heavy Carapace Helmet (Gasmask)</label>
     <description>A heavy Carapace helmet with a full-face filtration system integrated into the shell. Seals completely against airborne threats while retaining the ballistic protection of the heavy platform.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -359,7 +359,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

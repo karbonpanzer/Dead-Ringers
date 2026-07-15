@@ -107,7 +107,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
           <drawSize>0.7</drawSize>
           <shadowData>
             <volume>(0.45, 0.35, 0.35)</volume>
@@ -115,13 +115,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/Flufflon_Male</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/Flufflon_Male</texPath>
           <drawSize>1.40</drawSize>
           <shadowData>
             <volume>(0.65, 0.5, 0.5)</volume>
@@ -129,7 +129,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
           <drawSize>1.40</drawSize>
           <shadowData>
             <volume>(0.65, 0.5, 0.5)</volume>
@@ -137,17 +137,17 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Male</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Male</texPath>
           <drawSize>1.40</drawSize>
         </dessicatedBodyGraphicData>
         <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
           <drawSize>1.40</drawSize>
         </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/Flufflon_Male</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/Flufflon_Male</texPath>
           <drawSize>1.85</drawSize>
           <shadowData>
             <volume>(0.7, 0.55, 0.55)</volume>
@@ -155,7 +155,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/Flufflon_Female</texPath>
           <drawSize>1.80</drawSize>
           <shadowData>
             <volume>(0.7, 0.55, 0.55)</volume>
@@ -163,11 +163,11 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Male</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Male</texPath>
           <drawSize>1.85</drawSize>
         </dessicatedBodyGraphicData>
         <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
+          <texPath>UFR/Things/Pawn/Animals/Fluffron/DessicatedFlufflon_Female</texPath>
           <drawSize>1.80</drawSize>
         </femaleDessicatedBodyGraphicData>
       </li>

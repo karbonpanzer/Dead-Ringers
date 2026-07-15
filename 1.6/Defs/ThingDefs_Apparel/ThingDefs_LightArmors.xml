@@ -6,7 +6,7 @@
     <label>Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -47,7 +47,7 @@
     </statBases>
     <apparel>
       <useWornGraphicMask>True</useWornGraphicMask>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -85,7 +85,7 @@
     <label>Carapace Helmet</label>
     <description>A hard-shell combat helmet with a Carapace outer layer and ballistic liner. Covers the skull and upper face. Standard head protection for uf combat personnel.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -128,7 +128,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -156,7 +156,7 @@
     <label>Carapace Helmet (Insulated)</label>
     <description>A Carapace helmet with thermal lining added to the interior. Provides the same ballistic protection as the standard configuration in climates that would otherwise affect the wearer's effectiveness.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -200,7 +200,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -231,7 +231,7 @@
     <label>Carapace Helmet (Reinforced)</label>
     <description>A Carapace helmet with an additional ballistic plate bonded to the front. Heavier than the standard configuration, but more resistant to direct frontal impacts.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -278,7 +278,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -309,7 +309,7 @@
     <label>Carapace Helmet (Gasmask)</label>
     <description>A Carapace helmet fitted with an integrated filtration mask. Protects the skull and seals the airway against chemical agents and toxic particulates.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -353,7 +353,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

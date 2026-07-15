@@ -8,7 +8,7 @@
     <description>A standard Outcast duty uniform adapted for extreme heat. Stripped to the minimum needed for function, with a light weave that resists heat buildup.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -54,7 +54,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -82,7 +82,7 @@
     <label>Field Hat (Arid)</label>
     <description>Based on an Old Earth design from the 3rd Era of Imperialism. This headgear is designed to protect the wearer from the worst heat they can find in the Rim. Providing not only cool headwear but also protecting the wearer from the worst that the sun can provide. Originally designed for usage on Spiceworld Regiments, it is now found in more worlds than the uniform that it came from.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -125,7 +125,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -157,7 +157,7 @@
     <label>Outcast Uniform Headwear (Steppe)</label>
     <description>A wide-brimmed field cap worn by Outcast personnel in desert postings. Shades the face and neck from direct sun.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -200,7 +200,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -232,7 +232,7 @@
     <description>A standard Outcast duty uniform adapted for Steppe and desert postings. Loose-weave fabric reduces heat absorption and allows some airflow.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -278,7 +278,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -308,7 +308,7 @@
     <description>The standard Outcast duty uniform, balanced for moderate climates. Worn by most deployed Outcast personnel across a wide range of postings.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -358,7 +358,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -386,7 +386,7 @@
     <label>Outcast Uniform Headwear (Temperate)</label>
     <description>A standard Outcast field cap, worn across most postings. Provides modest weather protection and carries unit markings.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -433,7 +433,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -466,7 +466,7 @@
     <description>A standard Outcast duty uniform layered for cold forest climates. Thick enough to retain warmth, flexible enough for movement through difficult terrain.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -516,7 +516,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -544,7 +544,7 @@
     <label>Outcast Uniform Headwear (Boreal)</label>
     <description>A mid-weight field cap with insulated lining, worn by Outcast personnel in cold forest postings. Covers the ears without significantly restricting peripheral vision.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -591,7 +591,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -624,7 +624,7 @@
     <description>A standard Outcast duty uniform insulated for extreme cold. Reinforced seams and sealed cuffs keep heat in when outside temperatures become dangerous.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -674,7 +674,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -702,7 +702,7 @@
     <label>Outcast Uniform Headwear (Tundra)</label>
     <description>A fully insulated field cap worn by Outcast personnel in extreme cold. Covers the ears, brow, and most of the face to prevent frostbite in subzero conditions.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
@@ -749,7 +749,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

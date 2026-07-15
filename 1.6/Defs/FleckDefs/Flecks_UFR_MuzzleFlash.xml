@@ -10,7 +10,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_CoilGun</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_CoilGun</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -24,7 +24,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_CoilGun</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_CoilGun</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -38,7 +38,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_CoilGun</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_CoilGun</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -52,7 +52,7 @@
     <fadeOutTime>0.25</fadeOutTime>
     <growthRate>4.00</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Blast</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_CoilGun_Blast</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>0.5</drawSize>
     </graphicData>
@@ -66,7 +66,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.65</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Aura</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_CoilGun_Aura</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -80,7 +80,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>3.50</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_CoilGun_Glare</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_CoilGun_Glare</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1,2)</drawSize>
     </graphicData>
@@ -95,7 +95,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_GaussGun</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_GaussGun</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -109,7 +109,7 @@
     <fadeOutTime>0.25</fadeOutTime>
     <growthRate>4.00</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_GaussGun_Blast</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_GaussGun_Blast</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>0.5</drawSize>
     </graphicData>
@@ -123,7 +123,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.65</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_GaussGun_Aura</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_GaussGun_Aura</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -137,7 +137,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>3.50</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_GaussGun_Glare</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_GaussGun_Glare</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1,2)</drawSize>
     </graphicData>
@@ -152,7 +152,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_IonPlasma</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_IonPlasma</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -166,7 +166,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.20</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_IonPlasma</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_IonPlasma</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.00,2.25)</drawSize>
     </graphicData>
@@ -180,7 +180,7 @@
     <fadeOutTime>0.25</fadeOutTime>
     <growthRate>4.00</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_IonPlasma_Blast</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_IonPlasma_Blast</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -194,7 +194,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>0.65</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_IonPlasma_Aura</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_IonPlasma_Aura</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -208,7 +208,7 @@
     <fadeOutTime>0.20</fadeOutTime>
     <growthRate>3.50</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_IonPlasma_Glare</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_IonPlasma_Glare</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1,2)</drawSize>
     </graphicData>
@@ -223,7 +223,7 @@
     <fadeOutTime>0.25</fadeOutTime>
     <growthRate>0.25</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckMuzzle_FusionPlasma</texPath>
+      <texPath>UFR/Things/Flecks/FleckMuzzle_FusionPlasma</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.20,2.50)</drawSize>
     </graphicData>
@@ -237,7 +237,7 @@
     <fadeOutTime>0.35</fadeOutTime>
     <growthRate>4.50</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Blast</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_FusionPlasma_Blast</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>3</drawSize>
     </graphicData>
@@ -251,7 +251,7 @@
     <fadeOutTime>0.30</fadeOutTime>
     <growthRate>0.80</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Aura</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_FusionPlasma_Aura</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>2.0</drawSize>
     </graphicData>
@@ -265,7 +265,7 @@
     <fadeOutTime>0.25</fadeOutTime>
     <growthRate>3.80</growthRate>
     <graphicData>
-      <texPath>Things/Mote/UFR_FleckImpact_FusionPlasma_Glare</texPath>
+      <texPath>UFR/Things/Flecks/FleckImpact_FusionPlasma_Glare</texPath>
       <shaderType>MoteGlow</shaderType>
       <drawSize>(1.5,2.5)</drawSize>
     </graphicData>
@@ -283,27 +283,27 @@
     <randomGraphics>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaA</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_IonPlasmaA</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaB</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_IonPlasmaB</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaC</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_IonPlasmaC</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaD</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_IonPlasmaD</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_IonPlasmaE</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_IonPlasmaE</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
     </randomGraphics>
@@ -319,27 +319,27 @@
     <randomGraphics>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_A</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_FusionPlasma_A</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_B</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_FusionPlasma_B</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_C</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_FusionPlasma_C</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_D</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_FusionPlasma_D</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
       <li>
         <graphicClass>Graphic_Fleck</graphicClass>
-        <texPath>Things/Mote/UFR_FleckTrail_FusionPlasma_E</texPath>
+        <texPath>UFR/Things/Flecks/UFR_FleckTrail_FusionPlasma_E</texPath>
         <shaderType>MoteGlow</shaderType>
       </li>
     </randomGraphics>

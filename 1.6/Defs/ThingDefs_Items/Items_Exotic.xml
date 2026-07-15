@@ -6,7 +6,7 @@
     <label>Weapons Decoder</label>
     <description>A digital decoder containing advanced energy weapon schematics recovered from the fallen homeworld military archives. Analyzing this decoder will unlock research into laser weaponry.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Decoder/Decoder</texPath>
+      <texPath>UFR/Things/Item/Resource/Decoder/Decoder</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -61,7 +61,7 @@
     <label>Armor Decoder</label>
     <description>A digital decoder containing power armor schematics from the homeworld special forces archives. Analyzing this decoder will unlock research into powered combat suits.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Decoder/Decoder</texPath>
+      <texPath>UFR/Things/Item/Resource/Decoder/Decoder</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>

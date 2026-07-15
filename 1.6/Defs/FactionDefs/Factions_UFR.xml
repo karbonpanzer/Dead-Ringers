@@ -30,7 +30,7 @@
                 <li>Synthread</li>
             </thingDefs>
         </apparelStuffFilter>
-        <factionIconPath>UI/FactionIcons/DominionPlayerHome</factionIconPath>
+        <factionIconPath>UFR/UI/FactionIcons/DominionPlayerHome</factionIconPath>
         <startingResearchTags>
             <li>ClassicStart</li>
         </startingResearchTags>
@@ -44,6 +44,7 @@
         <defName>UFR_Civil</defName>
         <label>Front citizens</label>
         <description>A decentralized faction of war refugees whose industrial homeworld was overrun by mechanoids. Abandoned to their fate, these survivors scattered across the rim seeking stability they no longer had.\n\nThough they carry advanced military weapons and composite armor, they lack the manufacturing base to replace what breaks. They rely on the discipline and cooperative spirit of their former society to survive. They are generally willing to trade and ally with outsiders who prove themselves trustworthy, but will fiercely defend their provisional settlements against any threat.</description>
+        <categoryTag>Spacer</categoryTag>
         <pawnSingular>citizen</pawnSingular>
         <pawnsPlural>citizens</pawnsPlural>
         <listOrderPriority>13</listOrderPriority>
@@ -54,7 +55,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>governor</leaderTitle>
-        <factionIconPath>UI/FactionIcons/Dominion</factionIconPath>
+        <factionIconPath>UFR/UI/FactionIcons/Dominion</factionIconPath>
         <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <colorSpectrum>
@@ -242,10 +243,12 @@
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>25</configurationListOrderPriority>
     </FactionDef>
+
     <FactionDef ParentName="FactionBase">
         <defName>UFR_Rough</defName>
         <label>Free Companies</label>
         <description>A heavily armed faction of paramilitaries and opportunists formed from the ashes of a fallen industrial world. Unlike their civilian counterparts, these survivors abandoned the idea of peaceful settlement.\n\nOrganized into free companies and mercenary bands, they use salvaged military weaponry to take what they want. They view the rimworld not as a new home, but as a resource pool to maintain their deteriorating equipment. They are an army that never demobilized, preferring extortion and violent raiding over diplomacy.</description>
+        <categoryTag>Spacer</categoryTag>
         <pawnSingular>freebooter</pawnSingular>
         <pawnsPlural>freebooters</pawnsPlural>
         <listOrderPriority>13</listOrderPriority>
@@ -256,7 +259,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>boss</leaderTitle>
-        <factionIconPath>UI/FactionIcons/Freelancers</factionIconPath>
+        <factionIconPath>UFR/UI/FactionIcons/Freelancers</factionIconPath>
         <factionNameMaker>Namer_UFRFactionSavage</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementSavage</settlementNameMaker>
         <colorSpectrum>

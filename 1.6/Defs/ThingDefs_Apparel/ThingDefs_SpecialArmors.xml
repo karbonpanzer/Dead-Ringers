@@ -5,7 +5,7 @@
     <label>Officer Carapace Armor</label>
     <description>A Carapace armor set finished for officer-grade wear. Offers equivalent protection to standard Carapace while maintaining the appearance expected of command personnel.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -64,7 +64,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
       </tags>
@@ -85,7 +85,7 @@
     <label>Officer Carapace Armor (Scout)</label>
     <description>A lighter Carapace armor set worn by officers who operate close to or ahead of their unit. Trimmed for mobility while retaining markings that identify the wearer as command personnel.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Armor/OfficerScoutArmor/OfficerScoutArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/OfficerScoutArmor/OfficerScoutArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -142,7 +142,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/OfficerScoutArmor/OfficerScoutArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/OfficerScoutArmor/OfficerScoutArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
       </tags>
@@ -163,7 +163,7 @@
     <label>Scout Carapace Armor</label>
     <description>A reduced Carapace armor set designed for reconnaissance personnel. Coverage is trimmed to allow faster movement and quieter operation well ahead of the main force.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -218,7 +218,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
         <li>UFR_Armor_Conscript</li>
@@ -240,7 +240,7 @@
     <label>Riot Carapace Armor</label>
     <description>A Carapace armor set reinforced for crowd control operations. Additional blunt-trauma protection on the front panel helps absorb impacts common in suppression engagements.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -288,7 +288,7 @@
         <li>Legs</li>
       </bodyPartGroups>
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
-      <wornGraphicPath>Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
