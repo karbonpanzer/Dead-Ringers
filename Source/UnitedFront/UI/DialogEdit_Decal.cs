@@ -362,8 +362,7 @@ namespace UnitedFront.UI
             _selectedArmorIndex = Mathf.Clamp(_selectedArmorIndex, 0, _symbols.Count - 1);
             _profileSet.Armor.SymbolPath = _symbols[_selectedArmorIndex].path;
         }
-
-        //HSV sort so it doesn't look like ass
+        
         private List<Color> AllColors()
         {
             if (_allColors != null) return _allColors;

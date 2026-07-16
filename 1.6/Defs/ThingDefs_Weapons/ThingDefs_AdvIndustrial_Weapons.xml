@@ -28,6 +28,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>21000</WorkToMake>
       <Mass>1.4</Mass>
@@ -107,6 +108,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
     <statBases>
       <WorkToMake>21000</WorkToMake>
       <Mass>1.5</Mass>
@@ -184,6 +186,7 @@
       <texPath>UFR/Things/Item/Equipment/advsmg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>28000</WorkToMake>
       <Mass>2.5</Mass>
@@ -270,6 +273,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>32000</WorkToMake>
       <Mass>3.6</Mass>
@@ -356,6 +360,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>38000</WorkToMake>
       <Mass>4.2</Mass>
@@ -442,6 +447,7 @@
       <texPath>UFR/Things/Item/Equipment/lawbringershotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
       <WorkToMake>26000</WorkToMake>
       <Mass>3.5</Mass>
@@ -527,6 +533,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.15</drawSize>
     </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <Mass>5.8</Mass>

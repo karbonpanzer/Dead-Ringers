@@ -15,7 +15,7 @@
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-        <factionNameMaker>Namer_UFRSettlementCivil</factionNameMaker>
+        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <backstoryFilters>
             <li>

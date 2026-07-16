@@ -162,7 +162,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/private</armorDecalPath>
-                <helmetDecalPath>Things/Decals/private</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/private</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -192,7 +192,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/private</armorDecalPath>
-                <helmetDecalPath>Things/Decals/private</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/private</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -223,7 +223,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/corporal</armorDecalPath>
-                <helmetDecalPath>Things/Decals/corporal</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/corporal</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -254,7 +254,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/corporal</armorDecalPath>
-                <helmetDecalPath>Things/Decals/corporal</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/corporal</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -290,7 +290,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/skullrifle</armorDecalPath>
-                <helmetDecalPath>Things/Decals/skullrifle</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/skullrifle</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -323,7 +323,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/skullsword</armorDecalPath>
-                <helmetDecalPath>Things/Decals/skullsword</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/skullsword</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -378,7 +378,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/commander</armorDecalPath>
-                <helmetDecalPath>Things/Decals/commander</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/commander</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -422,7 +422,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/cross</armorDecalPath>
-                <helmetDecalPath>Things/Decals/cross</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/cross</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -459,7 +459,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/cog</armorDecalPath>
-                <helmetDecalPath>Things/Decals/cog</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/cog</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -493,7 +493,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/arrowhead</armorDecalPath>
-                <helmetDecalPath>Things/Decals/arrowhead</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/arrowhead</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
@@ -517,7 +517,7 @@
         <modExtensions>
             <li Class="UnitedFront.Defs.DecalKindExtension">
                 <armorDecalPath>UFR/Things/Decals/skullspear</armorDecalPath>
-                <helmetDecalPath>Things/Decals/skullspear</helmetDecalPath>
+                <helmetDecalPath>UFR/Things/Decals/skullspear</helmetDecalPath>
             </li>
         </modExtensions>
         <apparelRequired>
