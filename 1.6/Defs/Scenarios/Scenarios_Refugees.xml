@@ -100,14 +100,6 @@
                     <thingDef>WoodLog</thingDef>
                     <count>300</count>
                 </li>
-                <li Class="ScenPart_StartingResearch">
-                    <def>StartingResearch</def>
-                    <project>UFR_AdvancedFabricationMethods</project>
-                </li>
-                <li Class="ScenPart_StartingResearch">
-                    <def>StartingResearch</def>
-                    <project>UFR_AdvancedWovenUniforms</project>
-                </li>
                 <li Class="ScenPart_ScatterThingsNearPlayerStart">
                     <def>ScatterThingsNearPlayerStart</def>
                     <thingDef>Steel</thingDef>
