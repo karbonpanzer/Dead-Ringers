@@ -444,4 +444,5 @@
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>25</configurationListOrderPriority>
     </FactionDef>
+    
 </Defs>
