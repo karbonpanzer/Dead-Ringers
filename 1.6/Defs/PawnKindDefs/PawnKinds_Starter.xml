@@ -2,13 +2,12 @@
 <Defs>
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>UFR_Player</defName>
-		<label>Ringer settlers</label>
+		<label>settlers</label>
 		<race>Human</race>
 		<defaultFactionType>UFR_Player</defaultFactionType>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>Ringer</li>
 					<li>Outlander</li>
 				</categories>
 			</li>
