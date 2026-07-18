@@ -344,10 +344,10 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
-      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
       <speed>65</speed>
-      <stoppingPower>2.0</stoppingPower>
+      <stoppingPower>2.5</stoppingPower>
     </projectile>
   </ThingDef>
 
@@ -368,7 +368,7 @@
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.44</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.15</RangedWeapon_Cooldown>
       <MarketValue>1500</MarketValue>
     </statBases>
     <costList>
@@ -380,7 +380,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>UFR_Shell_FlechetteShotgun</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
+        <warmupTime>0.6</warmupTime>
         <range>22</range>
         <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
