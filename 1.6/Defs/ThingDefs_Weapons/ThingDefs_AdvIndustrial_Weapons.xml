@@ -246,10 +246,10 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- Advanced Combat Rifle -->
+  <!-- Pulse Rifle -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Bullet_AdvCombatRifle</defName>
-    <label>advanced combat rifle round</label>
+    <defName>UFR_Bullet_PulseRifle</defName>
+    <label>pulse rifle round</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -264,12 +264,12 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>UFR_AdvCombatRifle</defName>
-    <label>Advanced Combat Rifle</label>
+    <defName>UFR_PulseRifle</defName>
+    <label>Pulse Rifle</label>
     <description>An advanced rifle design used by ringer veterans and mercenaries. Built with state-of-the-art polymers and alloys, it fires armor-piercing duplex ammunition.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>UFR/Things/Item/Equipment/advcombatrifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/pulserifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -292,7 +292,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Bullet_AdvCombatRifle</defaultProjectile>
+        <defaultProjectile>UFR_Bullet_PulseRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>34</range>
         <burstShotCount>3</burstShotCount>
@@ -333,97 +333,10 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- Advanced Battle Rifle -->
+  <!-- Flechette Shotgun -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Bullet_AdvBattleRifle</defName>
-    <label>advanced battle DMR round</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
-      <armorPenetrationBase>0.44</armorPenetrationBase>
-      <speed>92</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>UFR_AdvBattleRifle</defName>
-    <label>Advanced Battle Rifle</label>
-    <description>A precision variant of the combat rifle fitted with a longer barrel and magnified optic. Fires accurate two-round bursts at extended range, trading rate of fire for per-shot damage.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>UFR/Things/Item/Equipment/advbattlerifle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
-    </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <Mass>4.2</Mass>
-      <AccuracyTouch>0.55</AccuracyTouch>
-      <AccuracyShort>0.72</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.72</AccuracyLong>
-      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <MarketValue>2400</MarketValue>
-    </statBases>
-    <costList>
-      <Steel>65</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Bullet_AdvBattleRifle</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>42</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
-        <soundCast>Shot_BoltActionRifle</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-  </ThingDef>
-
-  <!-- Lawbringer Shotgun -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Shell_LawbringerShotgun</defName>
-    <label>lawbringer shotgun shell</label>
+    <defName>UFR_Shell_FlechetteShotgun</defName>
+    <label>flechetee shotgun dart</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -439,12 +352,12 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>UFR_LawbringerShotgun</defName>
-    <label>Lawbringer Shotgun</label>
+    <defName>UFR_FlechetteShotgun</defName>
+    <label>Flechette Shotgun</label>
     <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>UFR/Things/Item/Equipment/lawbringershotgun</texPath>
+      <texPath>UFR/Things/Item/Equipment/flechetteshotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -466,7 +379,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Shell_LawbringerShotgun</defaultProjectile>
+        <defaultProjectile>UFR_Shell_FlechetteShotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>22</range>
         <soundCast>Shot_Shotgun</soundCast>
@@ -501,94 +414,6 @@
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-  </ThingDef>
-
-  <!-- Hydra Rifle -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Bullet_HydraRifle</defName>
-    <label>hydra rifle round</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <armorPenetrationBase>0.74</armorPenetrationBase>
-      <speed>100</speed>
-      <stoppingPower>2.5</stoppingPower>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>UFR_HydraRifle</defName>
-    <label>Hydra Rifle</label>
-    <description>An experimental hyper-burst anti-material rifle chambered in high-powered armor piercing shells. Heavy and cumbersome, effective against both armored and unarmored targets.</description>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>UFR/Things/Item/Equipment/hydrarifle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.15</drawSize>
-    </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <statBases>
-      <WorkToMake>52000</WorkToMake>
-      <Mass>5.8</Mass>
-      <AccuracyTouch>0.45</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.82</AccuracyMedium>
-      <AccuracyLong>0.85</AccuracyLong>
-      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
-      <MarketValue>3400</MarketValue>
-    </statBases>
-    <costList>
-      <Steel>85</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Bullet_HydraRifle</defaultProjectile>
-        <warmupTime>3.4</warmupTime>
-        <range>48</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
-        <soundCast>Shot_SniperRifle</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>10</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
