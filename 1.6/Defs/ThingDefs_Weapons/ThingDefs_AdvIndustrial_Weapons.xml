@@ -10,7 +10,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <armorPenetrationBase>0.32</armorPenetrationBase>
@@ -89,7 +88,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <armorPenetrationBase>0.26</armorPenetrationBase>
@@ -169,7 +167,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <armorPenetrationBase>0.15</armorPenetrationBase>
@@ -255,7 +252,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>17</damageAmountBase>
       <armorPenetrationBase>0.38</armorPenetrationBase>
@@ -342,7 +338,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>24</damageAmountBase>
       <armorPenetrationBase>0.45</armorPenetrationBase>
@@ -427,7 +422,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>19</damageAmountBase>
       <armorPenetrationBase>0.38</armorPenetrationBase>
@@ -512,7 +506,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>17</damageAmountBase>
       <armorPenetrationBase>0.38</armorPenetrationBase>
@@ -620,6 +613,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
+      <flyOverhead>true</flyOverhead>
       <speed>20</speed>
       <damageDef>Bomb</damageDef>
       <explosionRadius>2.1</explosionRadius>
@@ -675,7 +669,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <armorPenetrationBase>0.36</armorPenetrationBase>
@@ -754,7 +747,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>55</damageAmountBase>
       <armorPenetrationBase>0.55</armorPenetrationBase>
