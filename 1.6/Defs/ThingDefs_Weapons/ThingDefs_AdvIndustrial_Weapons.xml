@@ -626,7 +626,7 @@
 			<defName>UFR_UnderbarrelGL</defName>
 			<label>launch grenade</label>
 			<description>Use the underbarrel launcher to fire a grenade.</description>
-			<iconPath>UFR/UI/EMPGrenade_a</iconPath>
+			<iconPath>UFR/UI/Abilities/underbarrelgl_frag</iconPath>
 			<aiCanUse>true</aiCanUse>
 			<ai_IsIncendiary>false</ai_IsIncendiary>
 			<showOnCharacterCard>false</showOnCharacterCard>
