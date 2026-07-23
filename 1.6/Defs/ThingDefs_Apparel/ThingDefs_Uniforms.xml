@@ -1,318 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Superhot-->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_UFUniform_SuperHot</defName>
-    <label>Outcast Uniform (Desert)</label>
-    <description>A standard Outcast duty uniform adapted for extreme heat. Stripped to the minimum needed for function, with a light weave that resists heat buildup.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</texPath>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.82,0.76,0.65)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.78,0.72,0.60)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.70,0.65,0.52)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>150</costStuffCount>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>5400</WorkToMake>
-      <Mass>2.8</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.75</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_UFHat_SuperHot</defName>
-    <label>Field Hat (Arid)</label>
-    <description>Based on an Old Earth design from the 3rd Era of Imperialism. This headgear is designed to protect the wearer from the worst heat they can find in the Rim. Providing not only cool headwear but also protecting the wearer from the worst that the sun can provide. Originally designed for usage on Spiceworld Regiments, it is now found in more worlds than the uniform that it came from.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.82,0.76,0.65)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.78,0.72,0.60)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.70,0.65,0.52)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>35</costStuffCount>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>1600</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <!-- Hot -->
-	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_UFHat_Hot</defName>
-    <label>Outcast Uniform Headwear (Steppe)</label>
-    <description>A wide-brimmed field cap worn by Outcast personnel in desert postings. Shades the face and neck from direct sun.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.75,0.67,0.54)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.68,0.60,0.45)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.56,0.50,0.38)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>FullHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-	<ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_UFUniform_Hot</defName>
-    <label>Outcast Uniform (Steppe)</label>
-    <description>A standard Outcast duty uniform adapted for Steppe and desert postings. Loose-weave fabric reduces heat absorption and allows some airflow.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.75,0.67,0.54)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.68,0.60,0.45)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.56,0.50,0.38)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>70</costStuffCount>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>1.8</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <!-- Temperate -->
-	<ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_UFUniform_Temperate</defName>
-    <label>Outcast Uniform (Temperate)</label>
-    <description>The standard Outcast duty uniform, balanced for moderate climates. Worn by most deployed Outcast personnel across a wide range of postings.</description>
+    <defName>UFR_FieldUniform</defName>
+    <label>Field Uniform</label>
+    <description>The standard duty uniform, built to hold up across every posting the Front takes. Layered weave regulates heat in both directions, letting a single pattern serve from tundra to desert.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
@@ -339,14 +38,14 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>70</costStuffCount>
+    <costStuffCount>75</costStuffCount>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <WorkToMake>4200</WorkToMake>
       <Mass>1.8</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.45</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1.45</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
@@ -381,59 +80,59 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_UFHat_Temperate</defName>
-    <label>Outcast Uniform Headwear (Temperate)</label>
-    <description>A standard Outcast field cap, worn across most postings. Provides modest weather protection and carries unit markings.</description>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_Hat_UshankaMasked</defName>
+    <label>Masked Ushanka</label>
+    <description>A fully insulated ushanka with an integrated face mask. Covers the ears, brow, and most of the face to prevent frostbite in subzero conditions.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.45,0.42,0.30)</only>
-        </li>
-        <li>
-          <weight>8</weight>
-          <only>(0.38,0.40,0.30)</only>
+          <only>(0.85,0.86,0.86)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>(0.35,0.33,0.22)</only>
+          <only>(0.81,0.80,0.84)</only>
         </li>
         <li>
-          <weight>8</weight>
-          <only>(0.30,0.32,0.20)</only>
+          <weight>10</weight>
+          <only>(0.75,0.76,0.78)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.48,0.49,0.51)</only>
         </li>
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>1600</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
       <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
       <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
-        <li>UpperHead</li>
+        <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -449,7 +148,7 @@
       <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>UFR_Headgear</li>
     </thingCategories>
     <tradeTags>
@@ -459,97 +158,17 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <!-- Cold -->
-	<ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_UFUniform_Cold</defName>
-    <label>Outcast Uniform (Boreal)</label>
-    <description>A standard Outcast duty uniform layered for cold forest climates. Thick enough to retain warmth, flexible enough for movement through difficult terrain.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.35,0.38,0.34)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.40,0.40,0.38)</only>
-        </li>
-        <li>
-          <weight>8</weight>
-          <only>(0.30,0.32,0.28)</only>
-        </li>
-        <li>
-          <weight>8</weight>
-          <only>(0.38,0.36,0.32)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>70</costStuffCount>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>1.8</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_UFHat_Cold</defName>
-    <label>Outcast Uniform Headwear (Boreal)</label>
-    <description>A mid-weight field cap with insulated lining, worn by Outcast personnel in cold forest postings. Covers the ears without significantly restricting peripheral vision.</description>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_Hat_Ushanka</defName>
+    <label>Ushanka</label>
+    <description>An insulated fur cap with fold-down ear flaps. Covers the ears without significantly restricting peripheral vision.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.2</drawSize>
     </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
+    <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
@@ -581,8 +200,8 @@
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>1600</WorkToMake>
       <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
@@ -617,139 +236,59 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <!-- Superhot -->
-	<ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_UFUniform_SuperCold</defName>
-    <label>Outcast Uniform (Tundra)</label>
-    <description>A standard Outcast duty uniform insulated for extreme cold. Reinforced seams and sealed cuffs keep heat in when outside temperatures become dangerous.</description>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_Hat_Beret</defName>
+    <label>Beret</label>
+    <description>A soft wool beret bearing unit markings. Offers little protection from weather or harm, but remains the preferred headwear of personnel who would rather be recognized than comfortable.</description>
     <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.85,0.86,0.86)</only>
+          <only>(0.45,0.42,0.30)</only>
+        </li>
+        <li>
+          <weight>8</weight>
+          <only>(0.38,0.40,0.30)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>(0.81,0.80,0.84)</only>
+          <only>(0.35,0.33,0.22)</only>
         </li>
         <li>
-          <weight>10</weight>
-          <only>(0.75,0.76,0.78)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <only>(0.48,0.49,0.51)</only>
+          <weight>8</weight>
+          <only>(0.30,0.32,0.20)</only>
         </li>
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>150</costStuffCount>
+    <costStuffCount>35</costStuffCount>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>5400</WorkToMake>
-      <Mass>2.8</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.75</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>UFR_UFUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-	<ThingDef ParentName="HatMakeableBase">
-    <defName>UFR_UFHat_SuperCold</defName>
-    <label>Outcast Uniform Headwear (Tundra)</label>
-    <description>A fully insulated field cap worn by Outcast personnel in extreme cold. Covers the ears, brow, and most of the face to prevent frostbite in subzero conditions.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
-    </graphicData>
-        <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.85,0.86,0.86)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.81,0.80,0.84)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.75,0.76,0.78)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <only>(0.48,0.49,0.51)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
       <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.95</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
       <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -774,4 +313,153 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_Hat_FieldCap</defName>
+    <label>Field Cap</label>
+    <description>A vented field cap with an extended brim, worn across arid postings. Shades the eyes and scalp without trapping heat.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.82,0.76,0.65)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.78,0.72,0.60)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.70,0.65,0.52)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>UFR_UFUniform</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <useWornGraphicMask>True</useWornGraphicMask>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories Inherit="False">
+      <li>UFR_Headgear</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
+    <uiIconScale>1.15</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>UFR_Hat_FieldShemagh</defName>
+    <label>Field Shemagh</label>
+    <description>A wrapped headcloth drawn across the face and neck, worn in extreme heat and blowing sand. Shields every exposed surface from direct sun.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.75,0.67,0.54)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.68,0.60,0.45)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.56,0.50,0.38)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_ExtremeWeatherUniforms</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.9</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>UFR_UFUniform</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <useWornGraphicMask>True</useWornGraphicMask>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories Inherit="False">
+      <li>UFR_Headgear</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
+    <uiIconScale>1.15</uiIconScale>
+  </ThingDef>
+
 </Defs>
