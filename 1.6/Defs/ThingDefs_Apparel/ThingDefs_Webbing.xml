@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Infantry</defName>
     <label>Infantry Webbing</label>
@@ -55,7 +54,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Shell</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Infantry</li>
@@ -76,84 +75,6 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
-
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_Engineer</defName>
-    <label>Engineer Webbing</label>
-    <description>A load-bearing harness fitted with tool loops, component pouches, and cable management clips. Used by combat engineers who carry both weapons and technical equipment into the field.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_StandardizedInfantryKits</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <Steel>30</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <stuffCategories Inherit="False" IsNull="True" />
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>2500</WorkToMake>
-      <Mass>1</Mass>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
-      <ConstructionSpeed>0.15</ConstructionSpeed>
-    </equippedStatOffsets>
-    <apparel>
-      <drawData>
-        <dataSouth>
-          <layer>21.5</layer>
-        </dataSouth>
-        <dataWest>
-          <layer>21.5</layer>
-        </dataWest>
-        <dataEast>
-          <layer>21.5</layer>
-        </dataEast>
-        <dataNorth>
-          <layer>21.5</layer>
-        </dataNorth>
-      </drawData>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
-      </wornGraphicData>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      <tags>
-        <li>UFR_Webbing_Engineer</li>
-        <li>UFR_Accessories</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <thingCategories>
-      <li>UFR_Accessories</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Medic</defName>
     <label>Medic Webbing</label>
@@ -209,7 +130,7 @@
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Shell</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>UFR_Webbing_Medic</li>
@@ -230,13 +151,12 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
-
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_Riot</defName>
-    <label>Riot Webbing</label>
-    <description>A heavy-duty load-bearing harness used in crowd control operations. Carries restraints, less-lethal munitions, and a baton loop alongside standard kit.</description>
+    <defName>UFR_Webbing_Engineer</defName>
+    <label>Engineer Webbing</label>
+    <description>A load-bearing harness fitted with tool loops, component pouches, and cable management clips. Used by combat engineers who carry both weapons and technical equipment into the field.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(0.40,0.34,0.22)</color>
@@ -248,95 +168,19 @@
       <researchPrerequisite>UFR_StandardizedInfantryKits</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Steel>50</Steel>
-      <Cloth>40</Cloth>
+      <Steel>30</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <stuffCategories Inherit="False" IsNull="True" />
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
-      <Mass>1</Mass>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ArrestSuccessChance>0.10</ArrestSuccessChance>
-      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
-    </equippedStatOffsets>
-    <apparel>
-      <drawData>
-        <dataSouth>
-          <layer>21.5</layer>
-        </dataSouth>
-        <dataWest>
-          <layer>21.5</layer>
-        </dataWest>
-        <dataEast>
-          <layer>21.5</layer>
-        </dataEast>
-        <dataNorth>
-          <layer>21.5</layer>
-        </dataNorth>
-      </drawData>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
-      </wornGraphicData>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      <tags>
-        <li>UFR_Webbing_Riot</li>
-        <li>UFR_Accessories</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <thingCategories>
-      <li>UFR_Accessories</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_Scout</defName>
-    <label>Scout Webbing</label>
-    <description>A minimal load-bearing harness designed to carry only essential equipment. Low profile and free of rattling hardware, suited for personnel who need to move quietly.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <Steel>40</Steel>
-      <Cloth>40</Cloth>
-    </costList>
-    <stuffCategories Inherit="False" IsNull="True" />
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>3500</WorkToMake>
+      <WorkToMake>2500</WorkToMake>
       <Mass>1</Mass>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <HuntingStealth>0.25</HuntingStealth>
+      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+      <ConstructionSpeed>0.15</ConstructionSpeed>
     </equippedStatOffsets>
     <apparel>
       <drawData>
@@ -355,28 +199,22 @@
       </drawData>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
-        <li>Shell</li>
+        <li>Belt</li>
       </layers>
       <tags>
-        <li>UFR_Webbing_Scout</li>
+        <li>UFR_Webbing_Engineer</li>
         <li>UFR_Accessories</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <drawData>
-        <dataNorth>
-          <layer>28</layer>
-        </dataNorth>
-      </drawData>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
@@ -389,11 +227,10 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
-
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_Shocktrooper</defName>
-    <label>Shocktrooper Webbing</label>
-    <description>A load-bearing harness configured for close-quarters assault. High-capacity magazine pouches and breach tool loops are positioned for fast access under fire.</description>
+    <defName>UFR_Webbing_Assault</defName>
+    <label>Assault Webbing</label>
+    <description>A load-bearing harness configured for close-quarters assault. High-capacity magazine pouches and breach tool loops sit alongside dedicated grenade retention, positioned for fast access under fire.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -413,13 +250,14 @@
     <stuffCategories Inherit="False" IsNull="True" />
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>3500</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <Mass>1</Mass>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MeleeDamageFactor>0.10</MeleeDamageFactor>
       <MeleeCooldownFactor>-0.05</MeleeCooldownFactor>
+      <PainShockThreshold>0.10</PainShockThreshold>
     </equippedStatOffsets>
     <apparel>
       <drawData>
@@ -449,97 +287,13 @@
         <li>Shell</li>
       </layers>
       <tags>
-        <li>UFR_Webbing_Shocktrooper</li>
+        <li>UFR_Webbing_Assault</li>
         <li>UFR_Accessories</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <drawData>
-        <dataNorth>
-          <layer>28</layer>
-        </dataNorth>
-      </drawData>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <thingCategories>
-      <li>UFR_Accessories</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <!-- Grenadier Webbings -->
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_GrenadierFrag</defName>
-    <label>Grenadier Webbing (Frag)</label>
-    <description>A load-bearing chest harness fitted with dedicated loops and pouches for fragmentation grenades. Standard kit for grenadier infantry who need their munitions close at hand.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <Steel>40</Steel>
-      <Cloth>40</Cloth>
-    </costList>
-    <stuffCategories Inherit="False" IsNull="True" />
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
-      <Mass>1</Mass>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <PainShockThreshold>0.10</PainShockThreshold>
-    </equippedStatOffsets>
-    <apparel>
-      <drawData>
-        <dataSouth>
-          <layer>21.5</layer>
-        </dataSouth>
-        <dataWest>
-          <layer>21.5</layer>
-        </dataWest>
-        <dataEast>
-          <layer>21.5</layer>
-        </dataEast>
-        <dataNorth>
-          <layer>21.5</layer>
-        </dataNorth>
-      </drawData>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
-      </wornGraphicData>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      <tags>
-        <li>UFR_Accessories</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <verbs>
@@ -577,219 +331,10 @@
     <thingCategories>
       <li>UFR_Accessories</li>
     </thingCategories>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
-
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_GrenadierEMP</defName>
-    <label>Grenadier Webbing (EMP)</label>
-    <description>A load-bearing chest harness configured for EMP grenades. Signal-dampening lining keeps the electromagnetic pulse charges from interfering with nearby electronics between engagements.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <Steel>40</Steel>
-      <Cloth>40</Cloth>
-    </costList>
-    <stuffCategories Inherit="False" IsNull="True" />
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
-      <Mass>1</Mass>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <PainShockThreshold>0.10</PainShockThreshold>
-    </equippedStatOffsets>
-    <apparel>
-      <drawData>
-        <dataSouth>
-          <layer>21.5</layer>
-        </dataSouth>
-        <dataWest>
-          <layer>21.5</layer>
-        </dataWest>
-        <dataEast>
-          <layer>21.5</layer>
-        </dataEast>
-        <dataNorth>
-          <layer>21.5</layer>
-        </dataNorth>
-      </drawData>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
-      </wornGraphicData>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      <tags>
-        <li>UFR_Accessories</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <verbs>
-      <li>
-        <label>throw emp grenade</label>
-        <verbClass>Verb_LaunchProjectileStatic</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <onlyManualCast>True</onlyManualCast>
-        <range>12.9</range>
-        <forcedMissRadius>1.9</forcedMissRadius>
-        <warmupTime>1.5</warmupTime>
-        <noiseRadius>4</noiseRadius>
-        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <soundCast>ThrowGrenade</soundCast>
-        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <defaultProjectile>Proj_GrenadeEMP</defaultProjectile>
-        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-      </li>
-    </verbs>
-    <comps>
-      <li Class="CompProperties_ApparelReloadable">
-        <maxCharges>8</maxCharges>
-        <ammoDef>Weapon_GrenadeEMP</ammoDef>
-        <ammoCountToRefill>1</ammoCountToRefill>
-        <baseReloadTicks>60</baseReloadTicks>
-        <soundReload>Standard_Reload</soundReload>
-        <hotKey>Misc4</hotKey>
-        <chargeNoun>emp</chargeNoun>
-        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>UFR_Accessories</li>
-    </thingCategories>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_Webbing_GrenadierIncendiary</defName>
-    <label>Grenadier Webbing (Incendiary)</label>
-    <description>A load-bearing chest harness designed to carry incendiary grenades. Glass bottles filled with flammable liquid create devastating fires on impact. Heat-resistant loops and spacing prevent sympathetic ignition.</description>
-    <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <Steel>40</Steel>
-      <Cloth>40</Cloth>
-    </costList>
-    <stuffCategories Inherit="False" IsNull="True" />
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
-      <Mass>1</Mass>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <PainShockThreshold>0.10</PainShockThreshold>
-    </equippedStatOffsets>
-    <apparel>
-      <drawData>
-        <dataSouth>
-          <layer>21.5</layer>
-        </dataSouth>
-        <dataWest>
-          <layer>21.5</layer>
-        </dataWest>
-        <dataEast>
-          <layer>21.5</layer>
-        </dataEast>
-        <dataNorth>
-          <layer>21.5</layer>
-        </dataNorth>
-      </drawData>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
-      </wornGraphicData>
-      <layers>
-        <li>Shell</li>
-      </layers>
-      <tags>
-        <li>UFR_Accessories</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
-    </apparel>
-    <verbs>
-      <li>
-        <label>throw incendiary grenade</label>
-        <verbClass>Verb_LaunchProjectileStatic</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <onlyManualCast>True</onlyManualCast>
-        <range>12.9</range>
-        <forcedMissRadius>1.9</forcedMissRadius>
-        <warmupTime>1.5</warmupTime>
-        <noiseRadius>4</noiseRadius>
-        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <soundCast>ThrowGrenade</soundCast>
-        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <defaultProjectile>Proj_GrenadeMolotov</defaultProjectile>
-        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-      </li>
-    </verbs>
-    <comps>
-      <li Class="CompProperties_ApparelReloadable">
-        <maxCharges>8</maxCharges>
-        <ammoDef>Weapon_GrenadeMolotov</ammoDef>
-        <ammoCountToRefill>1</ammoCountToRefill>
-        <baseReloadTicks>60</baseReloadTicks>
-        <soundReload>Standard_Reload</soundReload>
-        <hotKey>Misc4</hotKey>
-        <chargeNoun>molotov</chargeNoun>
-        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>UFR_Accessories</li>
-    </thingCategories>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-  
 </Defs>
