@@ -7,9 +7,9 @@
     <description>The standard duty uniform, built to hold up across every posting the Front takes. Layered weave regulates heat in both directions, letting a single pattern serve from tundra to desert.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</texPath>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -49,7 +49,6 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Neck</li>
@@ -57,8 +56,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>

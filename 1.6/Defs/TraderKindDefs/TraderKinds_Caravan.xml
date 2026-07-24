@@ -318,7 +318,6 @@
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>UFR_OfficerCarapaceArmor</li>
-          <li>UFR_OfficerCarapaceArmor_Scout</li>
           <li>UFR_ScoutCarapaceArmor</li>
           <li>UFR_RiotCarapaceArmor</li>
         </thingDefs>

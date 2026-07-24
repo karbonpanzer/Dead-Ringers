@@ -765,7 +765,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-    <soundInteract>Interact_SniperRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <Mass>9.0</Mass>
