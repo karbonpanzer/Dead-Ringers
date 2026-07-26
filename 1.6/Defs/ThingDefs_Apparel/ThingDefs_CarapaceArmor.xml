@@ -7,7 +7,7 @@
     <label>Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -47,8 +47,7 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <apparel>
-      <useWornGraphicMask>True</useWornGraphicMask>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -86,7 +85,7 @@
     <label>Carapace Helmet</label>
     <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -130,14 +129,13 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
         <li>UFR_LightHelmet</li>
@@ -162,7 +160,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceArmor</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -217,8 +215,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceArmor</wornGraphicPath>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
@@ -242,7 +239,7 @@
     <label>Heavy Carapace Helmet</label>
     <description>A reinforced Carapace helmet with additional plating across the crown and rear. Fully encloses the head with an integrated full-face filtration system, sealing against airborne threats while retaining the ballistic protection of the heavy platform.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -286,14 +283,13 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
         <li>UFR_HeavyHelmet</li>
@@ -316,7 +312,7 @@
     <label>Support Carapace Armor</label>
     <description>A reduced Carapace armor set worn by personnel whose duties leave little room for bulk. Coverage is trimmed to the torso and neck, allowing scouts, medics and engineers to work and move without the weight of a full plate set.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/SupportArmor/SupportArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -371,7 +367,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/SupportArmor/SupportArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
         <li>UFR_Armor_Conscript</li>
@@ -446,7 +442,6 @@
         <li>Legs</li>
       </bodyPartGroups>
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
       </layers>

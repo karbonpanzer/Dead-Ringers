@@ -59,7 +59,6 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -146,7 +145,6 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
@@ -224,7 +222,6 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
@@ -298,7 +295,6 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
@@ -372,7 +368,6 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -447,7 +442,6 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
