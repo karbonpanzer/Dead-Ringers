@@ -9,7 +9,6 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -87,7 +86,6 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -159,7 +157,6 @@
     <description>A reinforced Carapace armor set with additional plating over the standard configuration. Heavier and slower than Carapace armor, but substantially more resistant to incoming fire. Used by assault troops expected to absorb significant punishment.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceArmor</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -241,7 +238,6 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -314,7 +310,6 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/SupportArmor/SupportArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>

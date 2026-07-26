@@ -223,7 +223,6 @@
           </texPaths>
           <visibleFacing>
             <li>South</li>
-            <li>North</li>
           </visibleFacing>
           <drawData>
             <scale>0.100</scale>
@@ -254,7 +253,6 @@
           </texPaths>
           <visibleFacing>
             <li>South</li>
-            <li>North</li>
           </visibleFacing>
           <drawData>
             <scale>0.100</scale>
