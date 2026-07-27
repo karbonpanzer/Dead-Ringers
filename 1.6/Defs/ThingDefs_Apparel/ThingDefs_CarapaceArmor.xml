@@ -308,7 +308,7 @@
     <label>Support Carapace Armor</label>
     <description>A reduced Carapace armor set worn by personnel whose duties leave little room for bulk. Coverage is trimmed to the torso and neck, allowing scouts, medics and engineers to work and move without the weight of a full plate set.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/SupportArmor/SupportArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/SupportCarapaceArmor/SupportCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -362,7 +362,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/SupportArmor/SupportArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/SupportCarapaceArmor/SupportCarapaceArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
         <li>UFR_Armor_Conscript</li>
@@ -385,7 +385,7 @@
     <label>Officer Carapace Armor</label>
     <description>A Carapace armor set finished for officer-grade wear. Offers equivalent protection to standard Carapace while maintaining the appearance expected of command personnel.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -443,7 +443,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>UFR_Armor</li>
       </tags>

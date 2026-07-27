@@ -87,7 +87,7 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <!--ThingDef ParentName="UFR_DecalBodyArmor_Light">
     <defName>UFR_OrbitalCarapaceArmor</defName>
     <label>Orbital Carapace Armor</label>
     <techLevel>Spacer</techLevel>
@@ -97,7 +97,7 @@
     </recipeMaker>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/OrbitalCarapaceArmor/OrbitalCarapaceArmor</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -132,7 +132,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/OrbitalCarapaceArmor/OrbitalCarapaceArmor</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -153,5 +153,5 @@
       </options>
     </colorGenerator>
     <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
+  </ThingDef-->
 </Defs>
