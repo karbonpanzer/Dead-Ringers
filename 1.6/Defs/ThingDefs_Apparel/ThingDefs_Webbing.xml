@@ -225,7 +225,7 @@
     <label>Assault Webbing</label>
     <description>A load-bearing harness configured for close-quarters assault. High-capacity magazine pouches and breach tool loops sit alongside dedicated grenade retention, positioned for fast access under fire.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/FrontAssaultWebbing/FrontAssaultWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
@@ -270,7 +270,7 @@
         <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontAssaultWebbing/FrontAssaultWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
