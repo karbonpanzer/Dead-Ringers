@@ -382,10 +382,11 @@
             </li>
         </modExtensions>
         <apparelRequired>
-            <li>UFR_OfficerCarapaceArmor</li>
+            <li>UFR_PrestigeCarapaceArmor</li>
         </apparelRequired>
         <apparelTags Inherit="False">
-            <li>UFR_OfficerUniform</li>
+            <li>UFR_OfficerHat_Cap</li>
+            <li>UFR_UFUniform</li>
         </apparelTags>
         <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     </PawnKindDef>

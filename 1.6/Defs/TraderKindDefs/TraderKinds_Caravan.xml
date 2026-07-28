@@ -317,7 +317,7 @@
       <!-- Special / prestige armor -->
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
-          <li>UFR_OfficerCarapaceArmor</li>
+          <li>UFR_PrestigeCarapaceArmor</li>
           <li>UFR_SupportCarapaceArmor</li>
         </thingDefs>
         <countRange>0~2</countRange>

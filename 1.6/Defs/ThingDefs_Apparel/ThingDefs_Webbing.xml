@@ -5,13 +5,11 @@
     <label>Infantry Webbing</label>
     <description>A standard load-bearing harness worn by Outcast infantry. Distributes the weight of ammunition and field kit across the torso. Issued to most front-line personnel.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/FrontInfantryWebbing/FrontInfantryWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
+      <color>(0.35,0.35,0.35)</color>
     </colorGenerator>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardizedInfantryKits</researchPrerequisite>
@@ -49,9 +47,9 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontInfantryWebbing/FrontInfantryWebbing</wornGraphicPath>
       <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
+      <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
         <li>Belt</li>
@@ -64,7 +62,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <thingCategories>
       <li>UFR_Accessories</li>
@@ -73,20 +70,18 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Medic</defName>
     <label>Medic Webbing</label>
     <description>A load-bearing harness configured with medical pouches, tourniquet holders, and quick-access loops for field dressings. Designed to keep essential trauma supplies within immediate reach.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/FrontMedicWebbing/FrontMedicWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
+      <color>(0.35,0.35,0.35)</color>
     </colorGenerator>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardizedInfantryKits</researchPrerequisite>
@@ -125,7 +120,7 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontMedicWebbing/FrontMedicWebbing</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
@@ -140,7 +135,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <thingCategories>
       <li>UFR_Accessories</li>
@@ -151,18 +145,17 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Engineer</defName>
     <label>Engineer Webbing</label>
     <description>A load-bearing harness fitted with tool loops, component pouches, and cable management clips. Used by combat engineers who carry both weapons and technical equipment into the field.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Accessories/FrontSupportWebbing/FrontSupportWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
+      <color>(0.35,0.35,0.35)</color>
     </colorGenerator>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardizedInfantryKits</researchPrerequisite>
@@ -201,9 +194,9 @@
         <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontSupportWebbing/FrontSupportWebbing</wornGraphicPath>
       <wornGraphicData>
-        <renderUtilityAsPack>false</renderUtilityAsPack>
+      <renderUtilityAsPack>false</renderUtilityAsPack>
       </wornGraphicData>
       <layers>
         <li>Belt</li>
@@ -216,7 +209,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <thingCategories>
       <li>UFR_Accessories</li>
@@ -227,6 +219,7 @@
     </tradeTags>
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Webbing_Assault</defName>
     <label>Assault Webbing</label>
@@ -234,11 +227,9 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <color>(0.40,0.34,0.22)</color>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.40,0.34,0.22)</color>
+      <color>(0.35,0.35,0.35)</color>
     </colorGenerator>
     <recipeMaker>
       <researchPrerequisite>UFR_ModifiedSpecialistKits</researchPrerequisite>
@@ -294,7 +285,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>True</useWornGraphicMask>
     </apparel>
     <verbs>
       <li>

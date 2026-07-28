@@ -76,12 +76,79 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <ThingDef ParentName="UFR_DecalHelmet_Light">
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CarapaceHelmet</defName>
     <label>Carapace Helmet</label>
+    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmet/CarapaceHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>UFR_FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>8</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmet/CarapaceHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>UFR_LightHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>UFR_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_CarapaceHelmetMask</defName>
+    <label>Carapace Helmet (Mask)</label>
     <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</texPath>
@@ -147,7 +214,6 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <!-- Heavy Armor -->
@@ -228,12 +294,79 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <ThingDef ParentName="UFR_DecalHelmet_Heavy">
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_HeavyCarapaceHelmet</defName>
     <label>Heavy Carapace Helmet</label>
+    <description>An open-face reinforced Carapace helmet with additional plating across the crown and rear. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmet/HeavyCarapaceHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>UFR_FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>1.6</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.42</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmet/HeavyCarapaceHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>UFR_HeavyHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>UFR_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_HeavyCarapaceHelmetMask</defName>
+    <label>Heavy Carapace Helmet (Mask)</label>
     <description>A reinforced Carapace helmet with additional plating across the crown and rear. Fully encloses the head with an integrated full-face filtration system, sealing against airborne threats while retaining the ballistic protection of the heavy platform.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</texPath>
@@ -299,7 +432,6 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <!-- Support -->
@@ -376,14 +508,13 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <!-- Officer -->
+  <!-- Officer/Prestige -->
   <ThingDef ParentName="UFR_DecalBodyArmor_Officer">
-    <defName>UFR_OfficerCarapaceArmor</defName>
-    <label>Officer Carapace Armor</label>
-    <description>A Carapace armor set finished for officer-grade wear. Offers equivalent protection to standard Carapace while maintaining the appearance expected of command personnel.</description>
+    <defName>UFR_PrestigeCarapaceArmor</defName>
+    <label>Prestige Carapace Armor</label>
+    <description>A Carapace armor set woven through with psychic-focusing threads and neural-assist relays. Worn by command psycasters, it lets the wearer shed neural heat faster and hold a larger charge before overload, at the cost of the raw protection of a dedicated combat set.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -411,7 +542,7 @@
       <Steel>60</Steel>
       <Plasteel>40</Plasteel>
       <ComponentIndustrial>3</ComponentIndustrial>
-      <Gold>10</Gold>
+      <Gold>30</Gold>
     </costList>
     <statBases>
       <WorkToMake>52000</WorkToMake>
@@ -427,6 +558,8 @@
     </statBases>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+      <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">15</PsychicEntropyMax>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.025</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -444,6 +577,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <tags Inherit="False">
         <li>UFR_Armor</li>
       </tags>
@@ -456,6 +590,154 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_PrestigeCarapaceHelmet</defName>
+    <label>Prestige Carapace Helmet</label>
+    <description>An open-face Carapace helmet threaded with psychic-focusing filament. Covers the skull and upper face while its neural relays help the wearer shed heat between casts. The airway is left exposed in exchange for a lighter build.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmet/PrestigeCarapaceHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>UFR_FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>8</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Gold>15</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">7</PsychicEntropyMax>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.012</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmet/PrestigeCarapaceHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>UFR_PrestigeHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>UFR_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_PrestigeCarapaceHelmetMask</defName>
+    <label>Prestige Carapace Helmet (Masked)</label>
+    <description>A sealed Carapace helmet threaded with psychic-focusing filament. Fully encloses the head with an integrated filtration mask, sealing against airborne threats while its neural relays help the wearer shed heat between casts.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmetMask/PrestigeCarapaceHelmetMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>UFR_FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>10</Cloth>
+      <Gold>15</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.88</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.44</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">7</PsychicEntropyMax>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.012</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmetMask/PrestigeCarapaceHelmetMask</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <tags>
+        <li>UFR_PrestigeHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>UFR_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
 </Defs>

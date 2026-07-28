@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <ThingDef ParentName="UFR_DecalHelmet_Heavy">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_OrbitalCarapaceHelmet</defName>
     <label>Orbital Carapace Helmet</label>
     <description>A fully sealed Carapace helmet rated for low-pressure environments. Integrated visor and pressure-lock collar allow short-duration operations in vacuum or near-vacuum conditions.</description>
@@ -12,9 +12,8 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Helmets/EVACarapaceHelmet/EVACarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -51,8 +50,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/EVACarapaceHelmet/EVACarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -87,8 +85,8 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <!--ThingDef ParentName="UFR_DecalBodyArmor_Light">
-    <defName>UFR_OrbitalCarapaceArmor</defName>
+  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+    <defName>UFR_EVACarapaceArmor</defName>
     <label>Orbital Carapace Armor</label>
     <techLevel>Spacer</techLevel>
     <description>A vacuum-rated variant of standard Carapace armor, with sealed joints and passive pressure retention. Used by personnel conducting boarding actions or operations in low-pressure environments.</description>
@@ -97,9 +95,7 @@
     </recipeMaker>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/OrbitalCarapaceArmor/OrbitalCarapaceArmor</texPath>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>0.8</drawSize>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/EVACarapaceArmor/EVACarapaceArmor</texPath>
     </graphicData>
     <statBases>
       <WorkToMake>52000</WorkToMake>
@@ -132,8 +128,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/OrbitalCarapaceArmor/OrbitalCarapaceArmor</wornGraphicPath>
-      <useWornGraphicMask>True</useWornGraphicMask>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EVACarapaceArmor/EVACarapaceArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -152,6 +147,5 @@
         </li>
       </options>
     </colorGenerator>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef-->
+  </ThingDef>
 </Defs>

@@ -10,25 +10,20 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</texPath>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.45,0.42,0.30)</only>
+          <only>(0.42,0.42,0.44)</only>
         </li>
         <li>
           <weight>8</weight>
-          <only>(0.38,0.40,0.30)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.35,0.33,0.22)</only>
+          <only>(0.56,0.56,0.58)</only>
         </li>
         <li>
           <weight>8</weight>
-          <only>(0.30,0.32,0.20)</only>
+          <only>(0.28,0.28,0.29)</only>
         </li>
       </options>
     </colorGenerator>
@@ -77,7 +72,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="HatMakeableBase">
@@ -85,28 +79,22 @@
     <label>Ushanka</label>
     <description>An insulated fur cap with fold-down ear flaps. Covers the ears without significantly restricting peripheral vision.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontUshanka/frontushanka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.35,0.38,0.34)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.40,0.40,0.38)</only>
+          <only>(0.42,0.42,0.44)</only>
         </li>
         <li>
           <weight>8</weight>
-          <only>(0.30,0.32,0.28)</only>
+          <only>(0.56,0.56,0.58)</only>
         </li>
         <li>
           <weight>8</weight>
-          <only>(0.38,0.36,0.32)</only>
+          <only>(0.28,0.28,0.29)</only>
         </li>
       </options>
     </colorGenerator>
@@ -128,11 +116,10 @@
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontUshanka/frontushanka</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -154,7 +141,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="HatMakeableBase">
@@ -162,28 +148,22 @@
     <label>Beret</label>
     <description>A soft wool beret bearing unit markings. Offers little protection from weather or harm, but remains the preferred headwear of personnel who would rather be recognized than comfortable.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontBeret/frontberet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.45,0.42,0.30)</only>
-        </li>
-        <li>
-          <weight>8</weight>
-          <only>(0.38,0.40,0.30)</only>
+          <only>(0.50,0.13,0.14)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>(0.35,0.33,0.22)</only>
+          <only>(0.16,0.22,0.40)</only>
         </li>
         <li>
-          <weight>8</weight>
-          <only>(0.30,0.32,0.20)</only>
+          <weight>10</weight>
+          <only>(0.18,0.30,0.20)</only>
         </li>
       </options>
     </colorGenerator>
@@ -205,11 +185,10 @@
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontBeret/frontberet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -231,7 +210,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="HatMakeableBase">
@@ -239,24 +217,22 @@
     <label>Field Cap</label>
     <description>A vented field cap with an extended brim, worn across arid postings. Shades the eyes and scalp without trapping heat.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontFieldHat/frontfieldhat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.82,0.76,0.65)</only>
+          <only>(0.42,0.42,0.44)</only>
         </li>
         <li>
-          <weight>10</weight>
-          <only>(0.78,0.72,0.60)</only>
+          <weight>8</weight>
+          <only>(0.56,0.56,0.58)</only>
         </li>
         <li>
-          <weight>10</weight>
-          <only>(0.70,0.65,0.52)</only>
+          <weight>8</weight>
+          <only>(0.28,0.28,0.29)</only>
         </li>
       </options>
     </colorGenerator>
@@ -278,11 +254,10 @@
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <apparel>
-      <developmentalStageFilter>Child,Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontFieldHat/frontfieldhat</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -304,89 +279,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
-  </ThingDef>
-
-  <!-- Officer Clothing -->
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>UFR_OfficerUniform</defName>
-    <label>Officer Uniform</label>
-    <description>A tailored duty uniform worn by commissioned officers. Cut to be presentable in formal settings while remaining durable enough for field use.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</texPath>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
-    </graphicData>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.9,0.9,0.9)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>(0.3,0.3,0.3,1)</min>
-          <max>(0.5,0.5,0.5,1)</max>
-        </li>
-      </options>
-    </colorGenerator>
-    <recipeMaker>
-      <researchPrerequisite>UFR_CommissarUniforms</researchPrerequisite>
-    </recipeMaker>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>85</costStuffCount>
-    <statBases>
-      <MaxHitPoints>225</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>1.8</Mass>
-      <StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.45</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.45</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <SocialImpact>0.05</SocialImpact>
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>UFR_OfficerUniform</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Clothing</li>
-      <li>UFR_Uniforms</li>
-    </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="HatMakeableBase">
@@ -394,10 +286,8 @@
     <label>Officer Cap</label>
     <description>A structured cap worn by officers. Bears rank and unit markings, allowing the wearer to be identified quickly as command personnel during engagements.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontOfficerCap/FrontOfficerCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.2</drawSize>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -441,7 +331,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontOfficerCap/FrontOfficerCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -463,6 +353,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+  
 </Defs>
