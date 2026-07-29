@@ -130,30 +130,35 @@
                 <kindDef>Combat</kindDef>
                 <commonality>45</commonality>
                 <options>
-                    <UFR_Civil_Recruit_Ranged>5</UFR_Civil_Recruit_Ranged>
-                    <UFR_Civil_Recruit_Melee>3</UFR_Civil_Recruit_Melee>
                     <UFR_Civil_Infantry_Ranged>15</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>6</UFR_Civil_Infantry_Melee>
+                    <UFR_Civil_Sergeant>5</UFR_Civil_Sergeant>
                     <UFR_Civil_Veteran_Ranged>8</UFR_Civil_Veteran_Ranged>
                     <UFR_Civil_Veteran_Melee>5</UFR_Civil_Veteran_Melee>
-                    <UFR_Civil_Scout>7</UFR_Civil_Scout>
+                    <UFR_Civil_Marksman>7</UFR_Civil_Marksman>
                     <UFR_Civil_Shocktrooper>2</UFR_Civil_Shocktrooper>
+                    <UFR_Civil_Stormtrooper>4</UFR_Civil_Stormtrooper>
+                    <UFR_Civil_HeavyStormtrooper>2</UFR_Civil_HeavyStormtrooper>
+                    <UFR_Civil_Commando>3</UFR_Civil_Commando>
+                    <UFR_Civil_HeavyCommando>1</UFR_Civil_HeavyCommando>
                     <UFR_Civil_Medic>3</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>3</UFR_Civil_Engineer>
-                    <UFR_Civil_Officer>3</UFR_Civil_Officer>
+                    <UFR_Civil_Commander>3</UFR_Civil_Commander>
                 </options>
             </li>
             <li>
                 <kindDef>Combat</kindDef>
                 <commonality>35</commonality>
                 <options>
-                    <UFR_Civil_Recruit_Ranged>8</UFR_Civil_Recruit_Ranged>
-                    <UFR_Civil_Recruit_Melee>5</UFR_Civil_Recruit_Melee>
                     <UFR_Civil_Infantry_Ranged>20</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>10</UFR_Civil_Infantry_Melee>
+                    <UFR_Civil_Sergeant>4</UFR_Civil_Sergeant>
+                    <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
+                    <UFR_Civil_Stormtrooper>2</UFR_Civil_Stormtrooper>
+                    <UFR_Civil_Commando>1</UFR_Civil_Commando>
                     <UFR_Civil_Medic>8</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>8</UFR_Civil_Engineer>
-                    <UFR_Civil_Officer>3</UFR_Civil_Officer>
+                    <UFR_Civil_Commander>3</UFR_Civil_Commander>
                 </options>
             </li>
             <li>
@@ -164,14 +169,13 @@
                     <UFR_Civil_Laborer>8</UFR_Civil_Laborer>
                     <UFR_Civil_Trader>8</UFR_Civil_Trader>
                     <UFR_Civil_Representative>2</UFR_Civil_Representative>
-                    <UFR_Civil_Recruit_Ranged>4</UFR_Civil_Recruit_Ranged>
-                    <UFR_Civil_Recruit_Melee>2</UFR_Civil_Recruit_Melee>
-                    <UFR_Civil_Scout>4</UFR_Civil_Scout>
+                    <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
                     <UFR_Civil_Infantry_Ranged>4</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>2</UFR_Civil_Infantry_Melee>
+                    <UFR_Civil_Sergeant>2</UFR_Civil_Sergeant>
                     <UFR_Civil_Medic>2</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>2</UFR_Civil_Engineer>
-                    <UFR_Civil_Officer>1</UFR_Civil_Officer>
+                    <UFR_Civil_Commander>1</UFR_Civil_Commander>
                 </options>
             </li>
             <li>
@@ -186,12 +190,11 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <UFR_Civil_Recruit_Ranged>10</UFR_Civil_Recruit_Ranged>
-                    <UFR_Civil_Recruit_Melee>5</UFR_Civil_Recruit_Melee>
-                    <UFR_Civil_Infantry_Ranged>4</UFR_Civil_Infantry_Ranged>
-                    <UFR_Civil_Infantry_Melee>2</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Scout>4</UFR_Civil_Scout>
-                    <UFR_Civil_Officer>3</UFR_Civil_Officer>
+                    <UFR_Civil_Infantry_Ranged>10</UFR_Civil_Infantry_Ranged>
+                    <UFR_Civil_Infantry_Melee>4</UFR_Civil_Infantry_Melee>
+                    <UFR_Civil_Sergeant>3</UFR_Civil_Sergeant>
+                    <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
+                    <UFR_Civil_Commander>3</UFR_Civil_Commander>
                 </guards>
             </li>
             <li>
@@ -199,15 +202,17 @@
                 <options>
                     <UFR_Civil_Settler>20</UFR_Civil_Settler>
                     <UFR_Civil_Laborer>12</UFR_Civil_Laborer>
-                    <UFR_Civil_Recruit_Ranged>6</UFR_Civil_Recruit_Ranged>
-                    <UFR_Civil_Recruit_Melee>3</UFR_Civil_Recruit_Melee>
                     <UFR_Civil_Engineer>4</UFR_Civil_Engineer>
                     <UFR_Civil_Medic>4</UFR_Civil_Medic>
                     <UFR_Civil_Infantry_Ranged>6</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>2</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Scout>6</UFR_Civil_Scout>
+                    <UFR_Civil_Sergeant>3</UFR_Civil_Sergeant>
+                    <UFR_Civil_Marksman>6</UFR_Civil_Marksman>
+                    <UFR_Civil_Veteran_Ranged>3</UFR_Civil_Veteran_Ranged>
+                    <UFR_Civil_Stormtrooper>2</UFR_Civil_Stormtrooper>
+                    <UFR_Civil_Commando>2</UFR_Civil_Commando>
                     <UFR_Civil_Representative>1</UFR_Civil_Representative>
-                    <UFR_Civil_Officer>3</UFR_Civil_Officer>
+                    <UFR_Civil_Commander>3</UFR_Civil_Commander>
                 </options>
             </li>
             <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -331,30 +336,35 @@
                 <kindDef>Combat</kindDef>
                 <commonality>45</commonality>
                 <options>
-                    <UFR_Rough_Recruit_Ranged>5</UFR_Rough_Recruit_Ranged>
-                    <UFR_Rough_Recruit_Melee>3</UFR_Rough_Recruit_Melee>
                     <UFR_Rough_Infantry_Ranged>15</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>6</UFR_Rough_Infantry_Melee>
+                    <UFR_Rough_Sergeant>5</UFR_Rough_Sergeant>
                     <UFR_Rough_Veteran_Ranged>8</UFR_Rough_Veteran_Ranged>
                     <UFR_Rough_Veteran_Melee>5</UFR_Rough_Veteran_Melee>
-                    <UFR_Rough_Scout>7</UFR_Rough_Scout>
+                    <UFR_Rough_Marksman>7</UFR_Rough_Marksman>
                     <UFR_Rough_Shocktrooper>2</UFR_Rough_Shocktrooper>
+                    <UFR_Rough_Stormtrooper>4</UFR_Rough_Stormtrooper>
+                    <UFR_Rough_HeavyStormtrooper>2</UFR_Rough_HeavyStormtrooper>
+                    <UFR_Rough_Commando>3</UFR_Rough_Commando>
+                    <UFR_Rough_HeavyCommando>1</UFR_Rough_HeavyCommando>
                     <UFR_Rough_Medic>3</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>3</UFR_Rough_Engineer>
-                    <UFR_Rough_Officer>7</UFR_Rough_Officer>
+                    <UFR_Rough_Commander>7</UFR_Rough_Commander>
                 </options>
             </li>
             <li>
                 <kindDef>Combat</kindDef>
                 <commonality>35</commonality>
                 <options>
-                    <UFR_Rough_Recruit_Ranged>8</UFR_Rough_Recruit_Ranged>
-                    <UFR_Rough_Recruit_Melee>5</UFR_Rough_Recruit_Melee>
                     <UFR_Rough_Infantry_Ranged>20</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>10</UFR_Rough_Infantry_Melee>
+                    <UFR_Rough_Sergeant>4</UFR_Rough_Sergeant>
+                    <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
+                    <UFR_Rough_Stormtrooper>2</UFR_Rough_Stormtrooper>
+                    <UFR_Rough_Commando>1</UFR_Rough_Commando>
                     <UFR_Rough_Medic>8</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>8</UFR_Rough_Engineer>
-                    <UFR_Rough_Officer>8</UFR_Rough_Officer>
+                    <UFR_Rough_Commander>7</UFR_Rough_Commander>
                 </options>
             </li>
             <li>
@@ -365,14 +375,13 @@
                     <UFR_Rough_Laborer>8</UFR_Rough_Laborer>
                     <UFR_Rough_Trader>8</UFR_Rough_Trader>
                     <UFR_Rough_Representative>2</UFR_Rough_Representative>
-                    <UFR_Rough_Recruit_Ranged>4</UFR_Rough_Recruit_Ranged>
-                    <UFR_Rough_Recruit_Melee>2</UFR_Rough_Recruit_Melee>
-                    <UFR_Rough_Scout>4</UFR_Rough_Scout>
+                    <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
                     <UFR_Rough_Infantry_Ranged>4</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>2</UFR_Rough_Infantry_Melee>
+                    <UFR_Rough_Sergeant>2</UFR_Rough_Sergeant>
                     <UFR_Rough_Medic>2</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>2</UFR_Rough_Engineer>
-                    <UFR_Rough_Officer>1</UFR_Rough_Officer>
+                    <UFR_Rough_Commander>1</UFR_Rough_Commander>
                 </options>
             </li>
             <li>
@@ -387,12 +396,11 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <UFR_Rough_Recruit_Ranged>10</UFR_Rough_Recruit_Ranged>
-                    <UFR_Rough_Recruit_Melee>5</UFR_Rough_Recruit_Melee>
-                    <UFR_Rough_Infantry_Ranged>4</UFR_Rough_Infantry_Ranged>
-                    <UFR_Rough_Infantry_Melee>2</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Scout>4</UFR_Rough_Scout>
-                    <UFR_Rough_Officer>3</UFR_Rough_Officer>
+                    <UFR_Rough_Infantry_Ranged>10</UFR_Rough_Infantry_Ranged>
+                    <UFR_Rough_Infantry_Melee>4</UFR_Rough_Infantry_Melee>
+                    <UFR_Rough_Sergeant>3</UFR_Rough_Sergeant>
+                    <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
+                    <UFR_Rough_Commander>3</UFR_Rough_Commander>
                 </guards>
             </li>
             <li>
@@ -400,15 +408,17 @@
                 <options>
                     <UFR_Rough_Settler>20</UFR_Rough_Settler>
                     <UFR_Rough_Laborer>12</UFR_Rough_Laborer>
-                    <UFR_Rough_Recruit_Ranged>6</UFR_Rough_Recruit_Ranged>
-                    <UFR_Rough_Recruit_Melee>3</UFR_Rough_Recruit_Melee>
                     <UFR_Rough_Engineer>4</UFR_Rough_Engineer>
                     <UFR_Rough_Medic>4</UFR_Rough_Medic>
                     <UFR_Rough_Infantry_Ranged>6</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>2</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Scout>6</UFR_Rough_Scout>
+                    <UFR_Rough_Sergeant>3</UFR_Rough_Sergeant>
+                    <UFR_Rough_Marksman>6</UFR_Rough_Marksman>
+                    <UFR_Rough_Veteran_Ranged>3</UFR_Rough_Veteran_Ranged>
+                    <UFR_Rough_Stormtrooper>2</UFR_Rough_Stormtrooper>
+                    <UFR_Rough_Commando>2</UFR_Rough_Commando>
                     <UFR_Rough_Representative>1</UFR_Rough_Representative>
-                    <UFR_Rough_Officer>3</UFR_Rough_Officer>
+                    <UFR_Rough_Commander>3</UFR_Rough_Commander>
                 </options>
             </li>
             <li MayRequire="Ludeon.RimWorld.Ideology">

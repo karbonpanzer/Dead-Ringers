@@ -8,7 +8,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Shot_slugmedium</clipFolderPath>
+                 <clipFolderPath>UFR/Shot_slugmedium</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -26,7 +26,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Shot_slugsmall</clipFolderPath>
+                    <clipFolderPath>UFR/Shot_slugsmall</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -44,7 +44,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Shot_slugscatter</clipFolderPath>
+                 <clipFolderPath>UFR/Shot_slugscatter</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -62,7 +62,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Shot_slugbig</clipFolderPath>
+                    <clipFolderPath>UFR/Shot_slugbig</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -80,7 +80,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Shot_slugbig</clipFolderPath>
+                    <clipFolderPath>UFR/Shot_slugbig</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -98,7 +98,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Bolt_plasma</clipFolderPath>
+                    <clipFolderPath>UFR/Bolt_plasma</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>
@@ -116,7 +116,7 @@
             <li>
             <grains>
                 <li Class="AudioGrain_Folder">
-                <clipFolderPath>Bolt_plasma</clipFolderPath>
+                    <clipFolderPath>UFR/Bolt_plasma</clipFolderPath>
                 </li>
             </grains>
             <volumeRange>55.2941~55.2941</volumeRange>

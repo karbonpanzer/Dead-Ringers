@@ -44,7 +44,6 @@
         </dataNorth>
       </drawData>
       <bodyPartGroups>
-        <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontInfantryWebbing/FrontInfantryWebbing</wornGraphicPath>
@@ -117,7 +116,6 @@
         </dataNorth>
       </drawData>
       <bodyPartGroups>
-        <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontMedicWebbing/FrontMedicWebbing</wornGraphicPath>
@@ -191,7 +189,6 @@
         </dataNorth>
       </drawData>
       <bodyPartGroups>
-        <li>Torso</li>
         <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontSupportWebbing/FrontSupportWebbing</wornGraphicPath>
@@ -266,8 +263,6 @@
         </dataNorth>
       </drawData>
       <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
         <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Accessories/FrontAssaultWebbing/FrontAssaultWebbing</wornGraphicPath>
@@ -325,6 +320,6 @@
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
+
 </Defs>

@@ -141,69 +141,6 @@
         <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_LineRecruitBase">
-        <defName>UFR_Civil_Recruit_Ranged</defName>
-        <label>recruit</label>
-        <labelPlural>recruits</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
-        <combatPower>70</combatPower>
-        <initialWillRange>3~5</initialWillRange>
-        <initialResistanceRange>25~35</initialResistanceRange>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>2~8</range>
-            </li>
-        </skills>
-        <disallowedTraits>
-            <li>Brawler</li>
-            <li>Nudist</li>
-        </disallowedTraits>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/private</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/private</helmetDecalPath>
-            </li>
-        </modExtensions>
-        <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    </PawnKindDef>
-
-    <PawnKindDef ParentName="UFR_LineRecruitBase">
-        <defName>UFR_Civil_Recruit_Melee</defName>
-        <label>recruit</label>
-        <labelPlural>recruits</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
-        <combatPower>70</combatPower>
-        <weaponMoney>2000~2500</weaponMoney>
-        <initialWillRange>3~5</initialWillRange>
-        <initialResistanceRange>25~35</initialResistanceRange>
-        <skills>
-            <li>
-                <skill>Melee</skill>
-                <range>2~8</range>
-            </li>
-        </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/private</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/private</helmetDecalPath>
-            </li>
-        </modExtensions>
-        <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    </PawnKindDef>
-
     <PawnKindDef ParentName="UFR_LineInfantryBase">
         <defName>UFR_Civil_Infantry_Ranged</defName>
         <label>infantry</label>
@@ -220,12 +157,6 @@
             <li>Brawler</li>
             <li>Nudist</li>
         </disallowedTraits>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/corporal</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/corporal</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
@@ -251,12 +182,6 @@
                 <range>4~10</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/corporal</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/corporal</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
@@ -264,6 +189,46 @@
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
             <li>UFR_LightHelmet</li>
+            <li>UFR_Accessories</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="UFR_LineInfantryBase">
+        <defName>UFR_Civil_Sergeant</defName>
+        <label>sergeant</label>
+        <labelPlural>sergeants</labelPlural>
+        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <combatPower>120</combatPower>
+        <itemQuality>Good</itemQuality>
+        <minGenerationAge>28</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>5~10</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <apparelRequired>
+            <li>UFR_Webbing_Infantry</li>
+            <li>UFR_CarapaceArmor</li>
+        </apparelRequired>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>UpperHead</bodyPartGroup>
+                <requiredTag>UFR_Beret</requiredTag>
+                <color>(0.50,0.13,0.14)</color>
+            </li>
+        </specificApparelRequirements>
+        <apparelTags Inherit="False">
+            <li>UFR_UFUniform</li>
             <li>UFR_Accessories</li>
         </apparelTags>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
@@ -287,12 +252,6 @@
             <li>Brawler</li>
             <li>Nudist</li>
         </disallowedTraits>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/skullrifle</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/skullrifle</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
             <li>UFR_HeavyCarapaceArmor</li>
@@ -320,12 +279,6 @@
                 <range>8~14</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/skullsword</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/skullsword</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
             <li>UFR_HeavyCarapaceArmor</li>
@@ -338,8 +291,166 @@
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
+    <PawnKindDef ParentName="UFR_LineInfantryBase">
+        <defName>UFR_Civil_Stormtrooper</defName>
+        <label>stormtrooper</label>
+        <labelPlural>stormtroopers</labelPlural>
+        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <combatPower>150</combatPower>
+        <itemQuality>Good</itemQuality>
+        <minGenerationAge>25</minGenerationAge>
+        <maxGenerationAge>45</maxGenerationAge>
+        <weaponMoney>3200~5000</weaponMoney>
+        <techHediffsChance>0.15</techHediffsChance>
+        <techHediffsMoney>1500~2200</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>7~13</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <weaponTags Inherit="False">
+            <li>UFR_Storm_Rifle</li>
+            <li>UFR_Storm_Sidearm</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>UFR_Webbing_Infantry</li>
+            <li>UFR_CarapaceArmor</li>
+            <li>UFR_CarapaceHelmetMask</li>
+        </apparelRequired>
+        <apparelTags Inherit="False">
+            <li>UFR_UFUniform</li>
+            <li>UFR_Accessories</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="UFR_LineVeteranBase">
+        <defName>UFR_Civil_HeavyStormtrooper</defName>
+        <label>heavy stormtrooper</label>
+        <labelPlural>heavy stormtroopers</labelPlural>
+        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <combatPower>190</combatPower>
+        <itemQuality>Good</itemQuality>
+        <minGenerationAge>28</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <weaponMoney>6500~9000</weaponMoney>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~14</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <weaponTags Inherit="False">
+            <li>UFR_Storm_Heavy</li>
+            <li>UFR_Storm_Cannon</li>
+            <li>UFR_Storm_Sidearm</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>UFR_Webbing_Infantry</li>
+            <li>UFR_HeavyCarapaceArmor</li>
+            <li>UFR_HeavyCarapaceHelmetMask</li>
+        </apparelRequired>
+        <apparelTags Inherit="False">
+            <li>UFR_UFUniform</li>
+            <li>UFR_Accessories</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="UFR_LineInfantryBase">
+        <defName>UFR_Civil_Commando</defName>
+        <label>commando</label>
+        <labelPlural>commandos</labelPlural>
+        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <combatPower>160</combatPower>
+        <itemQuality>Good</itemQuality>
+        <minGenerationAge>25</minGenerationAge>
+        <maxGenerationAge>45</maxGenerationAge>
+        <weaponMoney>4800~6500</weaponMoney>
+        <techHediffsChance>0.15</techHediffsChance>
+        <techHediffsMoney>1500~2200</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>7~13</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <weaponTags Inherit="False">
+            <li>UFR_Plasma_Rifle</li>
+            <li>UFR_Plasma_Sidearm</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>UFR_Webbing_Infantry</li>
+            <li>UFR_CarapaceArmor</li>
+            <li>UFR_CarapaceHelmetMask</li>
+        </apparelRequired>
+        <apparelTags Inherit="False">
+            <li>UFR_UFUniform</li>
+            <li>UFR_Accessories</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="UFR_LineVeteranBase">
+        <defName>UFR_Civil_HeavyCommando</defName>
+        <label>heavy commando</label>
+        <labelPlural>heavy commandos</labelPlural>
+        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <combatPower>200</combatPower>
+        <itemQuality>Good</itemQuality>
+        <minGenerationAge>28</minGenerationAge>
+        <maxGenerationAge>50</maxGenerationAge>
+        <weaponMoney>7000~9600</weaponMoney>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~14</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <weaponTags Inherit="False">
+            <li>UFR_Plasma_Shotgun</li>
+            <li>UFR_Plasma_Heavy</li>
+            <li>UFR_Plasma_Sidearm</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>UFR_Webbing_Infantry</li>
+            <li>UFR_HeavyCarapaceArmor</li>
+            <li>UFR_HeavyCarapaceHelmetMask</li>
+        </apparelRequired>
+        <apparelTags Inherit="False">
+            <li>UFR_UFUniform</li>
+            <li>UFR_Accessories</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="UFR_LeaderBase">
-        <defName>UFR_Civil_Officer</defName>
+        <defName>UFR_Civil_Commander</defName>
         <label>commander</label>
         <labelPlural>commanders</labelPlural>
         <defaultFactionType>UFR_Civil</defaultFactionType>
@@ -375,12 +486,6 @@
                 <range>5~12</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/commander</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/commander</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_PrestigeCarapaceArmor</li>
         </apparelRequired>
@@ -420,12 +525,6 @@
                 <range>3~8</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/cross</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/cross</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Medic</li>
             <li>UFR_SupportCarapaceArmor</li>
@@ -457,12 +556,6 @@
                 <range>3~8</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/cog</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/cog</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Engineer</li>
             <li>UFR_SupportCarapaceArmor</li>
@@ -475,9 +568,9 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_ScoutBase">
-        <defName>UFR_Civil_Scout</defName>
-        <label>scout</label>
-        <labelPlural>scouts</labelPlural>
+        <defName>UFR_Civil_Marksman</defName>
+        <label>marksman</label>
+        <labelPlural>marksmen</labelPlural>
         <defaultFactionType>UFR_Civil</defaultFactionType>
         <combatPower>110</combatPower>
         <weaponMoney>1950~2550</weaponMoney>
@@ -491,12 +584,6 @@
                 <range>3~10</range>
             </li>
         </skills>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/arrowhead</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/arrowhead</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
             <li>UFR_SupportCarapaceArmor</li>
@@ -515,16 +602,10 @@
         <combatPower>140</combatPower>
         <minGenerationAge>25</minGenerationAge>
         <maxGenerationAge>40</maxGenerationAge>
-        <modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/skullspear</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/skullspear</helmetDecalPath>
-            </li>
-        </modExtensions>
         <apparelRequired>
             <li>UFR_Webbing_Assault</li>
             <li>UFR_HeavyCarapaceArmor</li>
-            <li>UFR_HeavyCarapaceHelmet</li>
+            <li>UFR_HeavyCarapaceHelmetMask</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>

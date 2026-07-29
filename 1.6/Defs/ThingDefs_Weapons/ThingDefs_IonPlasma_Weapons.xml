@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <!-- Plasma Pistol -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaPistol</defName>
     <label>ion-plasma pistol slug</label>
@@ -12,9 +12,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>22</damageAmountBase>
-      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.22</armorPenetrationBase>
       <speed>120</speed>
       <extraDamages>
         <li>
@@ -80,7 +81,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_UFSidearm</li>
+      <li>UFR_Plasma_Sidearm</li>
     </weaponTags>
     <tools>
       <li>
@@ -110,7 +111,7 @@
     <uiIconScale>1.05</uiIconScale>
   </ThingDef>
 
-  <!-- Plasma Rifle -->
+  
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_IonPlasmaRifle</defName>
     <label>ion-plasma rifle slug</label>
@@ -121,9 +122,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>0.28</armorPenetrationBase>
       <speed>140</speed>
       <extraDamages>
         <li>
@@ -191,7 +193,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_UFRifle</li>
+      <li>UFR_Plasma_Rifle</li>
     </weaponTags>
     <tools>
       <li>
@@ -232,9 +234,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      <damageDef>UFR_PlasmaBurn</damageDef>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
       <damageAmountBase>22</damageAmountBase>
-      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
       <speed>130</speed>
       <extraDamages>
         <li>
@@ -247,7 +250,7 @@
     </projectile>
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
-        <effecterDef>UFR_EffectLaunch_IonPlasmaCaster</effecterDef>
+        <effecterDef>UFR_EffectLaunch_IonPlasma</effecterDef>
       </li>
     </comps>
   </ThingDef>
@@ -303,7 +306,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_UFHeavy</li>
+      <li>UFR_Plasma_Heavy</li>
     </weaponTags>
     <tools>
       <li>
@@ -344,9 +347,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
       <speed>90</speed>
       <extraDamages>
         <li>
@@ -423,7 +427,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFShotgun</li>
+      <li>UFR_Plasma_Shotgun</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_HeavyIonPlasmaWeaponry</researchPrerequisite>
@@ -444,9 +448,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>60</damageAmountBase>
-      <armorPenetrationBase>0.75</armorPenetrationBase>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <armorPenetrationBase>0.40</armorPenetrationBase>
       <speed>60</speed>
       <extraDamages>
         <li>

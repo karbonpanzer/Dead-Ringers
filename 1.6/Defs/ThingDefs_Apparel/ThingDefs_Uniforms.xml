@@ -193,6 +193,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
+        <li>UFR_Beret</li>
         <li>UFR_UFUniform</li>
       </tags>
       <defaultOutfitTags>
@@ -354,5 +355,4 @@
       <li>UFR_Uniforms</li>
     </tradeTags>
   </ThingDef>
-  
 </Defs>
