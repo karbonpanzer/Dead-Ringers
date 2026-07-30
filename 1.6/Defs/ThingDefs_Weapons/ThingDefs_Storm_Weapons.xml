@@ -437,4 +437,96 @@
     <uiIconScale>0.90</uiIconScale>
   </ThingDef>
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>UFR_Round_StormShrike</defName>
+    <label>storm shrike round</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UFR/Things/Projectile/slug_medium</texPath>
+      <drawSize>0.9</drawSize>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>UFR_StormBlast</damageDef>
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <speed>220</speed>
+      <stoppingPower>3.0</stoppingPower>
+      <landedEffecter>UFR_EffectImpact_CoilGun</landedEffecter>
+    </projectile>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>UFR_EffectLaunch_CoilGun_TriCoil</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+ 
+  <ThingDef ParentName="BaseGun" Name="UFR_StormShrike">
+    <defName>UFR_StormShrike</defName>
+    <label>Storm Shrike</label>
+    <description>A long-frame marksman variant of the storm weapon, hand-built and never issued in numbers. A stabilized firing cradle and an overlong barrel finally tame the wandering round, turning the Front's blunt armor-breaker into a precision instrument that strips plate off a target at extreme range. Too costly and too finicky to reproduce, the few that exist are passed down rather than made.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UFR/Things/Item/Equipment/stormshrike</texPath>
+      <drawSize>1.3</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <Mass>10.5</Mass>
+      <MarketValue>11000</MarketValue>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>3.4</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.35</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UFR_Round_StormShrike</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>80</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>frame</label>
+        <capacities><li>Blunt</li></capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities><li>Poke</li></capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingSetMakerTags>
+      <li>RewardHighTech</li>
+      <li>RewardUnique</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <uiIconScale>0.90</uiIconScale>
+  </ThingDef>
+
 </Defs>
