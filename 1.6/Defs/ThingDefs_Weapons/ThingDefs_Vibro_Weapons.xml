@@ -73,7 +73,7 @@
         <tradeTags>
             <li>WeaponMelee</li>
         </tradeTags>
-        <uiIconScale>1.15</uiIconScale>
+
     </ThingDef>
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -146,7 +146,6 @@
         <tradeTags>
             <li>WeaponMelee</li>
         </tradeTags>
-        <uiIconScale>1.15</uiIconScale>
     </ThingDef>
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -221,7 +220,6 @@
         <tradeTags>
             <li>WeaponMelee</li>
         </tradeTags>
-        <uiIconScale>1.15</uiIconScale>
     </ThingDef>
 
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -288,7 +286,6 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -299,7 +296,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrohammer</texPath>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.4</drawSize>
+      <drawSize>1.15</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <equippedAngleOffset>-50</equippedAngleOffset>
@@ -355,7 +352,6 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -366,7 +362,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrobuster</texPath>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.15</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <equippedAngleOffset>-50</equippedAngleOffset>
@@ -422,7 +418,6 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
