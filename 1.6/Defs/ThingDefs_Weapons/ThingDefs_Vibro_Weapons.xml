@@ -352,6 +352,7 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
+    <uiIconScale>0.95</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -418,6 +419,7 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
+    <uiIconScale>0.95</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -484,7 +486,6 @@
     <tradeTags>
       <li>WeaponMelee</li>
     </tradeTags>
-    <uiIconScale>1.15</uiIconScale>
+    <uiIconScale>0.95</uiIconScale>
   </ThingDef>    
-    
 </Defs>
