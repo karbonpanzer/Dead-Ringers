@@ -11,7 +11,7 @@
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+      
       <damageDef>UFR_StormBlast</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <armorPenetrationBase>0.45</armorPenetrationBase>
@@ -119,7 +119,7 @@
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+      
       <damageDef>UFR_StormBlast</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <armorPenetrationBase>0.55</armorPenetrationBase>
@@ -228,7 +228,7 @@
       <texPath>UFR/Things/Projectile/slug_medium</texPath>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+      
       <damageDef>UFR_StormBlast</damageDef>
       <damageAmountBase>13</damageAmountBase>
       <armorPenetrationBase>0.60</armorPenetrationBase>
@@ -335,7 +335,7 @@
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+      
       <damageDef>UFR_StormBlast</damageDef>
       <damageAmountBase>22</damageAmountBase>
       <armorPenetrationBase>0.65</armorPenetrationBase>
