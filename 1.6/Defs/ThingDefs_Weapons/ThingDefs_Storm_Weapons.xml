@@ -437,7 +437,7 @@
     <uiIconScale>0.90</uiIconScale>
   </ThingDef>
 
-  <ThingDef ParentName="BaseBullet">
+  <!--ThingDef ParentName="BaseBullet">
     <defName>UFR_Round_StormShrike</defName>
     <label>storm shrike round</label>
     <graphicData>
@@ -527,6 +527,6 @@
       <li>WeaponRanged</li>
     </tradeTags>
     <uiIconScale>0.90</uiIconScale>
-  </ThingDef>
+  </ThingDef-->
 
 </Defs>

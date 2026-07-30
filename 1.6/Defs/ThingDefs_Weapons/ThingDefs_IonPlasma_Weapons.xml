@@ -438,7 +438,7 @@
   </ThingDef>
 
   <!-- Plasma Fusion Gun -->
-  <ThingDef ParentName="BaseBullet">
+  <!--ThingDef ParentName="BaseBullet">
     <defName>UFR_Slug_PlasmaFusionGun</defName>
     <label>plasma fusion charge</label>
     <graphicData>
@@ -523,6 +523,6 @@
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>  
     <relicChance>0</relicChance>  
-  </ThingDef>
+  </ThingDef-->
 
 </Defs>
