@@ -14,6 +14,14 @@
       <options>
         <li>
           <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
         </li>
       </options>
@@ -90,6 +98,14 @@
       <options>
         <li>
           <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
         </li>
       </options>
@@ -156,6 +172,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
@@ -227,6 +251,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
@@ -308,6 +340,14 @@
       <options>
         <li>
           <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
         </li>
       </options>
@@ -374,6 +414,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
@@ -445,6 +493,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
@@ -522,6 +578,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
@@ -604,6 +668,14 @@
       <options>
         <li>
           <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
         </li>
       </options>
@@ -675,6 +747,14 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
         <li>
           <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
