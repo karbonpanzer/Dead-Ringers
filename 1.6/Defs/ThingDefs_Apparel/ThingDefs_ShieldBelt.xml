@@ -33,7 +33,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <useIngredientsForColor>false</useIngredientsForColor>
       <skillRequirements>

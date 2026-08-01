@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="BenchBase">
-    <defName>UFR_FabricationBench</defName>
+  <!--ThingDef ParentName="BenchBase">
+    <defName>FabricationBench</defName>
     <label>Outcast Fabricator</label>
     <description>A workbench using proprietary equipment and tools for the manufacturing of Outcast technologies. Requires a Outcast Decoder to unlock.</description>
     <thingClass>Building_WorkTable</thingClass>
@@ -72,6 +72,6 @@
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
-  </ThingDef>
+  </ThingDef-->
 
 </Defs>

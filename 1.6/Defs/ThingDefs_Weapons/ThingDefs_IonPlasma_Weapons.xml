@@ -49,7 +49,7 @@
         <Crafting>11</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>UFR_FabricationBench</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
@@ -159,7 +159,7 @@
         <Crafting>11</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>UFR_FabricationBench</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
@@ -272,7 +272,7 @@
         <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers>
-        <li>UFR_FabricationBench</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
