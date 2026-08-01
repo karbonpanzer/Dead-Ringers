@@ -12,7 +12,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/EVACarapaceHelmet/EVACarapaceHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/EVACarapaceArmor/EVACarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -50,7 +50,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/EVACarapaceHelmet/EVACarapaceHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EVACarapaceArmor/EVACarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

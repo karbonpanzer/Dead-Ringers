@@ -91,7 +91,7 @@
     <label>Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmet/CarapaceHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -141,7 +141,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmet/CarapaceHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -167,7 +167,7 @@
     <label>Carapace Helmet (Mask)</label>
     <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -218,7 +218,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/CarapaceHelmetMask/CarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -333,7 +333,7 @@
     <label>Heavy Carapace Helmet</label>
     <description>An open-face reinforced Carapace helmet with additional plating across the crown and rear. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmet/HeavyCarapaceHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -383,7 +383,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmet/HeavyCarapaceHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -409,7 +409,7 @@
     <label>Heavy Carapace Helmet (Mask)</label>
     <description>A reinforced Carapace helmet with additional plating across the crown and rear. Fully encloses the head with an integrated full-face filtration system, sealing against airborne threats while retaining the ballistic protection of the heavy platform.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -460,7 +460,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/HeavyCarapaceHelmetMask/HeavyCarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/HeavyCarapaceArmor/HeavyCarapaceHelmetMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -572,7 +572,7 @@
     <label>Prestige Carapace Armor</label>
     <description>A Carapace armor set woven through with psychic-focusing threads and neural-assist relays. Worn by command psycasters, it lets the wearer shed neural heat faster and hold a larger charge before overload, at the cost of the raw protection of a dedicated combat set.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -640,7 +640,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/PrestigeCarapaceArmor/PrestigeCarapaceArmor</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags Inherit="False">
         <li>UFR_Armor</li>
@@ -661,7 +661,7 @@
     <label>Prestige Carapace Helmet</label>
     <description>An open-face Carapace helmet threaded with psychic-focusing filament. Covers the skull and upper face while its neural relays help the wearer shed heat between casts. The airway is left exposed in exchange for a lighter build.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmet/PrestigeCarapaceHelmet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -716,7 +716,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmet/PrestigeCarapaceHelmet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -742,7 +742,7 @@
     <label>Prestige Carapace Helmet (Masked)</label>
     <description>A sealed Carapace helmet threaded with psychic-focusing filament. Fully encloses the head with an integrated filtration mask, sealing against airborne threats while its neural relays help the wearer shed heat between casts.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmetMask/PrestigeCarapaceHelmetMask</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -798,7 +798,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Helmets/PrestigeCarapaceHelmetMask/PrestigeCarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
