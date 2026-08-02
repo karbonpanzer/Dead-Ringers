@@ -13,7 +13,7 @@
     </graphicData>
     <projectile>
       
-      <damageDef>Bullet</damageDef>
+      <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <armorPenetrationBase>0.22</armorPenetrationBase>
       <speed>120</speed>
@@ -123,7 +123,7 @@
     </graphicData>
     <projectile>
       
-      <damageDef>Bullet</damageDef>
+      <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>24</damageAmountBase>
       <armorPenetrationBase>0.28</armorPenetrationBase>
       <speed>140</speed>
@@ -235,7 +235,7 @@
     </graphicData>
     <projectile>
       
-      <damageDef>Bullet</damageDef>
+      <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>22</damageAmountBase>
       <armorPenetrationBase>0.30</armorPenetrationBase>
       <speed>130</speed>
@@ -348,7 +348,7 @@
     </graphicData>
     <projectile>
       
-      <damageDef>Bullet</damageDef>
+      <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>11</damageAmountBase>
       <armorPenetrationBase>0.18</armorPenetrationBase>
       <speed>90</speed>
@@ -449,7 +449,7 @@
     </graphicData>
     <projectile>
       
-      <damageDef>Bullet</damageDef>
+      <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>50</damageAmountBase>
       <armorPenetrationBase>0.40</armorPenetrationBase>
       <speed>60</speed>
