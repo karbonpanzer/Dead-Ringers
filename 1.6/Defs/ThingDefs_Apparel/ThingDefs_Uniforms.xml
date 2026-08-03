@@ -8,7 +8,7 @@
     <description>The standard duty uniform, built to hold up across every posting the Front takes. Layered weave regulates heat in both directions, letting a single pattern serve from tundra to desert.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -53,7 +53,8 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform/FieldUniform</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -79,7 +80,7 @@
     <label>Ushanka</label>
     <description>An insulated fur cap with fold-down ear flaps. Covers the ears without significantly restricting peripheral vision.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontUshanka/frontushanka</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontushanka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -119,7 +120,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontUshanka/frontushanka</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/frontushanka</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -148,7 +149,7 @@
     <label>Beret</label>
     <description>A soft wool beret bearing unit markings. Offers little protection from weather or harm, but remains the preferred headwear of personnel who would rather be recognized than comfortable.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontBeret/frontberet</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontberet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -188,7 +189,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontBeret/frontberet</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/frontberet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -218,7 +219,7 @@
     <label>Field Cap</label>
     <description>A vented field cap with an extended brim, worn across arid postings. Shades the eyes and scalp without trapping heat.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontFieldHat/frontfieldhat</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontfieldhat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -258,7 +259,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontFieldHat/frontfieldhat</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/frontfieldhat</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -287,7 +288,7 @@
     <label>Officer Cap</label>
     <description>A structured cap worn by officers. Bears rank and unit markings, allowing the wearer to be identified quickly as command personnel during engagements.</description>
     <graphicData>
-      <texPath>UFR/Things/Pawn/Humanlike/Headgear/FrontOfficerCap/FrontOfficerCap</texPath>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/FrontOfficerCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
@@ -332,7 +333,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Headgear/FrontOfficerCap/FrontOfficerCap</wornGraphicPath>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FrontOfficerCap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -355,4 +356,63 @@
       <li>UFR_Uniforms</li>
     </tradeTags>
   </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>UFR_Hat_Campaign</defName>
+    <label>campaign hat</label>
+    <description>A stiff-brimmed felt campaign hat with a pinched crown. It offers little protection, but marks its wearer as a career soldier and keeps sun and rain off on a long march.</description>
+    <techLevel>Industrial</techLevel>
+    <thingCategories Inherit="False">
+      <li>UFR_Headgear</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontcampaignhat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.42, 0.42, 0.44)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.15</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <Insulation_Cold>0.35</Insulation_Cold>
+      <Insulation_Heat>0.25</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <recipeMaker>
+      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/frontcampaignhat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>UFR_UFUniform</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
 </Defs>
