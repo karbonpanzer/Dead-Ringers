@@ -38,7 +38,7 @@
         <prerequisites>
             <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>3</researchViewX>
+        <researchViewX>2</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
 
@@ -52,55 +52,7 @@
         <prerequisites>
             <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>3</researchViewX>
-        <researchViewY>0.7</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_CarapaceRecompositionMethods</defName>
-        <label>Carapace Alloying Methods</label>
-        <description>Restructure Carapace composite matrices into alternate configurations suited for specialist combat roles.</description>
-        <baseCost>2200</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_CarapaceArmor</li>
-        </prerequisites>
-        <researchViewX>3</researchViewX>
-        <researchViewY>1.4</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_VarangianPowerArmor</defName>
-        <label>Varangian Power Armor</label>
-        <description>Construct lighter-frame powered combat suits favored by mobile assault elements. Augments the wearer's strength, mobility, and survivability. Requires analysis of an armor decoder.</description>
-        <baseCost>3200</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_CarapaceMolecularPlating</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_ArmorDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>6</researchViewX>
-        <researchViewY>0</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_PraetorianPowerArmor</defName>
-        <label>Praetorian Power Armor</label>
-        <description>Construct heavy-frame powered combat suits for command personnel and elite guard units. Maximum protection with reduced mobility. Requires analysis of an armor decoder.</description>
-        <baseCost>3200</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_CarapaceSpecializedCompositions</li>
-        </prerequisites>
-        <requiredAnalyzed>
-            <li>UFR_ArmorDecoder</li>
-        </requiredAnalyzed>
-        <researchViewX>6</researchViewX>
+        <researchViewX>2</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
@@ -116,34 +68,6 @@
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>4.9</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_ExtremeWeatherUniforms</defName>
-        <label>Extreme Weather Uniforms</label>
-        <description>Tailor heavily modified garments designed for survival and work in extreme heat and cold.</description>
-        <baseCost>1500</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedWovenUniforms</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>4.2</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_CommissarUniforms</defName>
-        <label>Commissar Uniforms</label>
-        <description>Tailor garments with commissar markings that offer the same protection as standard apparel.</description>
-        <baseCost>1500</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedWovenUniforms</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>5.6</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -184,7 +108,7 @@
         <prerequisites>
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
+        <researchViewX>1</researchViewX>
         <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
@@ -198,27 +122,27 @@
         <prerequisites>
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
+        <researchViewX>1</researchViewX>
         <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_AdvancedStormFabrication</defName>
-        <label>Advanced Storm Weaponry</label>
-        <description>Construct advanced coil weaponry fielded by United Front armed forces. Multi-stage rail acceleration and precision capacitor tuning enable significantly higher velocity and penetration.</description>
-        <baseCost>2400</baseCost>
+        <defName>UFR_ReinforcedVibroStructures</defName>
+        <label>Reinforced Vibrostructures</label>
+        <description>Construct vibro-weapons of greater size and intensity with reinforced structures to handle the power. Note that these also require advanced components.</description>
+        <baseCost>2000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_MinitureRAPManufacturing</li>
+            <li>UFR_HighFrequencyGenerators</li>
         </prerequisites>
-        <researchViewX>3</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.8</researchViewY>
+    </ResearchProjectDef>   
 
     <ResearchProjectDef>
         <defName>UFR_ReinforcedStormSuperstructures</defName>
-        <label>Reinforced Storm Weaponry</label>
+        <label>Reinforced Storm Superstructures</label>
         <description>Construct heavy coil weapons favored by United Front pirates and mercenaries. Industrial-scale capacitor banks deliver devastating slug impacts.</description>
         <baseCost>2000</baseCost>
         <tab>UFR_ResearchTab</tab>
@@ -226,8 +150,8 @@
         <prerequisites>
             <li>UFR_MinitureRAPManufacturing</li>
         </prerequisites>
-        <researchViewX>3</researchViewX>
-        <researchViewY>2.8</researchViewY>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -240,7 +164,7 @@
         <prerequisites>
             <li>UFR_AdvancedFabricationMethods</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
+        <researchViewX>1</researchViewX>
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
@@ -254,7 +178,7 @@
         <prerequisites>
             <li>UFR_IonizedGasRefinement</li>
         </prerequisites>
-        <researchViewX>3</researchViewX>
+        <researchViewX>2</researchViewX>
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 

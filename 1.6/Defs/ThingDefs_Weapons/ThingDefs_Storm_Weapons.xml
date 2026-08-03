@@ -315,7 +315,7 @@
       <li>UFR_Storm_Heavy</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedStormFabrication</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedStormSuperstructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>

@@ -238,7 +238,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -304,7 +304,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -371,7 +371,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
@@ -438,7 +438,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>

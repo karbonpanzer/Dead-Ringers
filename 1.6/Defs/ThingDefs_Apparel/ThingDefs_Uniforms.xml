@@ -9,7 +9,6 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform</texPath>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -54,7 +53,6 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform</wornGraphicPath>
-      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -313,7 +311,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CommissarUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>

@@ -30,7 +30,7 @@
                 <li>Synthread</li>
             </thingDefs>
         </apparelStuffFilter>
-        <factionIconPath>UFR/UI/Factions/DominionPlayerHome</factionIconPath>
+        <factionIconPath>UFR/UI/Factions/frontplayer</factionIconPath>
         <startingResearchTags>
             <li>ClassicStart</li>
         </startingResearchTags>
@@ -55,7 +55,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>governor</leaderTitle>
-        <factionIconPath>UFR/UI/Factions/Dominion</factionIconPath>
+        <factionIconPath>UFR/UI/Factions/frontrefugee</factionIconPath>
         <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
         <colorSpectrum>
@@ -271,7 +271,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>boss</leaderTitle>
-        <factionIconPath>UFR/UI/Factions/Freelancers</factionIconPath>
+        <factionIconPath>UFR/UI/Factions/freebooter</factionIconPath>
         <factionNameMaker>Namer_UFRFactionSavage</factionNameMaker>
         <settlementNameMaker>Namer_UFRSettlementSavage</settlementNameMaker>
         <colorSpectrum>
