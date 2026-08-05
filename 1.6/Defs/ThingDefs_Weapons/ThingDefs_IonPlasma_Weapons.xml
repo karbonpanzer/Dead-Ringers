@@ -12,17 +12,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      
       <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>15</damageAmountBase>
       <armorPenetrationBase>0.22</armorPenetrationBase>
       <speed>120</speed>
-      <extraDamages>
-        <li>
-          <def>Burn</def>
-          <amount>3</amount>
-        </li>
-      </extraDamages>
           <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
     <comps>
@@ -122,17 +115,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      
       <damageDef>UFR_PlasmaBurn</damageDef>
       <damageAmountBase>24</damageAmountBase>
       <armorPenetrationBase>0.28</armorPenetrationBase>
       <speed>140</speed>
-      <extraDamages>
-        <li>
-          <def>Burn</def>
-          <amount>6</amount>
-        </li>
-      </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
     <comps>
@@ -234,17 +220,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      
       <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>22</damageAmountBase>
+      <damageAmountBase>28</damageAmountBase>
       <armorPenetrationBase>0.30</armorPenetrationBase>
       <speed>130</speed>
-      <extraDamages>
-        <li>
-          <def>Burn</def>
-          <amount>4</amount>
-        </li>
-      </extraDamages>
       <explosionRadius>0.5</explosionRadius>
           <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
@@ -347,17 +326,10 @@
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <projectile>
-      
       <damageDef>UFR_PlasmaBurn</damageDef>
-      <damageAmountBase>11</damageAmountBase>
+      <damageAmountBase>18</damageAmountBase>
       <armorPenetrationBase>0.18</armorPenetrationBase>
       <speed>90</speed>
-      <extraDamages>
-        <li>
-          <def>Burn</def>
-          <amount>2</amount>
-        </li>
-      </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonPlasma</landedEffecter>
     </projectile>
     <comps>

@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="ApparelBase">
     <defName>UFR_BarrierBelt</defName>
-    <label>assault barrier belt</label>
-    <description>A shield belt built to soak sustained fire rather than the occasional stray round. Its field carries a heavy charge and, unlike a conventional belt, is layered to catch fire and heat as readily as bullets and shrapnel - though a hit of any kind still bleeds the charge. It is tuned loosely enough that the wearer can fire out through it.\n\nThe tradeoff is recovery. A standard belt flickers back the instant it clears, but once this barrier is overloaded and collapses it takes over a minute to reform, returning at full strength. It shuts down immediately if struck by EMP.</description>
+    <label>thermal barrier belt</label>
+    <description>A projectile-repulsion device rebuilt around a thermal dispersion layer. Conventional shield belts stop bullets and shrapnel but let fire and heat pass straight through. This one catches them, and the field is tuned loosely enough that the wearer can still shoot out through it.\n\nBoth concessions cost capacity. The barrier holds far less charge than a standard belt and collapses under any concentrated hit, but it recovers almost instantly between them. Once broken it takes a long minute to reform. It shuts down immediately if struck by EMP.</description>
     <thingClass>Apparel</thingClass>
     <techLevel>Spacer</techLevel>
     <tickerType>Normal</tickerType>
@@ -16,8 +16,8 @@
       <Mass>3</Mass>
       <WorkToMake>16000</WorkToMake>
       <Flammability>0.4</Flammability>
-      <EnergyShieldEnergyMax>3.0</EnergyShieldEnergyMax>
-      <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>0.35</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>0.30</EnergyShieldRechargeRate>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <costList>
@@ -68,16 +68,17 @@
         <blocksRangedWeapons>false</blocksRangedWeapons>
         <blocksExplosiveDamage>true</blocksExplosiveDamage>
         <energyLossPerDamage>0.01</energyLossPerDamage>
-        <startingTicksToReset>4800</startingTicksToReset>
-        <energyOnReset>2.0</energyOnReset>
+        <startingTicksToReset>3600</startingTicksToReset>
+        <energyOnReset>0.1</energyOnReset>
         <minDrawSize>2.00</minDrawSize>
         <maxDrawSize>2.90</maxDrawSize>
         <breakFlashScale>2.0</breakFlashScale>
         <breakDustPuffs>0</breakDustPuffs>
         <breakEffecterScale>1.0</breakEffecterScale>
-        <sharpEnergyLossMultiplier>1.0</sharpEnergyLossMultiplier>
-        <bluntEnergyLossMultiplier>1.0</bluntEnergyLossMultiplier>
-        <heatEnergyLossMultiplier>0.85</heatEnergyLossMultiplier>
+        <extraBlockedDamageDefs>
+          <li>Flame</li>
+          <li>Burn</li>
+        </extraBlockedDamageDefs>
       </li>
     </comps>
     <colorGenerator Class="ColorGenerator_Options">

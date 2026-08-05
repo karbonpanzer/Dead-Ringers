@@ -16,4 +16,7 @@
   <UnitedFront_Decals_Reset>Reset</UnitedFront_Decals_Reset>
   <UnitedFront_Decals_Accept>Accept</UnitedFront_Decals_Accept>
 
+  <!-- Assault Shield -->  
+  <UFR_ShieldRecharging>Recharging {0}s</UFR_ShieldRecharging>
+
 </LanguageData>
