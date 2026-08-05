@@ -97,7 +97,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_AssaultPistol">
     <defName>UFR_AssaultPistol</defName>
     <label>Assault Pistol</label>
     <description>A heavy caliber pistol favored by pirates and mercenaries. Powerful and weighty, it can easily pierce armor at close range. Though it lacks in the ability to hit at a distance.</description>
@@ -342,7 +342,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_PulseRifle">
     <defName>UFR_PulseRifle</defName>
     <label>Pulse Rifle</label>
     <description>An advanced rifle design used by ringer veterans and mercenaries. Built with state-of-the-art polymers and alloys, it fires armor-piercing duplex ammunition.</description>
@@ -731,7 +731,7 @@
   </ThingDef>
 
   <!-- Flechette Shotgun -->
-  <ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet" >
     <defName>UFR_Shell_FlechetteShotgun</defName>
     <label>flechette shotgun dart</label>
     <graphicData>
@@ -747,7 +747,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_FlechetteShotgun">
     <defName>UFR_FlechetteShotgun</defName>
     <label>Flechette Shotgun</label>
     <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
@@ -814,9 +814,9 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- Marksman Pulse Rifle -->
+  <!-- Heavy Pulse Rifle -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Bullet_PulseMarksman</defName>
+    <defName>UFR_Bullet_HeavyPulseRile</defName>
     <label>pulse marksman round</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -830,9 +830,9 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>UFR_PulseMarksman</defName>
-    <label>Marksman Pulse Rifle</label>
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyPulseRifle">
+    <defName>UFR_HeavyPulseRifle</defName>
+    <label>Heavy Pulse Rifle</label>
     <description>A semi-automatic marksman variant of the pulse rifle, rebarreled and rechambered for reach. It trades the rifle's burst for single precise shots at extended range, favored by designated marksmen who hold the line from the second rank.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -859,7 +859,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Bullet_PulseMarksman</defaultProjectile>
+        <defaultProjectile>UFR_Bullet_HeavyPulseRile</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <range>42</range>
         <soundCast>Shot_AssaultRifle</soundCast>

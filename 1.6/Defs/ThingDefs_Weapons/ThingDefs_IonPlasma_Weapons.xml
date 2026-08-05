@@ -3,8 +3,8 @@
 
   
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_IonPlasmaPistol</defName>
-    <label>ion-plasma pistol slug</label>
+    <defName>UFR_Bolt_IonPlasmaPistol</defName>
+    <label>ion-plasma pistol bolt</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Projectile/plasmabolt</texPath>
@@ -35,7 +35,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaPistol">
     <defName>UFR_IonPlasmaPistol</defName>
     <label>Ion-Plasma Pistol</label>
-    <description>An upgraded coil pistol that wraps its uranium slug in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the slug arrives, dramatically improving penetration without sacrificing the platform's compactness.</description>
+    <description>An upgraded coil pistol that wraps its uranium Bolt in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the Bolt arrives, dramatically improving penetration without sacrificing the platform's compactness.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionplasmapistol</texPath>
@@ -72,7 +72,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_IonPlasmaPistol</defaultProjectile>
+        <defaultProjectile>UFR_Bolt_IonPlasmaPistol</defaultProjectile>
         <warmupTime>0.55</warmupTime>
         <range>22.9</range>
         <soundCast>UFR_Bolt_Plasma</soundCast>
@@ -113,8 +113,8 @@
 
   
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_IonPlasmaRifle</defName>
-    <label>ion-plasma rifle slug</label>
+    <defName>UFR_Bolt_IonPlasmaRifle</defName>
+    <label>ion-plasma rifle bolt</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Projectile/plasmabolt</texPath>
@@ -145,7 +145,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaRifle">
     <defName>UFR_IonPlasmaRifle</defName>
     <label>Ion-Plasma Rifle</label>
-    <description>An upgraded coil rifle that wraps each uranium slug in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the slug arrives, granting devastating penetration against even hardened spacer-tier plating.</description>
+    <description>An upgraded coil rifle that wraps each uranium Bolt in a sheath of ionized plasma before launch. The plasma sleeve melts and weakens armor a fraction of a second before the Bolt arrives, granting devastating penetration against even hardened spacer-tier plating.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionplasmarifle</texPath>
@@ -182,7 +182,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_IonPlasmaRifle</defaultProjectile>
+        <defaultProjectile>UFR_Bolt_IonPlasmaRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>36.9</range>
         <burstShotCount>3</burstShotCount>
@@ -225,8 +225,8 @@
 
   <!-- Plasma Caster -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_IonPlasmaCaster</defName>
-    <label>ion-plasma caster slug</label>
+    <defName>UFR_Bolt_IonPlasmaCaster</defName>
+    <label>ion-plasma caster bolt</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Projectile/plasmacannon</texPath>
@@ -258,7 +258,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonPlasmaCaster">
     <defName>UFR_IonPlasmaCaster</defName>
     <label>Ion-Plasma Caster</label>
-    <description>A long-barrelled precision weapon descended from the tricoil rifle, redesigned to wrap each uranium slug in a stabilized plasma sleeve. At range the plasma sheath maintains slug integrity through atmospheric drag while shredding the target's armor at impact.</description>
+    <description>A long-barrelled precision weapon descended from the tricoil rifle, redesigned to wrap each uranium Bolt in a stabilized plasma sleeve. At range the plasma sheath maintains Bolt integrity through atmospheric drag while shredding the target's armor at impact.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionplasmacaster</texPath>
@@ -295,7 +295,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_IonPlasmaCaster</defaultProjectile>
+        <defaultProjectile>UFR_Bolt_IonPlasmaCaster</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>40</range>
         <burstShotCount>5</burstShotCount>
@@ -338,8 +338,8 @@
 
   <!-- Ion-Plasma Shotgun -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_IonPlasmaShotgun</defName>
-    <label>ion-plasma pellet</label>
+    <defName>UFR_Bolt_IonPlasmaShotgun</defName>
+    <label>ion-plasma micro-bolt</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Projectile/plasmabolt</texPath>
@@ -396,7 +396,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_IonPlasmaShotgun</defaultProjectile>
+        <defaultProjectile>UFR_Bolt_IonPlasmaShotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>22</range>
         <burstShotCount>4</burstShotCount>
@@ -439,7 +439,7 @@
 
   <!-- Plasma Fusion Gun -->
   <!--ThingDef ParentName="BaseBullet">
-    <defName>UFR_Slug_PlasmaFusionGun</defName>
+    <defName>UFR_Bolt_PlasmaFusionGun</defName>
     <label>plasma fusion charge</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -491,7 +491,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Slug_PlasmaFusionGun</defaultProjectile>
+        <defaultProjectile>UFR_Bolt_PlasmaFusionGun</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>15</range>
         <minRange>3</minRange>
