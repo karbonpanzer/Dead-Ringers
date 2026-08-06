@@ -4,6 +4,7 @@ using Verse;
 
 namespace UnitedFront.Comps
 {
+    [StaticConstructorOnStartup]
     public class Gizmo_UFRShieldStatus : Gizmo
     {
         public CompShieldUFR shield;
