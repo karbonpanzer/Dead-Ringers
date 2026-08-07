@@ -2,7 +2,7 @@
 <Defs>
     <ScenarioDef ParentName="ScenarioBase">
         <defName>UFR_Diaspora</defName>
-        <label>Diaspora</label>
+        <label>Refugees</label>
         <description>Your government walked away from the people as the mechanoids came, abandoning your people to flee in a scrappy fleet. Five of you slept the long sublight passage in a refugee cryptoship. Now you wake to a new sky, the cause of the United Front still in your hands.</description>
         <scenario>
             <summary>A small group of refugees from a fallen world.</summary>
