@@ -12,7 +12,7 @@
     <graphicData>
       <texPath>UFR/Things/Flecks/ionchargemuzzleflash</texPath>
       <shaderType>MoteGlow</shaderType>
-      <drawSize>(1.00,2.25)</drawSize>
+      <drawSize>(1.00,3.5)</drawSize>
     </graphicData>
   </FleckDef>
 
@@ -26,7 +26,7 @@
     <graphicData>
       <texPath>UFR/Things/Flecks/ionchargeblast</texPath>
       <shaderType>MoteGlow</shaderType>
-      <drawSize>1.5</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
   </FleckDef>
 
@@ -40,7 +40,7 @@
     <graphicData>
       <texPath>UFR/Things/Flecks/ionhargeaura</texPath>
       <shaderType>MoteGlow</shaderType>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.8</drawSize>
     </graphicData>
   </FleckDef>
 
@@ -54,7 +54,7 @@
     <graphicData>
       <texPath>UFR/Things/Flecks/ionchargeglare</texPath>
       <shaderType>MoteGlow</shaderType>
-      <drawSize>(1,2)</drawSize>
+      <drawSize>(0.2,1)</drawSize>
     </graphicData>
   </FleckDef>
 

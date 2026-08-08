@@ -8,7 +8,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>UFR_FleckMuzzle_IonCharge</fleckDef>
-        <scale>1.5~1.8</scale>
+        <scale>1</scale>
         <spawnLocType>OnSource</spawnLocType>
         <rotation>0</rotation>
         <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
@@ -30,14 +30,14 @@
         <fleckDef>UFR_FleckImpact_IonCharge_Aura</fleckDef>
         <burstCount>1~2</burstCount>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>1.75~2.25</scale>
+        <scale>0.75~1.25</scale>
       </li>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>UFR_FleckImpact_IonCharge_Glare</fleckDef>
         <burstCount>2</burstCount>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>1.50~2.00</scale>
+        <scale>0.50~1.00</scale>
       </li>
     </children>
   </EffecterDef>
