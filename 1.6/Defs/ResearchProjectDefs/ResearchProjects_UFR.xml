@@ -99,20 +99,6 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_MinitureRAPManufacturing</defName>
-        <label>Rocket-Assisted Weaponry</label>
-        <description>Construct basic coil weapons used by United Front settlers. Capacitor banks and rail coils require advanced components.</description>
-        <baseCost>1600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
-        </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>UFR_HighFrequencyGenerators</defName>
         <label>High-Frequency Generators</label>
         <description>Construct weapons that use ultrasonic vibration generators. Note that these also require advanced components.</description>
@@ -141,20 +127,6 @@
     </ResearchProjectDef>   
 
     <ResearchProjectDef>
-        <defName>UFR_ReinforcedStormSuperstructures</defName>
-        <label>Reinforced Storm Superstructures</label>
-        <description>Construct heavy coil weapons favored by United Front pirates and mercenaries. Industrial-scale capacitor banks deliver devastating slug impacts.</description>
-        <baseCost>2000</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_MinitureRAPManufacturing</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>UFR_IonChargeMunitions</defName>
         <label>Ion-Charge Munitions</label>
         <description>Adapt the faction's storm-weapon superstructures to the charged-shot principle, fabricating pulse-charged firearms that fire high-energy slugs wrapped in an ionized charge. The charge occasionally discharges an electromagnetic pulse on impact that disrupts shields and mechanoids.</description>
@@ -162,7 +134,7 @@
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_ReinforcedStormSuperstructures</li>
+            <li>UFR_AdvancedFabricationMethods</li>
             <li>ChargedShot</li>
         </prerequisites>
         <researchViewX>1</researchViewX>

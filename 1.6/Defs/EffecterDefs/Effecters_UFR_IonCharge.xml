@@ -2,19 +2,21 @@
 <Defs>
 
   <!-- Ion-Charge -->
+  <!--
   <EffecterDef>
     <defName>UFR_EffectLaunch_IonCharge</defName>
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>UFR_FleckMuzzle_IonCharge</fleckDef>
-        <scale>1</scale>
+        <scale>1.5~1.8</scale>
         <spawnLocType>OnSource</spawnLocType>
         <rotation>0</rotation>
         <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
       </li>
     </children>
   </EffecterDef>
+  -->
 
   <EffecterDef>
     <defName>UFR_EffectImpact_IonCharge</defName>
@@ -23,7 +25,7 @@
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>UFR_FleckImpact_IonCharge_Blast</fleckDef>
         <spawnLocType>OnSource</spawnLocType>
-        <scale>0.75</scale>
+        <scale>0.35</scale>
       </li>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>

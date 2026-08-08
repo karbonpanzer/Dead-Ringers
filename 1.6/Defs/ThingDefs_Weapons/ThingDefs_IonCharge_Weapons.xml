@@ -25,11 +25,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargePistol">
@@ -126,11 +128,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSMG">
@@ -233,11 +237,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeRifle">
@@ -334,11 +340,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeShotgun">
@@ -441,11 +449,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeHeavyRifle">
@@ -542,11 +552,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSuppressor">
@@ -643,11 +655,13 @@
       </extraDamages>
       <landedEffecter>UFR_EffectImpact_IonCharge</landedEffecter>
     </projectile>
+    <!--
     <comps>
       <li Class="CompProperties_ProjectileEffecter">
         <effecterDef>UFR_EffectLaunch_IonCharge</effecterDef>
       </li>
     </comps>
+    -->
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeLance">
