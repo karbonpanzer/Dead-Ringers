@@ -99,20 +99,6 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_MinitureRAPManufacturing</defName>
-        <label>Rocket-Assisted Weaponry</label>
-        <description>Construct basic coil weapons used by United Front settlers. Capacitor banks and rail coils require advanced components.</description>
-        <baseCost>1600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
-        </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>UFR_HighFrequencyGenerators</defName>
         <label>High-Frequency Generators</label>
         <description>Construct weapons that use ultrasonic vibration generators. Note that these also require advanced components.</description>
@@ -141,44 +127,17 @@
     </ResearchProjectDef>   
 
     <ResearchProjectDef>
-        <defName>UFR_ReinforcedStormSuperstructures</defName>
-        <label>Reinforced Storm Superstructures</label>
-        <description>Construct heavy coil weapons favored by United Front pirates and mercenaries. Industrial-scale capacitor banks deliver devastating slug impacts.</description>
-        <baseCost>2000</baseCost>
+        <defName>UFR_ChargedIonMunitions</defName>
+        <label>Charged Ion Munitions</label>
+        <description>Fabricate the United Front's ion-charge weapons: pulse-charged firearms that fire high-energy slugs wrapped in an ionized charge, occasionally discharging an electromagnetic pulse on impact that disrupts shields and mechanoids.</description>
+        <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_MinitureRAPManufacturing</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>2.1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_IonizedGasRefinement</defName>
-        <label>Ion-Plasma Weaponry</label>
-        <description>Construct ultratech laser weapons that fire focused beams of coherent light through refined ionized gas. Requires analysis of a weapons decoder.</description>
-        <baseCost>3200</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
             <li>UFR_AdvancedFabricationMethods</li>
+            <li>ChargedShot</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
-        <researchViewY>3.5</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_HeavyIonPlasmaWeaponry</defName>
-        <label>Heavy Ion-Plasma Weaponry</label>
-        <description>Construct ultratech plasma weapons that channel ionized plasma streams capable of melting through armor and structure alike. Requires analysis of a weapons decoder.</description>
-        <baseCost>4000</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Ultra</techLevel>
-        <prerequisites>
-            <li>UFR_IonizedGasRefinement</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 

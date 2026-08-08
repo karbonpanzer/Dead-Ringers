@@ -91,7 +91,7 @@
     </SoundDef>   
     
     <SoundDef>
-        <defName>UFR_Bolt_Plasma</defName>
+        <defName>UFR_Bolt_IonCharge</defName>
         <context>MapOnly</context>
         <maxSimultaneous>3</maxSimultaneous>
         <subSounds>
@@ -109,7 +109,7 @@
     </SoundDef>  
     
     <SoundDef>
-        <defName>UFR_Bolt_Plasmacaster</defName>
+        <defName>UFR_Bolt_IonChargeHeavy</defName>
         <context>MapOnly</context>
         <maxSimultaneous>3</maxSimultaneous>
         <subSounds>
