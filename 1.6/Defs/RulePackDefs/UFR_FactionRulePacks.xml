@@ -8,19 +8,19 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>r_name(p=5)->[provisional_adjective] [provisional_government] of [nearnameinitial]</li>
-				<li>r_name(p=4)->[nearnameinitial] [provisional_adjective] [provisional_government]</li>
-				<li>r_name(p=2)->[nearnameinitial] [provisional_government]</li>
-				<li>r_name(p=3)->The [provisional_government] of [nearnameinitial]</li>
+				<li>r_name(p=6)->[provisional_adjective] [provisional_government] of [nearnameinitial]</li>
+				<li>r_name(p=5)->[nearnameinitial] [provisional_adjective] [provisional_government]</li>
+				<li>r_name(p=3)->[nearnameinitial] [provisional_government]</li>
+				<li>r_name(p=3)->[provisional_government] of [nearnameinitial]</li>
 
-				<li>r_name(p=5)->[socialist_adjective] [socialist_government] of [nearnameinitial]</li>
-				<li>r_name(p=4)->[nearnameinitial] [socialist_adjective] [socialist_government]</li>
-				<li>r_name(p=4)->[nearnameinitial] [socialist_government]</li>
-
+				<li>r_name(p=3)->[political_adjective_outcast] [political_union_outcast] of [nearnameinitial]</li>
+				<li>r_name(p=2)->[nearnameinitial] [political_adjective_outcast] [political_union_outcast]</li>
 				<li>r_name(p=2)->[nearnameinitial] [political_union_outcast]</li>
-				<li>r_name(p=3)->The [political_union_outcast] of [nearnameinitial]</li>
-				<li>r_name(p=2)->[political_adjective_outcast] [political_union_outcast] of [nearnameinitial]</li>
-				<li>r_name(p=1)->[nearnameinitial] [political_adjective_outcast] [political_union_outcast]</li>
+				<li>r_name(p=2)->[political_union_outcast] of [nearnameinitial]</li>
+
+				<li>r_name(p=2)->[nearnameinitial]</li>
+				<li>r_name(p=2)->[nearnameinitial] [political_union_outlander]</li>
+				<li>r_name(p=2)->[political_adjective] [political_union_outlander] of [nearnameinitial]</li>
 
 				<li>nearnameinitial(p=3)->[PlaceOutlander]</li>
 				<li>nearnameinitial->[Direction] [PlaceOutlander]</li>
@@ -30,8 +30,8 @@
 				<li>political_adjective_outcast->Words/Adjectives/PoliticalAdjectives_Outcast</li>
 				<li>provisional_government->Words/Nouns/GovernmentTypes_Provisional</li>
 				<li>provisional_adjective->Words/Adjectives/GovernmentAdjectives_Provisional</li>
-				<li>socialist_government->Words/Nouns/GovernmentTypes_Socialist</li>
-				<li>socialist_adjective->Words/Adjectives/GovernmentAdjectives_Socialist</li>
+				<li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>political_adjective->Words/Adjectives/PoliticalUnions</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
@@ -46,6 +46,11 @@
 				<li>r_name(p=4)->New [ghosttown]</li>
 				<li>r_name(p=3)->New [concept_outcast]</li>
 				<li>r_name(p=2)->New [PlaceOutlander]</li>
+				<li>r_name(p=3)->[PlaceOutlander]</li>
+				<li>r_name(p=2)->[concept_outcast] [Community]</li>
+				<li>r_name(p=2)->[Character]'s [Community]</li>
+				<li>r_name(p=2)->New [concept_positive]</li>
+				<li>r_name(p=1)->[PlaceOutlander] [community_term]</li>
 
 				<li>r_name(p=3)->[Character]grad</li>
 				<li>r_name(p=2)->New [Character]grad</li>
@@ -55,6 +60,9 @@
 				<li>r_name(p=1)->[concept_outcast]</li>
 				<li>r_name(p=3)->[concept_outcast] [community_term]</li>
 				<li>r_name(p=2)->Port [concept_outcast]</li>
+				<li>r_name(p=2)->[concept_positive] [community_term]</li>
+				<li>r_name(p=2)->[PlaceOutlander] [community_term]</li>
+				<li>r_name(p=2)->New [concept_positive]</li>
 
 				<li>r_name(p=6)->[ghosttown]</li>
 				<li>r_name(p=3)->Fort [ghosttown]</li>
@@ -81,6 +89,11 @@
 				<li>townend->well</li>
 				<li>townend->wood</li>
 				<li>townend->land</li>
+				<li>townend->ford</li>
+				<li>townend->bury</li>
+				<li>townend->field</li>
+				<li>townend->stead</li>
+				<li>townend->haven</li>
 			</rulesStrings>
 			<rulesFiles>
 				<li>townname_fixed->Names/OutlanderTown</li>

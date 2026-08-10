@@ -2,4 +2,7 @@ Republic
 Government
 Authority
 Council
-Committee
+Administration
+Assembly
+Coalition
+Congress

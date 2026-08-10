@@ -4,10 +4,11 @@ Charter
 Council
 Covenant
 Accord
-Cooperative
-Commune
 Authority
 Republic
 Federation
-Collective
 Territories
+Union
+Coalition
+Confederacy
+League

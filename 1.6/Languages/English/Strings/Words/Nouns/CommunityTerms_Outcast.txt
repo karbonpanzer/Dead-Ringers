@@ -3,3 +3,5 @@ Stand
 Hold
 Haven
 Crossing
+Landing
+Rest
