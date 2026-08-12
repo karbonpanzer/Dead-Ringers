@@ -413,7 +413,7 @@
   </ThingDef>
 
   <!-- Grenadier Pulse Rifle -->
-  <ThingDef ParentName="BaseBullet">
+  <!--ThingDef ParentName="BaseBullet">
     <defName>UFR_Bullet_PulseGrenadier</defName>
     <label>pulse grenadier round</label>
     <graphicData>
@@ -573,10 +573,10 @@
         <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
-  </ThingDef>
+  </ThingDef-->
 
 <!-- Breacher Pulse Rifle -->
-  <ThingDef ParentName="BaseBullet">
+  <!--ThingDef ParentName="BaseBullet">
     <defName>UFR_Bullet_BreacherPulse</defName>
     <label>breacher pulse round</label>
     <graphicData>
@@ -728,7 +728,7 @@
         <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
-  </ThingDef>
+  </ThingDef-->
 
   <!-- Flechette Shotgun -->
   <ThingDef ParentName="BaseBullet" >

@@ -18,7 +18,7 @@
                 </li>
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
                     <def>ConfigPage_ConfigureStartingPawns</def>
-                    <pawnCount>5</pawnCount>
+                    <pawnCount>4</pawnCount>
                     <pawnChoiceCount>8</pawnChoiceCount>
                 </li>
                 <li Class="ScenPart_PlayerPawnsArriveMethod">
@@ -43,7 +43,7 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>UFR_AssaultPistol</thingDef>
+                    <thingDef>UFR_ServicePistol</thingDef>
                     <count>1</count>
                     <quality>Normal</quality>
                 </li>
@@ -79,11 +79,6 @@
                     <def>StartingThing_Defined</def>
                     <thingDef>ComponentIndustrial</thingDef>
                     <count>40</count>
-                </li>
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>ComponentSpacer</thingDef>
-                    <count>5</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
