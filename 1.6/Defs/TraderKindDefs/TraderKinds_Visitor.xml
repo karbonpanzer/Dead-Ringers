@@ -31,11 +31,6 @@
           <li>Chocolate</li>
         </thingDefs>
       </li>
-      <!-- Small faction wool stock -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_FlufflonWool</thingDef>
-        <countRange>10~40</countRange>
-      </li>
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>

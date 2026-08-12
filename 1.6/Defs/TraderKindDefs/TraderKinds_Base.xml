@@ -93,14 +93,6 @@
           <li MayRequire="Ludeon.RimWorld.Odyssey">BlocksVacstone</li>
         </excludedThingDefs>
       </li>
-      <!-- Faction materials -->
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>UFR_FlufflonWool</li>
-          <li>UFR_FlufflonLeather</li>
-        </thingDefs>
-        <countRange>40~120</countRange>
-      </li>
       <!-- Food -->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>

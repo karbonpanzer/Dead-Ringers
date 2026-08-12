@@ -60,15 +60,6 @@
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
       </li>
-      <!-- Faction bulk materials -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_FlufflonWool</thingDef>
-        <countRange>60~150</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_FlufflonLeather</thingDef>
-        <countRange>40~100</countRange>
-      </li>
       <!-- Food -->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
@@ -283,11 +274,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineUltratech</thingDef>
         <countRange>4~12</countRange>
-      </li>
-      <!-- Premium hide -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>UFR_FlufflonLeather</thingDef>
-        <countRange>30~80</countRange>
       </li>
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
