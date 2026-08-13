@@ -463,7 +463,7 @@
         </skills>
         <apparelRequired>
             <li>UFR_Webbing_Medic</li>
-            <li>UFR_SupportCarapaceArmor</li>
+            <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
@@ -503,7 +503,7 @@
         </skills>
         <apparelRequired>
             <li>UFR_Webbing_Engineer</li>
-            <li>UFR_SupportCarapaceArmor</li>
+            <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
@@ -538,7 +538,7 @@
         </skills>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_SupportCarapaceArmor</li>
+            <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">

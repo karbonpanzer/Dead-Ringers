@@ -9,6 +9,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -55,6 +56,7 @@
     </statBases>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -93,6 +95,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <!--shaderType>CutoutComplex</shaderType-->
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -142,6 +145,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</wornGraphicPath>
+      <!--useWornGraphicMask>true</useWornGraphicMask-->
       <layers>
         <li>Overhead</li>
       </layers>
@@ -169,6 +173,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <!--shaderType>CutoutComplex</shaderType-->
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -219,6 +224,7 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</wornGraphicPath>
+      <!--useWornGraphicMask>true</useWornGraphicMask-->
       <layers>
         <li>Overhead</li>
       </layers>
@@ -482,7 +488,7 @@
     </tradeTags>
   </ThingDef>
 
-  <!-- Support -->
+  <!-- Support >
   <ThingDef ParentName="UFR_DecalBodyArmor_Scout">
     <defName>UFR_SupportCarapaceArmor</defName>
     <label>Support Carapace Armor</label>
@@ -564,9 +570,9 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
-  </ThingDef>
+  </ThingDef-->
 
-  <!-- Officer/Prestige -->
+  <!-- Prestige -->
   <ThingDef ParentName="UFR_DecalBodyArmor_Officer">
     <defName>UFR_PrestigeCarapaceArmor</defName>
     <label>Prestige Carapace Armor</label>
@@ -663,6 +669,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -717,6 +724,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -799,6 +807,7 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
