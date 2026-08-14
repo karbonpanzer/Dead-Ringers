@@ -67,6 +67,7 @@
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -312,6 +313,7 @@
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -552,6 +554,7 @@
       <useWornGraphicMask>True</useWornGraphicMask>
       <layers>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -642,6 +645,7 @@
       <shellRenderedBehindHead>True</shellRenderedBehindHead>
       <layers>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>

@@ -142,6 +142,7 @@
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EVACarapaceArmor/EVACarapaceArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>UFR_Armor</li>
