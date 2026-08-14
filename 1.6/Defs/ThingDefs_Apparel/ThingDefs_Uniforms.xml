@@ -64,8 +64,8 @@
       </defaultOutfitTags>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Uniforms</li>
+    <thingCategories>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
@@ -133,9 +133,7 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
+
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -203,9 +201,7 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
+
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -272,9 +268,7 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
+
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -346,9 +340,7 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
+
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -360,9 +352,7 @@
     <label>campaign hat</label>
     <description>A stiff-brimmed felt campaign hat with a pinched crown. It offers little protection, but marks its wearer as a career soldier and keeps sun and rain off on a long march.</description>
     <techLevel>Industrial</techLevel>
-    <thingCategories Inherit="False">
-      <li>UFR_Headgear</li>
-    </thingCategories>
+
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontcampaignhat</texPath>
       <graphicClass>Graphic_Single</graphicClass>

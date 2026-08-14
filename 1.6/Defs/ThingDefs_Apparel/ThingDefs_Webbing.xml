@@ -63,7 +63,7 @@
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <thingCategories>
-      <li>UFR_Accessories</li>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
@@ -135,7 +135,7 @@
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <thingCategories>
-      <li>UFR_Accessories</li>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
@@ -208,7 +208,7 @@
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <thingCategories>
-      <li>UFR_Accessories</li>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
@@ -314,7 +314,7 @@
       </li>
     </comps>
     <thingCategories>
-      <li>UFR_Accessories</li>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
