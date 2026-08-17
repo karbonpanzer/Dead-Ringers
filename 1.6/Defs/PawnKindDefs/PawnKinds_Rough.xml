@@ -257,12 +257,12 @@
         </disallowedTraits>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_HeavyCarapaceArmor</li>
+            <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
-            <li>UFR_HeavyHelmet</li>
+            <li>UFR_AssaultHelmet</li>
             <li>UFR_Accessories</li>
         </apparelTags>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
@@ -285,12 +285,12 @@
         </skills>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_HeavyCarapaceArmor</li>
+            <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
             <li>UFR_UFUniform</li>
-            <li>UFR_HeavyHelmet</li>
+            <li>UFR_AssaultHelmet</li>
             <li>UFR_Accessories</li>
         </apparelTags>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
@@ -342,8 +342,8 @@
 
     <PawnKindDef ParentName="UFR_LineVeteranBase">
         <defName>UFR_Rough_HeavyCommando</defName>
-        <label>heavy reaver</label>
-        <labelPlural>heavy reavers</labelPlural>
+        <label>Assault reaver</label>
+        <labelPlural>Assault reavers</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>200</combatPower>
         <itemQuality>Good</itemQuality>
@@ -361,12 +361,12 @@
             <li>Nudist</li>
         </disallowedTraits>
         <weaponTags Inherit="False">
-            <li>UFR_IonChargeHeavy</li>
+            <li>UFR_IonChargeAssault</li>
         </weaponTags>
         <apparelRequired>
             <li>UFR_Webbing_Infantry</li>
-            <li>UFR_HeavyCarapaceArmor</li>
-            <li>UFR_HeavyCarapaceHelmetMask</li>
+            <li>UFR_AssaultCarapaceArmor</li>
+            <li>UFR_AssaultCarapaceHelmetMask</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
@@ -557,8 +557,8 @@
         <maxGenerationAge>40</maxGenerationAge>
         <apparelRequired>
             <li>UFR_Webbing_Assault</li>
-            <li>UFR_HeavyCarapaceArmor</li>
-            <li>UFR_HeavyCarapaceHelmetMask</li>
+            <li>UFR_AssaultCarapaceArmor</li>
+            <li>UFR_AssaultCarapaceHelmetMask</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
         <apparelTags Inherit="False">
