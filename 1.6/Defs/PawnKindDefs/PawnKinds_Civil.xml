@@ -158,7 +158,6 @@
             <li>Nudist</li>
         </disallowedTraits>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -184,7 +183,6 @@
             </li>
         </skills>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -219,7 +217,6 @@
             <li>Nudist</li>
         </disallowedTraits>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -256,7 +253,6 @@
             <li>Nudist</li>
         </disallowedTraits>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -284,7 +280,6 @@
             </li>
         </skills>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -328,7 +323,6 @@
             <li>UFR_IonCharge</li>
         </weaponTags>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_CarapaceHelmetMask</li>
             <li>UFR_InfantryUniform</li>
@@ -364,7 +358,6 @@
             <li>UFR_IonChargeAssault</li>
         </weaponTags>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_AssaultCarapaceHelmetMask</li>
             <li>UFR_InfantryUniform</li>
@@ -462,7 +455,6 @@
             </li>
         </skills>
         <apparelRequired>
-            <li>UFR_Webbing_Medic</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -502,7 +494,6 @@
             </li>
         </skills>
         <apparelRequired>
-            <li>UFR_Webbing_Engineer</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -537,7 +528,6 @@
             </li>
         </skills>
         <apparelRequired>
-            <li>UFR_Webbing_Infantry</li>
             <li>UFR_CarapaceArmor</li>
             <li>UFR_InfantryUniform</li>
         </apparelRequired>
@@ -556,7 +546,6 @@
         <minGenerationAge>25</minGenerationAge>
         <maxGenerationAge>40</maxGenerationAge>
         <apparelRequired>
-            <li>UFR_Webbing_Assault</li>
             <li>UFR_AssaultCarapaceArmor</li>
             <li>UFR_AssaultCarapaceHelmetMask</li>
             <li>UFR_InfantryUniform</li>
