@@ -17,8 +17,9 @@ namespace UnitedFront.Harmony
             Log.Message("[UnitedFront] Decal system patched.");
         }
     }
-
-    [StaticConstructorOnStartup]
+    
+    //Leftover from BNF, keeping it as a backup.
+    /*[StaticConstructorOnStartup]
     [HarmonyPatch(typeof(Pawn), nameof(Pawn.GetGizmos))]
     public static class Pawn_GetGizmos_Decals
     {
@@ -45,5 +46,5 @@ namespace UnitedFront.Harmony
                 action       = () => Find.WindowStack.Add(new DialogEditDecals(pawn))
             };
         }
-    }
+    }*/
 }

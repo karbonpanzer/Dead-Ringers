@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- Decal UI Menu -->
-  <UnitedFront_StyleDecalsGizmo>Customize decals: {0}</UnitedFront_StyleDecalsGizmo>
+  <UnitedFront_StyleDecalsGizmo>Customize Armor: {0}</UnitedFront_StyleDecalsGizmo>
   <UnitedFront_StyleDecalsDesc>Choose symbols and colors for this pawn's armor and helmet decals.</UnitedFront_StyleDecalsDesc>
-  <UnitedFront_StyleDecalsTitle>Decals: {0}</UnitedFront_StyleDecalsTitle>
+  <UnitedFront_StyleDecalsTitle>Customize Armor: {0}</UnitedFront_StyleDecalsTitle>
   <UnitedFront_Decals_Armor>Armor</UnitedFront_Decals_Armor>
   <UnitedFront_Decals_Helmet>Helmet</UnitedFront_Decals_Helmet>
   <UnitedFront_Decals_Enabled>Show decal</UnitedFront_Decals_Enabled>
@@ -15,6 +15,20 @@
   <UnitedFront_Decals_Cancel>Cancel</UnitedFront_Decals_Cancel>
   <UnitedFront_Decals_Reset>Reset</UnitedFront_Decals_Reset>
   <UnitedFront_Decals_Accept>Accept</UnitedFront_Decals_Accept>
+
+  <!-- Color Settings -->
+  <UnitedFront_Decals_Colours>Colors</UnitedFront_Decals_Colours>
+  <UnitedFront_Zone_Primary>Primary Color</UnitedFront_Zone_Primary>
+  <UnitedFront_Zone_Secondary>Secondary Color</UnitedFront_Zone_Secondary>
+  <UnitedFront_Zone_Tertiary>Tertiary Color</UnitedFront_Zone_Tertiary>
+
+  <!-- Fabrication Bench-->
+  <UFR_EditArmour>Customise armour</UFR_EditArmour>
+  <UFR_EditArmourUnreachable>Cannot customise armour (unreachable)</UFR_EditArmourUnreachable>
+
+  <!-- Style Bench -->
+  <UFR_EditDecals>Customise armour</UFR_EditDecals>
+  <UFR_EditDecalsUnreachable>Cannot customise armour (unreachable)</UFR_EditDecalsUnreachable>
 
   <!-- Assault Shield -->  
   <UFR_ShieldRecharging>Recharging {0}s</UFR_ShieldRecharging>

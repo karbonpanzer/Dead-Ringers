@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3300800489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c34c2ee21c0b269114a4cf90d14842d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7c34c2ee21c0b269114a4cf90d14842d
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/KP.UnitedFront/Materials/UFR_CutoutCarapace.shader
+Dependencies: []

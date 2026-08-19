@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using RimWorld;
 using UnitedFront.Defs;
 using UnityEngine;
@@ -8,6 +9,65 @@ namespace UnitedFront.Comps
     public sealed class CompEditDecalMarker : ThingComp
     {
         public DecalProfileSet ProfileSet = DecalProfileSet.Default;
+
+        public List<Color> ZoneColors = new List<Color>();
+        private bool zonesCustomized;
+
+        public CompPropertiesEditDecalMarker Props => (CompPropertiesEditDecalMarker)props;
+        public int ZoneCount => Props.zoneCount;
+
+        public override void PostPostMake()
+        {
+            base.PostPostMake();
+            EnsureZoneDefaults();
+        }
+
+        private void EnsureZoneDefaults()
+        {
+            ZoneColors ??= new List<Color>();
+            while (ZoneColors.Count < ZoneCount)
+            {
+                int i = ZoneColors.Count;
+                Color d = (Props.defaultZoneColors != null && i < Props.defaultZoneColors.Count)
+                    ? Props.defaultZoneColors[i]
+                    : Color.white;
+                ZoneColors.Add(d);
+            }
+            if (ZoneColors.Count > ZoneCount)
+                ZoneColors.RemoveRange(ZoneCount, ZoneColors.Count - ZoneCount);
+        }
+
+        public Color GetZone(int index) => (index >= 0 && index < ZoneColors.Count) ? ZoneColors[index] : Color.white;
+
+        public void SetZone(int index, Color c, bool markCustomized = true)
+        {
+            EnsureZoneDefaults();
+            if (index < 0 || index >= ZoneColors.Count) return;
+            ZoneColors[index] = c;
+            if (markCustomized) zonesCustomized = true;
+            SetDirty();
+        }
+
+        public void PreviewZones(List<Color> colors)
+        {
+            ZoneColors = new List<Color>(colors);
+            EnsureZoneDefaults();
+            SetDirty();
+        }
+
+        public void CommitZones(List<Color> colors)
+        {
+            ZoneColors = new List<Color>(colors);
+            zonesCustomized = true;
+            EnsureZoneDefaults();
+            SetDirty();
+        }
+
+        private void SetDirty()
+        {
+            if (parent is Apparel ap && ap.Wearer != null)
+                ap.Wearer.Drawer?.renderer?.SetAllGraphicsDirty();
+        }
 
         public override void PostExposeData()
         {
@@ -20,20 +80,41 @@ namespace UnitedFront.Comps
             Scribe_Values.Look(ref ProfileSet.Armor.Active, "UnitedFrontDecalArmorActive");
             Scribe_Values.Look(ref ProfileSet.Armor.SymbolPath, "UnitedFrontDecalArmorPath", "");
             Scribe_Values.Look(ref ProfileSet.Armor.SymbolColor, "UnitedFrontDecalArmorColor", Color.white);
+
+            Scribe_Collections.Look(ref ZoneColors, "UnitedFrontZoneColors", LookMode.Value);
+            Scribe_Values.Look(ref zonesCustomized, "UnitedFrontZonesCustomized", false);
+
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+                EnsureZoneDefaults();
         }
 
         public override void Notify_Equipped(Pawn pawn)
         {
             base.Notify_Equipped(pawn);
-            ApplyKindDefaults(pawn.kindDef?.GetModExtension<DecalKindExtension>());
+            DecalKindExtension ext = pawn.kindDef?.GetModExtension<DecalKindExtension>();
+            ApplyKindDefaults(ext);
+            if (!zonesCustomized && (ext == null || ext.zoneColors.NullOrEmpty()) && parent is Apparel ap)
+            {
+                EnsureZoneDefaults();
+                for (int i = 0; i < ZoneColors.Count; i++)
+                    ZoneColors[i] = ap.DrawColor;
+                SetDirty();
+            }
         }
 
         private void ApplyKindDefaults(DecalKindExtension? ext)
         {
             if (ext == null) return;
 
-            ProfileSet.Armor  = Merge(ProfileSet.Armor,  ext.armorDecalPath,  ext.armorDecalColor,  ext.overrideSaved);
+            ProfileSet.Armor = Merge(ProfileSet.Armor, ext.armorDecalPath, ext.armorDecalColor, ext.overrideSaved);
             ProfileSet.Helmet = Merge(ProfileSet.Helmet, ext.helmetDecalPath, ext.helmetDecalColor, ext.overrideSaved);
+
+            if (!ext.zoneColors.NullOrEmpty() && (ext.overrideSaved || !zonesCustomized))
+            {
+                EnsureZoneDefaults();
+                for (int i = 0; i < ZoneColors.Count && i < ext.zoneColors.Count; i++)
+                    ZoneColors[i] = ext.zoneColors[i];
+            }
         }
 
         private static DecalProfile Merge(DecalProfile current, string path, Color color, bool force)
@@ -41,15 +122,10 @@ namespace UnitedFront.Comps
             if (path.NullOrEmpty()) return current;
             if (!force && !current.SymbolPath.NullOrEmpty()) return current;
 
-            current.Active      = true;
-            current.SymbolPath  = path;
+            current.Active = true;
+            current.SymbolPath = path;
             current.SymbolColor = color;
             return current;
         }
-    }
-
-    public sealed class CompPropertiesEditDecalMarker : CompProperties
-    {
-        public CompPropertiesEditDecalMarker() => compClass = typeof(CompEditDecalMarker);
     }
 }

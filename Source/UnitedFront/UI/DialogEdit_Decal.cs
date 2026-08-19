@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using RimWorld;
+using UnitedFront.Comps;
 using UnitedFront.Decals;
 using UnitedFront.Defs;
 using UnityEngine;
@@ -32,6 +33,12 @@ namespace UnitedFront.UI
 
         private readonly Dictionary<string, Texture2D> _thumbCache = new Dictionary<string, Texture2D>();
 
+        private readonly CompEditDecalMarker? _colorComp;
+        private List<Color>? _workingZones;
+        private List<Color>? _originalZones;
+        private bool _showColours;
+        private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Primary", "UnitedFront_Zone_Secondary", "UnitedFront_Zone_Tertiary" };
+
         private static readonly Vector2 ButSize = new Vector2(200f, 40f);
         private static readonly Vector3 PortraitOffset = new Vector3(0f, 0f, 0.15f);
         private const float PortraitZoom = 1.3f;
@@ -60,11 +67,25 @@ namespace UnitedFront.UI
             _selectedArmorIndex = FindSymbolIndex(_profileSet.Armor.SymbolPath);
             SyncSelection();
             DecalUtil.Preview(_pawn, _profileSet);
+
+            _colorComp = DecalUtil.MarkerOn(_pawn);
+            if (_colorComp != null)
+            {
+                _originalZones = new List<Color>(_colorComp.ZoneColors);
+                _workingZones = new List<Color>(_colorComp.ZoneColors);
+            }
         }
 
         public override void Close(bool doCloseSound = true)
         {
             DecalUtil.FinishPreview(_pawn, _committed, _original);
+
+            if (_colorComp != null)
+            {
+                if (_committed && _workingZones != null) _colorComp.CommitZones(_workingZones);
+                else if (_originalZones != null) _colorComp.PreviewZones(_originalZones);
+            }
+
             base.Close(doCloseSound);
         }
 
@@ -116,13 +137,20 @@ namespace UnitedFront.UI
         {
             var tabs = new List<TabRecord>
             {
-                new TabRecord("UnitedFront_Decals_Armor".Translate(), () => SetTab(DecalSlot.Armor), _curTab == DecalSlot.Armor),
-                new TabRecord("UnitedFront_Decals_Helmet".Translate(), () => SetTab(DecalSlot.Helmet), _curTab == DecalSlot.Helmet)
+                new TabRecord("UnitedFront_Decals_Armor".Translate(),  () => { _showColours = false; SetTab(DecalSlot.Armor); },  !_showColours && _curTab == DecalSlot.Armor),
+                new TabRecord("UnitedFront_Decals_Helmet".Translate(), () => { _showColours = false; SetTab(DecalSlot.Helmet); }, !_showColours && _curTab == DecalSlot.Helmet),
+                new TabRecord("UnitedFront_Decals_Colours".Translate(), () => { _showColours = true; }, _showColours)
             };
 
             Widgets.DrawMenuSection(rect);
             TabDrawer.DrawTabs(rect, tabs);
             rect = rect.ContractedBy(TabMargin);
+
+            if (_showColours)
+            {
+                DrawZoneColours(rect);
+                return;
+            }
 
             bool isArmor = (_curTab == DecalSlot.Armor);
 
@@ -158,6 +186,97 @@ namespace UnitedFront.UI
             else _helmetScrollPosition = scrollPos;
 
             DrawColors(new Rect(rect.x, rect.yMax + 10f, rect.width, _colorsHeight));
+        }
+
+        private void DrawZoneColours(Rect rect)
+        {
+            if (_colorComp == null || _workingZones == null || _workingZones.Count == 0)
+            {
+                Widgets.NoneLabelCenteredVertically(rect);
+                return;
+            }
+
+            int zones = Mathf.Min(3, _workingZones.Count);
+            float rowGap = 14f;
+            float rowH = (rect.height - rowGap * (zones - 1)) / zones;
+
+            for (int z = 0; z < zones; z++)
+            {
+                Rect row = new Rect(rect.x, rect.y + z * (rowH + rowGap), rect.width, rowH);
+                DrawZoneRow(row, z);
+            }
+        }
+
+        private void DrawZoneRow(Rect row, int z)
+        {
+            float labelH = 26f;
+            float btnH = 24f;
+            float gap = 8f;
+
+            Widgets.Label(new Rect(row.x, row.y, row.width, labelH),
+                z < ZoneKeys.Length ? ZoneKeys[z].Translate().ToString() : "Zone " + (z + 1));
+
+            Rect btnRow = new Rect(row.x, row.yMax - btnH, row.width, btnH);
+            Rect palette = new Rect(row.x, row.y + labelH, row.width, row.height - labelH - btnH - gap);
+
+            Color c = _workingZones[z];
+            Color original = c;
+
+            List<Color> palColors = AllColors();
+            int cs = FitColorSize(palColors.Count, palette.width, palette.height);
+            Widgets.ColorSelector(palette, ref c, palColors, out float _unused, null, cs);
+
+            float bgap = 10f;
+            bool showIdeo = ModsConfig.IdeologyActive && _pawn.Ideo != null && !Find.IdeoManager.classicMode;
+            bool showFav = TryGetFavoriteColor(_pawn, out Color favColor);
+            int count = 1 + (showIdeo ? 1 : 0) + (showFav ? 1 : 0);
+            float btnW = (btnRow.width - bgap * (count - 1)) / count;
+            float btnX = btnRow.x;
+
+            if (showIdeo)
+            {
+                if (Widgets.ButtonText(new Rect(btnX, btnRow.y, btnW, btnH), "UnitedFront_Decals_IdeoColor".Translate()))
+                {
+                    c = _pawn.Ideo.ApparelColor;
+                    SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+                }
+                btnX += btnW + bgap;
+            }
+
+            if (Widgets.ButtonText(new Rect(btnX, btnRow.y, btnW, btnH), "UnitedFront_Decals_RandomColor".Translate()))
+            {
+                if (palColors.Count > 0) c = palColors[Rand.Range(0, palColors.Count)];
+                SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+            }
+            btnX += btnW + bgap;
+
+            if (showFav)
+            {
+                if (Widgets.ButtonText(new Rect(btnX, btnRow.y, btnW, btnH), "UnitedFront_Decals_FavColor".Translate()))
+                {
+                    c = favColor;
+                    SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+                }
+            }
+
+            if (!original.IndistinguishableFrom(c))
+            {
+                _workingZones[z] = c;
+                _colorComp.PreviewZones(_workingZones);
+            }
+        }
+
+
+        private static int FitColorSize(int count, float width, float height)
+        {
+            for (int s = 22; s >= 9; s--)
+            {
+                int perRow = Mathf.Max(1, Mathf.FloorToInt(width / (s + 2f)));
+                int rows = Mathf.CeilToInt((float)count / perRow);
+                if (rows * (s + 2f) + 2f <= height)
+                    return s;
+            }
+            return 9;
         }
 
         private void SetTab(DecalSlot slot)
@@ -328,6 +447,13 @@ namespace UnitedFront.UI
                 _selectedArmorIndex = FindSymbolIndex(_profileSet.Armor.SymbolPath);
                 SyncSelection();
                 PushLive();
+
+                if (_colorComp != null && _originalZones != null)
+                {
+                    _workingZones = new List<Color>(_originalZones);
+                    _colorComp.PreviewZones(_workingZones);
+                }
+
                 SoundDefOf.Tick_Low.PlayOneShotOnCamera();
             }
 
@@ -362,7 +488,7 @@ namespace UnitedFront.UI
             _selectedArmorIndex = Mathf.Clamp(_selectedArmorIndex, 0, _symbols.Count - 1);
             _profileSet.Armor.SymbolPath = _symbols[_selectedArmorIndex].path;
         }
-        
+
         private List<Color> AllColors()
         {
             if (_allColors != null) return _allColors;
