@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\1.6\Assemblies\UnitedFront.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\Source\UnitedFront\obj\Debug\UnitedFront.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\Source\UnitedFront\obj\Debug\UnitedFront.GeneratedMSBuildEditorConfig.editorconfig
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\Source\UnitedFront\obj\Debug\UnitedFront.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\Source\UnitedFront\obj\Debug\UnitedFront.sourcelink.json
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\United Front\Source\UnitedFront\obj\Debug\UnitedFront.dll
