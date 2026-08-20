@@ -1,2 +1,4 @@
 # Ignore the Unity Build storage folder
 Storage/UFR_UnityBuild/
+Source/UnitedFront/.idea
+Source/UnitedFront/obj
