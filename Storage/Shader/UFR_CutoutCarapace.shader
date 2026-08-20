@@ -1,61 +1,65 @@
 Shader "UFR_CutoutCarapace"
 {
-Properties {
-		_MainTex ("Texture", 2D) = "white" {}
-		_MaskTex ("Texture", 2D) = "black" {}
-		_DrawColor ("DrawColor", Vector) = (1,0,0,1)
-		_DrawColorTwo ("DrawColorTwo", Vector) = (0,1,0,1)
-		_DrawColorThree ("DrawColorThree", Vector) = (0,0,1,1)
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+    Properties
+    {
+        _MainTex ("Texture", any) = "white" {}
+        _MaskTex ("Mask texture", 2D) = "black" {}
+        _DrawColor ("Draw Color", Vector) = (1,1,1,1)
+        _DrawColorTwo ("Draw Color Two", Vector) = (1,1,1,1)
+        _DrawColorThree ("Draw Color Three", Vector) = (1,1,1,1)
+    }
+    SubShader
+    {
+        Tags { "RenderType"="Opaque" }
+        LOD 200
+        Cull Off
+        Lighting Off
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+        Pass
+        {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            #include "UnityCG.cginc"
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+            struct appdata { float4 vertex : POSITION; float2 uv : TEXCOORD0; };
+            struct v2f { float2 uv : TEXCOORD0; float4 vertex : SV_POSITION; };
 
-			struct Vertex_Stage_Input
+            sampler2D _MainTex;
+            sampler2D _MaskTex;
+            float4 _MainTex_ST;
+            float4 _DrawColor;
+            float4 _DrawColorTwo;
+            float4 _DrawColorThree;
+
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.vertex = UnityObjectToClipPos(v.vertex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                return o;
+            }
+
+			fixed4 frag (v2f i) : SV_Target
 			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+				fixed4 col = tex2D(_MainTex, i.uv);
+				fixed4 mask = tex2D(_MaskTex, i.uv);
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+				float lumen = dot(col.rgb, float3(0.299, 0.587, 0.114));
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
+				float mx = max(mask.r, max(mask.g, mask.b));
+				float coverage = step(0.25, mx);
+
+				float3 zone = _DrawColor.rgb;
+				if (mask.g > mask.r && mask.g >= mask.b) zone = _DrawColorTwo.rgb;
+				if (mask.b > mask.r && mask.b > mask.g) zone = _DrawColorThree.rgb;
+
+				col.rgb = lerp(col.rgb, zone * lumen, coverage);
+				clip(col.a - 0.5);
+				return col;
 			}
-
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
-
-			ENDHLSL
-		}
-	}
+			
+            ENDCG
+        }
+    }
 }

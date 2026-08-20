@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+  <!---->
   <ThingDef Name="UFR_DecalBodyArmor_Heavy" ParentName="ArmorMachineableBase" Abstract="True">
-    <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps>
     <apparel>
-      <renderNodeProperties>
+      <!-- <renderNodeProperties>
         <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
           <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
           <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
@@ -35,16 +32,13 @@
             </bodyTypeScales>
           </drawData>
         </li>
-      </renderNodeProperties>
+      </renderNodeProperties> -->
     </apparel>
   </ThingDef>
 
   <ThingDef Name="UFR_DecalBodyArmor_Light" ParentName="ArmorMachineableBase" Abstract="True">
-    <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps>
     <apparel>
-      <renderNodeProperties>
+      <!-- <renderNodeProperties>
         <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
           <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
           <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
@@ -73,16 +67,13 @@
             </bodyTypeScales>
           </drawData>
         </li>
-      </renderNodeProperties>
+      </renderNodeProperties> -->
     </apparel>
   </ThingDef>
 
   <ThingDef Name="UFR_DecalBodyArmor_Officer" ParentName="ArmorMachineableBase" Abstract="True">
-    <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps>
     <apparel>
-      <renderNodeProperties>
+      <!-- <renderNodeProperties>
         <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
           <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
           <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
@@ -114,16 +105,13 @@
             </bodyTypeScales>
           </drawData>
         </li>
-      </renderNodeProperties>
+      </renderNodeProperties> -->
     </apparel>
   </ThingDef>
 
   <ThingDef Name="UFR_DecalBodyArmor_Scout" ParentName="ArmorMachineableBase" Abstract="True">
-    <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps>
     <apparel>
-      <renderNodeProperties>
+      <!-- <renderNodeProperties>
         <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
           <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
           <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
@@ -152,7 +140,7 @@
             </bodyTypeScales>
           </drawData>
         </li>
-      </renderNodeProperties>
+      </renderNodeProperties> -->
     </apparel>
   </ThingDef>
 

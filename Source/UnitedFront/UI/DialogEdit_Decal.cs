@@ -37,6 +37,7 @@ namespace UnitedFront.UI
         private List<Color>? _workingZones;
         private List<Color>? _originalZones;
         private bool _showColours;
+        private MaskPatternDef _originalPattern;
         private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Primary", "UnitedFront_Zone_Secondary", "UnitedFront_Zone_Tertiary" };
 
         private static readonly Vector2 ButSize = new Vector2(200f, 40f);
@@ -73,6 +74,7 @@ namespace UnitedFront.UI
             {
                 _originalZones = new List<Color>(_colorComp.ZoneColors);
                 _workingZones = new List<Color>(_colorComp.ZoneColors);
+                _originalPattern = _colorComp.pattern;
             }
         }
 
@@ -83,7 +85,7 @@ namespace UnitedFront.UI
             if (_colorComp != null)
             {
                 if (_committed && _workingZones != null) _colorComp.CommitZones(_workingZones);
-                else if (_originalZones != null) _colorComp.PreviewZones(_originalZones);
+                else if (_originalZones != null) { _colorComp.PreviewZones(_originalZones); _colorComp.SetPattern(_originalPattern); }
             }
 
             base.Close(doCloseSound);
@@ -196,15 +198,63 @@ namespace UnitedFront.UI
                 return;
             }
 
+            float patH = 30f;
+            if (_colorComp.parent is Apparel pApp)
+            {
+                DrawPatternSpinner(new Rect(rect.x, rect.y, rect.width, patH), pApp);
+            }
+
+            Rect zonesRect = new Rect(rect.x, rect.y + patH + 10f, rect.width, rect.height - patH - 10f);
             int zones = Mathf.Min(3, _workingZones.Count);
             float rowGap = 14f;
-            float rowH = (rect.height - rowGap * (zones - 1)) / zones;
+            float rowH = (zonesRect.height - rowGap * (zones - 1)) / zones;
 
             for (int z = 0; z < zones; z++)
             {
-                Rect row = new Rect(rect.x, rect.y + z * (rowH + rowGap), rect.width, rowH);
+                Rect row = new Rect(zonesRect.x, zonesRect.y + z * (rowH + rowGap), zonesRect.width, rowH);
                 DrawZoneRow(row, z);
             }
+        }
+
+        private void DrawPatternSpinner(Rect rect, Apparel apparel)
+        {
+            List<MaskPatternDef> pats = PatternUtil.AvailableFor(apparel);
+            if (pats.Count == 0) return;
+
+            int cur = pats.FindIndex(pat => _colorComp.pattern == pat || (_colorComp.pattern == null && pat.setsNull));
+            if (cur < 0) cur = 0;
+
+            float arrowW = 30f;
+            Rect left = new Rect(rect.x, rect.y, arrowW, rect.height);
+            Rect right = new Rect(rect.xMax - arrowW, rect.y, arrowW, rect.height);
+            Rect mid = new Rect(left.xMax + 4f, rect.y, right.x - left.xMax - 8f, rect.height);
+
+            if (Widgets.ButtonText(left, "<") && pats.Count > 1)
+            {
+                cur = (cur - 1 + pats.Count) % pats.Count;
+                ApplyPattern(pats[cur]);
+            }
+            if (Widgets.ButtonText(right, ">") && pats.Count > 1)
+            {
+                cur = (cur + 1) % pats.Count;
+                ApplyPattern(pats[cur]);
+            }
+
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Widgets.DrawHighlight(mid);
+            if (Widgets.ButtonInvisible(mid) && pats.Count > 1)
+            {
+                cur = (cur + 1) % pats.Count;
+                ApplyPattern(pats[cur]);
+            }
+            Widgets.Label(mid, pats[cur].LabelCap);
+            Text.Anchor = TextAnchor.UpperLeft;
+        }
+
+        private void ApplyPattern(MaskPatternDef pat)
+        {
+            _colorComp.SetPattern(pat.setsNull ? null : pat);
+            SoundDefOf.Tick_High.PlayOneShotOnCamera();
         }
 
         private void DrawZoneRow(Rect row, int z)
@@ -223,8 +273,7 @@ namespace UnitedFront.UI
             Color original = c;
 
             List<Color> palColors = AllColors();
-            int cs = FitColorSize(palColors.Count, palette.width, palette.height);
-            Widgets.ColorSelector(palette, ref c, palColors, out float _unused, null, cs);
+            DrawColorGrid(palette, palColors, ref c);
 
             float bgap = 10f;
             bool showIdeo = ModsConfig.IdeologyActive && _pawn.Ideo != null && !Find.IdeoManager.classicMode;
@@ -267,16 +316,43 @@ namespace UnitedFront.UI
         }
 
 
-        private static int FitColorSize(int count, float width, float height)
+        private static void DrawColorGrid(Rect rect, List<Color> colors, ref Color selected)
         {
-            for (int s = 22; s >= 9; s--)
+            if (colors.Count == 0) return;
+
+            const float pad = 1f;
+            const float minCell = 8f;
+            const float maxCell = 24f;
+
+            float cell = minCell;
+            int cols = Mathf.Max(1, Mathf.FloorToInt(rect.width / (minCell + pad)));
+            for (float s = maxCell; s >= minCell; s -= 1f)
             {
-                int perRow = Mathf.Max(1, Mathf.FloorToInt(width / (s + 2f)));
-                int rows = Mathf.CeilToInt((float)count / perRow);
-                if (rows * (s + 2f) + 2f <= height)
-                    return s;
+                int c = Mathf.Max(1, Mathf.FloorToInt(rect.width / (s + pad)));
+                int r = Mathf.CeilToInt((float)colors.Count / c);
+                if (r * (s + pad) <= rect.height)
+                {
+                    cell = s;
+                    cols = c;
+                    break;
+                }
             }
-            return 9;
+
+            float gridW = cols * (cell + pad) - pad;
+            float x0 = rect.x + Mathf.Max(0f, (rect.width - gridW) / 2f);
+
+            for (int i = 0; i < colors.Count; i++)
+            {
+                int col = i % cols;
+                int rowIndex = i / cols;
+                Rect box = new Rect(x0 + col * (cell + pad), rect.y + rowIndex * (cell + pad), cell, cell);
+                if (box.yMax > rect.yMax + 0.5f) break;
+
+                Widgets.DrawBoxSolid(box, colors[i]);
+                if (Mouse.IsOver(box)) Widgets.DrawHighlight(box);
+                if (colors[i].IndistinguishableFrom(selected)) Widgets.DrawBox(box, 2);
+                if (Widgets.ButtonInvisible(box)) selected = colors[i];
+            }
         }
 
         private void SetTab(DecalSlot slot)

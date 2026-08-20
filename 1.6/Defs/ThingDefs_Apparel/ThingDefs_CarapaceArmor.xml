@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- Light Armor -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_CarapaceArmor</defName>
     <label>Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
@@ -59,7 +59,7 @@
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
-      <!--useWornGraphicMask>true</useWornGraphicMask-->
+      <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -83,6 +83,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -161,6 +164,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -238,6 +244,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -327,6 +336,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -405,6 +417,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -482,6 +497,12 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps>    
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -489,7 +510,7 @@
   </ThingDef>
 
   <!-- Engineer Carapace Armor -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_EngineerCarapaceArmor</defName>
     <label>Engineer Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
@@ -571,6 +592,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -649,6 +673,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -726,6 +753,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -733,7 +763,7 @@
   </ThingDef>
 
   <!-- MP Carapace Armor -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_MPCarapaceArmor</defName>
     <label>MP Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
@@ -816,6 +846,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -894,6 +927,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -971,6 +1007,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -978,7 +1017,7 @@
   </ThingDef>
 
   <!-- Commander Carapace Armor -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_CommanderCarapaceArmor</defName>
     <label>Commander Carapace Armor</label>
     <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
@@ -1060,6 +1099,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -1138,6 +1180,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1215,6 +1260,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1222,7 +1270,7 @@
   </ThingDef>
 
   <!-- Assault Carapace Armor -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_AssaultCarapaceArmor</defName>
     <label>Assault Carapace Armor</label>
     <description>A reinforced Carapace armor set with additional plating over the standard configuration. Heavier and slower than Carapace armor, but substantially more resistant to incoming fire. Used by assault troops expected to absorb significant punishment.</description>
@@ -1338,6 +1386,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -1416,6 +1467,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
 
     <tradeTags>
       <li>Armor</li>
@@ -1494,6 +1548,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+    </comps> 
 
     <tradeTags>
       <li>Armor</li>

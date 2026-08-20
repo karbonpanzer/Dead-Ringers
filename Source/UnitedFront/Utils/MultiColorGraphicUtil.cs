@@ -18,7 +18,7 @@ namespace UnitedFront.ColorMask
         };
 
         public static Graphic Get(string texPath, string maskPath, Shader shader,
-            Vector2 drawSize, IReadOnlyList<Color> colors)
+            Vector2 drawSize, IReadOnlyList<Color> colors, System.Type graphicClass = null)
         {
             var shaderParameters = new List<ShaderParameter>(colors.Count);
             for (int i = 0; i < colors.Count && i < ParamNames.Length; i++)
@@ -36,7 +36,7 @@ namespace UnitedFront.ColorMask
             Color colorTwo = colors.Count > 1 ? colors[1] : Color.white;
 
             return GraphicDatabase.Get(
-                typeof(Graphic_Multi), texPath, shader, drawSize,
+                graphicClass ?? typeof(Graphic_Multi), texPath, shader, drawSize,
                 colorOne, colorTwo,  null, shaderParameters, maskPath);
         }
     }

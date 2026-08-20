@@ -1,3 +1,4 @@
+/*
 using Verse;
 
 namespace UnitedFront.Render
@@ -13,3 +14,4 @@ namespace UnitedFront.Render
 
     public class PawnRenderNodeWorkerDecalHead : PawnRenderNodeWorkerDecal { }
 }
+*/

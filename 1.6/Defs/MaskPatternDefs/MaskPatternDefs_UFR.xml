@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <UnitedFront.Defs.MaskPatternDef>
+    <defName>UFR_Pattern_Plain</defName>
+    <label>plain</label>
+    <setsNull>true</setsNull>
+    <sortOrder>0</sortOrder>
+  </UnitedFront.Defs.MaskPatternDef>
+
+  <UnitedFront.Defs.MaskPatternDef>
+    <defName>UFR_Pattern_Stripes</defName>
+    <label>stripes</label>
+    <maskPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor_stripes</maskPath>
+    <useBodyTypes>true</useBodyTypes>
+    <sortOrder>1</sortOrder>
+    <appliesTo>
+      <li>UFR_CarapaceArmor</li>
+    </appliesTo>
+  </UnitedFront.Defs.MaskPatternDef>
+
+</Defs>

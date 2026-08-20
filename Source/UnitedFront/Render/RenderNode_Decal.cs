@@ -1,3 +1,4 @@
+/*
 using RimWorld;
 using UnitedFront.Decals;
 using UnitedFront.Defs;
@@ -39,3 +40,4 @@ namespace UnitedFront.Render
         }
     }
 }
+*/
