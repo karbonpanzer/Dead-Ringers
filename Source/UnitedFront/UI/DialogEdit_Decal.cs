@@ -38,6 +38,7 @@ namespace UnitedFront.UI
         private List<Color>? _originalZones;
         private bool _showColours;
         private MaskPatternDef _originalPattern;
+        private List<MaskPatternDef> _availablePatterns;
         private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Primary", "UnitedFront_Zone_Secondary", "UnitedFront_Zone_Tertiary" };
 
         private static readonly Vector2 ButSize = new Vector2(200f, 40f);
@@ -75,6 +76,7 @@ namespace UnitedFront.UI
                 _originalZones = new List<Color>(_colorComp.ZoneColors);
                 _workingZones = new List<Color>(_colorComp.ZoneColors);
                 _originalPattern = _colorComp.pattern;
+                if (_colorComp.parent is Apparel pa) _availablePatterns = PatternUtil.AvailableFor(pa);
             }
         }
 
@@ -218,7 +220,7 @@ namespace UnitedFront.UI
 
         private void DrawPatternSpinner(Rect rect, Apparel apparel)
         {
-            List<MaskPatternDef> pats = PatternUtil.AvailableFor(apparel);
+            List<MaskPatternDef> pats = _availablePatterns;
             if (pats.Count == 0) return;
 
             int cur = pats.FindIndex(pat => _colorComp.pattern == pat || (_colorComp.pattern == null && pat.setsNull));

@@ -9,9 +9,9 @@
   </UnitedFront.Defs.MaskPatternDef>
 
   <UnitedFront.Defs.MaskPatternDef>
-    <defName>UFR_Pattern_Stripes</defName>
+    <defName>UFR_Pattern_CarapaceStripes</defName>
     <label>stripes</label>
-    <maskPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor_stripes</maskPath>
+    <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor_stripes</texPath>
     <useBodyTypes>true</useBodyTypes>
     <sortOrder>1</sortOrder>
     <appliesTo>

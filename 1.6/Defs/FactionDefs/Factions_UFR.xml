@@ -132,13 +132,10 @@
                 <options>
                     <UFR_Civil_Infantry_Ranged>15</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>6</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Sergeant>5</UFR_Civil_Sergeant>
                     <UFR_Civil_Veteran_Ranged>8</UFR_Civil_Veteran_Ranged>
                     <UFR_Civil_Veteran_Melee>5</UFR_Civil_Veteran_Melee>
                     <UFR_Civil_Marksman>7</UFR_Civil_Marksman>
                     <UFR_Civil_Shocktrooper>2</UFR_Civil_Shocktrooper>
-                    <UFR_Civil_Commando>3</UFR_Civil_Commando>
-                    <UFR_Civil_HeavyCommando>1</UFR_Civil_HeavyCommando>
                     <UFR_Civil_Medic>3</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>3</UFR_Civil_Engineer>
                     <UFR_Civil_Commander>3</UFR_Civil_Commander>
@@ -150,9 +147,7 @@
                 <options>
                     <UFR_Civil_Infantry_Ranged>20</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>10</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Sergeant>4</UFR_Civil_Sergeant>
                     <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
-                    <UFR_Civil_Commando>1</UFR_Civil_Commando>
                     <UFR_Civil_Medic>8</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>8</UFR_Civil_Engineer>
                     <UFR_Civil_Commander>1</UFR_Civil_Commander>
@@ -169,7 +164,6 @@
                     <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
                     <UFR_Civil_Infantry_Ranged>4</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>2</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Sergeant>2</UFR_Civil_Sergeant>
                     <UFR_Civil_Medic>2</UFR_Civil_Medic>
                     <UFR_Civil_Engineer>2</UFR_Civil_Engineer>
                     <UFR_Civil_Commander>1</UFR_Civil_Commander>
@@ -189,7 +183,6 @@
                 <guards>
                     <UFR_Civil_Infantry_Ranged>10</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>4</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Sergeant>3</UFR_Civil_Sergeant>
                     <UFR_Civil_Marksman>4</UFR_Civil_Marksman>
                     <UFR_Civil_Commander>1</UFR_Civil_Commander>
                 </guards>
@@ -203,10 +196,8 @@
                     <UFR_Civil_Medic>4</UFR_Civil_Medic>
                     <UFR_Civil_Infantry_Ranged>6</UFR_Civil_Infantry_Ranged>
                     <UFR_Civil_Infantry_Melee>2</UFR_Civil_Infantry_Melee>
-                    <UFR_Civil_Sergeant>3</UFR_Civil_Sergeant>
                     <UFR_Civil_Marksman>6</UFR_Civil_Marksman>
                     <UFR_Civil_Veteran_Ranged>3</UFR_Civil_Veteran_Ranged>
-                    <UFR_Civil_Commando>2</UFR_Civil_Commando>
                     <UFR_Civil_Representative>1</UFR_Civil_Representative>
                     <UFR_Civil_Commander>3</UFR_Civil_Commander>
                 </options>
@@ -341,13 +332,10 @@
                 <options>
                     <UFR_Rough_Infantry_Ranged>15</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>6</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Sergeant>5</UFR_Rough_Sergeant>
                     <UFR_Rough_Veteran_Ranged>8</UFR_Rough_Veteran_Ranged>
                     <UFR_Rough_Veteran_Melee>5</UFR_Rough_Veteran_Melee>
                     <UFR_Rough_Marksman>7</UFR_Rough_Marksman>
                     <UFR_Rough_Shocktrooper>2</UFR_Rough_Shocktrooper>
-                    <UFR_Rough_Commando>3</UFR_Rough_Commando>
-                    <UFR_Rough_HeavyCommando>1</UFR_Rough_HeavyCommando>
                     <UFR_Rough_Medic>3</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>3</UFR_Rough_Engineer>
                     <UFR_Rough_Commander>1</UFR_Rough_Commander>
@@ -359,9 +347,7 @@
                 <options>
                     <UFR_Rough_Infantry_Ranged>20</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>10</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Sergeant>4</UFR_Rough_Sergeant>
                     <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
-                    <UFR_Rough_Commando>1</UFR_Rough_Commando>
                     <UFR_Rough_Medic>8</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>8</UFR_Rough_Engineer>
                     <UFR_Rough_Commander>1</UFR_Rough_Commander>
@@ -378,7 +364,6 @@
                     <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
                     <UFR_Rough_Infantry_Ranged>4</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>2</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Sergeant>2</UFR_Rough_Sergeant>
                     <UFR_Rough_Medic>2</UFR_Rough_Medic>
                     <UFR_Rough_Engineer>2</UFR_Rough_Engineer>
                     <UFR_Rough_Commander>1</UFR_Rough_Commander>
@@ -398,7 +383,6 @@
                 <guards>
                     <UFR_Rough_Infantry_Ranged>10</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>4</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Sergeant>3</UFR_Rough_Sergeant>
                     <UFR_Rough_Marksman>4</UFR_Rough_Marksman>
                     <UFR_Rough_Commander>1</UFR_Rough_Commander>
                 </guards>
@@ -412,10 +396,8 @@
                     <UFR_Rough_Medic>4</UFR_Rough_Medic>
                     <UFR_Rough_Infantry_Ranged>6</UFR_Rough_Infantry_Ranged>
                     <UFR_Rough_Infantry_Melee>2</UFR_Rough_Infantry_Melee>
-                    <UFR_Rough_Sergeant>3</UFR_Rough_Sergeant>
                     <UFR_Rough_Marksman>6</UFR_Rough_Marksman>
                     <UFR_Rough_Veteran_Ranged>3</UFR_Rough_Veteran_Ranged>
-                    <UFR_Rough_Commando>2</UFR_Rough_Commando>
                     <UFR_Rough_Representative>1</UFR_Rough_Representative>
                     <UFR_Rough_Commander>3</UFR_Rough_Commander>
                 </options>

@@ -42,9 +42,9 @@ namespace UnitedFront.HarmonyPatches
 
             string maskPath = null;
             MaskPatternDef pat = comp.pattern;
-            if (pat != null && !pat.setsNull && !pat.maskPath.NullOrEmpty())
+            if (pat != null && !pat.setsNull && !pat.texPath.NullOrEmpty())
             {
-                maskPath = pat.maskPath;
+                maskPath = pat.texPath;
                 if (perBodyType && pat.useBodyTypes)
                     maskPath = maskPath + "_" + bodyType.defName;
             }

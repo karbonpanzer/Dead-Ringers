@@ -160,13 +160,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_LightCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -240,13 +240,13 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_LightCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -261,7 +261,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
+      <shaderType>UFR_CutoutCarapace</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -413,13 +413,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_MedicCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -493,16 +493,13 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_MedicCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
-    <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps>    
+    </comps-->      
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -517,7 +514,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
+      <shaderType>UFR_CutoutCarapace</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -669,13 +666,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_EngineerCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -749,13 +746,13 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_EngineerCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -770,7 +767,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
+      <shaderType>UFR_CutoutCarapace</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -923,13 +920,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_MPCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1003,13 +1000,13 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_MPCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1024,7 +1021,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
+      <shaderType>UFR_CutoutCarapace</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -1043,7 +1040,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1137,7 +1134,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1176,13 +1173,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_CommanderCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1215,7 +1212,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1256,13 +1253,13 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_LightHelmet</li>
+        <li>UFR_CommanderCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1277,7 +1274,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceArmor</texPath>
-      <shaderType>CutoutComplex</shaderType>
+      <shaderType>UFR_CutoutCarapace</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -1463,14 +1460,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_AssaultHelmet</li>
+        <li>UFR_AssaulCarapacetHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
-
+    </comps--> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1544,19 +1540,17 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_AssaultHelmet</li>
+        <li>UFR_AssaultCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <comps>
+    <!--comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps> 
-
+    </comps-->  
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
   </ThingDef>
-
 
 </Defs>
