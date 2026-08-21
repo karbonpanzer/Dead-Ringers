@@ -78,6 +78,8 @@
     <weaponTags>
       <li>UFR_UFRifle</li>
       <li>UFR_UFHeavy</li>
+      <li>UFR_IonCharge</li>
+      <li>UFR_IonChargeHeavy</li>
       <li>SpacerGun</li>
       <li>GunHeavy</li>
     </weaponTags>
@@ -104,6 +106,7 @@
     <weaponMoney>500~5000</weaponMoney>
     <weaponTags>
       <li>UFR_UFSidearm</li>
+      <li>UFR_IonCharge</li>
       <li>SpacerGun</li>
     </weaponTags>
   </PawnKindDef>
@@ -124,6 +127,7 @@
     <weaponTags>
       <li>UFR_UFShotgun</li>
       <li>IndustrialGunAdvanced</li>
+      <li>UFR_IonCharge</li>
       <li>GunHeavy</li>
     </weaponTags>
   </PawnKindDef>
@@ -150,6 +154,8 @@
     <weaponTags>
       <li>UFR_UFMarksman</li>
       <li>UFR_UFSidearm</li>
+      <li>UFR_IonCharge</li>
+      <li>UFR_IonChargeSniper</li>
       <li>SpacerGun</li>
     </weaponTags>
   </PawnKindDef>
@@ -180,6 +186,8 @@
     <weaponTags>
       <li>UFR_UFMelee</li>
       <li>UFR_UFSidearm</li>
+      <li>UFR_IonCharge</li>
+      <li>UFR_IonChargeHeavy</li>
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
   </PawnKindDef>
