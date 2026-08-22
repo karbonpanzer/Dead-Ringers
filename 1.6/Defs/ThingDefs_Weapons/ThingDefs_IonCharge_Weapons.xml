@@ -464,7 +464,7 @@
     <description>A heavy pulse-charged battle rifle. Fires large ion-charged slugs that hit hard at longer range, but slowly.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>UFR/Things/Item/Equipment/ionheavychargerifle</texPath>
+      <texPath>UFR/Things/Item/Equipment/ionchargeheavyrifle</texPath>
       <drawSize>1.1</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
