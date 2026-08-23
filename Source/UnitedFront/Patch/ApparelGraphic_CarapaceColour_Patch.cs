@@ -3,7 +3,6 @@ using HarmonyLib;
 using RimWorld;
 using UnitedFront.ColorMask;
 using UnitedFront.Comps;
-using UnitedFront.Defs;
 using UnityEngine;
 using Verse;
 
@@ -40,16 +39,7 @@ namespace UnitedFront.HarmonyPatches
 
             string path = perBodyType ? basePath + "_" + bodyType.defName : basePath;
 
-            string maskPath = null;
-            MaskPatternDef pat = comp.pattern;
-            if (pat != null && !pat.setsNull && !pat.texPath.NullOrEmpty())
-            {
-                maskPath = pat.texPath;
-                if (perBodyType && pat.useBodyTypes)
-                    maskPath = maskPath + "_" + bodyType.defName;
-            }
-
-            Graphic graphic = MultiColorGraphicUtil.Get(path, maskPath, shader, apparel.def.graphicData.drawSize, comp.ZoneColors);
+            Graphic graphic = MultiColorGraphicUtil.Get(path, null, shader, apparel.def.graphicData.drawSize, comp.ZoneColors);
             if (graphic != null)
                 rec = new ApparelGraphicRecord(graphic, apparel);
         }

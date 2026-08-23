@@ -18,7 +18,7 @@ namespace UnitedFront.ColorMask
         };
 
         public static Graphic Get(string texPath, string maskPath, Shader shader,
-            Vector2 drawSize, IReadOnlyList<Color> colors, System.Type graphicClass = null)
+                                  Vector2 drawSize, IReadOnlyList<Color> colors, System.Type graphicClass = null)
         {
             var shaderParameters = new List<ShaderParameter>(colors.Count);
             for (int i = 0; i < colors.Count && i < ParamNames.Length; i++)

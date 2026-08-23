@@ -6,7 +6,7 @@ namespace UnitedFront.Comps
 {
     public sealed class CompPropertiesEditDecalMarker : CompProperties
     {
-        public int zoneCount = 3;
+        public int zoneCount = 4;
 
         public List<Color> defaultZoneColors;
 

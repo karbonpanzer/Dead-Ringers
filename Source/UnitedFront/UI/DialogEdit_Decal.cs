@@ -37,9 +37,7 @@ namespace UnitedFront.UI
         private List<Color>? _workingZones;
         private List<Color>? _originalZones;
         private bool _showColours;
-        private MaskPatternDef _originalPattern;
-        private List<MaskPatternDef> _availablePatterns;
-        private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Primary", "UnitedFront_Zone_Secondary", "UnitedFront_Zone_Tertiary" };
+        private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Body", "UnitedFront_Zone_LeftShoulder", "UnitedFront_Zone_RightShoulder", "UnitedFront_Zone_Emblem", "UnitedFront_Zone_Codpiece", "UnitedFront_Zone_Hips" };
 
         private static readonly Vector2 ButSize = new Vector2(200f, 40f);
         private static readonly Vector3 PortraitOffset = new Vector3(0f, 0f, 0.15f);
@@ -75,8 +73,6 @@ namespace UnitedFront.UI
             {
                 _originalZones = new List<Color>(_colorComp.ZoneColors);
                 _workingZones = new List<Color>(_colorComp.ZoneColors);
-                _originalPattern = _colorComp.pattern;
-                if (_colorComp.parent is Apparel pa) _availablePatterns = PatternUtil.AvailableFor(pa);
             }
         }
 
@@ -87,7 +83,7 @@ namespace UnitedFront.UI
             if (_colorComp != null)
             {
                 if (_committed && _workingZones != null) _colorComp.CommitZones(_workingZones);
-                else if (_originalZones != null) { _colorComp.PreviewZones(_originalZones); _colorComp.SetPattern(_originalPattern); }
+                else if (_originalZones != null) _colorComp.PreviewZones(_originalZones);
             }
 
             base.Close(doCloseSound);
@@ -200,63 +196,15 @@ namespace UnitedFront.UI
                 return;
             }
 
-            float patH = 30f;
-            if (_colorComp.parent is Apparel pApp)
-            {
-                DrawPatternSpinner(new Rect(rect.x, rect.y, rect.width, patH), pApp);
-            }
-
-            Rect zonesRect = new Rect(rect.x, rect.y + patH + 10f, rect.width, rect.height - patH - 10f);
-            int zones = Mathf.Min(3, _workingZones.Count);
-            float rowGap = 14f;
-            float rowH = (zonesRect.height - rowGap * (zones - 1)) / zones;
+            int zones = _workingZones.Count;
+            float rowGap = 12f;
+            float rowH = (rect.height - rowGap * (zones - 1)) / zones;
 
             for (int z = 0; z < zones; z++)
             {
-                Rect row = new Rect(zonesRect.x, zonesRect.y + z * (rowH + rowGap), zonesRect.width, rowH);
+                Rect row = new Rect(rect.x, rect.y + z * (rowH + rowGap), rect.width, rowH);
                 DrawZoneRow(row, z);
             }
-        }
-
-        private void DrawPatternSpinner(Rect rect, Apparel apparel)
-        {
-            List<MaskPatternDef> pats = _availablePatterns;
-            if (pats.Count == 0) return;
-
-            int cur = pats.FindIndex(pat => _colorComp.pattern == pat || (_colorComp.pattern == null && pat.setsNull));
-            if (cur < 0) cur = 0;
-
-            float arrowW = 30f;
-            Rect left = new Rect(rect.x, rect.y, arrowW, rect.height);
-            Rect right = new Rect(rect.xMax - arrowW, rect.y, arrowW, rect.height);
-            Rect mid = new Rect(left.xMax + 4f, rect.y, right.x - left.xMax - 8f, rect.height);
-
-            if (Widgets.ButtonText(left, "<") && pats.Count > 1)
-            {
-                cur = (cur - 1 + pats.Count) % pats.Count;
-                ApplyPattern(pats[cur]);
-            }
-            if (Widgets.ButtonText(right, ">") && pats.Count > 1)
-            {
-                cur = (cur + 1) % pats.Count;
-                ApplyPattern(pats[cur]);
-            }
-
-            Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.DrawHighlight(mid);
-            if (Widgets.ButtonInvisible(mid) && pats.Count > 1)
-            {
-                cur = (cur + 1) % pats.Count;
-                ApplyPattern(pats[cur]);
-            }
-            Widgets.Label(mid, pats[cur].LabelCap);
-            Text.Anchor = TextAnchor.UpperLeft;
-        }
-
-        private void ApplyPattern(MaskPatternDef pat)
-        {
-            _colorComp.SetPattern(pat.setsNull ? null : pat);
-            SoundDefOf.Tick_High.PlayOneShotOnCamera();
         }
 
         private void DrawZoneRow(Rect row, int z)

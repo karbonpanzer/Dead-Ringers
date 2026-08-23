@@ -7,6 +7,9 @@ Shader "UFR_CutoutCarapace"
         _DrawColor ("Draw Color", Vector) = (1,1,1,1)
         _DrawColorTwo ("Draw Color Two", Vector) = (1,1,1,1)
         _DrawColorThree ("Draw Color Three", Vector) = (1,1,1,1)
+        _DrawColorFour ("Draw Color Four", Vector) = (1,1,1,1)
+        _DrawColorFive ("Draw Color Five", Vector) = (1,1,1,1)
+        _DrawColorSix ("Draw Color Six", Vector) = (1,1,1,1)
     }
     SubShader
     {
@@ -31,6 +34,9 @@ Shader "UFR_CutoutCarapace"
             float4 _DrawColor;
             float4 _DrawColorTwo;
             float4 _DrawColorThree;
+            float4 _DrawColorFour;
+            float4 _DrawColorFive;
+            float4 _DrawColorSix;
 
             v2f vert (appdata v)
             {
@@ -40,25 +46,35 @@ Shader "UFR_CutoutCarapace"
                 return o;
             }
 
-			fixed4 frag (v2f i) : SV_Target
-			{
-				fixed4 col = tex2D(_MainTex, i.uv);
-				fixed4 mask = tex2D(_MaskTex, i.uv);
+            fixed4 frag (v2f i) : SV_Target
+            {
+                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 mask = tex2D(_MaskTex, i.uv);
+                float lumen = dot(col.rgb, float3(0.299, 0.587, 0.114));
 
-				float lumen = dot(col.rgb, float3(0.299, 0.587, 0.114));
+                float r = mask.r, g = mask.g, b = mask.b;
+                float m1 = r * (1 - g) * (1 - b);
+                float m2 = (1 - r) * g * (1 - b);
+                float m3 = (1 - r) * (1 - g) * b;
+                float m4 = (1 - r) * g * b;
+                float m5 = r * (1 - g) * b;
+                float m6 = r * g * (1 - b);
 
-				float mx = max(mask.r, max(mask.g, mask.b));
-				float coverage = step(0.25, mx);
+                float mx = max(m1, max(m2, max(m3, max(m4, max(m5, m6)))));
 
-				float3 zone = _DrawColor.rgb;
-				if (mask.g > mask.r && mask.g >= mask.b) zone = _DrawColorTwo.rgb;
-				if (mask.b > mask.r && mask.b > mask.g) zone = _DrawColorThree.rgb;
+                float3 zone = _DrawColor.rgb;
+                if (m2 >= mx) zone = _DrawColorTwo.rgb;
+                if (m3 >= mx) zone = _DrawColorThree.rgb;
+                if (m4 >= mx) zone = _DrawColorFour.rgb;
+                if (m5 >= mx) zone = _DrawColorFive.rgb;
+                if (m6 >= mx) zone = _DrawColorSix.rgb;
+                if (m1 >= mx) zone = _DrawColor.rgb;
 
-				col.rgb = lerp(col.rgb, zone * lumen, coverage);
-				clip(col.a - 0.5);
-				return col;
-			}
-			
+                float coverage = step(0.25, mx);
+                col.rgb = lerp(col.rgb, zone * lumen, coverage);
+                clip(col.a - 0.5);
+                return col;
+            }
             ENDCG
         }
     }

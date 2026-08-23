@@ -17,10 +17,14 @@
   <UnitedFront_Decals_Accept>Accept</UnitedFront_Decals_Accept>
 
   <!-- Color Settings -->
-  <UnitedFront_Decals_Colours>Colors</UnitedFront_Decals_Colours>
-  <UnitedFront_Zone_Primary>Primary Color</UnitedFront_Zone_Primary>
-  <UnitedFront_Zone_Secondary>Secondary Color</UnitedFront_Zone_Secondary>
-  <UnitedFront_Zone_Tertiary>Tertiary Color</UnitedFront_Zone_Tertiary>
+  <UnitedFront_Decals_Colours>Colours</UnitedFront_Decals_Colours>
+  <UnitedFront_Zone_Body>Body</UnitedFront_Zone_Body>
+  <UnitedFront_Zone_LeftShoulder>Left shoulder</UnitedFront_Zone_LeftShoulder>
+  <UnitedFront_Zone_RightShoulder>Right shoulder</UnitedFront_Zone_RightShoulder>
+  <UnitedFront_Zone_Emblem>Emblem</UnitedFront_Zone_Emblem>
+  <UnitedFront_Zone_Codpiece>Codpiece</UnitedFront_Zone_Codpiece>
+  <UnitedFront_Zone_Hips>Hips</UnitedFront_Zone_Hips>
+
 
   <!-- Fabrication Bench-->
   <UFR_EditArmour>Customise armour</UFR_EditArmour>

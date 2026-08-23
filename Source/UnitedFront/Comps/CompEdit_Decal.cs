@@ -13,8 +13,6 @@ namespace UnitedFront.Comps
         public List<Color> ZoneColors = new List<Color>();
         private bool zonesCustomized;
 
-        public MaskPatternDef pattern;
-
         public CompPropertiesEditDecalMarker Props => (CompPropertiesEditDecalMarker)props;
         public int ZoneCount => Props.zoneCount;
 
@@ -65,12 +63,6 @@ namespace UnitedFront.Comps
             SetDirty();
         }
 
-        public void SetPattern(MaskPatternDef p)
-        {
-            pattern = p;
-            SetDirty();
-        }
-
         private void SetDirty()
         {
             if (parent is Apparel ap && ap.Wearer != null)
@@ -91,7 +83,6 @@ namespace UnitedFront.Comps
 
             Scribe_Collections.Look(ref ZoneColors, "UnitedFrontZoneColors", LookMode.Value);
             Scribe_Values.Look(ref zonesCustomized, "UnitedFrontZonesCustomized", false);
-            Scribe_Defs.Look(ref pattern, "UnitedFrontMaskPattern");
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
                 EnsureZoneDefaults();
@@ -102,7 +93,7 @@ namespace UnitedFront.Comps
             base.Notify_Equipped(pawn);
             DecalKindExtension ext = pawn.kindDef?.GetModExtension<DecalKindExtension>();
             ApplyKindDefaults(ext);
-            if (!zonesCustomized && (ext == null || ext.zoneColors.NullOrEmpty()) && parent is Apparel ap)
+            if (!zonesCustomized && (ext == null || ext.zoneColors.NullOrEmpty()) && Props.defaultZoneColors.NullOrEmpty() && parent is Apparel ap)
             {
                 EnsureZoneDefaults();
                 for (int i = 0; i < ZoneColors.Count; i++)
