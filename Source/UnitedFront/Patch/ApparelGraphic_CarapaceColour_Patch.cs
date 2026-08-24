@@ -24,8 +24,7 @@ namespace UnitedFront.HarmonyPatches
             CompEditDecalMarker comp = apparel.GetComp<CompEditDecalMarker>();
             if (comp == null || comp.ZoneColors.NullOrEmpty()) return;
 
-            Shader shader = UFR_ShaderBundle.CutoutCarapace;
-            if (shader == null || shader == ShaderDatabase.Cutout || shader == ShaderDatabase.CutoutComplex) return;
+            Shader shader = ShaderDatabase.CutoutComplex;
 
             string basePath = apparel.WornGraphicPath;
             if (basePath.NullOrEmpty()) return;

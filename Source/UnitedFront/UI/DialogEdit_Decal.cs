@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using RimWorld;
 using UnitedFront.Comps;
@@ -37,7 +37,7 @@ namespace UnitedFront.UI
         private List<Color>? _workingZones;
         private List<Color>? _originalZones;
         private bool _showColours;
-        private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Body", "UnitedFront_Zone_LeftShoulder", "UnitedFront_Zone_RightShoulder", "UnitedFront_Zone_Emblem", "UnitedFront_Zone_Codpiece", "UnitedFront_Zone_Hips" };
+        private static readonly string[] ZoneKeys = { "UnitedFront_Zone_Body", "UnitedFront_Zone_LeftShoulder", "UnitedFront_Zone_RightShoulder" };
 
         private static readonly Vector2 ButSize = new Vector2(200f, 40f);
         private static readonly Vector3 PortraitOffset = new Vector3(0f, 0f, 0.15f);
@@ -262,6 +262,7 @@ namespace UnitedFront.UI
             {
                 _workingZones[z] = c;
                 _colorComp.PreviewZones(_workingZones);
+                PortraitsCache.SetDirty(_pawn);
             }
         }
 
@@ -478,6 +479,7 @@ namespace UnitedFront.UI
                 {
                     _workingZones = new List<Color>(_originalZones);
                     _colorComp.PreviewZones(_workingZones);
+                    PortraitsCache.SetDirty(_pawn);
                 }
 
                 SoundDefOf.Tick_Low.PlayOneShotOnCamera();
@@ -570,4 +572,4 @@ namespace UnitedFront.UI
 
         private void PushLive() => DecalUtil.Preview(_pawn, _profileSet);
     }
-}
+}*/

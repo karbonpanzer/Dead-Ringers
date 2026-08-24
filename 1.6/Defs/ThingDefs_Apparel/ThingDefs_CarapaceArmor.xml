@@ -9,7 +9,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -102,7 +102,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -244,9 +244,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -261,7 +261,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -417,9 +417,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -497,9 +497,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps-->      
+    </comps>      
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -514,7 +514,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -670,9 +670,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -750,9 +750,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -767,7 +767,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -924,9 +924,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1004,9 +1004,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1021,7 +1021,7 @@
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -1177,9 +1177,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1257,9 +1257,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1274,7 +1274,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceArmor</texPath>
-      <shaderType>UFR_CutoutCarapace</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -1464,9 +1464,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps--> 
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1544,9 +1544,9 @@
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
-    <!--comps>
+    <comps>
       <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
-    </comps-->  
+    </comps>  
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>

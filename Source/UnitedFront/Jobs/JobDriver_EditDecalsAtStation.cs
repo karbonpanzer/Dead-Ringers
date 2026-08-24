@@ -19,7 +19,9 @@ namespace UnitedFront.Jobs
 
             yield return Toils_General.Do(delegate
             {
-                Find.WindowStack.Add(new DialogEditDecals(pawn));
+                // Decal system UI disabled; kept as backup.
+                // Find.WindowStack.Add(new DialogEditDecals(pawn));
+                Find.WindowStack.Add(new DialogEditColors(pawn));
             });
         }
     }
