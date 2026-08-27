@@ -1,6 +1,6 @@
 # Ignore the Unity Build storage folder
 Storage/UFR_UnityBuild/
-Storage/JunkDrawer/
+Storage/Junk Drawer/
 Source/UnitedFront/.idea
 Source/UnitedFront/obj
 UFR_UnityBuild
