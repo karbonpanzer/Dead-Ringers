@@ -12,7 +12,7 @@ namespace UnitedFront.UI
         private sealed class Piece
         {
             public Apparel Apparel;
-            public CompEditDecalMarker Comp;
+            public CompColorMarker Comp;
             public List<Color> Working;
             public List<Color> Original;
         }
@@ -46,7 +46,7 @@ namespace UnitedFront.UI
             {
                 foreach (Apparel ap in pawn.apparel.WornApparel)
                 {
-                    CompEditDecalMarker comp = ap.TryGetComp<CompEditDecalMarker>();
+                    CompColorMarker comp = ap.TryGetComp<CompColorMarker>();
                     if (comp == null) continue;
 
                     var working = new List<Color>(comp.ZoneColors);
@@ -62,6 +62,13 @@ namespace UnitedFront.UI
                     });
                 }
             }
+        }
+
+        private static bool IsHelmet(Apparel ap)
+        {
+            List<BodyPartGroupDef> groups = ap.def.apparel?.bodyPartGroups;
+            if (groups == null) return false;
+            return groups.Contains(BodyPartGroupDefOf.UpperHead) || groups.Contains(BodyPartGroupDefOf.FullHead);
         }
 
         public override void Close(bool doCloseSound = true)
@@ -81,7 +88,7 @@ namespace UnitedFront.UI
 
             Text.Font = GameFont.Medium;
             Rect titleRect = new Rect(inRect) { height = Text.LineHeight * 2f };
-            Widgets.Label(titleRect, "Edit armour colours - " + _pawn.Name.ToStringShort);
+            Widgets.Label(titleRect, "UFR_EditColorsTitle".Translate(_pawn.Name.ToStringShort));
             Text.Font = GameFont.Small;
             inRect.yMin = titleRect.yMax + 4f;
 
@@ -124,7 +131,8 @@ namespace UnitedFront.UI
             for (int i = 0; i < _pieces.Count; i++)
             {
                 int idx = i;
-                tabs.Add(new TabRecord(_pieces[i].Apparel.LabelCap, () => _sel = idx, _sel == i));
+                string label = IsHelmet(_pieces[i].Apparel) ? "UFR_ColorTab_Helmet".Translate() : "UFR_ColorTab_Armor".Translate();
+                tabs.Add(new TabRecord(label, () => _sel = idx, _sel == i));
             }
 
             Widgets.DrawMenuSection(rect);
@@ -150,7 +158,7 @@ namespace UnitedFront.UI
             float gap = 8f;
 
             Widgets.Label(new Rect(row.x, row.y, row.width, labelH),
-                index == 0 ? "Primary colour" : "Secondary colour");
+                index == 0 ? "UFR_ColorPrimary".Translate() : "UFR_ColorSecondary".Translate());
 
             Rect btnRow = new Rect(row.x, row.yMax - btnH, row.width, btnH);
             Rect palette = new Rect(row.x, row.y + labelH, row.width, row.height - labelH - btnH - gap);
@@ -160,7 +168,7 @@ namespace UnitedFront.UI
 
             DrawColorGrid(palette, AllColors(), ref c);
 
-            if (Widgets.ButtonText(new Rect(btnRow.x, btnRow.y, 140f, btnH), "Random"))
+            if (Widgets.ButtonText(new Rect(btnRow.x, btnRow.y, 140f, btnH), "UFR_ColorRandom".Translate()))
             {
                 var colors = AllColors();
                 if (colors.Count > 0) c = colors[Rand.Range(0, colors.Count)];
@@ -216,13 +224,13 @@ namespace UnitedFront.UI
 
         private void DrawBottomButtons(Rect inRect)
         {
-            if (Widgets.ButtonText(new Rect(inRect.x, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "Cancel"))
+            if (Widgets.ButtonText(new Rect(inRect.x, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "UFR_Cancel".Translate()))
             {
                 _committed = false;
                 Close();
             }
 
-            if (Widgets.ButtonText(new Rect(inRect.xMin + inRect.width / 2f - ButSize.x / 2f, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "Reset"))
+            if (Widgets.ButtonText(new Rect(inRect.xMin + inRect.width / 2f - ButSize.x / 2f, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "UFR_Reset".Translate()))
             {
                 foreach (Piece p in _pieces)
                 {
@@ -234,7 +242,7 @@ namespace UnitedFront.UI
                 SoundDefOf.Tick_Low.PlayOneShotOnCamera();
             }
 
-            if (Widgets.ButtonText(new Rect(inRect.xMax - ButSize.x, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "Accept"))
+            if (Widgets.ButtonText(new Rect(inRect.xMax - ButSize.x, inRect.yMax - ButSize.y, ButSize.x, ButSize.y), "UFR_Accept".Translate()))
             {
                 _committed = true;
                 Close();
@@ -245,21 +253,33 @@ namespace UnitedFront.UI
         {
             if (_allColors != null) return _allColors;
 
-            HashSet<Color> set = new HashSet<Color>();
+            HashSet<Color> colorSet = new HashSet<Color>();
+
+            if (ModsConfig.IdeologyActive && _pawn.Ideo != null && !Find.IdeoManager.classicMode)
+                colorSet.Add(_pawn.Ideo.ApparelColor);
+
+            if (TryGetFavoriteColor(_pawn, out Color favColor))
+                colorSet.Add(favColor);
+
             foreach (ColorDef def in DefDatabase<ColorDef>.AllDefs)
             {
                 if (def.colorType == ColorType.Ideo || def.colorType == ColorType.Misc || def.colorType == ColorType.Structure)
                 {
-                    bool dup = false;
-                    foreach (Color c in set)
+                    bool duplicate = false;
+                    foreach (Color c in colorSet)
                     {
-                        if (c.IndistinguishableFrom(def.color)) { dup = true; break; }
+                        if (c.IndistinguishableFrom(def.color))
+                        {
+                            duplicate = true;
+                            break;
+                        }
                     }
-                    if (!dup) set.Add(def.color);
+                    if (!duplicate)
+                        colorSet.Add(def.color);
                 }
             }
 
-            _allColors = new List<Color>(set);
+            _allColors = new List<Color>(colorSet);
             _allColors.Sort((a, b) =>
             {
                 Color.RGBToHSV(a, out float hA, out float sA, out _);
@@ -268,6 +288,16 @@ namespace UnitedFront.UI
                 return (cmp != 0) ? cmp : sA.CompareTo(sB);
             });
             return _allColors;
+        }
+
+        private static bool TryGetFavoriteColor(Pawn pawn, out Color c)
+        {
+            c = Color.white;
+            if (!ModsConfig.IdeologyActive || pawn?.story == null || pawn.DevelopmentalStage.Baby()) return false;
+            ColorDef def = pawn.story.favoriteColor;
+            if (def == null) return false;
+            c = def.color;
+            return true;
         }
     }
 }

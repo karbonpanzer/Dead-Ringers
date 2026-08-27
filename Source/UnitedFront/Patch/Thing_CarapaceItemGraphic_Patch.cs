@@ -14,7 +14,7 @@ namespace UnitedFront.HarmonyPatches
         {
             if (__instance is not Apparel apparel) return;
 
-            CompEditDecalMarker comp = apparel.GetComp<CompEditDecalMarker>();
+            CompColorMarker comp = apparel.GetComp<CompColorMarker>();
             if (comp == null || comp.ZoneColors.NullOrEmpty()) return;
 
             Shader shader = ShaderDatabase.CutoutComplex;

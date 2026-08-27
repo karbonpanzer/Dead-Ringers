@@ -57,7 +57,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-        <li>UFR_UFUniform</li>
+        <li>UFR_Uniform</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -123,7 +123,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>UFR_UFUniform</li>
+        <li>UFR_Headwear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -133,7 +133,6 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -190,8 +189,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>UFR_Beret</li>
-        <li>UFR_UFUniform</li>
+        <li>UFR_Headwear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -201,7 +199,6 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -258,7 +255,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>UFR_UFUniform</li>
+        <li>UFR_Headwear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -268,7 +265,6 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -330,7 +326,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>UFR_OfficerUniform</li>
+        <li>UFR_OfficerHeadwear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -340,7 +336,6 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <techLevel>Industrial</techLevel>
-
     <tradeTags>
       <li>Clothing</li>
       <li>UFR_Uniforms</li>
@@ -352,7 +347,6 @@
     <label>campaign hat</label>
     <description>A stiff-brimmed felt campaign hat with a pinched crown. It offers little protection, but marks its wearer as a career soldier and keeps sun and rain off on a long march.</description>
     <techLevel>Industrial</techLevel>
-
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontcampaignhat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -395,7 +389,8 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>UFR_UFUniform</li>
+        <li>UFR_Headwear</li>
+        <li>UFR_VeteranHeadwear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>

@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Decal UI Menu -->
-  <UnitedFront_StyleDecalsGizmo>Customize Armor: {0}</UnitedFront_StyleDecalsGizmo>
-  <UnitedFront_StyleDecalsDesc>Choose symbols and colors for this pawn's armor and helmet decals.</UnitedFront_StyleDecalsDesc>
-  <UnitedFront_StyleDecalsTitle>Customize Armor: {0}</UnitedFront_StyleDecalsTitle>
-  <UnitedFront_Decals_Armor>Armor</UnitedFront_Decals_Armor>
-  <UnitedFront_Decals_Helmet>Helmet</UnitedFront_Decals_Helmet>
-  <UnitedFront_Decals_Enabled>Show decal</UnitedFront_Decals_Enabled>
-  <UnitedFront_Decals_RandomSymbol>Random symbol</UnitedFront_Decals_RandomSymbol>
-  <UnitedFront_Decals_IdeoColor>Ideology color</UnitedFront_Decals_IdeoColor>
-  <UnitedFront_Decals_RandomColor>Random color</UnitedFront_Decals_RandomColor>
-  <UnitedFront_Decals_FavColor>Favorite color</UnitedFront_Decals_FavColor>
-  <UnitedFront_Decals_Cancel>Cancel</UnitedFront_Decals_Cancel>
-  <UnitedFront_Decals_Reset>Reset</UnitedFront_Decals_Reset>
-  <UnitedFront_Decals_Accept>Accept</UnitedFront_Decals_Accept>
-
   <!-- Color Settings -->
   <UnitedFront_Decals_Colours>Armor Colors</UnitedFront_Decals_Colours>
   <UnitedFront_Zone_Body>Body</UnitedFront_Zone_Body>
   <UnitedFront_Zone_LeftShoulder>Shoulders</UnitedFront_Zone_LeftShoulder>
   <UnitedFront_Zone_RightShoulder>Symbol</UnitedFront_Zone_RightShoulder>
+  <UFR_EditColorsTitle>Edit armor colors - {0}</UFR_EditColorsTitle>
+  <UFR_ColorTab_Armor>Armor</UFR_ColorTab_Armor>
+  <UFR_ColorTab_Helmet>Helmet</UFR_ColorTab_Helmet>
+  <UFR_ColorPrimary>Primary color</UFR_ColorPrimary>
+  <UFR_ColorSecondary>Secondary color</UFR_ColorSecondary>
+  <UFR_ColorRandom>Random</UFR_ColorRandom>
+  <UFR_Cancel>Cancel</UFR_Cancel>
+  <UFR_Reset>Reset</UFR_Reset>
+  <UFR_Accept>Accept</UFR_Accept>
+
+  <!-- Dev Debug Gizmo -->
+  <UFR_DevEditColors>Edit colors</UFR_DevEditColors>
+  <UFR_DevEditColorsDesc>Open the United Front color editor for this pawn.</UFR_DevEditColorsDesc>
 
   <!-- Fabrication Bench-->
-  <UFR_EditArmour>Customise armour</UFR_EditArmour>
-  <UFR_EditArmourUnreachable>Cannot customise armour (unreachable)</UFR_EditArmourUnreachable>
+  <UFR_EditArmor>Customise armor</UFR_EditArmor>
+  <UFR_EditArmourUnreachable>Cannot customise armor (unreachable)</UFR_EditArmourUnreachable>
 
   <!-- Style Bench -->
-  <UFR_EditDecals>Customise armour</UFR_EditDecals>
-  <UFR_EditDecalsUnreachable>Cannot customise armour (unreachable)</UFR_EditDecalsUnreachable>
+  <UFR_EditDecals>Customise armor</UFR_EditDecals>
+  <UFR_EditDecalsUnreachable>Cannot customise armor (unreachable)</UFR_EditDecalsUnreachable>
 
   <!-- Assault Shield -->  
   <UFR_ShieldRecharging>Recharging {0}s</UFR_ShieldRecharging>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ==================== Ion-Charge Pistol ==================== -->
+  <!-- Ion-Charge Pistol -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargePistol</defName>
     <label>ion-charge pistol round</label>
@@ -84,9 +84,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGun</li> 
       <li>SpacerGun</li>
-      <li>UFR_IonCharge</li>
     </weaponTags>
     <tools>
       <li>
@@ -104,7 +103,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge SMG ==================== -->
+  <!-- Ion-Charge SMG -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeSMG</defName>
     <label>ion-charge smg round</label>
@@ -187,9 +186,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGun</li> 
       <li>SpacerGun</li>
-      <li>UFR_IonCharge</li>
     </weaponTags>
     <tools>
       <li>
@@ -213,7 +211,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge Rifle ==================== -->
+  <!-- Ion-Charge Rifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeRifle</defName>
     <label>ion-charge rifle round</label>
@@ -296,9 +294,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGun</li> 
       <li>SpacerGun</li>
-      <li>UFR_IonCharge</li>
     </weaponTags>
     <tools>
       <li>
@@ -316,7 +313,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge Shotgun ==================== -->
+  <!-- Ion-Charge Shotgun -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeShotgun</defName>
     <label>ion-charge shell</label>
@@ -399,7 +396,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGunHEavy</li>    
       <li>SpacerGun</li>
       <li>UFR_IonCharge</li>
     </weaponTags>
@@ -425,7 +422,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge Heavy Rifle ==================== -->
+  <!-- Ion-Charge Heavy Rifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeHeavyRifle</defName>
     <label>ion-charge heavy round</label>
@@ -508,9 +505,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGunHeavy</li>  
       <li>SpacerGun</li>
-      <li>UFR_IonChargeHeavy</li>
     </weaponTags>
     <tools>
       <li>
@@ -528,7 +524,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge Suppressor ==================== -->
+  <!-- Ion-Charge Suppressor -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeSuppressor</defName>
     <label>ion-charge suppression round</label>
@@ -611,9 +607,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGunHeavy</li>      
       <li>SpacerGun</li>
-      <li>UFR_IonChargeHeavy</li>
     </weaponTags>
     <tools>
       <li>
@@ -631,7 +626,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Ion-Charge Lance ==================== -->
+  <!-- Ion-Charge Lance -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_IonChargeLance</defName>
     <label>ion-charge lance dart</label>
@@ -712,9 +707,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>Gun</li>
+      <li>UFR_SpacerGunSniper</li> 
       <li>SpacerGun</li>
-      <li>UFR_IonChargeSniper</li>
     </weaponTags>
     <tools>
       <li>

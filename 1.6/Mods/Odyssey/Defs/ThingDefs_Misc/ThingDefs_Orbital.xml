@@ -87,7 +87,7 @@
     <uiIconScale>1.15</uiIconScale>
   </ThingDef>
 
-  <ThingDef ParentName="UFR_DecalBodyArmor_Light">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_EVACarapaceArmor</defName>
     <label>Orbital Carapace Armor</label>
     <techLevel>Spacer</techLevel>

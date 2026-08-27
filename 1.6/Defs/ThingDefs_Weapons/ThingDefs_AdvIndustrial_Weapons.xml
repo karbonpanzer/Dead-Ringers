@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ==================== SIDEARMS ==================== -->
-
   <!-- Service Pistol -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bullet_ServicePistol</defName>
@@ -71,6 +69,7 @@
       </li>
     </tools>
     <weaponTags>
+      <li>UFR_IndustrialGunStandard</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
@@ -150,6 +149,7 @@
     </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>UFR_IndustrialGunHeavy</li>      
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
@@ -228,7 +228,9 @@
       </li>
     </tools>
     <weaponTags>
-      <li>SimpleGun</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>UFR_IndustrialGunElite</li>
+      <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
@@ -237,8 +239,6 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
-
-  <!-- ==================== AUTOMATICS ==================== -->
 
   <!-- Advanced SMG -->
   <ThingDef ParentName="BaseBullet">
@@ -315,6 +315,7 @@
       </li>
     </tools>
     <weaponTags>
+      <li>UFR_IndustrialGunStandard</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
@@ -402,6 +403,8 @@
       </li>
     </tools>
     <weaponTags>
+      <li>UFR_IndustrialGunStandard</li>
+      <li>UFR_IndustrialGunElite</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
@@ -730,10 +733,10 @@
     </recipeMaker>
   </ThingDef-->
 
-  <!-- Flechette Shotgun -->
+  <!-- Heavy Shotgun -->
   <ThingDef ParentName="BaseBullet" >
-    <defName>UFR_Shell_FlechetteShotgun</defName>
-    <label>flechette shotgun dart</label>
+    <defName>UFR_Shell_HeavyShotgun</defName>
+    <label>Heavy shotgun dart</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -747,13 +750,13 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_FlechetteShotgun">
-    <defName>UFR_FlechetteShotgun</defName>
-    <label>Flechette Shotgun</label>
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyShotgun">
+    <defName>UFR_HeavyShotgun</defName>
+    <label>Heavy Shotgun</label>
     <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>UFR/Things/Item/Equipment/flechetteshotgun</texPath>
+      <texPath>UFR/Things/Item/Equipment/heavyshotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -775,7 +778,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Shell_FlechetteShotgun</defaultProjectile>
+        <defaultProjectile>UFR_Shell_HeavyShotgun</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>22</range>
         <soundCast>Shot_Shotgun</soundCast>
@@ -804,6 +807,8 @@
       </li>
     </tools>
     <weaponTags>
+      <li>UFR_IndustrialGunElite</li>
+      <li>UFR_IndustrialGunHeavy</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
@@ -888,7 +893,8 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFMarksman</li>
+      <li>UFR_IndustrialGunElite</li>
+      <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
@@ -976,7 +982,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>UFR_UFMarksman</li>
+      <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>

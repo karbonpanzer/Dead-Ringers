@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <JobDef>
-    <defName>UFR_EditDecalsAtStation</defName>
-    <driverClass>UnitedFront.Jobs.JobDriver_EditDecalsAtStation</driverClass>
+    <defName>UFR_EditColorsAtStation</defName>
+    <driverClass>UnitedFront.Jobs.JobDriver_EditColorsAtStation</driverClass>
     <reportString>editing insignia.</reportString>
     <casualInterruptible>true</casualInterruptible>
   </JobDef>

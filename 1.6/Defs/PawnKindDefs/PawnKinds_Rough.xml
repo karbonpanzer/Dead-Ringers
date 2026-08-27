@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Civilian -->
     <PawnKindDef ParentName="UFR_CivilianBase">
         <defName>UFR_Rough_Settler</defName>
         <label>drifter</label>
@@ -19,19 +20,6 @@
         </techHediffsTags>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>20~30</initialResistanceRange>
-        <skills>
-            <li>
-                <skill>Construction</skill>
-                <range>2~6</range>
-            </li>
-            <li>
-                <skill>Plants</skill>
-                <range>2~6</range>
-            </li>
-        </skills>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     </PawnKindDef>
 
@@ -66,9 +54,6 @@
                 <range>2~8</range>
             </li>
         </skills>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     </PawnKindDef>
 
@@ -92,12 +77,10 @@
                 <range>1~5</range>
             </li>
         </skills>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
         <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
     </PawnKindDef>
 
+    <!-- Leader -->
     <PawnKindDef ParentName="UFR_LeadershipBase">
         <defName>UFR_Rough_Representative</defName>
         <label>negotiator</label>
@@ -135,13 +118,11 @@
                 <range>4~10</range>
             </li>
         </skills>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
         <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_LineInfantryBase">
+    <!-- Fighter -->
+    <PawnKindDef ParentName="UFR_LineInfantryRanged">
         <defName>UFR_Rough_Infantry_Ranged</defName>
         <label>mercenary</label>
         <labelPlural>mercenaries</labelPlural>
@@ -155,21 +136,10 @@
         </skills>
         <disallowedTraits>
             <li>Brawler</li>
-            <li>Nudist</li>
         </disallowedTraits>
-        <apparelRequired>
-            <li>UFR_CarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_LightCarapaceHelmet</li>
-            <li>UFR_Accessories</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_LineInfantryBase">
+    <PawnKindDef ParentName="UFR_LineInfantryMelee">
         <defName>UFR_Rough_Infantry_Melee</defName>
         <label>mercenary</label>
         <labelPlural>mercenaries</labelPlural>
@@ -182,19 +152,10 @@
                 <range>4~10</range>
             </li>
         </skills>
-        <apparelRequired>
-            <li>UFR_CarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_AssaultCarapaceHelmet</li>
-            <li>UFR_Accessories</li>
-        </apparelTags>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_LineVeteranBase">
+    <PawnKindDef ParentName="UFR_LineVeteranRanged">
         <defName>UFR_Rough_Veteran_Ranged</defName>
         <label>legionaire</label>
         <labelPlural>legionaires</labelPlural>
@@ -210,21 +171,10 @@
         </skills>
         <disallowedTraits>
             <li>Brawler</li>
-            <li>Nudist</li>
         </disallowedTraits>
-        <apparelRequired>
-            <li>UFR_AssaultCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_AssaultCarapaceHelmet</li>
-            <li>UFR_Accessories</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_LineVeteranBase">
+    <PawnKindDef ParentName="UFR_LineVeteranMelee">
         <defName>UFR_Rough_Veteran_Melee</defName>
         <label>legionaire</label>
         <labelPlural>legionaires</labelPlural>
@@ -239,16 +189,6 @@
                 <range>8~14</range>
             </li>
         </skills>
-        <apparelRequired>
-            <li>UFR_AssaultCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_AssaultCarapaceHelmet</li>
-            <li>UFR_Accessories</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_LeaderBase">
@@ -257,140 +197,22 @@
         <labelPlural>captains</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>105</combatPower>
-        <factionLeader>true</factionLeader>
-        <trader>true</trader>
-        <itemQuality>Excellent</itemQuality>
-        <weaponMoney>3600~4500</weaponMoney>
-        <techHediffsChance>0.2</techHediffsChance>
-        <techHediffsMoney>1800~2500</techHediffsMoney>
-        <techHediffsTags>
-            <li>Simple</li>
-            <li>Advanced</li>
-            <li>ImplantEmpireCommon</li>
-        </techHediffsTags>
-        <initialWillRange>6~8</initialWillRange>
-        <initialResistanceRange>30~40</initialResistanceRange>
-        <skills>
-            <li>
-                <skill>Social</skill>
-                <range>8~16</range>
-            </li>
-            <li>
-                <skill>Shooting</skill>
-                <range>6~13</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>6~13</range>
-            </li>
-            <li>
-                <skill>Intellectual</skill>
-                <range>5~12</range>
-            </li>
-        </skills>
-        <apparelRequired>
-            <li>UFR_CommanderCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_OfficerHat_Cap</li>
-            <li>UFR_CommanderCarapaceHelmet</li>
-            <li>UFR_UFUniform</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-        <!--modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/commander</armorDecalPath>
-                <armorDecalColor>(0.85, 0.65, 0.13)</armorDecalColor>
-                <helmetDecalPath>UFR/Things/Decals/commander</helmetDecalPath>
-                <helmetDecalColor>(0.85, 0.65, 0.13)</helmetDecalColor>
-            </li>
-        </modExtensions-->
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_SupportBase">
+    <PawnKindDef ParentName="UFR_MedicBase">
         <defName>UFR_Rough_Medic</defName>
         <label>surgeon</label>
         <labelPlural>surgeons</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>80</combatPower>
-        <inventoryOptions>
-            <skipChance>0.5</skipChance>
-            <subOptionsChooseOne>
-                <li>
-                    <thingDef>MedicineIndustrial</thingDef>
-                    <countRange>5~10</countRange>
-                </li>
-                <li>
-                    <thingDef>MedicineUltratech</thingDef>
-                    <countRange>2~4</countRange>
-                </li>
-            </subOptionsChooseOne>
-        </inventoryOptions>
-        <skills>
-            <li>
-                <skill>Medicine</skill>
-                <range>6~15</range>
-            </li>
-            <li>
-                <skill>Shooting</skill>
-                <range>3~8</range>
-            </li>
-        </skills>
-        <apparelRequired>
-            <li>UFR_MedicCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_MedicCarapaceHelmet</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
-        <!--modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/cross</armorDecalPath>
-                <armorDecalColor>(0.75, 0.10, 0.10)</armorDecalColor>
-                <helmetDecalPath>UFR/Things/Decals/cross</helmetDecalPath>
-                <helmetDecalColor>(0.75, 0.10, 0.10)</helmetDecalColor>
-            </li>
-        </modExtensions-->   
     </PawnKindDef>
 
-    <PawnKindDef ParentName="UFR_SupportBase">
+    <PawnKindDef ParentName="UFR_EngineerBase">
         <defName>UFR_Rough_Engineer</defName>
         <label>sapper</label>
         <labelPlural>sappers</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>80</combatPower>
-        <skills>
-            <li>
-                <skill>Construction</skill>
-                <range>6~15</range>
-            </li>
-            <li>
-                <skill>Crafting</skill>
-                <range>5~13</range>
-            </li>
-            <li>
-                <skill>Shooting</skill>
-                <range>3~8</range>
-            </li>
-        </skills>
-        <apparelRequired>
-            <li>UFR_EngineerCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_EngineerCarapaceHelmet</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
-        <!--modExtensions>
-            <li Class="UnitedFront.Defs.DecalKindExtension">
-                <armorDecalPath>UFR/Things/Decals/cog</armorDecalPath>
-                <helmetDecalPath>UFR/Things/Decals/cog</helmetDecalPath>
-            </li>
-        </modExtensions-->        
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_ScoutBase">
@@ -400,24 +222,6 @@
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>110</combatPower>
         <weaponMoney>1950~2550</weaponMoney>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>6~14</range>
-            </li>
-            <li>
-                <skill>Animals</skill>
-                <range>3~10</range>
-            </li>
-        </skills>
-        <apparelRequired>
-            <li>UFR_CarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_ShocktrooperBase">
@@ -428,15 +232,6 @@
         <combatPower>140</combatPower>
         <minGenerationAge>25</minGenerationAge>
         <maxGenerationAge>40</maxGenerationAge>
-        <apparelRequired>
-            <li>UFR_AssaultCarapaceArmor</li>
-            <li>UFR_InfantryUniform</li>
-        </apparelRequired>
-        <apparelTags Inherit="False">
-            <li>UFR_UFUniform</li>
-            <li>UFR_AssaultCarapaceHelmet</li>
-        </apparelTags>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
 </Defs>

@@ -58,13 +58,13 @@
     </descriptionHyperlinks>
   </ThingDef>
 
-  <ThingDef ParentName="UFR_FlechetteShotgun">
-    <defName>UFR_FlechetteShotgun_Unique</defName>
-    <label>unique flechette shotgun</label>
-    <description>A flechette shotgun with customized parts.</description>
+  <ThingDef ParentName="UFR_HeavyShotgun">
+    <defName>UFR_HeavyShotgun_Unique</defName>
+    <label>unique Heavy shotgun</label>
+    <description>A Heavy shotgun with customized parts.</description>
     <recipeMaker IsNull="True" />
     <graphicData>
-      <texPath>UFR/Things/Item/Equipment/UniqueWeapons/FlechetteShotgun</texPath>
+      <texPath>UFR/Things/Item/Equipment/UniqueWeapons/HeavyShotgun</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -90,7 +90,7 @@
           <li>Shotgun</li>
         </weaponCategories>
         <namerLabels>
-          <li>flechette shotgun</li>
+          <li>Heavy shotgun</li>
           <li>shotgun</li>
           <li>scattergun</li>
           <li>boomstick</li>
@@ -110,7 +110,7 @@
       <li>WeaponsUnique</li>
     </thingCategories>
     <descriptionHyperlinks>
-      <ThingDef>UFR_FlechetteShotgun</ThingDef>
+      <ThingDef>UFR_HeavyShotgun</ThingDef>
     </descriptionHyperlinks>
   </ThingDef>
 

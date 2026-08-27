@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- Prestige -->
-  <ThingDef ParentName="UFR_DecalBodyArmor_Officer">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_PrestigeCarapaceArmor</defName>
     <label>Prestige Carapace Armor</label>
     <description>A Carapace armor set woven through with psychic-focusing threads and neural-assist relays. Worn by command psycasters, it lets the wearer shed neural heat faster and hold a larger charge before overload, at the cost of the raw protection of a dedicated combat set.</description>

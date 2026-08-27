@@ -84,7 +84,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -93,6 +93,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -165,12 +171,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -245,12 +257,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- Medic Carapace Armor -->
@@ -337,7 +355,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -346,6 +364,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Darkish Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.65, 0.13, 0.13)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -418,12 +442,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Darkish Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.65, 0.13, 0.13)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -498,12 +528,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps>      
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Darkish Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.65, 0.13, 0.13)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- Engineer Carapace Armor -->
@@ -590,7 +626,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -599,6 +635,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Dark Orange/Yellowish -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.80, 0.55, 0.10)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -671,12 +713,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Dark Orange/Yellowish -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.80, 0.55, 0.10)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -751,12 +799,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Dark Orange/Yellowish -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.80, 0.55, 0.10)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- MP Carapace Armor -->
@@ -844,7 +898,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -853,6 +907,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.15, 0.30, 0.60)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -925,12 +985,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.15, 0.30, 0.60)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -1005,12 +1071,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.15, 0.30, 0.60)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- Commander Carapace Armor -->
@@ -1097,7 +1169,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -1106,6 +1178,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Gold/Brass -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.72, 0.60, 0.20)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -1178,12 +1256,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Gold/Brass -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.72, 0.60, 0.20)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -1258,12 +1342,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Gold/Brass -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.72, 0.60, 0.20)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- Assault Carapace Armor -->
@@ -1384,7 +1474,7 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <thingCategories>
       <li>ApparelArmor</li>
@@ -1393,6 +1483,12 @@
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blood Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -1465,12 +1561,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blood Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -1545,12 +1647,18 @@
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
-      <li Class="UnitedFront.Comps.CompPropertiesEditDecalMarker" />
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
     </comps>  
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
+    <modExtensions>
+      <!-- Blood Red -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 </Defs>

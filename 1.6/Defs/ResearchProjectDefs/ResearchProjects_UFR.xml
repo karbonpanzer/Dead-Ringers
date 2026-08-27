@@ -71,34 +71,6 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_StandardizedInfantryKits</defName>
-        <label>Standardized Infantry Kits</label>
-        <description>Craft equipment that improves reload speed and general combat readiness.</description>
-        <baseCost>1000</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_AdvancedWovenUniforms</li>
-        </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>4.9</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
-        <defName>UFR_ModifiedSpecialistKits</defName>
-        <label>Modified Specialist Kits</label>
-        <description>Craft specialized equipment for heavy frontline use by shocktroopers and engineers.</description>
-        <baseCost>1800</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
-        <prerequisites>
-            <li>UFR_StandardizedInfantryKits</li>
-        </prerequisites>
-        <researchViewX>3</researchViewX>
-        <researchViewY>4.9</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef>
         <defName>UFR_HighFrequencyGenerators</defName>
         <label>High-Frequency Generators</label>
         <description>Construct weapons that use ultrasonic vibration generators. Note that these also require advanced components.</description>
@@ -155,7 +127,6 @@
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
-
     <ResearchProjectDef>
         <defName>UFR_StandardPatternArms</defName>
         <label>Standard Pattern Arms</label>
@@ -183,6 +154,34 @@
         </prerequisites>
         <researchViewX>0</researchViewX>
         <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_SabotWeapons</defName>
+        <label>Sabot Weapons</label>
+        <description>Adapt the fabricator to electrothermal-chemical small arms: a plasma cartridge drives a discarding-sabot penetrator down the barrel at high velocity, trading rate of fire for armor penetration. Enables the sabot pistol and sabot rifle.</description>
+        <baseCost>2400</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_AdvancedFabricationMethods</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_SabotWeaponsHeavy</defName>
+        <label>Heavy Sabot Weapons</label>
+        <description>Scale the sabot pattern up to heavy and specialist calibers: larger rods, larger charges, and reinforced barrels. Enables the heavy sabot rifle, the sabot sniper rifle, the sabot autocannon, and the flechette shotgun.</description>
+        <baseCost>4000</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_SabotWeapons</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
 </Defs>
