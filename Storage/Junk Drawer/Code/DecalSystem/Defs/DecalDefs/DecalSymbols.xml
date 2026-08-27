@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_10star</defName>
+    <label>10 Star</label>
+    <path>UFR/Things/Decals/10star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_1star</defName>
+    <label>1 Star</label>
+    <path>UFR/Things/Decals/1star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_2star</defName>
+    <label>2 Star</label>
+    <path>UFR/Things/Decals/2star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_3star</defName>
+    <label>3 Star</label>
+    <path>UFR/Things/Decals/3star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_4star</defName>
+    <label>4 Star</label>
+    <path>UFR/Things/Decals/4star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_5star</defName>
+    <label>5 Star</label>
+    <path>UFR/Things/Decals/5star</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_air</defName>
+    <label>Air</label>
+    <path>UFR/Things/Decals/air</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_arrowhead</defName>
+    <label>Arrowhead</label>
+    <path>UFR/Things/Decals/arrowhead</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_axe</defName>
+    <label>Axe</label>
+    <path>UFR/Things/Decals/axe</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_battleaxe</defName>
+    <label>Battle Axe</label>
+    <path>UFR/Things/Decals/battleaxe</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_bear</defName>
+    <label>Bear</label>
+    <path>UFR/Things/Decals/bear</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_buffalo</defName>
+    <label>Buffalo</label>
+    <path>UFR/Things/Decals/buffalo</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_chain</defName>
+    <label>Chain</label>
+    <path>UFR/Things/Decals/chain</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_clockwork</defName>
+    <label>Clockwork</label>
+    <path>UFR/Things/Decals/clockwork</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_club</defName>
+    <label>Club</label>
+    <path>UFR/Things/Decals/club</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cog</defName>
+    <label>Cog</label>
+    <path>UFR/Things/Decals/cog</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_coggish</defName>
+    <label>Coggish</label>
+    <path>UFR/Things/Decals/coggish</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_column</defName>
+    <label>Column</label>
+    <path>UFR/Things/Decals/column</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_commander</defName>
+    <label>Commander</label>
+    <path>UFR/Things/Decals/commander</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_containment</defName>
+    <label>Containment</label>
+    <path>UFR/Things/Decals/containment</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_corepng</defName>
+    <label>Core</label>
+    <path>UFR/Things/Decals/corepng</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_corporal</defName>
+    <label>Corporal</label>
+    <path>UFR/Things/Decals/corporal</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cougar</defName>
+    <label>Cougar</label>
+    <path>UFR/Things/Decals/cougar</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cpt</defName>
+    <label>Captain</label>
+    <path>UFR/Things/Decals/cpt</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cross</defName>
+    <label>Cross</label>
+    <path>UFR/Things/Decals/cross</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cube</defName>
+    <label>Cube</label>
+    <path>UFR/Things/Decals/cube</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_diamond</defName>
+    <label>Diamond</label>
+    <path>UFR/Things/Decals/diamond</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_dynasty</defName>
+    <label>Dynasty</label>
+    <path>UFR/Things/Decals/dynasty</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_earth</defName>
+    <label>Earth</label>
+    <path>UFR/Things/Decals/earth</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_eye</defName>
+    <label>Eye</label>
+    <path>UFR/Things/Decals/eye</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_fallout</defName>
+    <label>Fallout</label>
+    <path>UFR/Things/Decals/fallout</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_fire</defName>
+    <label>Fire</label>
+    <path>UFR/Things/Decals/fire</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_fox</defName>
+    <label>Fox</label>
+    <path>UFR/Things/Decals/fox</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_french</defName>
+    <label>French</label>
+    <path>UFR/Things/Decals/french</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_greekcross</defName>
+    <label>Greek Cross</label>
+    <path>UFR/Things/Decals/greekcross</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_guilt</defName>
+    <label>Guilt</label>
+    <path>UFR/Things/Decals/guilt</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_hazard</defName>
+    <label>Hazard</label>
+    <path>UFR/Things/Decals/hazard</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_heart</defName>
+    <label>Heart</label>
+    <path>UFR/Things/Decals/heart</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_hexinator</defName>
+    <label>Hexinator</label>
+    <path>UFR/Things/Decals/hexinator</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_hollow</defName>
+    <label>Hollow</label>
+    <path>UFR/Things/Decals/hollow</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_horse</defName>
+    <label>Horse</label>
+    <path>UFR/Things/Decals/horse</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_horuxalt</defName>
+    <label>Horuxalt</label>
+    <path>UFR/Things/Decals/horuxalt</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_inquisitor</defName>
+    <label>Inquisitor</label>
+    <path>UFR/Things/Decals/inquisitor</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_linedworld</defName>
+    <label>Lined World</label>
+    <path>UFR/Things/Decals/linedworld</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_lt</defName>
+    <label>Lieutenant</label>
+    <path>UFR/Things/Decals/lt</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_maintainancejack</defName>
+    <label>Maintenance Jack</label>
+    <path>UFR/Things/Decals/maintainancejack</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_marathon</defName>
+    <label>Marathon</label>
+    <path>UFR/Things/Decals/marathon</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_medcom</defName>
+    <label>Med Com</label>
+    <path>UFR/Things/Decals/medcom</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_mercy</defName>
+    <label>Mercy</label>
+    <path>UFR/Things/Decals/mercy</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_none</defName>
+    <label>None</label>
+    <path>UFR/Things/Decals/none</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_obelisk</defName>
+    <label>Obelisk</label>
+    <path>UFR/Things/Decals/obelisk</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_pentoptimum</defName>
+    <label>Pentoptimum</label>
+    <path>UFR/Things/Decals/pentoptimum</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_phor</defName>
+    <label>Phor</label>
+    <path>UFR/Things/Decals/phor</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_police</defName>
+    <label>Police</label>
+    <path>UFR/Things/Decals/police</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_private</defName>
+    <label>Private</label>
+    <path>UFR/Things/Decals/private</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_psi</defName>
+    <label>Psi</label>
+    <path>UFR/Things/Decals/psi</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_ringer</defName>
+    <label>Ringer</label>
+    <path>UFR/Things/Decals/ringer</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_rook</defName>
+    <label>Rook</label>
+    <path>UFR/Things/Decals/rook</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_scalpel</defName>
+    <label>Scalpel</label>
+    <path>UFR/Things/Decals/scalpel</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_sentinel</defName>
+    <label>Sentinel</label>
+    <path>UFR/Things/Decals/sentinel</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_sgt</defName>
+    <label>Sergeant</label>
+    <path>UFR/Things/Decals/sgt</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_shield</defName>
+    <label>Shield</label>
+    <path>UFR/Things/Decals/shield</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_shootingstar</defName>
+    <label>Shooting Star</label>
+    <path>UFR/Things/Decals/shootingstar</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_skull</defName>
+    <label>Skull</label>
+    <path>UFR/Things/Decals/skull</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_skullrifle</defName>
+    <label>Skull Rifle</label>
+    <path>UFR/Things/Decals/skullrifle</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_skullspear</defName>
+    <label>Skull Spear</label>
+    <path>UFR/Things/Decals/skullspear</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_skullsword</defName>
+    <label>Skull Sword</label>
+    <path>UFR/Things/Decals/skullsword</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_spade</defName>
+    <label>Spade</label>
+    <path>UFR/Things/Decals/spade</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_spearhead</defName>
+    <label>Spearhead</label>
+    <path>UFR/Things/Decals/spearhead</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_staroflife</defName>
+    <label>Star of Life</label>
+    <path>UFR/Things/Decals/staroflife</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_thrumbo</defName>
+    <label>Thrumbo</label>
+    <path>UFR/Things/Decals/thrumbo</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_tinstar</defName>
+    <label>Tin Star</label>
+    <path>UFR/Things/Decals/tinstar</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_utility</defName>
+    <label>Utility</label>
+    <path>UFR/Things/Decals/utility</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_vesperia</defName>
+    <label>Vesperia</label>
+    <path>UFR/Things/Decals/vesperia</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_warg</defName>
+    <label>Warg</label>
+    <path>UFR/Things/Decals/warg</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_water</defName>
+    <label>Water</label>
+    <path>UFR/Things/Decals/water</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_wolf</defName>
+    <label>Wolf</label>
+    <path>UFR/Things/Decals/wolf</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_wrench</defName>
+    <label>Wrench</label>
+    <path>UFR/Things/Decals/wrench</path>
+  </UnitedFront.Defs.DecalSymbol>
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cogothon</defName>
+    <label>Cogothon</label>
+    <path>UFR/Things/Decals/cogothon</path>
+  </UnitedFront.Defs.DecalSymbol>  
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cogandcircle</defName>
+    <label>Cog and Circle</label>
+    <path>UFR/Things/Decals/cogandcircle</path>
+  </UnitedFront.Defs.DecalSymbol>  
+
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_cogstar</defName>
+    <label>Cog and Star</label>
+    <path>UFR/Things/Decals/cogstar</path>
+  </UnitedFront.Defs.DecalSymbol>  
+  
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_uf</defName>
+    <label>United Front</label>
+    <path>UFR/Things/Decals/uf</path>
+  </UnitedFront.Defs.DecalSymbol>  
+  
+  <UnitedFront.Defs.DecalSymbol>
+    <defName>UFR_Decal_skullcog</defName>
+    <label>Cog and Skull</label>
+    <path>UFR/Things/Decals/skullcog</path>
+  </UnitedFront.Defs.DecalSymbol>    
+
+</Defs>

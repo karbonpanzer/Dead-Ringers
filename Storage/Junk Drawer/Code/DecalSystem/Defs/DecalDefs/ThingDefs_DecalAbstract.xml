@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!---->
+  <ThingDef Name="UFR_DecalBodyArmor_Heavy" ParentName="ArmorMachineableBase" Abstract="True">
+    <apparel>
+      <!-- <renderNodeProperties>
+        <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
+          <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
+          <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <explicitSlot>Armor</explicitSlot>
+          <baseLayer>92</baseLayer>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.110</scale>
+            <defaultData>
+              <layer>82</layer>
+              <offset>(0,0,-0.155)</offset>
+            </defaultData>
+            <dataNorth>
+              <layer>92</layer>
+              <offset>(0,0,-0.148)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties> -->
+    </apparel>
+  </ThingDef>
+
+  <ThingDef Name="UFR_DecalBodyArmor_Light" ParentName="ArmorMachineableBase" Abstract="True">
+    <apparel>
+      <!-- <renderNodeProperties>
+        <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
+          <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
+          <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <explicitSlot>Armor</explicitSlot>
+          <baseLayer>72</baseLayer>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.110</scale>
+            <defaultData>
+              <layer>72</layer>
+              <offset>(0,0,-0.155)</offset>
+            </defaultData>
+            <dataNorth>
+              <layer>92</layer>
+              <offset>(0,0,-0.148)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties> -->
+    </apparel>
+  </ThingDef>
+
+  <ThingDef Name="UFR_DecalBodyArmor_Officer" ParentName="ArmorMachineableBase" Abstract="True">
+    <apparel>
+      <!-- <renderNodeProperties>
+        <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
+          <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
+          <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <explicitSlot>Armor</explicitSlot>
+          <baseLayer>92</baseLayer>
+          <texPaths>
+            <li>UFR/Things/Decals/commander</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.110</scale>
+            <defaultData>
+              <layer>72</layer>
+              <offset>(0,0,-0.155)</offset>
+            </defaultData>
+            <dataNorth>
+              <layer>92</layer>
+              <offset>(0,0,-0.148)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties> -->
+    </apparel>
+  </ThingDef>
+
+  <ThingDef Name="UFR_DecalBodyArmor_Scout" ParentName="ArmorMachineableBase" Abstract="True">
+    <apparel>
+      <!-- <renderNodeProperties>
+        <li Class="UnitedFront.Render.PawnRenderNodePropertiesDecal">
+          <nodeClass>UnitedFront.Render.PawnRenderNodeDecal</nodeClass>
+          <workerClass>UnitedFront.Render.PawnRenderNodeWorkerDecal</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <explicitSlot>Armor</explicitSlot>
+          <baseLayer>92</baseLayer>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.110</scale>
+            <defaultData>
+              <layer>72</layer>
+              <offset>(0,0,-0.155)</offset>
+            </defaultData>
+            <dataNorth>
+              <layer>92</layer>
+              <offset>(0,0,-0.148)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties> -->
+    </apparel>
+  </ThingDef>
+
+</Defs>
