@@ -1,229 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>UFR_Vibrosword</defName>
-        <label>Vibrosword</label>
-        <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the Dominion.</description>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>UFR/Things/Item/Equipment/vibrosword</texPath>
-            <shaderType>CutoutComplex</shaderType>
-            <drawSize>1.4</drawSize>
-        </graphicData>
-        <techLevel>Spacer</techLevel>
-        <equippedAngleOffset>-50</equippedAngleOffset>
-        <recipeMaker>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-            <ComponentSpacer>3</ComponentSpacer>
-            <Plasteel>15</Plasteel>
-        </costList>
-        <statBases>
-            <WorkToMake>36000</WorkToMake>
-            <Mass>1.6</Mass>
-            <MarketValue>3600</MarketValue>
-        </statBases>
-        <tools>
-            <li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>2.4</cooldownTime>
-            </li>
-            <li>
-                <label>edge</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>26</power>
-                <cooldownTime>2.4</cooldownTime>
-                <armorPenetration>0.50</armorPenetration>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>24</power>
-                <cooldownTime>2.4</cooldownTime>
-                <armorPenetration>0.50</armorPenetration>
-            </li>
-        </tools>
-          <weaponTags>
-    <li>UFR_StandardMelee</li>
-  </weaponTags>
-        <thingSetMakerTags>
-            <li>RewardHighTech</li>
-        </thingSetMakerTags>
-        <tradeTags>
-            <li>WeaponMelee</li>
-        </tradeTags>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>UFR_Vibrosword</defName>
+    <label>Vibrosword</label>
+    <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the
+      Dominion.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UFR/Things/Item/Equipment/vibrosword</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <equippedAngleOffset>-50</equippedAngleOffset>
+    <recipeMaker>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <statBases>
+      <WorkToMake>36000</WorkToMake>
+      <Mass>1.6</Mass>
+      <MarketValue>3600</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_StandardMelee</li>
+    </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardHighTech</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
 
-    </ThingDef>
+  </ThingDef>
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>UFR_Vibromaul</defName>
-        <label>Vibromaul</label>
-        <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the Dominion.</description>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>UFR/Things/Item/Equipment/vibromaul</texPath>
-            <shaderType>CutoutComplex</shaderType>
-            <drawSize>1.25</drawSize>
-        </graphicData>
-        <techLevel>Spacer</techLevel>
-        <equippedAngleOffset>-50</equippedAngleOffset>
-        <recipeMaker>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-            <ComponentSpacer>3</ComponentSpacer>
-            <Plasteel>15</Plasteel>
-        </costList>
-        <statBases>
-            <WorkToMake>36000</WorkToMake>
-            <Mass>1.6</Mass>
-            <MarketValue>3600</MarketValue>
-        </statBases>
-        <tools>
-            <li>
-            <label>handle</label>
-            <capacities>
-                <li>Poke</li>
-            </capacities>
-            <power>15</power>
-            <cooldownTime>2</cooldownTime>
-            </li>
-            <li>
-            <label>head</label>
-            <labelUsedInLogging>false</labelUsedInLogging>
-            <capacities>
-                <li>Blunt</li>
-            </capacities>
-            <power>31</power>
-            <cooldownTime>3</cooldownTime>
-            <extraMeleeDamages>
-                <li>
-                <def>EMP</def>
-                <amount>9</amount>
-                </li>
-            </extraMeleeDamages>
-            </li>
-        </tools>
-          <weaponTags>
-    <li>UFR_StandardMelee</li>
-  </weaponTags>
-        <thingSetMakerTags>
-            <li>RewardHighTech</li>
-        </thingSetMakerTags>
-        <tradeTags>
-            <li>WeaponMelee</li>
-        </tradeTags>
-    </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>UFR_Vibromaul</defName>
+    <label>Vibromaul</label>
+    <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the
+      Dominion.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UFR/Things/Item/Equipment/vibromaul</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <equippedAngleOffset>-50</equippedAngleOffset>
+    <recipeMaker>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <statBases>
+      <WorkToMake>36000</WorkToMake>
+      <Mass>1.6</Mass>
+      <MarketValue>3600</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_StandardMelee</li>
+    </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardHighTech</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+  </ThingDef>
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>UFR_Vibroblade</defName>
-        <label>Vibroblade</label>
-        <description>A composite dagger powered by a small micro-motor. Though lacking in the range of a sword, it provides benefits in close quarters, favored as a back-up weapon.</description>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>UFR/Things/Item/Equipment/vibroblade</texPath>
-            <shaderType>CutoutComplex</shaderType>
-            <drawSize>1.3</drawSize>
-        </graphicData>
-        <techLevel>Spacer</techLevel>
-        <equippedAngleOffset>-65</equippedAngleOffset>
-        <recipeMaker>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <ComponentSpacer>2</ComponentSpacer>
-            <Plasteel>10</Plasteel>
-        </costList>
-        <statBases>
-            <WorkToMake>22000</WorkToMake>
-            <Mass>0.7</Mass>
-            <MarketValue>1900</MarketValue>
-        </statBases>
-        <tools>
-            <li>
-                <label>handle</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>8</power>
-                <cooldownTime>1.8</cooldownTime>
-            </li>
-            <li>
-                <label>blade</label>
-                <capacities>
-                    <li>Cut</li>
-                </capacities>
-                <power>20</power>
-                <cooldownTime>1.8</cooldownTime>
-                <armorPenetration>0.40</armorPenetration>
-            </li>
-            <li>
-                <label>point</label>
-                <capacities>
-                    <li>Stab</li>
-                </capacities>
-                <power>19</power>
-                <cooldownTime>1.8</cooldownTime>
-                <armorPenetration>0.40</armorPenetration>
-            </li>
-        </tools>
-          <weaponTags>
-    <li>UFR_StandardMelee</li>
-  </weaponTags>
-        <thingSetMakerTags>
-            <li>RewardStandardHighTech</li>
-        </thingSetMakerTags>
-        <tradeTags>
-            <li>WeaponMelee</li>
-        </tradeTags>
-    </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>UFR_Vibroblade</defName>
+    <label>Vibroblade</label>
+    <description>A composite dagger powered by a small micro-motor. Though lacking in the range of a sword, it provides benefits in close quarters, favored as a back-up weapon.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UFR/Things/Item/Equipment/vibroblade</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>0.7</Mass>
+      <MarketValue>1900</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>0.40</armorPenetration>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>0.40</armorPenetration>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>UFR_StandardMelee</li>
+    </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardHighTech</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+  </ThingDef>
 
-<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrolance</defName>
     <label>Vibrolance</label>
-    <description>A composite polearm powered by a high-frequency micro-motor running the length of the shaft to the tip. The vibrating spearhead punches through plate on the thrust, giving reach and armor penetration at the cost of a slow, committed swing.</description>
+    <description>A composite polearm powered by a high-frequency micro-motor running the length of the shaft to the tip. The vibrating spearhead punches through plate on the thrust, giving
+      reach and armor penetration at the cost of a slow, committed swing.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrolance</texPath>
@@ -354,7 +357,8 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrobuster</defName>
     <label>Vibrobuster</label>
-    <description>An oversized slab of a blade, more cleaver than sword, driven by a heavy high-frequency generator in the spine. It is brutally slow to swing, but the vibrating edge shears through armor and anything behind it.</description>
+    <description>An oversized slab of a blade, more cleaver than sword, driven by a heavy high-frequency generator in the spine. It is brutally slow to swing, but the vibrating edge
+      shears through armor and anything behind it.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrobuster</texPath>
@@ -420,7 +424,8 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Chainsword</defName>
     <label>Chainsword</label>
-    <description>A powered blade ringed with a looping chain of monomolecular teeth. The teeth chew through flesh and light armor in a spray of gore, though the mechanism lacks the clean penetration of a solid vibrating edge.</description>
+    <description>A powered blade ringed with a looping chain of monomolecular teeth. The teeth chew through flesh and light armor in a spray of gore, though the mechanism lacks the clean
+      penetration of a solid vibrating edge.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/chainsword</texPath>
@@ -481,5 +486,5 @@
       <li>WeaponMelee</li>
     </tradeTags>
     <uiIconScale>0.95</uiIconScale>
-  </ThingDef>    
+  </ThingDef>
 </Defs>

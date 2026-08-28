@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <!-- Service Pistol -->
@@ -20,7 +20,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_ServicePistol</defName>
     <label>Service Pistol</label>
-    <description>The standard sidearm of United Front line units. A refined evolution of the common assault pistol, with tighter tolerances and improved ammunition for better range and stopping power without added bulk.</description>
+    <description>The standard sidearm of United Front line units. A refined evolution of the common assault pistol, with tighter tolerances and improved ammunition for better range and stopping
+      power without added bulk.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/servicepistol</texPath>
@@ -57,13 +58,17 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -136,20 +141,24 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>UFR_IndustrialGunHeavy</li>      
+      <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
@@ -216,13 +225,17 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -259,7 +272,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AdvSMG</defName>
     <label>Advanced SMG</label>
-    <description>A state of the art sub-machinegun built with lightweight polymers and advanced alloys. Light, accurate, and easy to use, it has found usage in hundreds of colonies now for security.</description>
+    <description>A state of the art sub-machinegun built with lightweight polymers and advanced alloys. Light, accurate, and easy to use, it has found usage in hundreds of colonies now for
+      security.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/advsmg</texPath>
@@ -297,19 +311,25 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -335,7 +355,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      
+
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <armorPenetrationBase>0.35</armorPenetrationBase>
@@ -385,19 +405,25 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -416,7 +442,8 @@
   </ThingDef>
 
   <!-- Grenadier Pulse Rifle -->
-  <!--ThingDef ParentName="BaseBullet">
+  <!--ThingDef
+  ParentName="BaseBullet">
     <defName>UFR_Bullet_PulseGrenadier</defName>
     <label>pulse grenadier round</label>
     <graphicData>
@@ -490,7 +517,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_PulseRifleGrenadier</defName>
     <label>Grenadier Pulse Rifle</label>
-    <description>A pulse rifle fitted with an underbarrel grenade launcher. The rifle handles standard engagements while the launcher lobs a grenade for dislodging entrenched targets. The launcher holds two grenades before it must be reloaded.</description>
+    <description>A pulse rifle fitted with an underbarrel grenade launcher. The rifle handles standard engagements while the launcher lobs a grenade for dislodging entrenched targets. The launcher
+  holds two grenades before it must be reloaded.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/pulseriflegrenadier</texPath>
@@ -578,8 +606,9 @@
     </recipeMaker>
   </ThingDef-->
 
-<!-- Breacher Pulse Rifle -->
-  <!--ThingDef ParentName="BaseBullet">
+  <!-- Breacher Pulse Rifle -->
+  <!--ThingDef
+  ParentName="BaseBullet">
     <defName>UFR_Bullet_BreacherPulse</defName>
     <label>breacher pulse round</label>
     <graphicData>
@@ -645,7 +674,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_PulseRifleBreacher</defName>
     <label>Breacher Pulse Rifle</label>
-    <description>A pulse rifle fitted with an underbarrel semi-automatic shotgun for door-breaching and close assault. The rifle handles the approach; the shotgun clears the room. The underbarrel holds a limited number of shells before it must be reloaded.</description>
+    <description>A pulse rifle fitted with an underbarrel semi-automatic shotgun for door-breaching and 
+  close assault. The rifle handles the approach; the shotgun clears the room. The underbarrel holds a limited number of shells before it must be reloaded.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/pulseriflebreacher</texPath>
@@ -734,7 +764,7 @@
   </ThingDef-->
 
   <!-- Heavy Shotgun -->
-  <ThingDef ParentName="BaseBullet" >
+  <ThingDef ParentName="BaseBullet">
     <defName>UFR_Shell_HeavyShotgun</defName>
     <label>Heavy shotgun dart</label>
     <graphicData>
@@ -789,19 +819,25 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -838,7 +874,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyPulseRifle">
     <defName>UFR_HeavyPulseRifle</defName>
     <label>Heavy Pulse Rifle</label>
-    <description>A semi-automatic marksman variant of the pulse rifle, rebarreled and rechambered for reach. It trades the rifle's burst for single precise shots at extended range, favored by designated marksmen who hold the line from the second rank.</description>
+    <description>A semi-automatic marksman variant of the pulse rifle, rebarreled and rechambered for reach. It trades the rifle's burst for single precise shots at extended range, favored by
+      designated marksmen who hold the line from the second rank.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/pulseriflemarksman</texPath>
@@ -875,19 +912,25 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -924,7 +967,8 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AntiMateriel</defName>
     <label>Anti-Materiel Rifle</label>
-    <description>A massive long-barreled rifle firing a high-caliber round capable of gutting armor, machinery, and personnel alike. Slow to aim and heavy to carry, but a single hit ends most arguments.</description>
+    <description>A massive long-barreled rifle firing a high-caliber round capable of gutting armor, machinery, and personnel alike. Slow to aim and heavy to carry, but a single hit ends most
+      arguments.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/antimaterialrifle</texPath>
@@ -964,19 +1008,25 @@
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>13</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>11</power>
         <cooldownTime>2</cooldownTime>
       </li>

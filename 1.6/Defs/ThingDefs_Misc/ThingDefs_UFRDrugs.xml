@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<ThingDef ParentName="DrugBase">
+  <ThingDef ParentName="DrugBase">
     <defName>UFR_Promachus</defName>
     <label>promachus</label>
     <description>.</description>

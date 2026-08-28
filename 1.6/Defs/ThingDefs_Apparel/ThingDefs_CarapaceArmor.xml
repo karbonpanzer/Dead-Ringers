@@ -85,7 +85,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -101,7 +101,7 @@
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CarapaceHelmet</defName>
     <label>Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -172,7 +172,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -258,7 +258,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -356,7 +356,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -372,7 +372,7 @@
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MedicCarapaceHelmet</defName>
     <label>Medic Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -443,7 +443,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -529,7 +529,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>      
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -627,7 +627,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -643,7 +643,7 @@
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_EngineerCarapaceHelmet</defName>
     <label>Engineer Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -714,7 +714,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -784,7 +784,8 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>
+        UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceHelmetMask</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -800,7 +801,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -899,7 +900,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -915,7 +916,7 @@
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MPCarapaceHelmet</defName>
     <label>MP Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -986,7 +987,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1072,7 +1073,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1170,7 +1171,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -1186,7 +1187,7 @@
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CommanderCarapaceHelmet</defName>
     <label>Commander Carapace Helmet</label>
     <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -1242,7 +1243,8 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</wornGraphicPath>
+      <wornGraphicPath>
+        UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -1257,7 +1259,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1327,7 +1329,8 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>
+        UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -1343,7 +1346,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1475,7 +1478,7 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -1484,14 +1487,14 @@
       <li>UFR_Armor</li>
     </tradeTags>
     <modExtensions>
-      <!-- Blood Red -->
+      <!-- Field Green -->
       <li Class="UnitedFront.Defs.ArmorColorExtension">
-        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+        <colorTwo>(0.267, 0.298, 0.220)</colorTwo>
       </li>
     </modExtensions>
   </ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_AssaultCarapaceHelmet</defName>
     <label>Assault Carapace Helmet</label>
     <description>An open-face reinforced Carapace helmet with additional plating across the crown and rear. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
@@ -1562,15 +1565,15 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps> 
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
     <modExtensions>
-      <!-- Blood Red -->
+      <!-- Field Green -->
       <li Class="UnitedFront.Defs.ArmorColorExtension">
-        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+        <colorTwo>(0.267, 0.298, 0.220)</colorTwo>
       </li>
     </modExtensions>
   </ThingDef>
@@ -1632,7 +1635,8 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceHelmetMask</wornGraphicPath>
+      <wornGraphicPath>
+        UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceHelmetMask</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -1648,15 +1652,15 @@
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>  
+    </comps>
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
     </tradeTags>
     <modExtensions>
-      <!-- Blood Red -->
+      <!-- Field Green -->
       <li Class="UnitedFront.Defs.ArmorColorExtension">
-        <colorTwo>(0.45, 0.08, 0.08)</colorTwo>
+        <colorTwo>(0.267, 0.298, 0.220)</colorTwo>
       </li>
     </modExtensions>
   </ThingDef>

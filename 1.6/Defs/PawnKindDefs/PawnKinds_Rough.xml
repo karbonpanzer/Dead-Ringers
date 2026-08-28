@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!-- Civilian -->
@@ -128,15 +128,6 @@
         <labelPlural>mercenaries</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>105</combatPower>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>4~10</range>
-            </li>
-        </skills>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_LineInfantryMelee">
@@ -145,14 +136,6 @@
         <labelPlural>mercenaries</labelPlural>
         <defaultFactionType>UFR_Rough</defaultFactionType>
         <combatPower>105</combatPower>
-        <weaponMoney>2000~2800</weaponMoney>
-        <skills>
-            <li>
-                <skill>Melee</skill>
-                <range>4~10</range>
-            </li>
-        </skills>
-        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_LineVeteranRanged">
@@ -163,15 +146,6 @@
         <combatPower>130</combatPower>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>8~14</range>
-            </li>
-        </skills>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_LineVeteranMelee">
@@ -183,12 +157,6 @@
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
         <weaponMoney>3700~5000</weaponMoney>
-        <skills>
-            <li>
-                <skill>Melee</skill>
-                <range>8~14</range>
-            </li>
-        </skills>
     </PawnKindDef>
 
     <PawnKindDef ParentName="UFR_LeaderBase">

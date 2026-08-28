@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <!-- Ion-Charge Pistol -->
@@ -84,19 +84,23 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGun</li> 
+      <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -186,25 +190,31 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGun</li> 
+      <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -294,19 +304,23 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGun</li> 
+      <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>12</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>10</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -396,26 +410,32 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGunHEavy</li>    
+      <li>UFR_SpacerGunHEavy</li>
       <li>SpacerGun</li>
       <li>UFR_IonCharge</li>
     </weaponTags>
     <tools>
       <li>
         <label>grip</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -505,19 +525,23 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGunHeavy</li>  
+      <li>UFR_SpacerGunHeavy</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>13</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>11</power>
         <cooldownTime>2</cooldownTime>
       </li>
@@ -607,19 +631,23 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGunHeavy</li>      
+      <li>UFR_SpacerGunHeavy</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>14</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>12</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
@@ -707,19 +735,23 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>UFR_SpacerGunSniper</li> 
+      <li>UFR_SpacerGunSniper</li>
       <li>SpacerGun</li>
     </weaponTags>
     <tools>
       <li>
         <label>stock</label>
-        <capacities><li>Blunt</li></capacities>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
         <power>14</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
-        <capacities><li>Poke</li></capacities>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
         <power>12</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
