@@ -32,7 +32,7 @@
     <ResearchProjectDef>
         <defName>UFR_MedicCarapaceArmor</defName>
         <label>Medic Carapace Armor</label>
-        <description>Craft a medic variant of carapace armor. Note that these also require advanced components.</description>
+        <description>Craft a medic variant of carapace armor with medical supplies. Note that these also require advanced components.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -46,7 +46,7 @@
     <ResearchProjectDef>
         <defName>UFR_EngineerCarapaceArmor</defName>
         <label>Engineer Carapace Armor</label>
-        <description>Craft a engineer variant of carapace armor. Note that these also require advanced components.</description>
+        <description>Craft a engineer variant of carapace armor with tool kits. Note that these also require advanced components.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -60,7 +60,7 @@
     <ResearchProjectDef>
         <defName>UFR_PoliceCarapaceArmor</defName>
         <label>Police Carapace Armor</label>
-        <description>Craft a police variant of carapace armor. Note that these also require advanced components.</description>
+        <description>Craft a police variant of carapace armor with handcuffs and pouches. Note that these also require advanced components.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -74,7 +74,7 @@
     <ResearchProjectDef>
         <defName>UFR_MarksmanCarapaceArmor</defName>
         <label>Marksman Carapace Armor</label>
-        <description>Craft a marksmen variant of carapace armor. Note that these also require advanced components.</description>
+        <description>Craft a marksmen variant of carapace armor with a thermal cloak. Note that these also require advanced components.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
