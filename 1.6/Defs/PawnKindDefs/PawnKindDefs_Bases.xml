@@ -205,7 +205,6 @@
       <li>UFR_IndustrialGunElite</li>
       <li>UFR_SpacerGun</li>
       <!--li>SpacerGun</li-->
-      <li>GunHeavy</li>
     </weaponTags>
     <apparelRequired>
       <li>UFR_AssaultCarapaceArmor</li>
@@ -241,7 +240,6 @@
     <weaponTags>
       <li>UFR_StandardMelee</li>
       <li>UFR_EliteMelee</li>
-      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <apparelRequired>
       <li>UFR_AssaultCarapaceArmor</li>
@@ -489,11 +487,9 @@
       </li>
     </skills>
     <weaponTags>
-      <li>UFR_StandardMelee</li>
       <li>UFR_EliteMelee</li>
       <li>UFR_IndustrialGunHeavy</li>
       <li>UFR_SpacerGunHeavy</li>
-      <li>GunHeavy</li>
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <apparelRequired>
