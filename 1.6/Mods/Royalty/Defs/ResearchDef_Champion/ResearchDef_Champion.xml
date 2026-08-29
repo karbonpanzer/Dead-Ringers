@@ -5,7 +5,7 @@
     <ResearchProjectDef>
         <defName>UFR_ChampionCarapaceArmor</defName>
         <label>Champion Carapace Armor</label>
-        <description>.</description>
+        <description>Craft a champion variant of carapace armor with eltex integration. Note that these also require advanced components.</description>
         <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
