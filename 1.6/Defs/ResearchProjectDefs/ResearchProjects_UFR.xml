@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
     <ResearchProjectDef>
-        <defName>UFR_AdvancedFabricationMethods</defName>
-        <label>Advanced Fabrication Methods</label>
-        <description>Build the United Front Fabricator workbench needed to produce United Front equipment.</description>
+        <defName>UFR_ColonialFabricationMethods</defName>
+        <label>Colonial Fabrication Methods</label>
+        <description>Discover methods of fabrication of colonial technology.</description>
         <baseCost>1000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -14,25 +14,26 @@
         <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
 
+    <!-- Apparel -->
     <ResearchProjectDef>
         <defName>UFR_CarapaceArmor</defName>
         <label>Carapace Armor</label>
-        <description>Craft armor and helmets that provide stronger protection than flak gear and cover more of the body.</description>
+        <description>Craft carapace armor, a light suit of armor used by most armies. Note that these also require advanced components</description>
         <baseCost>1600</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
+            <li>UFR_ColonialFabricationMethods</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
-        <researchViewY>0.7</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_CarapaceMolecularPlating</defName>
-        <label>Carapace Molecular Plating</label>
-        <description>Apply molecular-grade plating techniques to Carapace armor, producing heavier configurations with substantially improved protection at increased material cost.</description>
-        <baseCost>2000</baseCost>
+        <defName>UFR_MedicCarapaceArmor</defName>
+        <label>Medic Carapace Armor</label>
+        <description>.</description>
+        <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
@@ -43,9 +44,9 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_CarapaceSpecializedCompositions</defName>
-        <label>Carapace Refined Compositions</label>
-        <description>Refine Carapace composite formulations for specialized officer-grade armor configurations that combine protection with the appearance expected of command personnel.</description>
+        <defName>UFR_EngineerCarapaceArmor</defName>
+        <label>Engineer Carapace Armor</label>
+        <description>.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -57,95 +58,93 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_AdvancedWovenUniforms</defName>
-        <label>Advanced Woven Uniforms</label>
-        <description>Tailor garments that provide light protection and insulation for a variety of climates.</description>
-        <baseCost>1200</baseCost>
+        <defName>UFR_PoliceCarapaceArmor</defName>
+        <label>Police Carapace Armor</label>
+        <description>.</description>
+        <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>4.9</researchViewY>
-    </ResearchProjectDef>
-
+        <researchViewX>2</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef> 
+    
     <ResearchProjectDef>
-        <defName>UFR_HighFrequencyGenerators</defName>
-        <label>High-Frequency Generators</label>
-        <description>Construct weapons that use ultrasonic vibration generators. Note that these also require advanced components.</description>
-        <baseCost>2800</baseCost>
+        <defName>UFR_MarksmanCarapaceArmor</defName>
+        <label>Marksman Carapace Armor</label>
+        <description>.</description>
+        <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>2.8</researchViewY>
-    </ResearchProjectDef>
-
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>   
+   
     <ResearchProjectDef>
-        <defName>UFR_ReinforcedVibroStructures</defName>
-        <label>Reinforced Vibrostructures</label>
-        <description>Construct vibro-weapons of greater size and intensity with reinforced structures to handle the power. Note that these also require advanced components.</description>
-        <baseCost>2000</baseCost>
+        <defName>UFR_AssaultCarapaceArmor</defName>
+        <label>Assault Carapace Armor</label>
+        <description>.</description>
+        <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_HighFrequencyGenerators</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
         <researchViewY>2.8</researchViewY>
-    </ResearchProjectDef>   
-
+    </ResearchProjectDef> 
+    
     <ResearchProjectDef>
-        <defName>UFR_IonChargeMunitions</defName>
-        <label>Ion-Charge Munitions</label>
-        <description>Adapt the faction's storm-weapon superstructures to the charged-shot principle, fabricating pulse-charged firearms that fire high-energy slugs wrapped in an ionized charge. The charge occasionally discharges an electromagnetic pulse on impact that disrupts shields and mechanoids.</description>
+        <defName>UFR_VeteranCarapaceArmor</defName>
+        <label>Veteran Carapace Armor</label>
+        <description>.</description>
         <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
-            <li>ChargedShot</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.8</researchViewY>
     </ResearchProjectDef>
-
+    
     <ResearchProjectDef>
-        <defName>UFR_HeavyIonChargeMunitions</defName>
-        <label>Heavy Ion-Charge Munitions</label>
-        <description>Scale ion-charge munitions up to squad-support calibers: the heavy charge rifle, the suppressive charge cannon, and the anti-materiel charge lance.</description>
-        <baseCost>4000</baseCost>
+        <defName>UFR_CommanderCarapaceArmors</defName>
+        <label>Commander Carapace Armor</label>
+        <description>.</description>
+        <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_IonChargeMunitions</li>
+            <li>UFR_CarapaceArmor</li>
         </prerequisites>
-        <researchViewX>2</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>    
+
+    <ResearchProjectDef>
+        <defName>UFR_ColonialUniforms</defName>
+        <label>Colonial Uniforms</label>
+        <description>Tailor garments often worn by colonial groups. Providing a variety of versatile apparel.</description>
+        <baseCost>1200</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>ComplexClothing</li>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_StandardPatternArms</defName>
-        <label>Standard Pattern Arms</label>
-        <description>Craft the standard pattern firearms carried by United Front infantry.</description>
-        <baseCost>1600</baseCost>
-        <tab>UFR_ResearchTab</tab>
-        <techLevel>Industrial</techLevel>
-        <prerequisites>
-            <li>PrecisionRifling</li>
-            <li>GasOperation</li>
-        </prerequisites>
-        <researchViewX>0</researchViewX>
-        <researchViewY>0.7</researchViewY>
-    </ResearchProjectDef>
- 
-    <ResearchProjectDef>
-        <defName>UFR_ThermalDispersion</defName>
-        <label>Thermal Dispersion Fields</label>
-        <description>Craft a shield belt that blocks heat and flame in addition to projectiles. Holds less charge than a standard belt but recharges far faster.</description>
+        <defName>UFR_ModifiedShields</defName>
+        <label>Modified Shields</label>
+        <description>Build modified shield gear. This shield modifies the momentum-repulsion technology to also prevent heat based projectiles and allowing the wearer to shoot out. At a cost however.</description>
         <baseCost>1000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
@@ -156,32 +155,105 @@
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
 
+    <!-- Weapons -->
     <ResearchProjectDef>
-        <defName>UFR_SabotWeapons</defName>
-        <label>Sabot Weapons</label>
-        <description>Adapt the fabricator to electrothermal-chemical small arms: a plasma cartridge drives a discarding-sabot penetrator down the barrel at high velocity, trading rate of fire for armor penetration. Enables the sabot pistol and sabot rifle.</description>
-        <baseCost>2400</baseCost>
+        <defName>UFR_PulseActionFirearms</defName>
+        <label>Pulse Action</label>
+        <description>Craft pulse-action firearms which have increased power but come at increased cost.</description>
+        <baseCost>1600</baseCost>
         <tab>UFR_ResearchTab</tab>
-        <techLevel>Spacer</techLevel>
+        <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>UFR_AdvancedFabricationMethods</li>
+            <li>PrecisionRifling</li>
+            <li>GasOperation</li>
         </prerequisites>
-        <researchViewX>1</researchViewX>
-        <researchViewY>2.1</researchViewY>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UFR_SabotWeaponsHeavy</defName>
-        <label>Heavy Sabot Weapons</label>
-        <description>Scale the sabot pattern up to heavy and specialist calibers: larger rods, larger charges, and reinforced barrels. Enables the heavy sabot rifle, the sabot sniper rifle, the sabot autocannon, and the flechette shotgun.</description>
+        <defName>UFR_HighFrequencyResonators</defName>
+        <label>High-Frequency Resonators</label>
+        <description>Build weapons which use high frequency resonators to create devastating melee damage. Note these also require advanced components.</description>
+        <baseCost>2800</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_ColonialFabricationMethods</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>4.2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_OverclockedResonators</defName>
+        <label>Overclocked Resonators</label>
+        <description>Craft weapons with reinforced structures to handle more powerful resonators, creating larger and more powerful weapons. Note these also require advanced components.</description>
+        <baseCost>2000</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_HighFrequencyResonators</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>4.2</researchViewY>
+    </ResearchProjectDef>   
+
+    <ResearchProjectDef>
+        <defName>UFR_IonizedGasMunitions</defName>
+        <label>Ionized Gas Munitions</label>
+        <description>Build weapons which use ionized gas to coat pulse-charged munitions for EMP damage. Note these also require advanced components.</description>
+        <baseCost>3200</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_ColonialFabricationMethods</li>
+            <li>ChargedShot</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>4.9</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_RefinedIonizedGas</defName>
+        <label>Refined Ionized Gas Methods</label>
+        <description>Build weapons which use refined ionized gas to enhance pulse-charged munitions while increasing damage. Note these also require advanced components.</description>
         <baseCost>4000</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
         <prerequisites>
-            <li>UFR_SabotWeapons</li>
+            <li>UFR_IonizedGasMunitions</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>2.1</researchViewY>
+        <researchViewY>4.9</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_ETCMunitions</defName>
+        <label>Electrothermal-Chemical Munitionss</label>
+        <description>Build weapons which use electrothermal-chemical plasma charges to fire depleted uranium sabots. Note these also require advanced components</description>
+        <baseCost>2400</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_ColonialFabricationMethods</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>5.6</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>UFR_SpecializedPlasmaCharges</defName>
+        <label>Specialized Plasma Charges</label>
+        <description>Refine the electrothermo-chemical plasma charges to be able to fire larger depleted uranium sabots. Note these also require advanced components</description>
+        <baseCost>4000</baseCost>
+        <tab>UFR_ResearchTab</tab>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>UFR_ETCMunitions</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>5.6</researchViewY>
     </ResearchProjectDef>
 
 </Defs>

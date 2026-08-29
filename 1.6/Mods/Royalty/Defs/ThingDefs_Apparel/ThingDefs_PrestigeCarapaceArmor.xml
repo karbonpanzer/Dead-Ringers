@@ -28,7 +28,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_ChampionCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -118,7 +118,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_ChampionCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -197,7 +197,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_ChampionCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>

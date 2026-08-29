@@ -3,8 +3,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrosword</defName>
     <label>Vibrosword</label>
-    <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the
-      Dominion.</description>
+    <description>A compositie plasteel sword fitted with a resonator which vibrates the blade at high frequencies. The oscillation of the blade weakens the molecular structure of anything that it cuts, though it is quite heavy.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrosword</texPath>
@@ -17,7 +16,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_HighFrequencyResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
@@ -79,8 +78,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibromaul</defName>
     <label>Vibromaul</label>
-    <description>A composite sword powered by a small micro-motor which vibrates the blade. Easily able to carve through armor and flesh, the production of it is a closely guarded secret in the
-      Dominion.</description>
+    <description>A composite plasteel maul fitted with a resonator which vibrates the head at high frequencies. The oscillation of the head weakens molecular structure of anything it hits often shattering its targets, though it is quite heavy.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibromaul</texPath>
@@ -93,7 +91,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_HighFrequencyResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
@@ -151,7 +149,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibroblade</defName>
     <label>Vibroblade</label>
-    <description>A composite dagger powered by a small micro-motor. Though lacking in the range of a sword, it provides benefits in close quarters, favored as a back-up weapon.</description>
+    <description>A composite plasteel dagger fitted with a small resonator which vibrates the blade at high frequencies. The oscillation of the blade can weaken molecular structures, but the shortness of the blade and small resonator render it not as effective.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibroblade</texPath>
@@ -164,7 +162,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_HighFrequencyGenerators</researchPrerequisite>
+      <researchPrerequisite>UFR_HighFrequencyResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -225,8 +223,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrolance</defName>
     <label>Vibrolance</label>
-    <description>A composite polearm powered by a high-frequency micro-motor running the length of the shaft to the tip. The vibrating spearhead punches through plate on the thrust, giving
-      reach and armor penetration at the cost of a slow, committed swing.</description>
+    <description>A composite plasteel spear fitted with an overclocked resonator which vibrates the spearhead at incredibly high frequencies. The oscillation of the blade can not only weaken molecular structures but shatter them. The length of the weapon provides great reach but the weight prevents all but the best from using effectively.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrolance</texPath>
@@ -239,7 +236,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
+      <researchPrerequisite>UFR_OverclockedResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -291,7 +288,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrohammer</defName>
     <label>Vibrohammer</label>
-    <description>A two-handed maul whose head is driven by a high-frequency generator, shattering armor and bone on impact. Slow to bring around, but what it connects with rarely gets back up.</description>
+    <description>A composite plasteel warhammer fitted with a overclocked resonator which vibrates the head at incredibly high frequencies. The oscillation of the head can not only weaken armor but with the right strike can shatter armor into pieces. The weight of the weapon provides an increased effect on strikes but it is slow to use.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrohammer</texPath>
@@ -304,7 +301,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
+      <researchPrerequisite>UFR_OverclockedResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -357,8 +354,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrobuster</defName>
     <label>Vibrobuster</label>
-    <description>An oversized slab of a blade, more cleaver than sword, driven by a heavy high-frequency generator in the spine. It is brutally slow to swing, but the vibrating edge
-      shears through armor and anything behind it.</description>
+    <description>A composite plasteel greatsword fitted with an overclocked resonator which vibrates the blade at incredibly high frequencies. The oscillation of the blade not only weakens molecular bonds but with the additional weight can push ever further with cuts. The weight of the weapon requires a skilled warrior to use it effectively.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/vibrobuster</texPath>
@@ -371,7 +367,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
+      <researchPrerequisite>UFR_OverclockedResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
@@ -424,8 +420,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Chainsword</defName>
     <label>Chainsword</label>
-    <description>A powered blade ringed with a looping chain of monomolecular teeth. The teeth chew through flesh and light armor in a spray of gore, though the mechanism lacks the clean
-      penetration of a solid vibrating edge.</description>
+    <description>A powered blade ringed with a looping chain of monomolecular teeth. The teeth chew through flesh and light armor in a spray of gore, though it is often cumbersome and ineffective as a common weapon. It is favored for its brutality and not its practicality.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/chainsword</texPath>
@@ -438,7 +433,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <researchPrerequisite>UFR_ReinforcedVibroStructures</researchPrerequisite>
+      <researchPrerequisite>UFR_OverclockedResonators</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>

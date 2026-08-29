@@ -4,7 +4,7 @@
   <ThingDef ParentName="DrugBase">
     <defName>UFR_Promachus</defName>
     <label>promachus</label>
-    <description>.</description>
+    <description>A manufactured cocktail of alcohol, painkillers, and radioactive materials for usage by assault troops. It possesses a chemically sweet flavor, though it should not be drunk recreationally. Excessive consumption can lead to alcohol blackouts, seizures, psychosis, addiction, and even death.</description>
     <descriptionHyperlinks>
       <HediffDef>AlcoholHigh</HediffDef>
       <HediffDef>AlcoholTolerance</HediffDef>

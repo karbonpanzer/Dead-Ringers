@@ -5,7 +5,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_InfantryUniform</defName>
     <label>Infantry Uniform</label>
-    <description>The standard duty uniform, built to hold up across every posting the Front takes. Layered weave regulates heat in both directions, letting a single pattern serve from tundra to desert.</description>
+    <description>A jumpsuit featuring various pockets and designed to be accomodating in most environments.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FieldUniform</texPath>
@@ -27,7 +27,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
@@ -76,7 +76,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_Ushanka</defName>
     <label>Ushanka</label>
-    <description>An insulated fur cap with fold-down ear flaps. Covers the ears without significantly restricting peripheral vision.</description>
+    <description>A fur hat with ear-covering flaps which can protect the head from most cold and used my imperial army personal and urbworld ice cream dealers.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontushanka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +98,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
@@ -142,7 +142,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_Beret</defName>
     <label>Beret</label>
-    <description>A soft wool beret bearing unit markings. Offers little protection from weather or harm, but remains the preferred headwear of personnel who would rather be recognized than comfortable.</description>
+    <description>A soft, round, cap made from fabrics and often used my imperial army personal and urbworld artists.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontberet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -164,7 +164,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
@@ -208,7 +208,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_FieldCap</defName>
     <label>Field Cap</label>
-    <description>A vented field cap with an extended brim, worn across arid postings. Shades the eyes and scalp without trapping heat.</description>
+    <description>A soft cap with a stiff rounded visor, good for warmer climates and often used by imperial army personal and urbworld revolutionaries.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontfieldhat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -230,7 +230,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
@@ -274,7 +274,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_OfficerHat_Cap</defName>
     <label>Officer Cap</label>
-    <description>A structured cap worn by officers. Bears rank and unit markings, allowing the wearer to be identified quickly as command personnel during engagements.</description>
+    <description>A hat featuring a short visor, a polished leather strap, and high quality fabrics. Often worn by imperial army commanders and urbworld dictators.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FrontOfficerCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -301,7 +301,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
     </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
@@ -345,7 +345,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_Hat_Campaign</defName>
     <label>campaign hat</label>
-    <description>A stiff-brimmed felt campaign hat with a pinched crown. It offers little protection, but marks its wearer as a career soldier and keeps sun and rain off on a long march.</description>
+    <description>A broad-brimmed felt hat famed for its practicality and often used by imperial army militias and rimworld rangers.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontcampaignhat</texPath>
@@ -373,7 +373,7 @@
     </stuffCategories>
     <costStuffCount>35</costStuffCount>
     <recipeMaker>
-      <researchPrerequisite>UFR_AdvancedWovenUniforms</researchPrerequisite>
+      <researchPrerequisite>UFR_ColonialUniforms</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <recipeUsers>
         <li>ElectricTailoringBench</li>

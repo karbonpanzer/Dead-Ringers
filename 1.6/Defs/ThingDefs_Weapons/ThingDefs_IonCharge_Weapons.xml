@@ -37,7 +37,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargePistol">
     <defName>UFR_IonChargePistol</defName>
     <label>Ion-Charge Pistol</label>
-    <description>A pulse-charged machine pistol. Its high-energy slugs carry an ionized charge that discharges on impact, but the charge bleeds off with distance, leaving it short-ranged.</description>
+    <description>A charged-shot handgun. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargepistol</texPath>
@@ -46,7 +46,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_IonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_IonizedGasMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -143,7 +143,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSMG">
     <defName>UFR_IonChargeSMG</defName>
     <label>Ion-Charge SMG</label>
-    <description>A pulse-charged bullpup submachine gun. Sprays ion-charged slugs at a rapid rate. Brutal up close, weak at range.</description>
+    <description>A charged-shot submachinegun. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargesmg</texPath>
@@ -152,7 +152,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_IonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_IonizedGasMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
@@ -257,7 +257,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeRifle">
     <defName>UFR_IonChargeRifle</defName>
     <label>Ion-Charge Rifle</label>
-    <description>A pulse-charged bullpup service rifle. Fires ion-charged high-energy slugs at a steady rate, reliable at medium range.</description>
+    <description>A charged-shot assault rifle. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargerifle</texPath>
@@ -266,7 +266,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_IonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_IonizedGasMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
@@ -363,7 +363,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeShotgun">
     <defName>UFR_IonChargeShotgun</defName>
     <label>Ion-Charge Shotgun</label>
-    <description>A pulse-charged automatic shotgun. Fires a spread of ion-charged slugs. Deadly at short range.</description>
+    <description>A charged-shot shotgun. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargeshotgun</texPath>
@@ -372,7 +372,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_IonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_IonizedGasMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
@@ -478,7 +478,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeHeavyRifle">
     <defName>UFR_IonChargeHeavyRifle</defName>
     <label>Ion-Charge Heavy Rifle</label>
-    <description>A heavy pulse-charged battle rifle. Fires large ion-charged slugs that hit hard at longer range, but slowly.</description>
+    <description>A charged-shot battle rifle. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargeheavyrifle</texPath>
@@ -487,7 +487,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_HeavyIonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_RefinedIonizedGas</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -584,7 +584,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSuppressor">
     <defName>UFR_IonChargeSuppressor</defName>
     <label>Ion-Charge Suppressor</label>
-    <description>A heavy pulse-charged support weapon. Sprays ion-charged slugs to suppress an area. Inaccurate, but puts out a lot of fire.</description>
+    <description>A charged-shot HMG. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargecannon</texPath>
@@ -593,7 +593,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_HeavyIonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_RefinedIonizedGas</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
@@ -690,7 +690,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeLance">
     <defName>UFR_IonChargeLance</defName>
     <label>Ion-Charge Lance</label>
-    <description>A pulse-charged anti-materiel weapon. Fires a single high-energy ion-charged slug with great force at long range.</description>
+    <description>A charged-shot anti-material rifle. Modified to use ionized gases which distrupts electronics but greatly reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/ionchargesniper</texPath>
@@ -699,7 +699,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_HeavyIonChargeMunitions</researchPrerequisite>
+      <researchPrerequisite>UFR_RefinedIonizedGas</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>

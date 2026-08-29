@@ -22,8 +22,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotPistol">
     <defName>UFR_SabotPistol</defName>
     <label>Sabot Pistol</label>
-    <description>A compact electrothermal-chemical sidearm. A plasma cartridge drives a single dense uranium slug down a short barrel. Limited in range and rate of fire, but hits well above its
-      size and punches through armor.</description>
+    <description>A electrothermal-chemical handgun. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakepistol</texPath>
@@ -32,7 +31,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeapons</researchPrerequisite>
+      <researchPrerequisite>UFR_ETCMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -113,8 +112,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotRifle">
     <defName>UFR_SabotRifle</defName>
     <label>Sabot Rifle</label>
-    <description>The standard-issue electrothermal-chemical service rifle. Each trigger pull fires a short burst of uranium sabot rods with good accuracy and armor penetration, though at a lower
-      rate of fire than a conventional rifle.</description>
+    <description>A electrothermal-chemical assault rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakerifle</texPath>
@@ -123,7 +121,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeapons</researchPrerequisite>
+      <researchPrerequisite>UFR_ETCMunitions</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
@@ -206,8 +204,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotHeavyRifle">
     <defName>UFR_SabotHeavyRifle</defName>
     <label>Heavy Sabot Rifle</label>
-    <description>A heavy single-shot rifle firing an oversized uranium rod. The dense penetrator drives deep armor penetration and staggers most targets, but the weapon is slow to cycle
-      between shots.</description>
+    <description>A electrothermal-chemical battle rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakeheavyrifle</texPath>
@@ -216,7 +213,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeaponsHeavy</researchPrerequisite>
+      <researchPrerequisite>UFR_SpecializedPlasmaCharges</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -297,8 +294,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotSniperRifle">
     <defName>UFR_SabotSniperRifle</defName>
     <label>Sabot Sniper Rifle</label>
-    <description>A long-barrelled precision sabot rifle. It fires a single depleted-uranium long-rod penetrator at extreme range with great accuracy and armor penetration, but is very slow
-      between shots.</description>
+    <description>A electrothermal-chemical sniper rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakesniper</texPath>
@@ -307,7 +303,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeaponsHeavy</researchPrerequisite>
+      <researchPrerequisite>UFR_SpecializedPlasmaCharges</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
@@ -388,7 +384,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotAutocannon">
     <defName>UFR_SabotAutocannon</defName>
     <label>Sabot Autocannon</label>
-    <description>A heavy carried autocannon firing four-round bursts of uranium rods. It lays down devastating suppressive fire, but is slow to spin up and heavy enough to slow its bearer.</description>
+    <description>A electrothermal-chemical repeating cannon. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakecannon</texPath>
@@ -397,7 +393,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeaponsHeavy</researchPrerequisite>
+      <researchPrerequisite>UFR_SpecializedPlasmaCharges</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
@@ -475,8 +471,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotShotgun">
     <defName>UFR_SabotShotgun</defName>
     <label>Flechette Shotgun</label>
-    <description>A close-range sabot shotgun that trades the solid rod for a cloud of flechettes. Devastating within a few paces, but the light darts shed power quickly and barely dent armor
-      at range.</description>
+    <description>A electrothermal-chemical shotgun. Using a plasma catridge, it fires dense uranium flechettes at high speeds with devestating effect to armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakeshotgun</texPath>
@@ -485,7 +480,7 @@
     <techLevel>Spacer</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>UFR_SabotWeaponsHeavy</researchPrerequisite>
+      <researchPrerequisite>UFR_SpecializedPlasmaCharges</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>

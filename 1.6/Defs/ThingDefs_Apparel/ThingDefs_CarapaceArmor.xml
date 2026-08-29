@@ -5,7 +5,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_CarapaceArmor</defName>
     <label>Carapace Armor</label>
-    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <description>A suit of armor, made up of a lightweight plasteel-weave plates which provide moderate protection and with an integrated webbing system configured for standard infantry use. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army regulars and urbworld military forces.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -78,8 +78,9 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_CarapaceArmor</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -104,7 +105,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CarapaceHelmet</defName>
     <label>Carapace Helmet</label>
-    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system and a protective plasteel-weave plate. Armor like this is often used by imperial army regulars and urbworld military forces.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -166,6 +167,8 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_CarapaceArmor</li>        
         <li>UFR_LightCarapaceHelmet</li>
       </tags>
     </apparel>
@@ -188,7 +191,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CarapaceHelmetMask</defName>
     <label>Carapace Helmet (Mask)</label>
-    <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army regulars and urbworld military forces.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -252,13 +255,15 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_CarapaceArmor</li>        
         <li>UFR_LightCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -275,7 +280,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_MedicCarapaceArmor</defName>
     <label>Medic Carapace Armor</label>
-    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <description>A suit of armor, made up of a lightweight plasteel-weave plates which provide moderate protection and with an integrated webbing system configured for providing medical assistance in the field. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army regulars and urbworld military forces and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -298,7 +303,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_MedicCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -349,8 +354,9 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_MedicCarapaceArmor</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -375,7 +381,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MedicCarapaceHelmet</defName>
     <label>Medic Carapace Helmet</label>
-    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system and a protective plasteel-weave plate. Armor like this is often used by imperial army medics and urbworld military forces and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -398,7 +404,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_MedicCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -437,13 +443,15 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_MedicCarapaceArmor</li>        
         <li>UFR_MedicCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>    
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -459,7 +467,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MedicCarapaceHelmetMask</defName>
     <label>Medic Carapace Helmet (Mask)</label>
-    <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army medics and urbworld military forces and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -482,7 +490,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_MedicCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -523,6 +531,8 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_MedicCarapaceArmor</li>        
         <li>UFR_MedicCarapaceHelmet</li>
       </tags>
     </apparel>
@@ -546,7 +556,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_EngineerCarapaceArmor</defName>
     <label>Engineer Carapace Armor</label>
-    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <description>A suit of armor, made up of a lightweight plasteel-weave plates which provide moderate protection and with an integrated webbing system configured for combat engineering uses. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army engineers and urbworld military sappers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -569,7 +579,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_EngineerCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -620,8 +630,9 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_EngineerCarapaceArmor</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -646,7 +657,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_EngineerCarapaceHelmet</defName>
     <label>Engineer Carapace Helmet</label>
-    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system and a protective plasteel-weave plate. Armor like this is often used by imperial army engineers and urbworld military sappers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -669,7 +680,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_EngineerCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -708,13 +719,15 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_EngineerCarapaceArmor</li>        
         <li>UFR_EngineerCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>   
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -730,7 +743,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_EngineerCarapaceHelmetMask</defName>
     <label>Engineer Carapace Helmet (Mask)</label>
-    <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army engineers and urbworld military sappers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -753,7 +766,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_EngineerCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -795,13 +808,15 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_EngineerCarapaceArmor</li>        
         <li>UFR_EngineerCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>    
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -818,7 +833,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_MPCarapaceArmor</defName>
     <label>MP Carapace Armor</label>
-    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <description>A suit of armor, made up of a lightweight plasteel-weave plates which provide moderate protection and with an integrated webbing system configured for law enforcement uses. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army provosts and urbworld military judges and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -841,7 +856,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_PoliceCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -893,8 +908,9 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_MPCarapaceArmor</li>        
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -903,7 +919,7 @@
     </comps>
     <thingCategories>
       <li>ApparelArmor</li>
-    </thingCategories>
+    </thingCategories> 
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -919,7 +935,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MPCarapaceHelmet</defName>
     <label>MP Carapace Helmet</label>
-    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system and a protective plasteel-weave plate. Armor like this is often used by imperial army provosts and urbworld military judges and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -942,7 +958,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_PoliceCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -981,13 +997,15 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_MPCarapaceArmor</li>        
         <li>UFR_MPCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>  
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1003,7 +1021,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_MPCarapaceHelmetMask</defName>
     <label>MP Carapace Helmet (Mask)</label>
-    <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army provosts and urbworld military judges and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1026,7 +1044,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceArmor</researchPrerequisite>
+      <researchPrerequisite>UFR_PoliceCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1067,13 +1085,15 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_MPCarapaceArmor</li>        
         <li>UFR_MPCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>   
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1090,7 +1110,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_CommanderCarapaceArmor</defName>
     <label>Commander Carapace Armor</label>
-    <description>A hardened armor set with segmented Carapace plates bonded over a ballistic underlayer. Covers the torso and upper arms. Used by uf infantry who expect direct fire contact.</description>
+    <description>A suit of armor, made up of higher quality lightweight plasteel-weave plates which provide more than moderate protection and with an integrated webbing system configured for command uses. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army commanders and urbworld military officers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1113,7 +1133,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1164,8 +1184,9 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_CommanderCarapaceArmor</li>        
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -1190,7 +1211,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CommanderCarapaceHelmet</defName>
     <label>Commander Carapace Helmet</label>
-    <description>An open-face Carapace helmet with a ballistic liner. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system and a protective plasteel-weave plate. Armor like this is often used by imperial army commanders and urbworld military officers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1213,7 +1234,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1253,13 +1274,15 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_CommanderCarapaceArmor</li>        
         <li>UFR_CommanderCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>    
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1275,7 +1298,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_CommanderCarapaceHelmetMask</defName>
     <label>Commander Carapace Helmet (Mask)</label>
-    <description>A sealed combat helmet with a Carapace outer layer and ballistic liner. Fully encloses the head and integrates a filtration mask, protecting the skull while sealing the airway against chemical agents and toxic particulates.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army commanders and urbworld military officers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1298,7 +1321,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceSpecializedCompositions</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1340,13 +1363,15 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_CommanderCarapaceArmor</li>        
         <li>UFR_CommanderCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>   
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1363,7 +1388,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>UFR_AssaultCarapaceArmor</defName>
     <label>Assault Carapace Armor</label>
-    <description>A reinforced Carapace armor set with additional plating over the standard configuration. Heavier and slower than Carapace armor, but substantially more resistant to incoming fire. Used by assault troops expected to absorb significant punishment.</description>
+    <description>A suit of armor, made up of lightweight plasteel-weave plates which provide moderate protection, additional plates fitted for increased protection, and with an integrated webbing system configured for assault and raiding uses. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army commandos and urbworld military shocktroopers and is marked as such.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceArmor</texPath>
@@ -1386,7 +1411,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_AssaultCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -1471,8 +1496,9 @@
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-      <tags Inherit="False">
+      <tags>
         <li>UFR_Armor</li>
+        <li>UFR_AssaultCarapaceArmor</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -1497,7 +1523,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_AssaultCarapaceHelmet</defName>
     <label>Assault Carapace Helmet</label>
-    <description>An open-face reinforced Carapace helmet with additional plating across the crown and rear. Covers the skull and upper face but leaves the airway exposed, trading the sealed helmet's filtration for a lighter, cheaper build.</description>
+    <description>A armored helmet with built in built in communication system, a protective plasteel-weave plate, and modified to include a face guard. Armor like this is often used by imperial army commandos and urbworld military shocktroopers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1520,7 +1546,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_AssaultCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -1559,13 +1585,15 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_AssaultCarapaceArmor</li>
         <li>UFR_AssaulCarapacetHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>     
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>
@@ -1581,7 +1609,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>UFR_AssaultCarapaceHelmetMask</defName>
     <label>Assault Carapace Helmet (Mask)</label>
-    <description>A reinforced Carapace helmet with additional plating across the crown and rear. Fully encloses the head with an integrated full-face filtration system, sealing against airborne threats while retaining the ballistic protection of the Assault platform.</description>
+    <description>A armored helmet with built in built in communication system, protective plasteel-weave plate, a modified face guard, and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army commandos and urbworld military shocktroopers and is marked as such.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/AssaultCarapaceArmor/AssaultCarapaceHelmetMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1604,7 +1632,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CarapaceMolecularPlating</researchPrerequisite>
+      <researchPrerequisite>UFR_AssaultCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -1646,13 +1674,15 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_AssaultCarapaceArmor</li>
         <li>UFR_AssaultCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
     <comps>
       <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
-    </comps>
+    </comps>  
     <tradeTags>
       <li>Armor</li>
       <li>UFR_Armor</li>

@@ -1,14 +1,54 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
     <FactionDef ParentName="PlayerFactionBase">
-        <defName>UFR_Player</defName>
-        <label>Wandering refugees</label>
-        <description>A small group of war refugees displaced from a fallen industrial world. Armed with whatever military gear they could salvage during the evacuation, they have arrived on this rimworld with the desperate hope of building a stable new home.</description>
+        <defName>UFR_Colonists</defName>
+        <label>opportunistic colonists</label>
+        <description>a group of colonists from a spacer civilization. Armed with spacer level military gear that they can maintain, they have arrived on this rimworld with the goal of long term settlement.</description>
         <colorSpectrum>
             <li>(0, 0.737, 0.847)</li>
         </colorSpectrum>
         <isPlayer>true</isPlayer>
-        <basicMemberKind>UFR_Player</basicMemberKind>
+        <basicMemberKind>UFR_Colonists</basicMemberKind>
+        <pawnSingular>refugee</pawnSingular>
+        <pawnsPlural>refugees</pawnsPlural>
+        <techLevel>Spacer</techLevel>
+        <allowedCultures>
+            <li>Astropolitan</li>
+        </allowedCultures>
+        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
+        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                    <li>Pirate</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <apparelStuffFilter>
+            <thingDefs>
+                <li>Synthread</li>
+            </thingDefs>
+        </apparelStuffFilter>
+        <factionIconPath>UFR/UI/Factions/frontplayer</factionIconPath>
+        <startingResearchTags>
+            <li>ClassicStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags>
+            <li>ClassicStart</li>
+            <li>ClassicStartTechprints</li>
+        </startingTechprintsResearchTags>
+    </FactionDef>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>UFR_Occupiers</defName>
+        <label>occupation force</label>
+        <description>a group of soldiers from a spacer civilization. Armed with the best equipment that was assigned to them, they are part of efforts to "civilize" this world to support the colonial efforts.</description>
+        <colorSpectrum>
+            <li>(0, 0.737, 0.847)</li>
+        </colorSpectrum>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>UFR_Occupiers</basicMemberKind>
         <pawnSingular>refugee</pawnSingular>
         <pawnsPlural>refugees</pawnsPlural>
         <techLevel>Spacer</techLevel>
@@ -41,9 +81,9 @@
     </FactionDef>
 
     <FactionDef ParentName="FactionBase">
-        <defName>UFR_Civil</defName>
-        <label>Front citizens</label>
-        <description>A decentralized faction of war refugees whose industrial homeworld was overrun by mechanoids. Abandoned to their fate, these survivors scattered across the rim seeking stability they no longer had.\n\nThough they carry advanced military weapons and composite armor, they lack the manufacturing base to replace what breaks. They rely on the discipline and cooperative spirit of their former society to survive. They are generally willing to trade and ally with outsiders who prove themselves trustworthy, but will fiercely defend their provisional settlements against any threat.</description>
+        <defName>UFR_ColonialAdministration</defName>
+        <label>colonial administrations</label>
+        <description>a faction of colonists from a spacer civilization who are part of a colonization effort on this rimworld. These colonists come from all walks of life but all want to have a piece of the frontier before it is all gone.\n\nThey possess some spacer level military gear but lack the facilities to create more. Rather than rely on technology, they possess a strong will and cooperative spirit which has kept them going this long. They are generally willing to trade with outsiders and ally to those that are good friends to them, but will fiercely defend their new homes against any and all.</description>
         <categoryTag>Spacer</categoryTag>
         <pawnSingular>citizen</pawnSingular>
         <pawnsPlural>citizens</pawnsPlural>
@@ -244,9 +284,9 @@
     </FactionDef>
 
     <FactionDef ParentName="FactionBase">
-        <defName>UFR_Rough</defName>
-        <label>Free Companies</label>
-        <description>A heavily armed faction of paramilitaries and opportunists formed from the ashes of a fallen industrial world. Unlike their civilian counterparts, these survivors abandoned the idea of peaceful settlement.\n\nOrganized into free companies and mercenary bands, they use salvaged military weaponry to take what they want. They view the rimworld not as a new home, but as a resource pool to maintain their deteriorating equipment. They are an army that never demobilized, preferring extortion and violent raiding over diplomacy.</description>
+        <defName>UFR_ColonialMilitia</defName>
+        <label>colonial militia</label>
+        <description>a heavily armed faction from a spacer civilization who were formally part of the colonization efforts. These militia members come from mostly criminal backgrounds who have converted the colonial defense force into a army of bandits.\n\nOrganized into various gangs and outfits, they raid, pillage, and plunder both the inhabitants and the administration they are sworn to protect. They use spacer level military equipment to take what they want from those who cannot protect themselves. They view the world not as a new home but a place where their actions have little consequences. They are nothing by outlaws without counter.</description>
         <categoryTag>Spacer</categoryTag>
         <pawnSingular>freebooter</pawnSingular>
         <pawnsPlural>freebooters</pawnsPlural>

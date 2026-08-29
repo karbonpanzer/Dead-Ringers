@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelBase">
     <defName>UFR_BarrierBelt</defName>
     <label>assault barrier belt</label>
-    <description>A shield belt built to soak sustained fire rather than the occasional stray round. Its field carries a heavy charge and, unlike a conventional belt, is layered to catch fire and heat as readily as bullets and shrapnel - though a hit of any kind still bleeds the charge. It is tuned loosely enough that the wearer can fire out through it.\n\nThe tradeoff is recovery. A standard belt flickers back the instant it clears, but once this barrier is overloaded and collapses it takes over a minute to reform, returning at full strength. It shuts down immediately if struck by EMP.</description>
+    <description>A modified projectile-repulsion device. It will still attempt to stop incoming projectiles and shrapnel but has been enhanced to provide stranger protection against heat and to allow the wearer to fire while the shield is active.\n\nThe cost though is that it takes longer to recharge, the shield is weaker, and shuts down instantly if hit by EMP.</description>
     <thingClass>Apparel</thingClass>
     <techLevel>Spacer</techLevel>
     <tickerType>Normal</tickerType>
@@ -27,7 +27,7 @@
     </costList>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-      <researchPrerequisite>UFR_ThermalDispersion</researchPrerequisite>
+      <researchPrerequisite>UFR_ModifiedShields</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>

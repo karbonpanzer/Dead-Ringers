@@ -6,7 +6,7 @@
     <description>A fully sealed Carapace helmet rated for low-pressure environments. Integrated visor and pressure-lock collar allow short-duration operations in vacuum or near-vacuum conditions.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
-      <researchPrerequisite>UFR_ZeroGEVASuits</researchPrerequisite>
+      <researchPrerequisite>UFR_VacCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>9</Crafting>
@@ -93,7 +93,7 @@
     <techLevel>Spacer</techLevel>
     <description>A vacuum-rated variant of standard Carapace armor, with sealed joints and passive pressure retention. Used by personnel conducting boarding actions or operations in low-pressure environments.</description>
     <recipeMaker>
-      <researchPrerequisite>UFR_ZeroGEVASuits</researchPrerequisite>
+      <researchPrerequisite>UFR_VacCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>9</Crafting>

@@ -20,8 +20,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_ServicePistol</defName>
     <label>Service Pistol</label>
-    <description>The standard sidearm of United Front line units. A refined evolution of the common assault pistol, with tighter tolerances and improved ammunition for better range and stopping
-      power without added bulk.</description>
+    <description>A single shot blow-back service pistol fitted with an advanced compensator. Improved stopping power compared to other auto-pistols.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/servicepistol</texPath>
@@ -78,7 +77,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -104,7 +103,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_AssaultPistol">
     <defName>UFR_AssaultPistol</defName>
     <label>Assault Pistol</label>
-    <description>A heavy caliber pistol favored by pirates and mercenaries. Powerful and weighty, it can easily pierce armor at close range. Though it lacks in the ability to hit at a distance.</description>
+    <description>A single shot blow-back pistol firing a rifle caliber armor piercing bullets and fitted with advanced mechanism to improve the recoil. A powerful pistol to be used where rifles cannot fit, though it is favored by pirates and merceanires for the shock and awe effect.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/assaultpistol</texPath>
@@ -161,7 +160,7 @@
       <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -188,7 +187,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_StampedeRevolver</defName>
     <label>Stampede Revolver</label>
-    <description>A large frame revolver often seen with mercenaries. Despite its size, it is light and powerful, thanks to its advanced manufacturing and specialized high power ammunition.</description>
+    <description>A large frame single action revolver. Chambered in high caliber bullets, it is both powerful and accurate with decent stamina in the right hands.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/stampederevolver</texPath>
@@ -246,7 +245,7 @@
       <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -272,8 +271,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AdvSMG</defName>
     <label>Advanced SMG</label>
-    <description>A state of the art sub-machinegun built with lightweight polymers and advanced alloys. Light, accurate, and easy to use, it has found usage in hundreds of colonies now for
-      security.</description>
+    <description>A compact sub machinegun built with lightweight materials. Light, accurate, and decently powerful, it has been favored by security forces for decades.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/advsmg</texPath>
@@ -339,7 +337,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -366,7 +364,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_PulseRifle">
     <defName>UFR_PulseRifle</defName>
     <label>Pulse Rifle</label>
-    <description>An advanced rifle design used by ringer veterans and mercenaries. Built with state-of-the-art polymers and alloys, it fires armor-piercing duplex ammunition.</description>
+    <description>A pulse-action assault rifle used in many conflicts. Decent at range with moderate accuracy, it is more favored for its powerful caliber.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/pulserifle</texPath>
@@ -434,7 +432,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -599,7 +597,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -756,7 +754,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -783,7 +781,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyShotgun">
     <defName>UFR_HeavyShotgun</defName>
     <label>Heavy Shotgun</label>
-    <description>A large gauge shotgun favored by colonists for its ruggedness and stopping power. Slow to cycle but devastating at close to medium range with its uncommon 8 gauge shell.</description>
+    <description>A semi-automatic shotgun firing high caliber shells. Powerful and quick but it lacks accuracy and range, it is favored by secuirty forces on orbital stations for this reason.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/heavyshotgun</texPath>
@@ -848,7 +846,7 @@
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -874,8 +872,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyPulseRifle">
     <defName>UFR_HeavyPulseRifle</defName>
     <label>Heavy Pulse Rifle</label>
-    <description>A semi-automatic marksman variant of the pulse rifle, rebarreled and rechambered for reach. It trades the rifle's burst for single precise shots at extended range, favored by
-      designated marksmen who hold the line from the second rank.</description>
+    <description>A pulse-action battle rifle using high caliber armor piercing bullets. Excellent range, accuracy, and power keep this rifle popular among even Glitterworld armies.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/pulseriflemarksman</texPath>
@@ -940,7 +937,7 @@
       <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -967,8 +964,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AntiMateriel</defName>
     <label>Anti-Materiel Rifle</label>
-    <description>A massive long-barreled rifle firing a high-caliber round capable of gutting armor, machinery, and personnel alike. Slow to aim and heavy to carry, but a single hit ends most
-      arguments.</description>
+    <description>A anti-material rifle using high power shells designed to destroy everything in its path. Accurate and powerful, it is quite a heavy gun which often leaves it with sniper teams.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/antimaterialrifle</texPath>
@@ -1035,7 +1031,7 @@
       <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
     <recipeMaker>
-      <researchPrerequisite>UFR_StandardPatternArms</researchPrerequisite>
+      <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>

@@ -6,7 +6,7 @@
         <defName>UFR_Civil_Settler</defName>
         <label>settler</label>
         <labelPlural>settlers</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>35</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.2~2.0</gearHealthRange>
@@ -27,7 +27,7 @@
         <defName>UFR_Civil_Trader</defName>
         <label>trader</label>
         <labelPlural>traders</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>50</combatPower>
         <trader>true</trader>
         <itemQuality>Normal</itemQuality>
@@ -61,7 +61,7 @@
         <defName>UFR_Civil_Laborer</defName>
         <label>laborer</label>
         <labelPlural>laborers</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>25</combatPower>
         <skills>
             <li>
@@ -85,7 +85,7 @@
         <defName>UFR_Civil_Representative</defName>
         <label>representative</label>
         <labelPlural>representatives</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>80</combatPower>
         <factionLeader>true</factionLeader>
         <trader>true</trader>
@@ -125,7 +125,7 @@
         <defName>UFR_Civil_Infantry_Ranged</defName>
         <label>infantry</label>
         <labelPlural>infantry</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>105</combatPower>
     </PawnKindDef>
 
@@ -133,7 +133,7 @@
         <defName>UFR_Civil_Infantry_Melee</defName>
         <label>infantry</label>
         <labelPlural>infantry</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>105</combatPower>
     </PawnKindDef>
 
@@ -141,7 +141,7 @@
         <defName>UFR_Civil_Veteran_Ranged</defName>
         <label>veteran</label>
         <labelPlural>veterans</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>130</combatPower>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
@@ -151,7 +151,7 @@
         <defName>UFR_Civil_Veteran_Melee</defName>
         <label>veteran</label>
         <labelPlural>veterans</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>130</combatPower>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>50</maxGenerationAge>
@@ -161,7 +161,7 @@
         <defName>UFR_Civil_Commander</defName>
         <label>commander</label>
         <labelPlural>commanders</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>105</combatPower>
     </PawnKindDef>
 
@@ -169,7 +169,7 @@
         <defName>UFR_Civil_Medic</defName>
         <label>medic</label>
         <labelPlural>medics</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>80</combatPower>
     </PawnKindDef>
 
@@ -177,7 +177,7 @@
         <defName>UFR_Civil_Engineer</defName>
         <label>engineer</label>
         <labelPlural>engineers</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>80</combatPower>
     </PawnKindDef>
 
@@ -185,7 +185,7 @@
         <defName>UFR_Civil_Marksman</defName>
         <label>marksman</label>
         <labelPlural>marksmen</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>110</combatPower>
         <weaponMoney>1950~2550</weaponMoney>
     </PawnKindDef>
@@ -194,7 +194,7 @@
         <defName>UFR_Civil_Shocktrooper</defName>
         <label>shocktrooper</label>
         <labelPlural>shocktroopers</labelPlural>
-        <defaultFactionType>UFR_Civil</defaultFactionType>
+        <defaultFactionType>UFR_ColonialAdministration</defaultFactionType>
         <combatPower>140</combatPower>
         <minGenerationAge>25</minGenerationAge>
         <maxGenerationAge>40</maxGenerationAge>
