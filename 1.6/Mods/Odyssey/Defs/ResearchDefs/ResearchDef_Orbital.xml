@@ -5,7 +5,7 @@
     <ResearchProjectDef>
         <defName>UFR_VacCarapaceArmor</defName>
         <label>Vac Carapace Armor</label>
-        <description>.</description>
+        <description>Craft a vacsealed variant of carapace armor for usage in space. Note that these also require advanced components.</description>
         <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
