@@ -5,7 +5,7 @@
     <ResearchProjectDef>
         <defName>UFR_TechCarapaceArmor</defName>
         <label>Tech Carapace Armor</label>
-        <description>.</description>
+        <description>Craft a mechinator variant of carapace armor with integrated mechlink. Note that these also require advanced components.</description>
         <baseCost>3200</baseCost>
         <tab>UFR_ResearchTab</tab>
         <techLevel>Spacer</techLevel>
