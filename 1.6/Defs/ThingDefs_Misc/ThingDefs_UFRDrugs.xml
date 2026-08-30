@@ -12,6 +12,9 @@
       <HediffDef>AlcoholAddiction</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
+      <HediffDef>UFR_PromachusRush</HediffDef>
+      <HediffDef>ToxicBuildup</HediffDef>
+      <HediffDef>DrugOverdose</HediffDef>
     </descriptionHyperlinks>
     <possessionCount>6</possessionCount>
     <graphicData>
@@ -32,7 +35,7 @@
       <joyKind>Chemical</joyKind>
       <joy>0.17</joy>
       <nurseable>true</nurseable>
-      <drugCategory>Social</drugCategory>
+      <drugCategory>Hardcore</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
       <ingestHoldOffsetStanding>
         <northDefault>
@@ -57,6 +60,15 @@
           <divideByBodySize>true</divideByBodySize>
           <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
         </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>UFR_PromachusRush</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ToxicBuildup</hediffDef>
+          <severity>0.03</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
       </outcomeDoers>
     </ingestible>
     <techLevel>Spacer</techLevel>
@@ -67,10 +79,47 @@
         <minToleranceToAddict>0.25</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>0.9</needLevelOffset>
+        <overdoseSeverityOffset>0.05~0.10</overdoseSeverityOffset>
+        <largeOverdoseChance>0.03</largeOverdoseChance>
         <listOrder>10</listOrder>
       </li>
     </comps>
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
+  
+  <HediffDef>
+    <defName>UFR_PromachusRush</defName>
+    <label>promachus rush</label>
+    <description>A chemical combat high. Pain is dulled and reflexes are sharpened for assault.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.9, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.35</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
 
 </Defs>
