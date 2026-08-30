@@ -964,7 +964,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AntiMateriel</defName>
     <label>Anti-Materiel Rifle</label>
-    <description>A anti-material rifle using high power shells designed to destroy everything in its path. Accurate and powerful, it is quite a heavy gun which often leaves it with sniper teams.</description>
+    <description>A anti-materiel rifle using high power shells designed to destroy everything in its path. Accurate and powerful, it is quite a heavy gun which often leaves it with sniper teams.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/antimaterialrifle</texPath>
