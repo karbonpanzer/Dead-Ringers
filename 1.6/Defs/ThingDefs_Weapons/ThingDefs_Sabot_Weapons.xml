@@ -22,7 +22,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotPistol">
     <defName>UFR_SabotPistol</defName>
     <label>Sabot Pistol</label>
-    <description>A electrothermal-chemical handgun. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical handgun. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakepistol</texPath>
@@ -112,7 +112,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotRifle">
     <defName>UFR_SabotRifle</defName>
     <label>Sabot Rifle</label>
-    <description>A electrothermal-chemical assault rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical assault rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakerifle</texPath>
@@ -204,7 +204,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotHeavyRifle">
     <defName>UFR_SabotHeavyRifle</defName>
     <label>Heavy Sabot Rifle</label>
-    <description>A electrothermal-chemical battle rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical battle rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakeheavyrifle</texPath>
@@ -294,7 +294,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotSniperRifle">
     <defName>UFR_SabotSniperRifle</defName>
     <label>Sabot Sniper Rifle</label>
-    <description>A electrothermal-chemical sniper rifle. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical sniper rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakesniper</texPath>
@@ -384,7 +384,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotAutocannon">
     <defName>UFR_SabotAutocannon</defName>
     <label>Sabot Autocannon</label>
-    <description>A electrothermal-chemical repeating cannon. Using a plasma catridge, it fires a dense uranium sabot at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical repeating cannon. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakecannon</texPath>
@@ -471,7 +471,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotShotgun">
     <defName>UFR_SabotShotgun</defName>
     <label>Flechette Shotgun</label>
-    <description>A electrothermal-chemical shotgun. Using a plasma catridge, it fires dense uranium flechettes at high speeds with devestating effect to armored targets.</description>
+    <description>An electrothermal-chemical shotgun. Using a plasma cartridge, it fires dense uranium flechettes at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Item/Equipment/stakeshotgun</texPath>
