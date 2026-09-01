@@ -35,7 +35,7 @@
       <joyKind>Chemical</joyKind>
       <joy>0.17</joy>
       <nurseable>true</nurseable>
-      <drugCategory>Hardcore</drugCategory>
+      <drugCategory>Hard</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
       <ingestHoldOffsetStanding>
         <northDefault>
@@ -86,7 +86,7 @@
     </comps>
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
-  
+
   <HediffDef>
     <defName>UFR_PromachusRush</defName>
     <label>promachus rush</label>
