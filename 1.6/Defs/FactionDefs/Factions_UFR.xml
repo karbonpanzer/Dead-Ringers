@@ -288,8 +288,8 @@
         <label>colonial militia</label>
         <description>a heavily armed faction from a spacer civilization who were formally part of the colonization efforts. These militia members come from mostly criminal backgrounds who have converted the colonial defense force into a army of bandits.\n\nOrganized into various gangs and outfits, they raid, pillage, and plunder both the inhabitants and the administration they are sworn to protect. They use spacer level military equipment to take what they want from those who cannot protect themselves. They view the world not as a new home but a place where their actions have little consequences. They are nothing by outlaws without counter.</description>
         <categoryTag>Spacer</categoryTag>
-        <pawnSingular>freebooter</pawnSingular>
-        <pawnsPlural>freebooters</pawnsPlural>
+        <pawnSingular>militiaman</pawnSingular>
+        <pawnsPlural>militiamen</pawnsPlural>
         <listOrderPriority>13</listOrderPriority>
         <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
