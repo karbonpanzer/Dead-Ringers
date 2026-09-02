@@ -1,0 +1,15 @@
+Militia
+Guard
+Regulars
+Defense Force
+Irregulars
+Rangers
+Volunteers
+Auxiliaries
+Company
+Battalion
+Column
+Watch
+Defenders
+Brigade
+Regiment

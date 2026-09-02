@@ -15,8 +15,8 @@
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
-        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <backstoryFilters>
             <li>
                 <categories>
@@ -55,8 +55,8 @@
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
-        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <backstoryFilters>
             <li>
                 <categories>
@@ -96,8 +96,8 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>governor</leaderTitle>
         <factionIconPath>UFR/UI/Factions/frontrefugee</factionIconPath>
-        <factionNameMaker>Namer_UFRFactionCivil</factionNameMaker>
-        <settlementNameMaker>Namer_UFRSettlementCivil</settlementNameMaker>
+        <factionNameMaker>Namer_UFRFactionColonial</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <colorSpectrum>
             <li>(0.80, 0.80, 0.95)</li>
         </colorSpectrum>
@@ -299,8 +299,8 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>boss</leaderTitle>
         <factionIconPath>UFR/UI/Factions/freebooter</factionIconPath>
-        <factionNameMaker>Namer_UFRFactionSavage</factionNameMaker>
-        <settlementNameMaker>Namer_UFRSettlementSavage</settlementNameMaker>
+        <factionNameMaker>Namer_UFRFactionMilitia</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <colorSpectrum>
             <li>(0.60, 0.15, 0.15)</li>
         </colorSpectrum>
