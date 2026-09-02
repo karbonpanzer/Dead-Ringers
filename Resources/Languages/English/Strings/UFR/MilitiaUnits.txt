@@ -13,3 +13,9 @@ Watch
 Defenders
 Brigade
 Regiment
+Rifles
+Vanguard
+Wardens
+Sentinels
+Cadre
+Corps

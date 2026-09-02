@@ -82,7 +82,7 @@
 
     <FactionDef ParentName="FactionBase">
         <defName>UFR_ColonialAdministration</defName>
-        <label>colonial administrations</label>
+        <label>colonial administration</label>
         <description>a faction of colonists from a spacer civilization who are part of a colonization effort on this rimworld. These colonists come from all walks of life but all want to have a piece of the frontier before it is all gone.\n\nThey possess some spacer level military gear but lack the facilities to create more. Rather than rely on technology, they possess a strong will and cooperative spirit which has kept them going this long. They are generally willing to trade with outsiders and ally to those that are good friends to them, but will fiercely defend their new homes against any and all.</description>
         <categoryTag>Spacer</categoryTag>
         <pawnSingular>citizen</pawnSingular>

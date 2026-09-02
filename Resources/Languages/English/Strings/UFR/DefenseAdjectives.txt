@@ -4,3 +4,7 @@ Frontier
 Free
 Home
 Independent
+Loyalist
+Penal
+Reserve
+Field
