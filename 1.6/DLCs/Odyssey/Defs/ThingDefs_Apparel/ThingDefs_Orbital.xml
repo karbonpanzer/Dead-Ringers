@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>UFR_OrbitalCarapaceHelmet</defName>
-    <label>Orbital Carapace Helmet</label>
+    <defName>UFR_VacCarapaceHelmet</defName>
+    <label>Vac Carapace Helmet</label>
     <description>A fully sealed Carapace helmet rated for low-pressure environments. Integrated visor and pressure-lock collar allow short-duration operations in vacuum or near-vacuum conditions.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
@@ -88,8 +88,8 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>UFR_EVACarapaceArmor</defName>
-    <label>Orbital Carapace Armor</label>
+    <defName>UFR_VacCarapaceArmor</defName>
+    <label>Vac Carapace Armor</label>
     <techLevel>Spacer</techLevel>
     <description>A vacuum-rated variant of standard Carapace armor, with sealed joints and passive pressure retention. Used by personnel conducting boarding actions or operations in low-pressure environments.</description>
     <recipeMaker>

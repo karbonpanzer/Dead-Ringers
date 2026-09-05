@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <!-- Prestige -->
+  <!-- Champion -->
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>UFR_PrestigeCarapaceArmor</defName>
-    <label>Prestige Carapace Armor</label>
+    <defName>UFR_ChampionCarapaceArmor</defName>
+    <label>Champion Carapace Armor</label>
     <description>A Carapace armor set woven through with psychic-focusing threads and neural-assist relays. Worn by command psycasters, it lets the wearer shed neural heat faster and hold a larger charge before overload, at the cost of the raw protection of a dedicated combat set.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</texPath>
@@ -93,8 +93,8 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>UFR_PrestigeCarapaceHelmet</defName>
-    <label>Prestige Carapace Helmet</label>
+    <defName>UFR_ChampionCarapaceHelmet</defName>
+    <label>Champion Carapace Helmet</label>
     <description>An open-face Carapace helmet threaded with psychic-focusing filament. Covers the skull and upper face while its neural relays help the wearer shed heat between casts. The airway is left exposed in exchange for a lighter build.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmet</texPath>
@@ -162,7 +162,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>UFR_PrestigeHelmet</li>
+        <li>UFR_ChampionHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -173,8 +173,8 @@
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>UFR_PrestigeCarapaceHelmetMask</defName>
-    <label>Prestige Carapace Helmet (Masked)</label>
+    <defName>UFR_ChampionCarapaceHelmetMask</defName>
+    <label>Champion Carapace Helmet (Masked)</label>
     <description>A sealed Carapace helmet threaded with psychic-focusing filament. Fully encloses the head with an integrated filtration mask, sealing against airborne threats while its neural relays help the wearer shed heat between casts.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceHelmetMask</texPath>
@@ -243,7 +243,7 @@
       </defaultOutfitTags>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
-        <li>UFR_PrestigeHelmet</li>
+        <li>UFR_ChampionHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>

@@ -56,6 +56,7 @@
     </statBases>
     <equippedStatOffsets>
       <RangedCooldownFactor>-0.10</RangedCooldownFactor>
+      <PainShockThreshold>0.10</PainShockThreshold>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
@@ -241,6 +242,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>  
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -430,6 +434,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>  
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -517,6 +524,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -793,6 +803,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -1070,6 +1083,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -1132,7 +1148,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1233,7 +1249,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1319,7 +1335,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>UFR_CommanderCarapaceArmors</researchPrerequisite>
+      <researchPrerequisite>UFR_CommanderCarapaceArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -1346,6 +1362,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -1584,7 +1603,7 @@
       <tags>
         <li>UFR_Armor</li>
         <li>UFR_AssaultCarapaceArmor</li>
-        <li>UFR_AssaulCarapacetHelmet</li>
+        <li>UFR_AssaultCarapacetHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -1656,6 +1675,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -1748,7 +1770,7 @@
       <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
       <ForagedNutritionPerDay>0.4</ForagedNutritionPerDay>
     </equippedStatOffsets>
-        <apparel>
+    <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Neck</li>
@@ -1869,7 +1891,7 @@
       <tags>
         <li>UFR_Armor</li>
         <li>UFR_ScoutCarapaceArmor</li>
-        <li>UFR_ScoutCarapacetHelmet</li>
+        <li>UFR_ScoutCarapaceHelmet</li>
       </tags>
     </apparel>
     <techLevel>Spacer</techLevel>
@@ -1941,6 +1963,9 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>

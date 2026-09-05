@@ -114,7 +114,7 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>UFR_CommanderCarapaceArmors</defName>
+        <defName>UFR_CommanderCarapaceArmor</defName>
         <label>Commander Carapace Armor</label>
         <description>Craft a commander variant of carapace armor with gold trim. Note that these also require advanced components.</description>
         <baseCost>3200</baseCost>
