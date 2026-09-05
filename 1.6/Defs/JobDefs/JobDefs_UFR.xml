@@ -3,7 +3,7 @@
   <JobDef>
     <defName>UFR_EditColorsAtStation</defName>
     <driverClass>UnitedFront.Jobs.JobDriver_EditColorsAtStation</driverClass>
-    <reportString>editing insignia.</reportString>
+    <reportString>painting armor.</reportString>
     <casualInterruptible>true</casualInterruptible>
   </JobDef>
 </Defs>
