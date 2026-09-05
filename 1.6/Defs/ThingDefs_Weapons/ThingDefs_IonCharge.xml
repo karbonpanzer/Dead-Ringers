@@ -87,6 +87,9 @@
       <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>grip</label>
@@ -193,6 +196,9 @@
       <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>grip</label>
@@ -307,6 +313,9 @@
       <li>UFR_SpacerGun</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>stock</label>
@@ -414,6 +423,9 @@
       <li>SpacerGun</li>
       <li>UFR_IonCharge</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>grip</label>
@@ -528,6 +540,9 @@
       <li>UFR_SpacerGunHeavy</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>stock</label>
@@ -634,6 +649,9 @@
       <li>UFR_SpacerGunHeavy</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>stock</label>
@@ -738,6 +756,9 @@
       <li>UFR_SpacerGunSniper</li>
       <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponSpacer</li>
+    </tradeTags>
     <tools>
       <li>
         <label>stock</label>

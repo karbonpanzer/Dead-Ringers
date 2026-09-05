@@ -103,6 +103,7 @@
     </colorGenerator>
     <tradeTags>
       <li>Armor</li>
+      <li>UFR_Utility</li>
     </tradeTags>
     <allowedArchonexusCount>1</allowedArchonexusCount>
   </ThingDef>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <TraderKindDef>
-    <defName>Visitor_Outcast_Standard</defName>
+    <defName>Visitor_UFR_Standard</defName>
     <label>trader</label>
     <stockGenerators>
       <!-- Resources -->
@@ -73,6 +73,25 @@
         <thingDefCountRange>1~2</thingDefCountRange>
         <countRange>-2~1</countRange>
       </li>
+      <!-- UFR gear -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UFR_WeaponIndustrial</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UFR_WeaponMelee</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>-1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UFR_Utility</tradeTag>
+        <countRange>-2~1</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>UFR_Drugs</tradeTag>
+        <countRange>-5~12</countRange>
+      </li>
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag">
@@ -80,6 +99,21 @@
       </li>
       <li Class="StockGenerator_BuyTradeTag">
         <tag>MusicalInstrument</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>UFR_Armor</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>UFR_Uniforms</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>UFR_WeaponIndustrial</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>UFR_WeaponMelee</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>UFR_Drugs</tag>
       </li>
     </stockGenerators>
   </TraderKindDef>

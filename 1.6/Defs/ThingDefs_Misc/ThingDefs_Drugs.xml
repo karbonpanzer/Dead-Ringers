@@ -84,6 +84,9 @@
         <listOrder>10</listOrder>
       </li>
     </comps>
+    <tradeTags>
+      <li>UFR_Drugs</li>
+    </tradeTags>
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
 

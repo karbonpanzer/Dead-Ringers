@@ -146,15 +146,15 @@
         <allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>
         <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
         <caravanTraderKinds>
-            <li>Caravan_Outcast_BulkGoods</li>
-            <li>Caravan_Outcast_ArmsDealer</li>
-            <li>Caravan_Outcast_Exotic</li>
+            <li>Caravan_UFR_BulkGoods</li>
+            <li>Caravan_UFR_ArmsDealer</li>
+            <li>Caravan_UFR_Exotic</li>
         </caravanTraderKinds>
         <visitorTraderKinds>
-            <li>Visitor_Outcast_Standard</li>
+            <li>Visitor_UFR_Standard</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>Base_Outcast_Standard</li>
+            <li>Base_UFR_Standard</li>
         </baseTraderKinds>
         <maxPawnCostPerTotalPointsCurve>
             <points>
@@ -339,15 +339,15 @@
         <allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>
         <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
         <caravanTraderKinds>
-            <li>Caravan_Outcast_BulkGoods</li>
-            <li>Caravan_Outcast_ArmsDealer</li>
-            <li>Caravan_Outcast_Exotic</li>
+            <li>Caravan_UFR_BulkGoods</li>
+            <li>Caravan_UFR_ArmsDealer</li>
+            <li>Caravan_UFR_Exotic</li>
         </caravanTraderKinds>
         <visitorTraderKinds>
-            <li>Visitor_Outcast_Standard</li>
+            <li>Visitor_UFR_Standard</li>
         </visitorTraderKinds>
         <baseTraderKinds>
-            <li>Base_Outcast_Standard</li>
+            <li>Base_UFR_Standard</li>
         </baseTraderKinds>
         <maxPawnCostPerTotalPointsCurve>
             <points>

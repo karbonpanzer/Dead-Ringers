@@ -396,6 +396,10 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>UFR_Uniforms</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>

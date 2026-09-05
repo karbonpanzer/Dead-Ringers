@@ -76,6 +76,9 @@
       <li>UFR_IndustrialGunStandard</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -159,6 +162,9 @@
       <li>IndustrialGunAdvanced</li>
       <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -244,6 +250,9 @@
       <li>UFR_IndustrialGunElite</li>
       <li>UFR_IndustrialGunHeavy</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -336,6 +345,9 @@
       <li>UFR_IndustrialGunStandard</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -431,6 +443,9 @@
       <li>UFR_IndustrialGunElite</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -844,6 +859,9 @@
       <li>UFR_IndustrialGunHeavy</li>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -935,6 +953,9 @@
       <li>UFR_IndustrialGunElite</li>
       <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>
@@ -1029,6 +1050,9 @@
     <weaponTags>
       <li>UFR_IndustrialGunSniper</li>
     </weaponTags>
+    <tradeTags>
+      <li>UFR_WeaponIndustrial</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>UFR_PulseActionFirearms</researchPrerequisite>
       <skillRequirements>

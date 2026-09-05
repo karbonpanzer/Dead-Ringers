@@ -71,6 +71,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
 
   </ThingDef>
@@ -143,6 +144,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
   </ThingDef>
 
@@ -217,6 +219,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
   </ThingDef>
 
@@ -282,6 +285,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
   </ThingDef>
 
@@ -347,6 +351,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
     <uiIconScale>0.95</uiIconScale>
   </ThingDef>
@@ -413,6 +418,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
     <uiIconScale>0.95</uiIconScale>
   </ThingDef>
@@ -479,6 +485,7 @@
     </thingSetMakerTags>
     <tradeTags>
       <li>WeaponMelee</li>
+      <li>UFR_WeaponMelee</li>
     </tradeTags>
     <uiIconScale>0.95</uiIconScale>
   </ThingDef>
