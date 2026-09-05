@@ -57,6 +57,7 @@
     <equippedStatOffsets>
       <RangedCooldownFactor>-0.10</RangedCooldownFactor>
       <PainShockThreshold>0.10</PainShockThreshold>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
@@ -244,6 +245,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>  
     <apparel>
       <bodyPartGroups>
@@ -336,6 +338,7 @@
     <equippedStatOffsets>
       <MedicalTendSpeed>0.1</MedicalTendSpeed>
       <MedicalTendQuality>0.15</MedicalTendQuality>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/MedicCarapaceArmor/MedicCarapaceArmor</wornGraphicPath>
@@ -526,6 +529,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
@@ -618,6 +622,7 @@
     <equippedStatOffsets>
       <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
       <ConstructionSpeed>0.15</ConstructionSpeed>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/EngineerCarapaceArmor/EngineerCarapaceArmor</wornGraphicPath>
@@ -805,6 +810,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
@@ -895,9 +901,10 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <NegotiationAbility>0.20</NegotiationAbility>
+      <SlaveSupression>0.20</SlaveSupression>
       <MeleeHitChance>0.10</MeleeHitChance>
       <MoveSpeed>0.10</MoveSpeed>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/MPCarapaceArmor/MPCarapaceArmor</wornGraphicPath>
@@ -1085,6 +1092,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
@@ -1177,6 +1185,7 @@
     <equippedStatOffsets>
       <SocialImpact>0.25</SocialImpact>
       <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CommanderCarapaceArmor/CommanderCarapaceArmor</wornGraphicPath>
@@ -1364,6 +1373,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
@@ -1458,6 +1468,7 @@
       <MeleeDamageFactor>0.10</MeleeDamageFactor>
       <MeleeCooldownFactor>-0.05</MeleeCooldownFactor>
       <PainShockThreshold>0.10</PainShockThreshold>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <verbs>
       <li>
@@ -1677,6 +1688,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
@@ -1769,6 +1781,7 @@
     <equippedStatOffsets>
       <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
       <ForagedNutritionPerDay>0.4</ForagedNutritionPerDay>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -1965,6 +1978,7 @@
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>     
     <apparel>
       <bodyPartGroups>
