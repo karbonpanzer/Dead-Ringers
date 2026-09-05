@@ -9,8 +9,8 @@
         </colorSpectrum>
         <isPlayer>true</isPlayer>
         <basicMemberKind>UFR_Colonists</basicMemberKind>
-        <pawnSingular>refugee</pawnSingular>
-        <pawnsPlural>refugees</pawnsPlural>
+        <pawnSingular>colonist</pawnSingular>
+        <pawnsPlural>colonists</pawnsPlural>
         <techLevel>Spacer</techLevel>
         <allowedCultures>
             <li>Astropolitan</li>
@@ -49,8 +49,8 @@
         </colorSpectrum>
         <isPlayer>true</isPlayer>
         <basicMemberKind>UFR_Occupiers</basicMemberKind>
-        <pawnSingular>refugee</pawnSingular>
-        <pawnsPlural>refugees</pawnsPlural>
+        <pawnSingular>occupier</pawnSingular>
+        <pawnsPlural>occupiers</pawnsPlural>
         <techLevel>Spacer</techLevel>
         <allowedCultures>
             <li>Astropolitan</li>
@@ -274,13 +274,6 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>25</configurationListOrderPriority>
-        <!--modExtensions MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-            <li Class="VEF.Factions.FactionDefExtension">
-                <startingGoodwillByFactionDefs>
-                <Empire>-100</Empire>
-                </startingGoodwillByFactionDefs>
-            </li>
-        </modExtensions-->
     </FactionDef>
 
     <FactionDef ParentName="FactionBase">
