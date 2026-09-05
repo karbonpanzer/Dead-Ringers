@@ -901,9 +901,9 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <SlaveSupression>0.20</SlaveSupression>
       <MeleeHitChance>0.10</MeleeHitChance>
-      <MoveSpeed>0.10</MoveSpeed>
+      <SocialImpact>-0.10</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
       <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
@@ -1818,7 +1818,7 @@
         <baseReloadTicks>15000</baseReloadTicks>
       </li-->
       <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_CauseHediff_Apparel">
-        <hediff>UFR_StealthGenerator</hediff>
+        <hediff>UFR_StealthFieldEmitter</hediff>
         <part>Torso</part>
       </li>      
     </comps>
