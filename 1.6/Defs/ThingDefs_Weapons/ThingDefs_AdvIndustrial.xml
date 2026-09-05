@@ -854,8 +854,8 @@
 
   <!-- Heavy Pulse Rifle -->
   <ThingDef ParentName="BaseBullet">
-    <defName>UFR_Bullet_HeavyPulseRile</defName>
-    <label>pulse marksman round</label>
+    <defName>UFR_Bullet_HeavyPulseRilfe</defName>
+    <label>heavy pulse round</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -897,7 +897,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>UFR_Bullet_HeavyPulseRile</defaultProjectile>
+        <defaultProjectile>UFR_Bullet_HeavyPulseRilfe</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <range>42</range>
         <soundCast>Shot_AssaultRifle</soundCast>
