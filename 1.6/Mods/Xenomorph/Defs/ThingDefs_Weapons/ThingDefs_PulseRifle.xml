@@ -75,8 +75,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_PulseRifleClassic</defName>
     <label>Pulse Rifle</label>
-    <description>A pulse rifle fitted with an underbarrel grenade launcher. The rifle handles standard engagements while the launcher lobs a grenade for dislodging entrenched targets. The launcher
-  holds two grenades before it must be reloaded.</description>
+    <description>A pulse action rifle fitted with an underbarrel grenade launcher. A versatile combat rifle favored by imperial and colonial marine groups. Decent power and range though slower than other weapons.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>UFR/Things/Item/Equipment/m41apulserifle</texPath>
