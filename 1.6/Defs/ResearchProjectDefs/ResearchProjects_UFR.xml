@@ -230,7 +230,7 @@
 
     <ResearchProjectDef>
         <defName>UFR_ETCMunitions</defName>
-        <label>Electrothermal-Chemical Munitionss</label>
+        <label>Electrothermal-Chemical Munitions</label>
         <description>Build weapons which use electrothermal-chemical plasma charges to fire depleted uranium sabots. Note these also require advanced components</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>
