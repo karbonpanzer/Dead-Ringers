@@ -3,9 +3,9 @@
 <Defs> 	
 		
   <HediffDef ParentName="ImplantHediffBase">
-    <defName>UFR_StealthGenerator</defName>
-    <label>stealth generator</label>
-    <description>An installed prosthetic that allows the user to temporarily become invisible. The prosthetic is crafted from a modified revenant spine, using archotech shards to restrain the dormant revenant. The user can manipulate the visual centers of those nearby, effectively turning themself invisible for a short time.</description>
+    <defName>UFR_StealthFieldEmitter</defName>
+    <label>stealth field emitter</label>
+    <description>A modified stealth system built off of archotech shards. Though inferior compared to designs based on imperial technology. The system can manipulate the visual centers of those nearby, rendering them invisible for a short time.</description>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
         <abilityDefs>
@@ -18,7 +18,7 @@
   <AbilityDef>
     <defName>UFR_StealthField</defName>
     <label>stealth field</label>
-    <description>Activate the suit's stealth field, bending light around the wearer to render them invisible for a short time. Firing a weapon or striking a target collapses the field.</description>
+    <description>Activate the stealth field, bending light around the wearer to render them invisible for a short time. Weapon usage collapses the stealth field.</description>
     <iconPath>UI/Abilities/RevenantInvisibility</iconPath>
     <cooldownTicksRange>15000</cooldownTicksRange>
     <writeCombatLog>True</writeCombatLog>
