@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs> 	
+		
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>UFR_StealthGenerator</defName>
+    <label>stealth generator</label>
+    <description>An installed prosthetic that allows the user to temporarily become invisible. The prosthetic is crafted from a modified revenant spine, using archotech shards to restrain the dormant revenant. The user can manipulate the visual centers of those nearby, effectively turning themself invisible for a short time.</description>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>UFR_StealthField</li>
+        </abilityDefs>
+      </li>
+    </comps>    
+  </HediffDef>  
+
+  <AbilityDef>
+    <defName>UFR_StealthField</defName>
+    <label>stealth field</label>
+    <description>Activate the suit's stealth field, bending light around the wearer to render them invisible for a short time. Firing a weapon or striking a target collapses the field.</description>
+    <iconPath>UI/Abilities/RevenantInvisibility</iconPath>
+    <cooldownTicksRange>15000</cooldownTicksRange>
+    <writeCombatLog>True</writeCombatLog>
+    <hotKey>Misc12</hotKey>
+    <targetRequired>false</targetRequired>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_Duration>12</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <warmupTime>0.5</warmupTime>
+      <range>-1</range>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicInvisibility</hediffDef>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>      
+    </comps>
+  </AbilityDef> 	
+			
+</Defs>

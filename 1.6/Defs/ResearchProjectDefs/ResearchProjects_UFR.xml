@@ -72,8 +72,8 @@
     </ResearchProjectDef> 
     
     <ResearchProjectDef>
-        <defName>UFR_MarksmanCarapaceArmor</defName>
-        <label>Marksman Carapace Armor</label>
+        <defName>UFR_ScoutCarapaceArmor</defName>
+        <label>Scout Carapace Armor</label>
         <description>Craft a marksmen variant of carapace armor with a thermal cloak. Note that these also require advanced components.</description>
         <baseCost>2400</baseCost>
         <tab>UFR_ResearchTab</tab>

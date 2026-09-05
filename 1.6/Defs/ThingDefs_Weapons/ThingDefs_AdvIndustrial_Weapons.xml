@@ -440,8 +440,7 @@
   </ThingDef>
 
   <!-- Grenadier Pulse Rifle -->
-  <!--ThingDef
-  ParentName="BaseBullet">
+  <!--ThingDef ParentName="BaseBullet">
     <defName>UFR_Bullet_PulseGrenadier</defName>
     <label>pulse grenadier round</label>
     <graphicData>

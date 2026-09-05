@@ -441,11 +441,12 @@
       <li>SniperRifle</li>
     </weaponTags>
     <apparelRequired>
-      <li>UFR_CarapaceArmor</li>
+      <li>UFR_ScoutCarapaceArmor</li>
       <li>UFR_InfantryUniform</li>
     </apparelRequired>
     <apparelTags Inherit="False">
       <li>UFR_Headwear</li>
+      <li>UFR_ScoutCarapacetHelmet</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <skills>
