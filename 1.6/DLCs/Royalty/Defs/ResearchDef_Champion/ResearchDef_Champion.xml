@@ -2,7 +2,7 @@
 
 <Defs> 	
 		
-    <ResearchProjectDef>
+    <!--ResearchProjectDef>
         <defName>UFR_ChampionCarapaceArmor</defName>
         <label>Champion Carapace Armor</label>
         <description>Craft a champion variant of carapace armor with eltex integration. Note that these also require advanced components.</description>
@@ -14,6 +14,6 @@
         </prerequisites>
         <researchViewX>4</researchViewX>
         <researchViewY>2.8</researchViewY>
-    </ResearchProjectDef>		
+    </ResearchProjectDef-->		
 			
 </Defs>
