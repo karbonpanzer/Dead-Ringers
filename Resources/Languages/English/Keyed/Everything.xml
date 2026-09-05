@@ -22,7 +22,7 @@
 
   <!-- Fabrication Bench-->
   <UFR_EditArmor>Customise armor</UFR_EditArmor>
-  <UFR_EditArmourUnreachable>Cannot customise armor (unreachable)</UFR_EditArmourUnreachable>
+  <UFR_EditArmorUnreachable>Cannot customise armor (unreachable)</UFR_EditArmorUnreachable>
 
   <!-- Style Bench -->
   <UFR_EditDecals>Customise armor</UFR_EditDecals>
