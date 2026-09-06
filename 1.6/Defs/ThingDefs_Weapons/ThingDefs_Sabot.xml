@@ -21,7 +21,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotPistol">
     <defName>UFR_SabotPistol</defName>
-    <label>Sabot Pistol</label>
+    <label>sabot pistol</label>
     <description>An electrothermal-chemical handgun. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -114,7 +114,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotRifle">
     <defName>UFR_SabotRifle</defName>
-    <label>Sabot Rifle</label>
+    <label>sabot rifle</label>
     <description>An electrothermal-chemical assault rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -209,7 +209,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotHeavyRifle">
     <defName>UFR_SabotHeavyRifle</defName>
-    <label>Heavy Sabot Rifle</label>
+    <label>heavy sabot rifle</label>
     <description>An electrothermal-chemical battle rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -302,7 +302,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotSniperRifle">
     <defName>UFR_SabotSniperRifle</defName>
-    <label>Sabot Sniper Rifle</label>
+    <label>sabot sniper rifle</label>
     <description>An electrothermal-chemical sniper rifle. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -395,7 +395,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotAutocannon">
     <defName>UFR_SabotAutocannon</defName>
-    <label>Sabot Autocannon</label>
+    <label>sabot autocannon</label>
     <description>An electrothermal-chemical repeating cannon. Using a plasma cartridge, it fires a dense uranium sabot at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -468,7 +468,7 @@
   <!-- Flechette Shotgun -->
   <ThingDef ParentName="BaseBullet">
     <defName>UFR_Bolt_SabotShotgun</defName>
-    <label>flechette spray</label>
+    <label>flechette</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>UFR/Things/Projectile/stakeprojectileflechettes</texPath>
@@ -485,7 +485,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_SabotShotgun">
     <defName>UFR_SabotShotgun</defName>
-    <label>Flechette Shotgun</label>
+    <label>flechette shotgun</label>
     <description>An electrothermal-chemical shotgun. Using a plasma cartridge, it fires dense uranium flechettes at high speeds with devastating effect against armored targets.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>

@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrosword</defName>
-    <label>Vibrosword</label>
+    <label>vibrosword</label>
     <description>A compositie plasteel sword fitted with a resonator which vibrates the blade at high frequencies. The oscillation of the blade weakens the molecular structure of anything that it cuts, though it is quite heavy.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -78,7 +78,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibromaul</defName>
-    <label>Vibromaul</label>
+    <label>vibromaul</label>
     <description>A composite plasteel maul fitted with a resonator which vibrates the head at high frequencies. The oscillation of the head weakens molecular structure of anything it hits often shattering its targets, though it is quite heavy.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -150,7 +150,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibroblade</defName>
-    <label>Vibroblade</label>
+    <label>vibroblade</label>
     <description>A composite plasteel dagger fitted with a small resonator which vibrates the blade at high frequencies. The oscillation of the blade can weaken molecular structures, but the shortness of the blade and small resonator render it not as effective.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -225,7 +225,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrolance</defName>
-    <label>Vibrolance</label>
+    <label>vibrolance</label>
     <description>A composite plasteel spear fitted with an overclocked resonator which vibrates the spearhead at incredibly high frequencies. The oscillation of the blade can not only weaken molecular structures but shatter them. The length of the weapon provides great reach but the weight prevents all but the best from using effectively.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -291,7 +291,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrohammer</defName>
-    <label>Vibrohammer</label>
+    <label>vibrohammer</label>
     <description>A composite plasteel warhammer fitted with a overclocked resonator which vibrates the head at incredibly high frequencies. The oscillation of the head can not only weaken armor but with the right strike can shatter armor into pieces. The weight of the weapon provides an increased effect on strikes but it is slow to use.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -358,7 +358,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Vibrobuster</defName>
-    <label>Vibrobuster</label>
+    <label>vibrobuster</label>
     <description>A composite plasteel greatsword fitted with an overclocked resonator which vibrates the blade at incredibly high frequencies. The oscillation of the blade not only weakens molecular bonds but with the additional weight can push ever further with cuts. The weight of the weapon requires a skilled warrior to use it effectively.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -425,7 +425,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>UFR_Chainsword</defName>
-    <label>Chainsword</label>
+    <label>chainsword</label>
     <description>A powered blade ringed with a looping chain of monomolecular teeth. The teeth chew through flesh and light armor in a spray of gore, though it is often cumbersome and ineffective as a common weapon. It is favored for its brutality and not its practicality.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>

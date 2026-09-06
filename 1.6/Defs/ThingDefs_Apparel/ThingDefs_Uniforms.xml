@@ -4,7 +4,7 @@
   <!-- Infantry Clothing -->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>UFR_InfantryUniform</defName>
-    <label>Infantry Uniform</label>
+    <label>infantry uniform</label>
     <description>A jumpsuit featuring various pockets and designed to be accomodating in most environments.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -75,7 +75,7 @@
 
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_Ushanka</defName>
-    <label>Ushanka</label>
+    <label>ushanka</label>
     <description>A fur hat with ear-covering flaps which can protect the head from most cold and used my imperial army personal and urbworld ice cream dealers.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontushanka</texPath>
@@ -141,7 +141,7 @@
 
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_Beret</defName>
-    <label>Beret</label>
+    <label>beret</label>
     <description>A soft, round, cap made from fabrics and often used my imperial army personal and urbworld artists.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontberet</texPath>
@@ -207,7 +207,7 @@
 
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_Hat_FieldCap</defName>
-    <label>Field Cap</label>
+    <label>field cap</label>
     <description>A soft cap with a stiff rounded visor, good for warmer climates and often used by imperial army personal and urbworld revolutionaries.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/frontfieldhat</texPath>
@@ -273,7 +273,7 @@
 
   <ThingDef ParentName="HatMakeableBase">
     <defName>UFR_OfficerHat_Cap</defName>
-    <label>Officer Cap</label>
+    <label>officer cap</label>
     <description>A hat featuring a short visor, a polished leather strap, and high quality fabrics. Often worn by imperial army commanders and urbworld dictators.</description>
     <graphicData>
       <texPath>UFR/Things/Pawn/Humanlike/Clothes/FrontOfficerCap</texPath>

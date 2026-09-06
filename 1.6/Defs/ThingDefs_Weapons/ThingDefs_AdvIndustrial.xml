@@ -19,7 +19,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_ServicePistol</defName>
-    <label>Service Pistol</label>
+    <label>service pistol</label>
     <description>A single shot blow-back service pistol fitted with an advanced compensator. Improved stopping power compared to other auto-pistols.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -105,7 +105,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_AssaultPistol">
     <defName>UFR_AssaultPistol</defName>
-    <label>Assault Pistol</label>
+    <label>assault pistol</label>
     <description>A single shot blow-back pistol firing a rifle caliber armor piercing bullets and fitted with advanced mechanism to improve the recoil. A powerful pistol to be used where rifles cannot fit, though it is favored by pirates and merceanires for the shock and awe effect.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -192,7 +192,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_StampedeRevolver</defName>
-    <label>Stampede Revolver</label>
+    <label>stampede revolver</label>
     <description>A large frame single action revolver. Chambered in high caliber bullets, it is both powerful and accurate with decent stamina in the right hands.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -279,7 +279,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AdvSMG</defName>
-    <label>Advanced SMG</label>
+    <label>advanced SMG</label>
     <description>A compact sub machinegun built with lightweight materials. Light, accurate, and decently powerful, it has been favored by security forces for decades.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -375,7 +375,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_PulseRifle">
     <defName>UFR_PulseRifle</defName>
-    <label>Pulse Rifle</label>
+    <label>pulse rifle</label>
     <description>A pulse-action assault rifle used in many conflicts. Decent at range with moderate accuracy, it is more favored for its powerful caliber.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -528,7 +528,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_PulseRifleGrenadier</defName>
-    <label>Grenadier Pulse Rifle</label>
+    <label>Grenadier Pulse rifle</label>
     <description>A pulse rifle fitted with an underbarrel grenade launcher. The rifle handles standard engagements while the launcher lobs a grenade for dislodging entrenched targets. The launcher
   holds two grenades before it must be reloaded.</description>
     <techLevel>Industrial</techLevel>
@@ -685,7 +685,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_PulseRifleBreacher</defName>
-    <label>Breacher Pulse Rifle</label>
+    <label>Breacher Pulse rifle</label>
     <description>A pulse rifle fitted with an underbarrel semi-automatic shotgun for door-breaching and 
   close assault. The rifle handles the approach; the shotgun clears the room. The underbarrel holds a limited number of shells before it must be reloaded.</description>
     <techLevel>Industrial</techLevel>
@@ -794,7 +794,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyShotgun">
     <defName>UFR_HeavyShotgun</defName>
-    <label>Heavy Shotgun</label>
+    <label>heavy shotgun</label>
     <description>A semi-automatic shotgun firing high caliber shells. Powerful and quick but it lacks accuracy and range, it is favored by secuirty forces on orbital stations for this reason.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -888,7 +888,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_HeavyPulseRifle">
     <defName>UFR_HeavyPulseRifle</defName>
-    <label>Heavy Pulse Rifle</label>
+    <label>heavy pulse rifle</label>
     <description>A pulse-action battle rifle using high caliber armor piercing bullets. Excellent range, accuracy, and power keep this rifle popular among even Glitterworld armies.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -983,7 +983,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>UFR_AntiMateriel</defName>
-    <label>Anti-Materiel Rifle</label>
+    <label>anti-materiel rifle</label>
     <description>A anti-materiel rifle using high power shells designed to destroy everything in its path. Accurate and powerful, it is quite a heavy gun which often leaves it with sniper teams.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>

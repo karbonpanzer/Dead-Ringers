@@ -32,9 +32,6 @@
 			<min>0</min>
 			<max>300</max>
 		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Normal</li>
-		</techHediffsTags>
 		<techHediffsChance>0.06</techHediffsChance>
 		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
@@ -71,9 +68,6 @@
 			<min>0</min>
 			<max>300</max>
 		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Normal</li>
-		</techHediffsTags>
 		<techHediffsChance>0.06</techHediffsChance>
 		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>	

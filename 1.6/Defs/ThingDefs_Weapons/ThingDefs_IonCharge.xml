@@ -36,7 +36,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargePistol">
     <defName>UFR_IonChargePistol</defName>
-    <label>Ion-Charge Pistol</label>
+    <label>ion-charge pistol</label>
     <description>A charged-shot handgun. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -145,7 +145,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSMG">
     <defName>UFR_IonChargeSMG</defName>
-    <label>Ion-Charge SMG</label>
+    <label>ion-charge SMG</label>
     <description>A charged-shot submachinegun. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -262,7 +262,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeRifle">
     <defName>UFR_IonChargeRifle</defName>
-    <label>Ion-Charge Rifle</label>
+    <label>ion-charge rifle</label>
     <description>A charged-shot assault rifle. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -371,7 +371,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeShotgun">
     <defName>UFR_IonChargeShotgun</defName>
-    <label>Ion-Charge Shotgun</label>
+    <label>ion-charge Shotgun</label>
     <description>A charged-shot shotgun. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -489,7 +489,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeHeavyRifle">
     <defName>UFR_IonChargeHeavyRifle</defName>
-    <label>Ion-Charge Heavy Rifle</label>
+    <label>ion-charge Heavy rifle</label>
     <description>A charged-shot battle rifle. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -598,7 +598,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeSuppressor">
     <defName>UFR_IonChargeSuppressor</defName>
-    <label>Ion-Charge Suppressor</label>
+    <label>ion-charge Suppressor</label>
     <description>A charged-shot HMG. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
@@ -707,7 +707,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun" Name="UFR_IonChargeLance">
     <defName>UFR_IonChargeLance</defName>
-    <label>Ion-Charge Lance</label>
+    <label>ion-charge Lance</label>
     <description>A charged-shot anti-materiel rifle. Modified to use ionized gases to coat the pulse-charged munitions. The gases disrupt electronics but dissipate quickly which reduces the effective distance of the weapon.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
