@@ -207,11 +207,11 @@
       <!--li>SpacerGun</li-->
     </weaponTags>
     <apparelRequired>
-      <li>UFR_AssaultCarapaceArmor</li>
+      <li>UFR_VeteranCarapaceArmor</li>
       <li>UFR_InfantryUniform</li>
     </apparelRequired>
     <apparelTags Inherit="False">
-      <li>UFR_AssaultCarapaceHelmet</li>
+      <li>UFR_VeteranCarapaceHelmet</li>
       <li>UFR_VeteranHeadwear</li>
       <li>UFR_Headwear</li>
     </apparelTags>
@@ -242,11 +242,11 @@
       <li>UFR_EliteMelee</li>
     </weaponTags>
     <apparelRequired>
-      <li>UFR_AssaultCarapaceArmor</li>
+      <li>UFR_VeteranCarapaceArmor</li>
       <li>UFR_InfantryUniform</li>
     </apparelRequired>
     <apparelTags Inherit="False">
-      <li>UFR_AssaultCarapaceHelmet</li>
+      <li>UFR_VeteranCarapaceHelmet</li>
       <li>UFR_VeteranHeadwear</li>
       <li>UFR_Headwear</li>
     </apparelTags>
