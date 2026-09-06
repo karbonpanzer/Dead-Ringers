@@ -289,9 +289,10 @@
     <apparelTags Inherit="False">
       <li>UFR_OfficerHeadwear</li>
       <li>UFR_CommanderCarapaceHelmet</li>
+      <li>UFR_CommanderAccessories</li>
     </apparelTags>
-    <factionLeader>true</factionLeader>
-    <trader>true</trader>
+    <!--factionLeader>true</factionLeader>
+    <trader>true</trader-->
     <itemQuality>Excellent</itemQuality>
     <weaponMoney>3600~4500</weaponMoney>
     <techHediffsChance>0.2</techHediffsChance>
@@ -299,7 +300,7 @@
     <techHediffsTags>
       <li>Simple</li>
       <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+      <li MayRequire="Ludeon.Rimworld.Royalty">ImplantEmpireCommon</li>
     </techHediffsTags>
     <initialWillRange>6~8</initialWillRange>
     <initialResistanceRange>30~40</initialResistanceRange>
