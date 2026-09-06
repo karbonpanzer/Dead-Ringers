@@ -501,6 +501,14 @@
       <li>UFR_AssaultCarapaceHelmet</li>
     </apparelTags>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <inventoryOptions>
+      <skipChance>0.7</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>UFR_Promachus</thingDef>
+          <countRange>1~3</countRange>
+        </li>
+    </inventoryOptions>
   </PawnKindDef>
 
 </Defs>    
