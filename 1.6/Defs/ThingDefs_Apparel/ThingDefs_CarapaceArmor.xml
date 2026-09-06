@@ -2015,5 +2015,285 @@
     </modExtensions>
   </ThingDef>  
 
+  <!-- Veteran Armor -->
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>UFR_VeteranCarapaceArmor</defName>
+    <label>veteran Carapace Armor</label>
+    <description>A suit of armor, made up of a lightweight plasteel-weave plates which provide moderate protection, additional plating added in the field and with an integrated webbing system modified by veterans in the field. Created as a cheaper alternative to power armor during conflicts. Armor like this is often used by imperial army veterans and urbworld mercenaries.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_VeteranCarapaceArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>60</Steel>
+      <Plasteel>35</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>48000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>8</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <RangedCooldownFactor>-0.10</RangedCooldownFactor>
+      <PainShockThreshold>0.10</PainShockThreshold>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <shellRenderedBehindHead>True</shellRenderedBehindHead>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_VeteranCarapaceArmor</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
+    </comps>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_VeteranCarapaceHelmet</defName>
+    <label>veteran Carapace Helmet</label>
+    <description>A armored helmet with built in communication system, improvised cheek guards and a protective plasteel-weave plate. Armor like this is often used by imperial army veterans and urbworld mercenaries.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_VeteranCarapaceArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>8</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_VeteranCarapaceArmor</li>        
+        <li>UFR_VeteranLightCarapaceHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
+    </comps>
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>UFR_VeteranCarapaceHelmetMask</defName>
+    <label>veteran Carapace helmet (Mask)</label>
+    <description>A armored helmet with built in communication system, protective plasteel-weave plate, improvised cheekguards and a oxygen recycler for hazardous environments. Armor like this is often used by imperial army veterans and urbworld mercenaries.</description>
+    <graphicData>
+      <texPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>UFR_VeteranCarapaceArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.88</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.44</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>  
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>UFR/Things/Pawn/Humanlike/Armor/CarapaceArmor/CarapaceHelmetMask</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <tags>
+        <li>UFR_Armor</li>
+        <li>UFR_VeteranCarapaceArmor</li>        
+        <li>UFR_VeteranCarapaceHelmet</li>
+      </tags>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="UnitedFront.Comps.CompPropertiesColorMarker" />
+    </comps> 
+    <tradeTags>
+      <li>Armor</li>
+      <li>UFR_Armor</li>
+    </tradeTags>
+    <modExtensions>
+      <!-- Slate Blue -->
+      <li Class="UnitedFront.Defs.ArmorColorExtension">
+        <colorTwo>(0.30, 0.38, 0.45)</colorTwo>
+      </li>
+    </modExtensions>
+  </ThingDef>  
 
 </Defs>
